@@ -1,0 +1,242 @@
+[
+  {
+    "id": "intermedio-11",
+    "nivel": "intermedio",
+    "titulo": "Condicional Zero e First",
+    "objetivos": ["Usar o Zero Conditional para verdades gerais", "Usar o First Conditional para situações futuras possíveis"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Zero Conditional (if + Present Simple, Present Simple) para verdades gerais/factos científicos. First Conditional (if + Present Simple, will + infinitivo) para situações futuras reais e possíveis.",
+        "exemplos": ["If you heat water to 100°C, it boils. (Zero — verdade geral)", "If it rains tomorrow, I will stay home. (First — futuro possível)", "If you study hard, you will pass the exam."],
+        "erroComum": { "errado": "If it will rain tomorrow, I will stay home.", "correto": "If it rains tomorrow, I will stay home.", "descricaoPT": "Depois de 'if' no First Conditional, nunca se usa 'will' — usa-se sempre o Present Simple na oração condicional; o 'will' só aparece na oração principal." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If you heat water to 100°C, it ___.", "opcoes": ["boils", "will boil", "boiled"], "correta": 0, "explicacao": "Zero Conditional: Present Simple nas duas orações." },
+      { "tipo": "escolha_multipla", "pergunta": "If it ___ tomorrow, I will stay home.", "opcoes": ["rains", "will rain", "rained"], "correta": 0, "explicacao": "First Conditional: if + Present Simple." },
+      { "tipo": "preenchimento_espaco", "frase": "If you study hard, you ___ pass the exam.", "resposta": "will", "explicacao": "Oração principal com will." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se chover amanhã, eu fico em casa.", "destino": "If it rains tomorrow, I will stay home." },
+      { "tipo": "ditado", "textoParaOuvir": "If you heat water to 100 degrees, it boils.", "respostaEsperada": ["If you heat water to 100 degrees, it boils."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-condicional-zero-first", "tipo": "gramatica", "pergunta": "Que tempo verbal segue 'if' no First Conditional?", "resposta": "Present Simple (nunca will)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-12",
+    "nivel": "intermedio",
+    "titulo": "Condicional Second",
+    "objetivos": ["Usar o Second Conditional para situações hipotéticas presentes/futuras"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Second Conditional (if + Past Simple, would + infinitivo) para situações hipotéticas ou pouco prováveis no presente/futuro.",
+        "exemplos": ["If I won the lottery, I would travel the world.", "If I were you, I would apologize.", "What would you do if you had more time?"],
+        "erroComum": { "errado": "If I was you, I would apologize.", "correto": "If I were you, I would apologize.", "descricaoPT": "No Second Conditional, com 'I/he/she/it', o mais correto é usar 'were' em vez de 'was' — 'If I were you' é uma expressão fixa muito comum." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ the lottery, I would travel the world.", "opcoes": ["win", "won", "will win"], "correta": 1, "explicacao": "Second Conditional: if + Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ you, I would apologize.", "opcoes": ["was", "were", "am"], "correta": 1, "explicacao": "'If I were you' é a forma fixa." },
+      { "tipo": "preenchimento_espaco", "frase": "What ___ you do if you had more time?", "resposta": "would", "explicacao": "Oração principal com would." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se eu tivesse mais dinheiro, compraria uma casa.", "destino": "If I had more money, I would buy a house." },
+      { "tipo": "ditado", "textoParaOuvir": "If I were you, I would apologize.", "respostaEsperada": ["If I were you, I would apologize."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-condicional-second", "tipo": "gramatica", "pergunta": "Como se forma o Second Conditional?", "resposta": "if + Past Simple, would + infinitivo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-13",
+    "nivel": "intermedio",
+    "titulo": "Condicional Third",
+    "objetivos": ["Usar o Third Conditional para hipóteses sobre o passado"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Third Conditional (if + Past Perfect, would have + particípio passado) para situações hipotéticas no passado que não aconteceram.",
+        "exemplos": ["If I had studied more, I would have passed the exam.", "If she had known, she would have called you.", "We wouldn't have been late if we had left earlier."],
+        "erroComum": { "errado": "If I studied more, I would have passed.", "correto": "If I had studied more, I would have passed.", "descricaoPT": "No Third Conditional, a oração com 'if' precisa do Past Perfect (had + particípio), não do Past Simple." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ more, I would have passed.", "opcoes": ["studied", "had studied", "study"], "correta": 1, "explicacao": "Third Conditional: if + Past Perfect." },
+      { "tipo": "escolha_multipla", "pergunta": "If she ___, she would have called you.", "opcoes": ["knew", "had known", "knows"], "correta": 1, "explicacao": "Past Perfect na oração condicional." },
+      { "tipo": "preenchimento_espaco", "frase": "We wouldn't have been late if we ___ earlier.", "resposta": "had left", "explicacao": "Past Perfect: had left." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se eu tivesse sabido, teria ajudado.", "destino": "If I had known, I would have helped." },
+      { "tipo": "ditado", "textoParaOuvir": "If I had studied more, I would have passed the exam.", "respostaEsperada": ["If I had studied more, I would have passed the exam."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-condicional-third", "tipo": "gramatica", "pergunta": "Como se forma o Third Conditional?", "resposta": "if + Past Perfect, would have + particípio passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-14",
+    "nivel": "intermedio",
+    "titulo": "Unless, As Long As, Provided That",
+    "objetivos": ["Usar conectores condicionais alternativos a 'if'"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Unless' significa 'a menos que' (= if...not). 'As long as' e 'provided that' significam 'desde que', introduzindo uma condição.",
+        "exemplos": ["I won't go unless you come with me. (= if you don't come)", "You can borrow my car as long as you drive carefully.", "We'll finish on time, provided that everyone helps."],
+        "erroComum": { "errado": "I won't go unless you don't come with me.", "correto": "I won't go unless you come with me.", "descricaoPT": "'Unless' já contém o sentido negativo — não se deve usar outra negação a seguir, senão duplica o sentido." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I won't go ___ you come with me.", "opcoes": ["if", "unless", "when"], "correta": 1, "explicacao": "'Unless' = a menos que." },
+      { "tipo": "escolha_multipla", "pergunta": "You can borrow my car ___ you drive carefully.", "opcoes": ["unless", "as long as", "despite"], "correta": 1, "explicacao": "'As long as' = desde que." },
+      { "tipo": "preenchimento_espaco", "frase": "We'll finish on time, ___ everyone helps.", "resposta": "provided that", "explicacao": "'Provided that' = desde que." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não vou a menos que tu venhas.", "destino": "I won't go unless you come." },
+      { "tipo": "ditado", "textoParaOuvir": "You can borrow my car as long as you drive carefully.", "respostaEsperada": ["You can borrow my car as long as you drive carefully."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-unless-aslongas-providedthat", "tipo": "gramatica", "pergunta": "O que significa 'unless'?", "resposta": "a menos que (= if...not)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-15",
+    "nivel": "intermedio",
+    "titulo": "Orações Relativas: Defining (Who/Which/That)",
+    "objetivos": ["Usar orações relativas defining para identificar pessoas/coisas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Orações relativas defining (restritivas) identificam exatamente do que/quem se fala, sem vírgulas. Who/that para pessoas, which/that para coisas.",
+        "exemplos": ["The man who called you is my brother.", "The book that I bought is amazing.", "This is the restaurant which I told you about."],
+        "erroComum": { "errado": "The man which called you is my brother.", "correto": "The man who called you is my brother.", "descricaoPT": "'Which' usa-se só para coisas, não para pessoas — para pessoas usa-se 'who' (ou 'that')." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The man ___ called you is my brother.", "opcoes": ["which", "who", "where"], "correta": 1, "explicacao": "Pessoa → who." },
+      { "tipo": "escolha_multipla", "pergunta": "The book ___ I bought is amazing.", "opcoes": ["who", "that", "whose"], "correta": 1, "explicacao": "Coisa → that (ou which)." },
+      { "tipo": "preenchimento_espaco", "frase": "This is the restaurant ___ I told you about.", "resposta": "which", "explicacao": "Coisa → which." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A mulher que trabalha aqui é muito simpática.", "destino": "The woman who works here is very nice." },
+      { "tipo": "ditado", "textoParaOuvir": "The book that I bought is amazing.", "respostaEsperada": ["The book that I bought is amazing."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-oracoesrelativas-defining", "tipo": "gramatica", "pergunta": "Qual pronome relativo se usa para pessoas?", "resposta": "who (ou that)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-16",
+    "nivel": "intermedio",
+    "titulo": "Orações Relativas: Non-Defining + Whose/Where",
+    "objetivos": ["Usar orações relativas non-defining, e whose/where"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Orações relativas non-defining (não restritivas) dão informação extra, entre vírgulas — não usam 'that'. 'Whose' indica posse, 'where' indica lugar.",
+        "exemplos": ["My brother, who lives in London, is a doctor. (informação extra)", "This is the house where I grew up.", "That's the girl whose dog got lost."],
+        "erroComum": { "errado": "My brother, that lives in London, is a doctor.", "correto": "My brother, who lives in London, is a doctor.", "descricaoPT": "Em orações non-defining (entre vírgulas), nunca se usa 'that' — só who/which/whose/where." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "My brother, ___ lives in London, is a doctor.", "opcoes": ["that", "who", "which"], "correta": 1, "explicacao": "Non-defining: who, nunca that." },
+      { "tipo": "escolha_multipla", "pergunta": "That's the girl ___ dog got lost.", "opcoes": ["who", "whose", "which"], "correta": 1, "explicacao": "Posse → whose." },
+      { "tipo": "preenchimento_espaco", "frase": "This is the house ___ I grew up.", "resposta": "where", "explicacao": "Lugar → where." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A minha mãe, que mora em Lisboa, vem visitar-nos.", "destino": "My mother, who lives in Lisbon, is coming to visit us." },
+      { "tipo": "ditado", "textoParaOuvir": "This is the house where I grew up.", "respostaEsperada": ["This is the house where I grew up."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-oracoesrelativas-nondefining", "tipo": "gramatica", "pergunta": "Pode-se usar 'that' numa oração relativa non-defining (entre vírgulas)?", "resposta": "não, nunca" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-17",
+    "nivel": "intermedio",
+    "titulo": "Comparativos",
+    "objetivos": ["Formar comparativos regulares e irregulares"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Adjetivos curtos (1 sílaba, alguns de 2) formam o comparativo com -er; adjetivos longos usam 'more' + adjetivo. Irregulares: good→better, bad→worse.",
+        "exemplos": ["This book is bigger than that one.", "This course is more interesting than the last one.", "The weather today is better than yesterday."],
+        "erroComum": { "errado": "This book is more big than that one.", "correto": "This book is bigger than that one.", "descricaoPT": "Adjetivos curtos (big, small, fast) usam -er, não 'more' — a regra depende do comprimento da palavra." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "This book is ___ than that one.", "opcoes": ["more big", "bigger", "most big"], "correta": 1, "explicacao": "Adjetivo curto: bigger." },
+      { "tipo": "escolha_multipla", "pergunta": "This course is ___ than the last one.", "opcoes": ["interestinger", "more interesting", "most interesting"], "correta": 1, "explicacao": "Adjetivo longo: more interesting." },
+      { "tipo": "preenchimento_espaco", "frase": "The weather today is ___ than yesterday.", "resposta": "better", "explicacao": "Irregular: good → better." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este carro é mais rápido do que aquele.", "destino": "This car is faster than that one." },
+      { "tipo": "ditado", "textoParaOuvir": "This course is more interesting than the last one.", "respostaEsperada": ["This course is more interesting than the last one."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-comparativos", "tipo": "gramatica", "pergunta": "Quando se usa -er e quando se usa 'more' num comparativo?", "resposta": "-er para adjetivos curtos; 'more' para adjetivos longos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-18",
+    "nivel": "intermedio",
+    "titulo": "Superlativos",
+    "objetivos": ["Formar superlativos regulares e irregulares"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Adjetivos curtos formam o superlativo com 'the' + -est; adjetivos longos usam 'the most' + adjetivo. Irregulares: good→the best, bad→the worst.",
+        "exemplos": ["This is the biggest city in the country.", "It was the most interesting book I've read.", "She is the best student in the class."],
+        "erroComum": { "errado": "This is the most big city.", "correto": "This is the biggest city.", "descricaoPT": "Mesma regra dos comparativos: adjetivos curtos usam -est, não 'the most'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "This is ___ city in the country.", "opcoes": ["the most big", "the biggest", "the bigest"], "correta": 1, "explicacao": "Adjetivo curto: the biggest." },
+      { "tipo": "escolha_multipla", "pergunta": "It was ___ book I've ever read.", "opcoes": ["the most interesting", "the interestingest", "most interesting"], "correta": 0, "explicacao": "Adjetivo longo: the most interesting." },
+      { "tipo": "preenchimento_espaco", "frase": "She is ___ student in the class.", "resposta": "the best", "explicacao": "Irregular: good → the best." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este é o restaurante mais caro da cidade.", "destino": "This is the most expensive restaurant in the city." },
+      { "tipo": "ditado", "textoParaOuvir": "She is the best student in the class.", "respostaEsperada": ["She is the best student in the class."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-superlativos", "tipo": "gramatica", "pergunta": "Qual é o superlativo irregular de 'good'?", "resposta": "the best" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-19",
+    "nivel": "intermedio",
+    "titulo": "Verbos + Gerúndio vs. Infinitivo",
+    "objetivos": ["Saber que verbos pedem gerúndio e que verbos pedem infinitivo"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Alguns verbos são seguidos de gerúndio (enjoy, avoid, finish), outros de infinitivo com 'to' (want, decide, hope), e alguns aceitam ambos com mudança de sentido (stop doing vs. stop to do).",
+        "exemplos": ["I enjoy reading. (gerúndio)", "I want to travel. (infinitivo)", "I stopped smoking. (parei de fumar) vs. I stopped to smoke. (parei para fumar)"],
+        "erroComum": { "errado": "I enjoy to read.", "correto": "I enjoy reading.", "descricaoPT": "'Enjoy' é sempre seguido de gerúndio, nunca de infinitivo — é preciso memorizar que verbos pedem cada estrutura." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I enjoy ___ books.", "opcoes": ["to read", "reading", "read"], "correta": 1, "explicacao": "'Enjoy' + gerúndio." },
+      { "tipo": "escolha_multipla", "pergunta": "I want ___ abroad next year.", "opcoes": ["studying", "to study", "study"], "correta": 1, "explicacao": "'Want' + infinitivo." },
+      { "tipo": "preenchimento_espaco", "frase": "She finished ___ at 6pm.", "resposta": "working", "explicacao": "'Finish' + gerúndio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele decidiu estudar medicina.", "destino": "He decided to study medicine." },
+      { "tipo": "ditado", "textoParaOuvir": "I enjoy reading before bed.", "respostaEsperada": ["I enjoy reading before bed."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-gerundio-vs-infinitivo", "tipo": "gramatica", "pergunta": "'Enjoy' é seguido de gerúndio ou infinitivo?", "resposta": "gerúndio (enjoy reading, nunca enjoy to read)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-20",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: 'Se Eu Pudesse...'",
+    "objetivos": ["Combinar Second Conditional e comparativos numa conversa sobre sonhos hipotéticos"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "seeupudesse",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar condicionais (Second Conditional) e comparativos numa conversa sobre sonhos e planos hipotéticos.",
+        "exemplos": ["If I could live anywhere, I would live in Japan.", "It would be more exciting than staying here.", "What would you do if you had unlimited time?"],
+        "erroComum": { "errado": "Misturar Second Conditional com First Conditional na mesma frase.", "correto": "Mantém a consistência: 'if' + Past Simple, 'would' + infinitivo — não misturar com 'will'.", "descricaoPT": "Consistência entre a oração condicional e a principal é essencial nestas estruturas." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "If you could live anywhere in the world, where would you live?", "opcoes": [
+            { "texto": "I would live in Japan, it seems more exciting than here.", "proximoNo": "porque" }
+          ]},
+          { "id": "porque", "interlocutorFala": "That's interesting! Why Japan?", "opcoes": [
+            { "texto": "I've always loved the culture and the food.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence is a correct Second Conditional?", "opcoes": ["If I have more time, I will travel.", "If I had more time, I would travel.", "If I had more time, I will travel."], "correta": 1, "explicacao": "Consistência: if + Past Simple, would + infinitivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se eu pudesse viver em qualquer lugar, viveria no Japão.", "destino": "If I could live anywhere, I would live in Japan." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre o que farias se pudesses viver em qualquer lugar do mundo, usando Second Conditional e um comparativo.", "palavrasChaveEsperadas": ["if i", "would", "than"], "respostaModelo": "If I could live anywhere, I would live in Italy. It would be more relaxing than my current life." },
+      { "tipo": "ditado", "textoParaOuvir": "If you could live anywhere, where would you live?", "respostaEsperada": ["If you could live anywhere, where would you live?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-seeupudesse-integradora", "tipo": "situacao", "pergunta": "Como se combina Second Conditional com comparativos numa conversa sobre sonhos?", "resposta": "ex.: If I could live anywhere, I would live in Japan — it would be more exciting than here." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]

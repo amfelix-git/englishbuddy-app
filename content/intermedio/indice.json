@@ -1,3 +1,4 @@
 [
-  { "ficheiro": "sessoes-01-10.json", "de": 1, "ate": 10 }
+  { "ficheiro": "sessoes-01-10.json", "de": 1, "ate": 10 },
+  { "ficheiro": "sessoes-11-20.json", "de": 11, "ate": 20 }
 ]
