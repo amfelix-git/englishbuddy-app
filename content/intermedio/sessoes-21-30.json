@@ -1,0 +1,242 @@
+[
+  {
+    "id": "intermedio-21",
+    "nivel": "intermedio",
+    "titulo": "Discurso Relatado — Perguntas",
+    "objetivos": ["Relatar perguntas com a ordem correta das palavras"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Nas perguntas relatadas, a ordem volta a ser afirmativa (sujeito antes do verbo) e não se usa o auxiliar do/does/did. Perguntas yes/no usam 'if/whether'; perguntas wh- mantêm a wh-word.",
+        "exemplos": ["\"Are you coming?\" she asked. → She asked if I was coming.", "\"Where do you live?\" he asked. → He asked where I lived.", "\"What time is it?\" → She asked what time it was."],
+        "erroComum": { "errado": "She asked if was I coming.", "correto": "She asked if I was coming.", "descricaoPT": "Nas perguntas relatadas, a ordem das palavras volta a ser afirmativa (sujeito antes do verbo) — não se mantém a inversão da pergunta original." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "\"Are you coming?\" she asked. → She asked if ___.", "opcoes": ["was I coming", "I was coming", "I am coming"], "correta": 1, "explicacao": "Ordem afirmativa: if + sujeito + verbo." },
+      { "tipo": "escolha_multipla", "pergunta": "\"Where do you live?\" he asked. → He asked where ___.", "opcoes": ["I lived", "did I live", "I live"], "correta": 0, "explicacao": "Sem auxiliar 'did', com backshift." },
+      { "tipo": "preenchimento_espaco", "frase": "\"What time is it?\" → She asked what time ___.", "resposta": "it was", "explicacao": "Ordem afirmativa + backshift." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele perguntou se eu estava cansado.", "destino": "He asked if I was tired." },
+      { "tipo": "ditado", "textoParaOuvir": "She asked where I lived.", "respostaEsperada": ["She asked where I lived."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-discursorelatado-perguntas", "tipo": "gramatica", "pergunta": "Qual a ordem das palavras numa pergunta relatada?", "resposta": "ordem afirmativa (sujeito antes do verbo), sem auxiliar do/does/did" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-22",
+    "nivel": "intermedio",
+    "titulo": "Discurso Relatado — Ordens e Pedidos",
+    "objetivos": ["Relatar ordens e pedidos com 'to' + infinitivo"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Ordens e pedidos relatados usam 'told/asked' + pessoa + to + infinitivo (afirmativa) ou not to + infinitivo (negativa).",
+        "exemplos": ["\"Close the door,\" he said. → He told me to close the door.", "\"Please help me,\" she said. → She asked me to help her.", "\"Don't be late,\" they said. → They told us not to be late."],
+        "erroComum": { "errado": "He told me that close the door.", "correto": "He told me to close the door.", "descricaoPT": "Ordens relatadas usam 'to' + infinitivo, não 'that' + oração completa — estrutura diferente do discurso relatado de afirmações." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "\"Close the door,\" he said. → He told me ___ the door.", "opcoes": ["close", "to close", "closing"], "correta": 1, "explicacao": "'Told' + pessoa + to + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "\"Don't be late,\" they said. → They told us ___ late.", "opcoes": ["to not be", "not to be", "don't be"], "correta": 1, "explicacao": "Negativa: not to be." },
+      { "tipo": "preenchimento_espaco", "frase": "\"Please help me,\" she said. → She asked me ___ help her.", "resposta": "to", "explicacao": "'Asked' + pessoa + to + infinitivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela pediu-me para fechar a janela.", "destino": "She asked me to close the window." },
+      { "tipo": "ditado", "textoParaOuvir": "He told me to close the door.", "respostaEsperada": ["He told me to close the door."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-discursorelatado-ordenspedidos", "tipo": "gramatica", "pergunta": "Como se relata uma ordem?", "resposta": "told/asked + pessoa + to + infinitivo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-23",
+    "nivel": "intermedio",
+    "titulo": "Conectores de Contraste",
+    "objetivos": ["Usar although, despite/in spite of e however corretamente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Although/though introduzem uma oração completa; despite/in spite of são seguidos de nome ou gerúndio (não de oração completa); however liga duas frases separadas.",
+        "exemplos": ["Although it was raining, we went out.", "Despite the rain, we went out. / Despite raining, we went out.", "It was raining. However, we went out."],
+        "erroComum": { "errado": "Despite it was raining, we went out.", "correto": "Despite the rain, we went out. / Although it was raining, we went out.", "descricaoPT": "'Despite' e 'in spite of' nunca são seguidos de uma oração completa (sujeito+verbo) — só de nome ou gerúndio." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ it was raining, we went out.", "opcoes": ["Despite", "Although", "However"], "correta": 1, "explicacao": "Oração completa a seguir → although." },
+      { "tipo": "escolha_multipla", "pergunta": "___ the rain, we went out.", "opcoes": ["Although", "Despite", "But"], "correta": 1, "explicacao": "Nome a seguir → despite." },
+      { "tipo": "preenchimento_espaco", "frase": "It was raining. ___, we went out.", "resposta": "However", "explicacao": "Liga duas frases separadas." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Apesar do frio, ela saiu sem casaco.", "destino": "Despite the cold, she went out without a coat." },
+      { "tipo": "ditado", "textoParaOuvir": "Although it was raining, we went out.", "respostaEsperada": ["Although it was raining, we went out."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-conectores-contraste", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'although' e 'despite'?", "resposta": "although + oração completa; despite + nome/gerúndio" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-24",
+    "nivel": "intermedio",
+    "titulo": "Conectores de Causa e Efeito",
+    "objetivos": ["Usar because/since/as (causa) e therefore/so (efeito)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Because/since/as introduzem a causa; therefore/so introduzem o efeito/consequência.",
+        "exemplos": ["I stayed home because I was ill.", "Since it was late, we decided to leave.", "It was raining, therefore we stayed home."],
+        "erroComum": { "errado": "I was ill, because I stayed home.", "correto": "I stayed home because I was ill.", "descricaoPT": "'Because' introduz a causa, não o efeito — a ordem lógica da frase importa para o sentido ficar correto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I stayed home ___ I was ill.", "opcoes": ["therefore", "because", "so"], "correta": 1, "explicacao": "Causa → because." },
+      { "tipo": "escolha_multipla", "pergunta": "It was raining, ___ we stayed home.", "opcoes": ["because", "since", "therefore"], "correta": 2, "explicacao": "Efeito → therefore." },
+      { "tipo": "preenchimento_espaco", "frase": "___ it was late, we decided to leave.", "resposta": "Since", "explicacao": "'Since' = visto que/como." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estava a chover, por isso ficámos em casa.", "destino": "It was raining, so we stayed home." },
+      { "tipo": "ditado", "textoParaOuvir": "I stayed home because I was ill.", "respostaEsperada": ["I stayed home because I was ill."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-conectores-causaefeito", "tipo": "gramatica", "pergunta": "Que conectores introduzem a causa?", "resposta": "because, since, as" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-25",
+    "nivel": "intermedio",
+    "titulo": "Conectores de Adição",
+    "objetivos": ["Usar moreover, furthermore e in addition, e saber quando são apropriados"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Moreover, furthermore e in addition acrescentam informação, normalmente em registo mais formal/escrito.",
+        "exemplos": ["The hotel is cheap. Moreover, it's very central.", "She is talented; furthermore, she works very hard.", "In addition to English, she speaks French."],
+        "erroComum": { "errado": "Usar 'moreover'/'furthermore' em conversa informal do dia a dia.", "correto": "Estes conectores são mais próprios de escrita formal — em conversa informal usa-se mais 'also'.", "descricaoPT": "O registo importa: usar conectores muito formais numa conversa casual pode soar estranho ou pomposo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The hotel is cheap. ___, it's very central.", "opcoes": ["However", "Moreover", "Because"], "correta": 1, "explicacao": "Adição de informação → moreover." },
+      { "tipo": "escolha_multipla", "pergunta": "Which connector is most natural in informal conversation?", "opcoes": ["Furthermore", "Also", "Moreover"], "correta": 1, "explicacao": "'Also' é mais informal." },
+      { "tipo": "preenchimento_espaco", "frase": "___ English, she speaks French.", "resposta": "In addition to", "explicacao": "'In addition to' = além de." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela é talentosa; além disso, trabalha muito.", "destino": "She is talented; furthermore, she works very hard." },
+      { "tipo": "ditado", "textoParaOuvir": "The hotel is cheap. Moreover, it's very central.", "respostaEsperada": ["The hotel is cheap. Moreover, it's very central."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-conectores-adicao", "tipo": "gramatica", "pergunta": "'Moreover' e 'furthermore' são mais próprios de que registo?", "resposta": "formal/escrito" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-26",
+    "nivel": "intermedio",
+    "titulo": "Voz Passiva — Mais Tempos Verbais",
+    "objetivos": ["Formar a voz passiva no Present Continuous e Present Perfect"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A voz passiva também se forma no Present Continuous (is being + particípio) e no Present Perfect (has been + particípio).",
+        "exemplos": ["The house is being built.", "The report has been finished.", "The car is being repaired right now."],
+        "erroComum": { "errado": "The house is build now.", "correto": "The house is being built now.", "descricaoPT": "Present Continuous passivo precisa de 'being' antes do particípio — sem ele, a frase fica incompleta." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The house ___ right now.", "opcoes": ["is built", "is being built", "builds"], "correta": 1, "explicacao": "Present Continuous passivo: is being built." },
+      { "tipo": "escolha_multipla", "pergunta": "The report ___ already.", "opcoes": ["has finished", "has been finished", "is finished"], "correta": 1, "explicacao": "Present Perfect passivo: has been finished." },
+      { "tipo": "preenchimento_espaco", "frase": "The car ___ at the moment.", "resposta": "is being repaired", "explicacao": "Present Continuous passivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A casa está a ser construída.", "destino": "The house is being built." },
+      { "tipo": "ditado", "textoParaOuvir": "The report has been finished.", "respostaEsperada": ["The report has been finished."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-vozpassiva-maistempos", "tipo": "gramatica", "pergunta": "Como se forma a voz passiva no Present Continuous?", "resposta": "is/are being + particípio passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-27",
+    "nivel": "intermedio",
+    "titulo": "Verbos com Duas Preposições / Objeto Indireto",
+    "objetivos": ["Usar corretamente verbos com objeto indireto e direto"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Alguns verbos podem ter dois objetos (indireto + direto) sem preposição, ou com 'to'/'for'. Outros verbos (como 'explain') precisam sempre de 'to' antes da pessoa.",
+        "exemplos": ["I gave her a book. / I gave a book to her.", "She made me a cake. / She made a cake for me.", "He explained the problem to me. (não 'explained me')"],
+        "erroComum": { "errado": "He explained me the problem.", "correto": "He explained the problem to me.", "descricaoPT": "'Explain' não aceita objeto indireto diretamente — precisa sempre de 'to' antes da pessoa, ao contrário de 'give' ou 'tell'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["He explained me the problem.", "He explained the problem to me.", "He explained to problem me."], "correta": 1, "explicacao": "'Explain' + coisa + to + pessoa." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I gave her a book.", "I gave to her a book.", "I gave a book her."], "correta": 0, "explicacao": "'Give' + pessoa + coisa (sem preposição)." },
+      { "tipo": "preenchimento_espaco", "frase": "She made a cake ___ me.", "resposta": "for", "explicacao": "'Make' + coisa + for + pessoa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele explicou-me o problema.", "destino": "He explained the problem to me." },
+      { "tipo": "ditado", "textoParaOuvir": "I gave her a book for her birthday.", "respostaEsperada": ["I gave her a book for her birthday."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-verbos-duplaobjeto", "tipo": "gramatica", "pergunta": "Que preposição precisa 'explain' antes da pessoa?", "resposta": "to (explain something to someone)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-28",
+    "nivel": "intermedio",
+    "titulo": "Cortesia e Registo: Pedidos Indiretos",
+    "objetivos": ["Fazer pedidos indiretos e educados: Would you mind...? Could you possibly...?"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Pedidos indiretos soam mais educados/formais: Would you mind...? Could you possibly...? Do you think you could...?",
+        "exemplos": ["Would you mind closing the window?", "Could you possibly help me with this?", "Do you think you could send me the file?"],
+        "erroComum": { "errado": "Would you mind to close the window?", "correto": "Would you mind closing the window?", "descricaoPT": "'Would you mind' é seguido de gerúndio, não de infinitivo com 'to' — exceção importante a memorizar." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Would you mind ___ the window?", "opcoes": ["to close", "closing", "close"], "correta": 1, "explicacao": "'Would you mind' + gerúndio." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the most formal/indirect request?", "opcoes": ["Close the window.", "Can you close the window?", "Would you mind closing the window?"], "correta": 2, "explicacao": "Pedido indireto mais formal." },
+      { "tipo": "preenchimento_espaco", "frase": "Could you ___ help me with this?", "resposta": "possibly", "explicacao": "'Could you possibly' = pedido educado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Importa-se de fechar a porta?", "destino": "Would you mind closing the door?" },
+      { "tipo": "ditado", "textoParaOuvir": "Would you mind closing the window?", "respostaEsperada": ["Would you mind closing the window?"] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-pedidosindiretos-cortesia", "tipo": "gramatica", "pergunta": "Que forma verbal segue 'would you mind'?", "resposta": "gerúndio (-ing)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-29",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Falsos Amigos Avançados",
+    "objetivos": ["Reconhecer falsos amigos PT-EN de nível mais avançado"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais falsos amigos PT-EN, agora de nível mais avançado: eventually (finalmente/por fim, não 'eventualmente'), sensible (sensato, não 'sensível'), assist (ajudar, não 'assistir/ver').",
+        "exemplos": ["Eventually, we found the answer. (finalmente)", "That was a sensible decision. (sensata)", "Can you assist me with this? (ajudar)"],
+        "erroComum": { "errado": "Eventually, it might rain. (querendo dizer 'eventualmente/possivelmente')", "correto": "It might rain. / Possibly, it will rain.", "descricaoPT": "'Eventually' significa 'finalmente/por fim' (depois de um processo), não 'possivelmente' — é um dos falsos amigos mais traiçoeiros do inglês." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Eventually' means...", "opcoes": ["Possivelmente", "Finalmente/por fim", "Eventualmente (por acaso)"], "correta": 1, "explicacao": "'Eventually' = finalmente, depois de um processo." },
+      { "tipo": "escolha_multipla", "pergunta": "'Sensible' means...", "opcoes": ["Sensível (emocional)", "Sensato/razoável", "Sensorial"], "correta": 1, "explicacao": "'Sensible' = sensato; sensível = 'sensitive'." },
+      { "tipo": "preenchimento_espaco", "frase": "Can you ___ me with this?", "resposta": "assist", "explicacao": "'Assist' = ajudar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Foi uma decisão sensata.", "destino": "It was a sensible decision." },
+      { "tipo": "ditado", "textoParaOuvir": "Eventually, we found the answer.", "respostaEsperada": ["Eventually, we found the answer."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-falsosamigos-avancados", "tipo": "vocabulario", "pergunta": "O que significa 'eventually'?", "resposta": "finalmente/por fim (não 'eventualmente')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-30",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: Entrevista de Emprego",
+    "objetivos": ["Combinar Present Perfect, pedidos educados e vocabulário profissional numa entrevista de emprego"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "entrevistaemprego",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar Present Perfect, pedidos educados e vocabulário profissional numa simulação de entrevista de emprego.",
+        "exemplos": ["I have worked in marketing for five years.", "Could you tell me more about the role?", "I believe my experience makes me a strong candidate."],
+        "erroComum": { "errado": "I have five years experience since 2019 (misturando for/since incorretamente).", "correto": "I have five years of experience. / I have worked here since 2019.", "descricaoPT": "Não misturar 'for' (duração) com 'since' (ponto de partida) na mesma expressão." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Tell me about your experience.", "opcoes": [
+            { "texto": "I have worked in marketing for five years.", "proximoNo": "pergunta" }
+          ]},
+          { "id": "pergunta", "interlocutorFala": "That's great. Could you tell me more about your last role?", "opcoes": [
+            { "texto": "Of course, I was responsible for managing a small team.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a good way to describe experience?", "opcoes": ["I work marketing five years.", "I have worked in marketing for five years.", "I working marketing since five years."], "correta": 1, "explicacao": "Present Perfect + for + duração." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Acredito que a minha experiência me torna um bom candidato.", "destino": "I believe my experience makes me a strong candidate." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a apresentares a tua experiência profissional numa entrevista, usando Present Perfect.", "palavrasChaveEsperadas": ["i have", "experience"], "respostaModelo": "I have worked in customer service for three years. I have developed strong communication skills." },
+      { "tipo": "ditado", "textoParaOuvir": "Could you tell me more about your last role?", "respostaEsperada": ["Could you tell me more about your last role?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-entrevistaemprego-integradora", "tipo": "situacao", "pergunta": "Como descrever experiência profissional numa entrevista?", "resposta": "I have worked in... for [duração] / since [ano]" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
