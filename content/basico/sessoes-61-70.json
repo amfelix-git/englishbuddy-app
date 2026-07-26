@@ -1,0 +1,245 @@
+[
+  {
+    "id": "basico-61",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Roupa e Vestuário",
+    "objetivos": ["Vocabulário nuclear de roupa", "Usar o verbo 'wear' corretamente"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário nuclear de roupa e vestuário, útil para compras e descrições.",
+        "exemplos": ["shirt, trousers, dress, shoes", "What size are you?", "I'm looking for a jacket."],
+        "erroComum": { "errado": "I use a jacket.", "correto": "I'm wearing a jacket. / I wear a jacket.", "descricaoPT": "'Use' não se usa para vestir roupa em inglês — usa-se sempre 'wear', não uma tradução direta de 'usar'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is an item of clothing?", "opcoes": ["shirt", "chair", "spoon"], "correta": 0, "explicacao": "'Shirt' = camisa." },
+      { "tipo": "escolha_multipla", "pergunta": "Which verb goes with clothes?", "opcoes": ["use", "wear", "make"], "correta": 1, "explicacao": "'Wear' = vestir/usar roupa." },
+      { "tipo": "preenchimento_espaco", "frase": "I'm ___ a blue shirt today.", "resposta": "wearing", "explicacao": "'Wearing' = a vestir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estou à procura de um casaco.", "destino": "I'm looking for a jacket." },
+      { "tipo": "ditado", "textoParaOuvir": "What size are you?", "respostaEsperada": ["What size are you?"] }
+    ],
+    "srsItens": [{ "id": "voc-basico-roupa-vestuario", "tipo": "vocabulario", "pergunta": "Que verbo se usa para 'vestir roupa' em inglês?", "resposta": "wear (não 'use')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-62",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Escola e Estudos",
+    "objetivos": ["Vocabulário nuclear da escola, disciplinas e sala de aula"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário nuclear sobre a escola, disciplinas e objetos da sala de aula.",
+        "exemplos": ["maths, history, science", "pen, notebook, blackboard", "I study English at school."],
+        "erroComum": { "errado": "I study in the school.", "correto": "I study at school.", "descricaoPT": "Para dizer que se estuda 'na escola' em sentido geral, usa-se 'at school', não 'in the school' (que se reserva para um edifício específico)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a school subject?", "opcoes": ["maths", "spoon", "jacket"], "correta": 0, "explicacao": "'Maths' = matemática." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct (sentido geral)?", "opcoes": ["I study in the school.", "I study at school.", "I study on school."], "correta": 1, "explicacao": "'At school' no sentido geral." },
+      { "tipo": "preenchimento_espaco", "frase": "I write with a ___.", "resposta": "pen", "explicacao": "'Pen' = caneta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A minha disciplina preferida é a história.", "destino": "My favourite subject is history." },
+      { "tipo": "ditado", "textoParaOuvir": "I have maths class every Monday.", "respostaEsperada": ["I have maths class every Monday."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-escola-estudos", "tipo": "vocabulario", "pergunta": "Como se diz 'na escola' (sentido geral) em inglês?", "resposta": "at school" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-63",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Tecnologia e Internet",
+    "objetivos": ["Vocabulário essencial de tecnologia e internet do dia a dia"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário essencial de tecnologia e internet do dia a dia.",
+        "exemplos": ["computer, phone, wifi", "I need to charge my phone.", "Can you send me the link?"],
+        "erroComum": { "errado": "I need to load my phone.", "correto": "I need to charge my phone.", "descricaoPT": "Para bateria, usa-se 'charge' (carregar a bateria) — 'load' usa-se para carregar dados/ficheiros, não energia." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which word means 'carregar a bateria'?", "opcoes": ["load", "charge", "fill"], "correta": 1, "explicacao": "'Charge' = carregar a bateria." },
+      { "tipo": "escolha_multipla", "pergunta": "What do you need to connect to the internet?", "opcoes": ["wifi", "spoon", "jacket"], "correta": 0, "explicacao": "'Wifi' liga-nos à internet." },
+      { "tipo": "preenchimento_espaco", "frase": "Can you ___ me the link?", "resposta": "send", "explicacao": "'Send' = enviar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O meu telemóvel está sem bateria.", "destino": "My phone has no battery.", "alternativas": ["My phone is out of battery."] },
+      { "tipo": "ditado", "textoParaOuvir": "I need to charge my phone.", "respostaEsperada": ["I need to charge my phone."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-tecnologia-internet", "tipo": "vocabulario", "pergunta": "Como se diz 'carregar a bateria' em inglês?", "resposta": "charge (não 'load')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-64",
+    "nivel": "basico",
+    "titulo": "Revisão em Espiral: Presente vs. Passado",
+    "objetivos": ["Escolher corretamente entre Present Simple, Present Continuous e Past Simple consoante o contexto"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão: escolher entre Present Simple, Present Continuous e Past Simple consoante o marcador temporal e o contexto.",
+        "exemplos": ["I usually work from home. (rotina — Present Simple)", "I'm working from home today. (agora — Present Continuous)", "I worked from home yesterday. (passado — Past Simple)"],
+        "erroComum": { "errado": "Yesterday I am working from home.", "correto": "Yesterday I worked from home.", "descricaoPT": "Marcadores temporais como 'yesterday' exigem sempre o Past Simple — misturar o tempo verbal com o marcador temporal é um erro muito comum." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Yesterday I ___ from home.", "opcoes": ["work", "am working", "worked"], "correta": 2, "explicacao": "'Yesterday' pede Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "Right now, I ___ this exercise.", "opcoes": ["do", "am doing", "did"], "correta": 1, "explicacao": "'Right now' pede Present Continuous." },
+      { "tipo": "escolha_multipla", "pergunta": "I usually ___ coffee in the morning.", "opcoes": ["drink", "am drinking", "drank"], "correta": 0, "explicacao": "'Usually' pede Present Simple (rotina)." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ for the exam right now.", "resposta": "is studying", "explicacao": "'Right now' → Present Continuous." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ontem, eu vi um bom filme.", "destino": "Yesterday, I watched a good movie." }
+    ],
+    "srsItens": [{ "id": "gra-basico-revisao-presente-passado", "tipo": "gramatica", "pergunta": "Que marcador temporal exige sempre o Past Simple?", "resposta": "ex.: yesterday, last week (marcadores de tempo passado concluído)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-65",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs — Partículas 'On'/'Off' (Roupa e Continuidade)",
+    "objetivos": ["Usar put on, take off, go on, carry on"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs com 'on'/'off' relacionados com roupa e continuidade: put on, take off, go on, carry on.",
+        "exemplos": ["Put on your coat, it's cold.", "Take off your shoes, please.", "Please go on with your story.", "Let's carry on tomorrow."],
+        "erroComum": { "errado": "Put your coat.", "correto": "Put on your coat.", "descricaoPT": "'Put on' (vestir) precisa sempre da partícula 'on' — sem ela, o verbo fica incompleto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ your coat, it's cold outside.", "opcoes": ["Put on", "Put off", "Put up"], "correta": 0, "explicacao": "'Put on' = vestir." },
+      { "tipo": "escolha_multipla", "pergunta": "Please ___ your shoes before entering.", "opcoes": ["take on", "take off", "take up"], "correta": 1, "explicacao": "'Take off' = tirar/despir." },
+      { "tipo": "preenchimento_espaco", "frase": "Please ___ with your story.", "resposta": "go on", "explicacao": "'Go on' = continuar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos continuar amanhã.", "destino": "Let's carry on tomorrow." },
+      { "tipo": "ditado", "textoParaOuvir": "Take off your shoes, please.", "respostaEsperada": ["Take off your shoes, please."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-particula-on-off-roupa", "tipo": "vocabulario", "pergunta": "O que significa 'put on' e 'take off' em relação a roupa?", "resposta": "put on = vestir; take off = despir/tirar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-66",
+    "nivel": "basico",
+    "titulo": "Mais Idiomas do Dia a Dia",
+    "objetivos": ["Reconhecer mais idiomas comuns do quotidiano"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais idiomas comuns do quotidiano: piece of cake (muito fácil), under the weather (indisposto), cost an arm and a leg (muito caro).",
+        "exemplos": ["This exam was a piece of cake!", "I'm feeling a bit under the weather today.", "That car costs an arm and a leg!"],
+        "erroComum": { "errado": "Traduzir 'under the weather' como estar debaixo de chuva.", "correto": "'Under the weather' significa sentir-se indisposto/doente, sem relação literal com o tempo.", "descricaoPT": "Mais um exemplo de idioma que não se traduz palavra a palavra — o significado é do conjunto todo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Piece of cake' means...", "opcoes": ["Very easy", "A dessert", "Very difficult"], "correta": 0, "explicacao": "'Piece of cake' = muito fácil." },
+      { "tipo": "escolha_multipla", "pergunta": "'Under the weather' means...", "opcoes": ["Outside in the rain", "Feeling ill", "Very happy"], "correta": 1, "explicacao": "'Under the weather' = indisposto." },
+      { "tipo": "preenchimento_espaco", "frase": "That car costs an arm and a ___!", "resposta": "leg", "explicacao": "'Cost an arm and a leg' = ser muito caro." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este teste foi canja (muito fácil).", "destino": "This test was a piece of cake." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm feeling a bit under the weather today.", "respostaEsperada": ["I'm feeling a bit under the weather today."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-dia-a-dia-2", "tipo": "vocabulario", "pergunta": "O que significa 'cost an arm and a leg'?", "resposta": "ser muito caro" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-67",
+    "nivel": "basico",
+    "titulo": "Question Words — Revisão",
+    "objetivos": ["Consolidar o uso de who, what, where, when, why, how"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão consolidada das palavras interrogativas: who (quem), what (o quê), where (onde), when (quando), why (porquê), how (como).",
+        "exemplos": ["Who is that?", "What time is it?", "Where do you live?", "Why are you late?"],
+        "erroComum": { "errado": "Where you live?", "correto": "Where do you live?", "descricaoPT": "Perguntas com wh-words continuam a precisar do auxiliar do/does/did (ou to be) — não se pode omitir só porque já há uma palavra interrogativa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ do you live?", "opcoes": ["What", "Where", "Who"], "correta": 1, "explicacao": "'Where' pergunta por lugar." },
+      { "tipo": "escolha_multipla", "pergunta": "___ are you late?", "opcoes": ["Why", "What", "How"], "correta": 0, "explicacao": "'Why' pergunta pela razão." },
+      { "tipo": "preenchimento_espaco", "frase": "___ is that girl?", "resposta": "Who", "explicacao": "'Who' pergunta por pessoa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Como é que vais para o trabalho?", "destino": "How do you get to work?" },
+      { "tipo": "ditado", "textoParaOuvir": "Where do you live?", "respostaEsperada": ["Where do you live?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-question-words-revisao", "tipo": "gramatica", "pergunta": "Precisa-se sempre de um auxiliar (do/does/did) numa pergunta wh-?", "resposta": "sim, exceto quando a wh-word é o próprio sujeito (ex.: Who called you?)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-68",
+    "nivel": "basico",
+    "titulo": "'Would Like' para Pedidos Educados",
+    "objetivos": ["Usar 'would like' para pedidos e desejos educados"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Would like' (contração: 'd like) é uma forma educada de exprimir desejos e fazer pedidos, mais formal do que 'want'.",
+        "exemplos": ["I'd like a coffee, please.", "Would you like some help?", "What would you like to eat?"],
+        "erroComum": { "errado": "I would like eating a pizza.", "correto": "I'd like to eat a pizza. / I'd like a pizza.", "descricaoPT": "Depois de 'would like', usa-se 'to' + infinitivo ou diretamente um nome — nunca o gerúndio (-ing)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I would like eating a pizza.", "I'd like to eat a pizza.", "I would liking eat pizza."], "correta": 1, "explicacao": "'Would like to' + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "Polite way to offer help:", "opcoes": ["You want help?", "Would you like some help?", "Help now?"], "correta": 1, "explicacao": "'Would you like...?' é educado." },
+      { "tipo": "preenchimento_espaco", "frase": "I'd ___ a coffee, please.", "resposta": "like", "explicacao": "'I'd like' = gostaria." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Gostaria de uma água, por favor.", "destino": "I'd like some water, please." },
+      { "tipo": "ditado", "textoParaOuvir": "What would you like to eat?", "respostaEsperada": ["What would you like to eat?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-would-like", "tipo": "gramatica", "pergunta": "Que forma verbal segue 'would like'?", "resposta": "'to' + infinitivo, ou diretamente um nome (nunca gerúndio)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-69",
+    "nivel": "basico",
+    "titulo": "Sugestões: Let's, How About, Shall We?",
+    "objetivos": ["Fazer sugestões corretamente em inglês"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Formas comuns de fazer sugestões: Let's + verbo, How about + gerúndio, Shall we + verbo?",
+        "exemplos": ["Let's go to the beach!", "How about watching a movie?", "Shall we order pizza?"],
+        "erroComum": { "errado": "How about go to the beach?", "correto": "How about going to the beach?", "descricaoPT": "Depois de 'how about', usa-se sempre o gerúndio (-ing), não o infinitivo — é uma exceção que gera confusão frequente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ go to the beach!", "opcoes": ["Let's", "Lets's", "Let"], "correta": 0, "explicacao": "'Let's' = let us." },
+      { "tipo": "escolha_multipla", "pergunta": "How about ___ a movie?", "opcoes": ["watch", "watching", "to watch"], "correta": 1, "explicacao": "'How about' + gerúndio." },
+      { "tipo": "preenchimento_espaco", "frase": "___ we order pizza tonight?", "resposta": "Shall", "explicacao": "'Shall we...?' = sugestão." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Que tal irmos ao cinema?", "destino": "How about going to the cinema?" },
+      { "tipo": "ditado", "textoParaOuvir": "Shall we order pizza tonight?", "respostaEsperada": ["Shall we order pizza tonight?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-sugestoes-lets-howabout-shallwe", "tipo": "gramatica", "pergunta": "Que forma verbal segue 'how about'?", "resposta": "gerúndio (-ing)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-70",
+    "nivel": "basico",
+    "titulo": "Situação Integradora: Dia de Compras (Roupa)",
+    "objetivos": ["Combinar vocabulário de roupa, 'would like', sugestões e phrasal verbs numa situação de compras"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "diadecompras",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar vocabulário de roupa, 'would like', sugestões e phrasal verbs das últimas sessões numa situação de compras de roupa.",
+        "exemplos": ["I'd like to try on this jacket.", "How about this blue shirt?", "Shall we go to another shop?"],
+        "erroComum": { "errado": "I want try this jacket.", "correto": "I'd like to try on this jacket.", "descricaoPT": "Combina o pedido educado ('I'd like to') com o phrasal verb correto para experimentar roupa ('try on'), não apenas 'try'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! Can I help you find anything?", "opcoes": [
+            { "texto": "Yes, I'd like to try on this jacket.", "proximoNo": "provador" }
+          ]},
+          { "id": "provador", "interlocutorFala": "Sure, the fitting room is over there. What size are you?", "opcoes": [
+            { "texto": "I'm a medium, thanks.", "proximoNo": "resultado" }
+          ]},
+          { "id": "resultado", "interlocutorFala": "How does it look?", "opcoes": [
+            { "texto": "I love it, I'll take it!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrasal verb means 'experimentar roupa'?", "opcoes": ["try on", "try up", "try in"], "correta": 0, "explicacao": "'Try on' = experimentar (roupa)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Que tal esta camisa azul?", "destino": "How about this blue shirt?" },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre ires às compras de roupa, usando 'would like' e uma sugestão.", "palavrasChaveEsperadas": ["i'd like", "how about", "shall we"], "respostaModelo": "I'd like to buy a new jacket. How about this one?" },
+      { "tipo": "ditado", "textoParaOuvir": "I'd like to try on this jacket, please.", "respostaEsperada": ["I'd like to try on this jacket, please."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-diadecompras-integradora", "tipo": "situacao", "pergunta": "Como pedir para experimentar uma peça de roupa educadamente?", "resposta": "I'd like to try on this..." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
