@@ -1,0 +1,250 @@
+[
+  {
+    "id": "intermedio-41",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Look Into, Put Off, Take Over",
+    "objetivos": ["Usar phrasal verbs profissionais adicionais"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais phrasal verbs úteis: look into (investigar), put off (adiar), take over (assumir controlo).",
+        "exemplos": ["We need to look into this issue.", "Let's put off the meeting until next week.", "She took over the project last month."],
+        "erroComum": { "errado": "Let's postpone off the meeting.", "correto": "Let's put off the meeting.", "descricaoPT": "'Put off' já significa adiar por si só — não se combina com 'postpone', que é um sinónimo mais formal usado sozinho." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "We need to ___ this issue.", "opcoes": ["look into", "look for", "look up"], "correta": 0, "explicacao": "'Look into' = investigar." },
+      { "tipo": "escolha_multipla", "pergunta": "Let's ___ the meeting until next week.", "opcoes": ["put off", "put on", "put up"], "correta": 0, "explicacao": "'Put off' = adiar." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ the project last month.", "resposta": "took over", "explicacao": "'Take over' = assumir controlo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos adiar a reunião.", "destino": "Let's put off the meeting." },
+      { "tipo": "ditado", "textoParaOuvir": "We need to look into this issue.", "respostaEsperada": ["We need to look into this issue."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-lookinto-putoff-takeover", "tipo": "vocabulario", "pergunta": "O que significa 'put off'?", "resposta": "adiar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-42",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Ambiente e Sustentabilidade",
+    "objetivos": ["Usar vocabulário sobre ambiente e sustentabilidade"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário essencial sobre ambiente e sustentabilidade, um tema muito comum em conversas e exames de nível intermédio.",
+        "exemplos": ["climate change, recycling, renewable energy", "We should reduce our carbon footprint.", "Many countries are investing in renewable energy."],
+        "erroComum": { "errado": "We should decrease our carbon footprint.", "correto": "We should reduce our carbon footprint.", "descricaoPT": "'Reduce' é a collocation mais natural com 'carbon footprint' — 'decrease' não está errado, mas é menos idiomático neste contexto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What do we call reusing materials like paper and plastic?", "opcoes": ["Recycling", "Wasting", "Polluting"], "correta": 0, "explicacao": "'Recycling' = reciclagem." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a renewable energy source?", "opcoes": ["Coal", "Solar power", "Oil"], "correta": 1, "explicacao": "'Solar power' é renovável." },
+      { "tipo": "preenchimento_espaco", "frase": "We should reduce our carbon ___.", "resposta": "footprint", "explicacao": "'Carbon footprint' = pegada de carbono." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "As alterações climáticas são um problema global.", "destino": "Climate change is a global problem." },
+      { "tipo": "ditado", "textoParaOuvir": "Many countries are investing in renewable energy.", "respostaEsperada": ["Many countries are investing in renewable energy."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-ambiente-sustentabilidade", "tipo": "vocabulario", "pergunta": "O que significa 'carbon footprint'?", "resposta": "pegada de carbono" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-43",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Saúde e Estilo de Vida",
+    "objetivos": ["Usar vocabulário sobre saúde e estilo de vida"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre saúde e estilo de vida: a balanced diet, get enough sleep, stay active.",
+        "exemplos": ["It's important to have a balanced diet.", "You should get enough sleep every night.", "Staying active helps reduce stress."],
+        "erroComum": { "errado": "Do a balanced diet.", "correto": "Have a balanced diet.", "descricaoPT": "'Diet' combina-se com 'have', não 'do' — collocation fixa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["Do a balanced diet", "Have a balanced diet", "Make a balanced diet"], "correta": 1, "explicacao": "'Have a balanced diet' é a collocation correta." },
+      { "tipo": "escolha_multipla", "pergunta": "What helps reduce stress?", "opcoes": ["Staying active", "Skipping meals", "Working more"], "correta": 0, "explicacao": "Manter-se ativo reduz o stress." },
+      { "tipo": "preenchimento_espaco", "frase": "You should get enough ___ every night.", "resposta": "sleep", "explicacao": "'Get enough sleep' = dormir o suficiente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É importante manter-se ativo.", "destino": "It's important to stay active." },
+      { "tipo": "ditado", "textoParaOuvir": "It's important to have a balanced diet.", "respostaEsperada": ["It's important to have a balanced diet."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-saude-estilodevida", "tipo": "vocabulario", "pergunta": "Que verbo se usa com 'a balanced diet'?", "resposta": "have (have a balanced diet)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-44",
+    "nivel": "intermedio",
+    "titulo": "Turn-Taking: Interromper e Mudar de Assunto",
+    "objetivos": ["Interromper, mudar de assunto e fechar uma conversa educadamente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases para interromper educadamente (Sorry to interrupt, but...), mudar de assunto (By the way...), e fechar uma conversa (Anyway, I should get going).",
+        "exemplos": ["Sorry to interrupt, but I have a question.", "By the way, did you hear about the new project?", "Anyway, I should get going, talk soon!"],
+        "erroComum": { "errado": "Stop, I want to say something.", "correto": "Sorry to interrupt, but I want to say something.", "descricaoPT": "Interromper diretamente sem uma fórmula educada soa brusco em inglês." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you interrupt politely?", "opcoes": ["Stop talking!", "Sorry to interrupt, but...", "Be quiet."], "correta": 1, "explicacao": "Fórmula educada de interrupção." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you change the subject?", "opcoes": ["By the way...", "Never mind.", "Stop."], "correta": 0, "explicacao": "'By the way' introduz um novo assunto." },
+      { "tipo": "preenchimento_espaco", "frase": "Anyway, I should get ___, talk soon!", "resposta": "going", "explicacao": "'Get going' = ir andando." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Desculpa interromper, mas tenho uma pergunta.", "destino": "Sorry to interrupt, but I have a question." },
+      { "tipo": "ditado", "textoParaOuvir": "By the way, did you hear about the new project?", "respostaEsperada": ["By the way, did you hear about the new project?"] }
+    ],
+    "srsItens": [{ "id": "prag-intermedio-turntaking", "tipo": "situacao", "pergunta": "Como interromper alguém educadamente em inglês?", "resposta": "Sorry to interrupt, but..." }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-45",
+    "nivel": "intermedio",
+    "titulo": "Situação: Fazer uma Reclamação",
+    "objetivos": ["Fazer uma reclamação de forma educada mas assertiva"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "reclamacao",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para fazer uma reclamação de forma educada mas assertiva.",
+        "exemplos": ["I'm afraid there's a problem with my order.", "This isn't what I expected.", "I'd like a refund, please."],
+        "erroComum": { "errado": "This is terrible, I want my money now!", "correto": "I'm afraid there's a problem, and I'd like a refund, please.", "descricaoPT": "Mesmo insatisfeito, o registo educado ('I'm afraid', 'I'd like') é mais eficaz do que uma reclamação agressiva." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi, how can I help you?", "opcoes": [
+            { "texto": "I'm afraid there's a problem with my order.", "proximoNo": "detalhe" }
+          ]},
+          { "id": "detalhe", "interlocutorFala": "I'm sorry to hear that, what happened?", "opcoes": [
+            { "texto": "This isn't what I ordered. I'd like a refund, please.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a polite way to start a complaint?", "opcoes": ["This is terrible!", "I'm afraid there's a problem.", "You made a mistake!"], "correta": 1, "explicacao": "Registo educado de reclamação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Gostaria de um reembolso, por favor.", "destino": "I'd like a refund, please." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm afraid there's a problem with my order.", "respostaEsperada": ["I'm afraid there's a problem with my order."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-reclamacao-integradora", "tipo": "situacao", "pergunta": "Como fazer uma reclamação educadamente?", "resposta": "I'm afraid there's a problem... / I'd like a refund, please." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-46",
+    "nivel": "intermedio",
+    "titulo": "Mais Idiomas: Tempo",
+    "objetivos": ["Reconhecer idiomas relacionados com tempo"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas relacionados com tempo: a stitch in time saves nine (mais vale prevenir do que remediar), once in a while (de vez em quando).",
+        "exemplos": ["Fix it now — a stitch in time saves nine.", "We go to the cinema once in a while.", "Time flies when you're having fun."],
+        "erroComum": { "errado": "Traduzir 'a stitch in time saves nine' literalmente.", "correto": "Significa que resolver um problema cedo evita problemas maiores mais tarde.", "descricaoPT": "Provérbio idiomático inglês sem tradução literal direta — equivale a 'mais vale prevenir do que remediar'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'A stitch in time saves nine' is similar to...", "opcoes": ["Better safe than sorry / prevention is better", "Time is money", "Better late than never"], "correta": 0, "explicacao": "Prevenção evita problemas maiores." },
+      { "tipo": "escolha_multipla", "pergunta": "'Once in a while' means...", "opcoes": ["Never", "Occasionally", "Always"], "correta": 1, "explicacao": "'Once in a while' = de vez em quando." },
+      { "tipo": "preenchimento_espaco", "frase": "Time ___ when you're having fun.", "resposta": "flies", "explicacao": "'Time flies' = o tempo voa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Nós saímos de vez em quando.", "destino": "We go out once in a while." },
+      { "tipo": "ditado", "textoParaOuvir": "Time flies when you're having fun.", "respostaEsperada": ["Time flies when you're having fun."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-tempo", "tipo": "vocabulario", "pergunta": "O que significa 'once in a while'?", "resposta": "de vez em quando" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-47",
+    "nivel": "intermedio",
+    "titulo": "Leitura: Notícia Curta",
+    "objetivos": ["Praticar leitura de um texto informativo/notícia com dados específicos"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê a notícia com atenção antes de responderes.\n\n\"A new study has found that people who walk for at least 30 minutes a day are significantly less likely to develop heart disease. Researchers followed over 5,000 participants for ten years and discovered that regular walking reduced the risk by nearly 20%. Experts recommend incorporating short walks into daily routines, even for people with busy schedules.\"",
+        "exemplos": ["a study = um estudo", "significantly less likely = significativamente menos provável", "incorporate into = incorporar em"],
+        "erroComum": { "errado": "Ignorar números e percentagens específicas ao ler.", "correto": "Em textos informativos/notícias, os números e factos específicos são frequentemente a informação mais testada.", "descricaoPT": "Presta atenção especial a números, percentagens e nomes em textos informativos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "According to the study, what reduces the risk of heart disease?", "opcoes": ["Eating less", "Walking 30 minutes a day", "Sleeping more"], "correta": 1, "explicacao": "O texto diz 'walk for at least 30 minutes a day'." },
+      { "tipo": "escolha_multipla", "pergunta": "How many participants were in the study?", "opcoes": ["500", "5,000", "50,000"], "correta": 1, "explicacao": "O texto diz 'over 5,000 participants'." },
+      { "tipo": "escolha_multipla", "pergunta": "By how much did walking reduce the risk?", "opcoes": ["Nearly 20%", "Nearly 50%", "Nearly 5%"], "correta": 0, "explicacao": "O texto diz 'reduced the risk by nearly 20%'." },
+      { "tipo": "preenchimento_espaco", "frase": "Experts recommend ___ short walks into daily routines.", "resposta": "incorporating", "explicacao": "'Recommend' + gerúndio." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a resumir a principal conclusão do estudo.", "palavrasChaveEsperadas": ["walking", "risk", "reduce"], "respostaModelo": "The study found that walking regularly reduces the risk of heart disease." }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-leitura-noticia", "tipo": "situacao", "pergunta": "A que devemos prestar atenção especial em textos informativos/notícias?", "resposta": "números, percentagens e nomes específicos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-48",
+    "nivel": "intermedio",
+    "titulo": "Listening: Inferência de Tom e Intenção",
+    "objetivos": ["Inferir tom e intenção para além do sentido literal das palavras"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Ao ouvir, além de perceberes as palavras, tenta inferir o tom (feliz, frustrado, sarcástico) e a intenção (pedir, recusar, sugerir) de quem fala.",
+        "exemplos": ["\"Sure, I'd LOVE to work this weekend...\" (tom sarcástico = na verdade não quer)", "\"I guess we could try that.\" (tom hesitante = pouco convencido)", "\"Absolutely, let's do it!\" (tom entusiasmado = concorda genuinamente)"],
+        "erroComum": { "errado": "Basear-te só nas palavras, ignorando o tom de voz.", "correto": "O tom de voz pode mudar completamente o sentido de uma frase.", "descricaoPT": "Esta é uma competência avançada de listening, testada em exames como o Cambridge First/Proficiency." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me, with an enthusiastic tone: Absolutely, let's do it!", "respostaEsperada": ["Absolutely, let's do it", "Absolutely, let's do it!"] },
+      { "tipo": "escolha_multipla", "pergunta": "\"Sure, I'd LOVE to work this weekend...\" said sarcastically probably means...", "opcoes": ["The person really wants to work", "The person does NOT want to work", "It's not the weekend"], "correta": 1, "explicacao": "Tom sarcástico inverte o sentido literal." },
+      { "tipo": "escolha_multipla", "pergunta": "\"I guess we could try that\" suggests...", "opcoes": ["Strong enthusiasm", "Hesitation/uncertainty", "Anger"], "correta": 1, "explicacao": "'I guess' sugere hesitação." },
+      { "tipo": "ditado", "textoParaOuvir": "I guess we could try that.", "respostaEsperada": ["I guess we could try that."] }
+    ],
+    "srsItens": [{ "id": "lis-intermedio-inferencia-tomintencao", "tipo": "pronuncia", "pergunta": "Porque é importante o tom de voz na compreensão oral?", "resposta": "pode inverter ou mudar completamente o sentido literal das palavras" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-49",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Condicionais, Voz Passiva e Discurso Relatado",
+    "objetivos": ["Rever as estruturas gramaticais mais complexas do Intermédio"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada dos pontos gramaticais mais complexos do Intermédio: condicionais, voz passiva, e discurso relatado.",
+        "exemplos": ["If I had known, I would have called. (Third Conditional)", "The email was sent yesterday. (voz passiva)", "She said she was tired. (discurso relatado)"],
+        "erroComum": { "errado": "Misturar as estruturas sem rever cada uma isoladamente.", "correto": "Revê cada estrutura com calma — a prática espaçada ajuda a fixá-las.", "descricaoPT": "Estas são as estruturas mais complexas do nível Intermédio — é normal precisares de mais prática nelas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ known, I would have called.", "opcoes": ["have", "had", "has"], "correta": 1, "explicacao": "Third Conditional: had + particípio." },
+      { "tipo": "escolha_multipla", "pergunta": "The email ___ yesterday.", "opcoes": ["sent", "was sent", "is sent"], "correta": 1, "explicacao": "Voz passiva no passado: was sent." },
+      { "tipo": "escolha_multipla", "pergunta": "\"I am tired,\" she said. → She said she ___ tired.", "opcoes": ["is", "was", "has been"], "correta": 1, "explicacao": "Backshift: is → was." },
+      { "tipo": "preenchimento_espaco", "frase": "If it rains, I ___ stay home.", "resposta": "will", "explicacao": "First Conditional." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A carta foi escrita ontem.", "destino": "The letter was written yesterday." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-condicionais-passiva-relatado", "tipo": "gramatica", "pergunta": "Quais são as 3 estruturas mais complexas revistas nesta sessão?", "resposta": "condicionais, voz passiva, discurso relatado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-50",
+    "nivel": "intermedio",
+    "titulo": "Marco: No Aluguer de Carro",
+    "objetivos": ["Combinar pedidos educados, vocabulário e negociação numa situação de aluguer de carro"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "aluguercarro",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 50 do Intermédio! Vamos juntar pedidos educados, vocabulário e negociação numa situação de aluguer de carro.",
+        "exemplos": ["I'd like to rent a car for a week.", "Does the price include insurance?", "What if I returned it a day early?"],
+        "erroComum": { "errado": "I want rent a car.", "correto": "I'd like to rent a car.", "descricaoPT": "Mantém sempre o pedido educado ('I'd like to'), como já praticaste em várias sessões anteriores." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good morning! How can I help you?", "opcoes": [
+            { "texto": "I'd like to rent a car for a week.", "proximoNo": "seguro" }
+          ]},
+          { "id": "seguro", "interlocutorFala": "Sure, we have a few options. Would you like insurance included?", "opcoes": [
+            { "texto": "Yes, please. Does the price include insurance?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I want rent a car.", "I'd like to rent a car.", "I renting a car."], "correta": 1, "explicacao": "Pedido educado: I'd like to rent." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "E se eu o devolvesse um dia mais cedo?", "destino": "What if I returned it a day early?" },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a alugares um carro, incluindo uma pergunta sobre o preço/seguro.", "palavrasChaveEsperadas": ["i'd like", "does the price", "insurance"], "respostaModelo": "I'd like to rent a car for the weekend. Does the price include insurance?" },
+      { "tipo": "ditado", "textoParaOuvir": "Does the price include insurance?", "respostaEsperada": ["Does the price include insurance?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-aluguercarro-marco50", "tipo": "situacao", "pergunta": "Como pedir para alugar um carro educadamente?", "resposta": "I'd like to rent a car..." }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
