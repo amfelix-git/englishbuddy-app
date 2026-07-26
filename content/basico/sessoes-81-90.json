@@ -1,0 +1,251 @@
+[
+  {
+    "id": "basico-81",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Dinheiro e Preços",
+    "objetivos": ["Perguntar e falar sobre preços e formas de pagamento"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário e estruturas para falar de dinheiro e preços.",
+        "exemplos": ["How much is it?", "It costs ten euros.", "Can I pay by card?"],
+        "erroComum": { "errado": "How much cost it?", "correto": "How much does it cost? / How much is it?", "descricaoPT": "A pergunta sobre preço precisa do auxiliar 'does' (ou usar 'is') — não pode ser formada diretamente como em português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you ask the price?", "opcoes": ["How much cost it?", "How much is it?", "How price is?"], "correta": 1, "explicacao": "'How much is it?' é a pergunta padrão." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["Can I pay with card?", "Can I pay by card?", "Can I pay in card?"], "correta": 1, "explicacao": "'Pay by card' é a forma correta." },
+      { "tipo": "preenchimento_espaco", "frase": "It ___ twenty euros.", "resposta": "costs", "explicacao": "'It costs' = custa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Posso pagar em dinheiro?", "destino": "Can I pay in cash?" },
+      { "tipo": "ditado", "textoParaOuvir": "How much does this cost?", "respostaEsperada": ["How much does this cost?"] }
+    ],
+    "srsItens": [{ "id": "voc-basico-dinheiro-precos", "tipo": "vocabulario", "pergunta": "Como se pergunta o preço de algo em inglês?", "resposta": "How much is it? / How much does it cost?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-82",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Sentimentos e Emoções",
+    "objetivos": ["Usar adjetivos de sentimentos", "Distinguir adjetivos -ed de -ing"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Adjetivos de sentimentos e emoções, essenciais para expressar como te sentes. Repara na diferença entre -ed (o que sentes) e -ing (o que causa o sentimento).",
+        "exemplos": ["happy, sad, angry, nervous, excited", "I'm really excited about the trip!", "She looks a bit nervous today."],
+        "erroComum": { "errado": "I am boring.", "correto": "I am bored.", "descricaoPT": "Confusão clássica entre adjetivos -ed (bored = aborrecido) e -ing (boring = que aborrece) — 'I am boring' significa 'eu sou uma pessoa aborrecida', não 'estou aborrecido'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If a movie makes you feel sleepy, it is...", "opcoes": ["boring", "bored"], "correta": 0, "explicacao": "O filme CAUSA o sentimento → boring." },
+      { "tipo": "escolha_multipla", "pergunta": "If you feel sleepy because of a boring movie, you are...", "opcoes": ["boring", "bored"], "correta": 1, "explicacao": "Tu SENTES o sentimento → bored." },
+      { "tipo": "preenchimento_espaco", "frase": "I'm really ___ about the trip!", "resposta": "excited", "explicacao": "'Excited' = entusiasmado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela parece um pouco nervosa hoje.", "destino": "She looks a bit nervous today." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm really excited about the trip!", "respostaEsperada": ["I'm really excited about the trip!"] }
+    ],
+    "srsItens": [{ "id": "voc-basico-sentimentos-emocoes", "tipo": "vocabulario", "pergunta": "Qual a diferença entre 'bored' e 'boring'?", "resposta": "'bored' = sentes; 'boring' = causa o sentimento" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-83",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Desporto",
+    "objetivos": ["Usar as collocations play/do/go com desportos"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de desporto e as collocations play/do/go: play + desportos de bola/equipa, do + artes marciais/ginástica, go + desportos em '-ing'.",
+        "exemplos": ["play football, play tennis", "do karate, do yoga", "go swimming, go running"],
+        "erroComum": { "errado": "I do football.", "correto": "I play football.", "descricaoPT": "Desportos de bola/equipa usam 'play', não 'do' — é uma collocation fixa que precisa de ser memorizada por categoria." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I do football.", "I play football.", "I go football."], "correta": 1, "explicacao": "'Play football' é a collocation correta." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I play swimming.", "I go swimming.", "I do swimming."], "correta": 1, "explicacao": "'Go swimming' é a collocation correta." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ yoga every morning.", "resposta": "does", "explicacao": "'Do yoga' na 3ª pessoa: does yoga." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele joga ténis aos domingos.", "destino": "He plays tennis on Sundays." },
+      { "tipo": "ditado", "textoParaOuvir": "I go running every morning.", "respostaEsperada": ["I go running every morning."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-desporto-collocations", "tipo": "vocabulario", "pergunta": "Que verbo se usa com desportos de bola/equipa?", "resposta": "play (play football, play tennis)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-84",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Tarefas Domésticas",
+    "objetivos": ["Usar vocabulário de tarefas domésticas com o Present Simple"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de tarefas domésticas, praticando o Present Simple em contexto de rotina.",
+        "exemplos": ["do the dishes, make the bed, clean the house", "I usually do the dishes after dinner.", "She makes her bed every morning."],
+        "erroComum": { "errado": "I do my bed.", "correto": "I make my bed.", "descricaoPT": "'Make the bed' (fazer a cama) usa 'make', não 'do' — collocation fixa diferente de 'do the dishes'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I do my bed.", "I make my bed.", "I build my bed."], "correta": 1, "explicacao": "'Make the bed' é a collocation correta." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I make the dishes.", "I do the dishes.", "I clean the dishes."], "correta": 1, "explicacao": "'Do the dishes' é a collocation correta." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ the house every Saturday.", "resposta": "cleans", "explicacao": "'Clean' na 3ª pessoa: cleans." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu faço a cama todas as manhãs.", "destino": "I make my bed every morning." },
+      { "tipo": "ditado", "textoParaOuvir": "I usually do the dishes after dinner.", "respostaEsperada": ["I usually do the dishes after dinner."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-tarefas-domesticas", "tipo": "vocabulario", "pergunta": "Que verbo se usa com 'the bed' (fazer a cama)?", "resposta": "make (make the bed)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-85",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs — Partículas 'Away'/'Back'",
+    "objetivos": ["Usar throw away, give back, come back, put away"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs com 'away'/'back': throw away (deitar fora), give back (devolver), come back (voltar), put away (arrumar).",
+        "exemplos": ["Please throw away this old paper.", "Can you give me back my book?", "I'll come back later.", "Put away your toys, please."],
+        "erroComum": { "errado": "Give me my book back the.", "correto": "Give me back my book. / Give my book back to me.", "descricaoPT": "A ordem das palavras com pronomes e phrasal verbs separáveis pode confundir — pratica as duas ordens possíveis com atenção." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ this old paper, please.", "opcoes": ["Throw away", "Throw back", "Throw off"], "correta": 0, "explicacao": "'Throw away' = deitar fora." },
+      { "tipo": "escolha_multipla", "pergunta": "Can you ___ my book?", "opcoes": ["give back", "give away", "give off"], "correta": 0, "explicacao": "'Give back' = devolver." },
+      { "tipo": "preenchimento_espaco", "frase": "I'll ___ later.", "resposta": "come back", "explicacao": "'Come back' = voltar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Arruma os teus brinquedos, por favor.", "destino": "Put away your toys, please." },
+      { "tipo": "ditado", "textoParaOuvir": "Please throw away this old paper.", "respostaEsperada": ["Please throw away this old paper."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-particula-away-back", "tipo": "vocabulario", "pergunta": "O que significa 'throw away'?", "resposta": "deitar fora" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-86",
+    "nivel": "basico",
+    "titulo": "Mais Idiomas: Animais",
+    "objetivos": ["Reconhecer mais idiomas com animais"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais idiomas com animais: let the cat out of the bag (revelar um segredo sem querer), kill two birds with one stone (resolver dois problemas de uma vez).",
+        "exemplos": ["Oops, I let the cat out of the bag about the party!", "By working from the café, I killed two birds with one stone.", "It's raining cats and dogs."],
+        "erroComum": { "errado": "Traduzir 'kill two birds with one stone' à letra.", "correto": "'Kill two birds with one stone' significa resolver dois problemas com uma só ação.", "descricaoPT": "Idiomas com animais são muito frequentes em inglês — o significado nunca é literal." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Let the cat out of the bag' means...", "opcoes": ["To free a cat", "To accidentally reveal a secret", "To buy a cat"], "correta": 1, "explicacao": "Revelar um segredo sem querer." },
+      { "tipo": "escolha_multipla", "pergunta": "'Kill two birds with one stone' means...", "opcoes": ["To hurt animals", "To solve two problems with one action", "To throw stones"], "correta": 1, "explicacao": "Resolver dois problemas de uma vez." },
+      { "tipo": "preenchimento_espaco", "frase": "Oops, I let the ___ out of the bag!", "resposta": "cat", "explicacao": "'Let the cat out of the bag.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele matou dois coelhos de uma cajadada.", "destino": "He killed two birds with one stone." },
+      { "tipo": "ditado", "textoParaOuvir": "By working from the café, I killed two birds with one stone.", "respostaEsperada": ["By working from the café, I killed two birds with one stone."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-animais", "tipo": "vocabulario", "pergunta": "O que significa 'let the cat out of the bag'?", "resposta": "revelar um segredo sem querer" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-87",
+    "nivel": "basico",
+    "titulo": "Leitura: Um Email Informal",
+    "objetivos": ["Praticar compreensão de leitura com um email informal entre amigas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê o email com atenção antes de responderes às perguntas.\n\n\"Hi Sarah,\n\nHow are you? I'm writing because I'm planning a trip to Porto next month and I wanted to know if you'd like to come with me! We could stay for three days, visit the old town, and try some local food. I'm really excited about it!\n\nLet me know what you think.\n\nBest,\nAna\"",
+        "exemplos": ["planning a trip = a planear uma viagem", "let me know = avisa-me/diz-me", "local food = comida local"],
+        "erroComum": { "errado": "Assumir que este email é sempre formal.", "correto": "Este email usa registo informal ('Hi', 'Best,') porque é entre amigas — repara na diferença face aos emails formais já praticados.", "descricaoPT": "O registo do email (formal/informal) percebe-se pela saudação e despedida usadas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Where does Ana want to travel to?", "opcoes": ["Lisbon", "Porto", "Coimbra"], "correta": 1, "explicacao": "O texto diz 'a trip to Porto'." },
+      { "tipo": "escolha_multipla", "pergunta": "How long do they want to stay?", "opcoes": ["Two days", "Three days", "A week"], "correta": 1, "explicacao": "O texto diz 'stay for three days'." },
+      { "tipo": "escolha_multipla", "pergunta": "Is this email formal or informal?", "opcoes": ["Formal", "Informal"], "correta": 1, "explicacao": "Saudação 'Hi' e despedida 'Best,' indicam registo informal." },
+      { "tipo": "preenchimento_espaco", "frase": "Ana is really ___ about the trip.", "resposta": "excited", "explicacao": "'Excited' = entusiasmada." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma resposta curta e informal a aceitar o convite da Ana.", "palavrasChaveEsperadas": ["hi", "i'd love", "sounds"], "respostaModelo": "Hi Ana, I'd love to come! That sounds amazing." }
+    ],
+    "srsItens": [{ "id": "rw-basico-leitura-email-informal", "tipo": "situacao", "pergunta": "Que pistas indicam que um email é informal?", "resposta": "saudação e despedida informais (Hi.../Best,)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-88",
+    "nivel": "basico",
+    "titulo": "Situação: Transportes Públicos",
+    "objetivos": ["Comprar bilhetes e perguntar sobre horários de transportes públicos"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "transportespublicos",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para comprar bilhetes e perguntar sobre horários de transportes públicos.",
+        "exemplos": ["A single ticket to the city centre, please.", "What time does the next bus leave?", "Which platform does the train leave from?"],
+        "erroComum": { "errado": "When leaves the bus?", "correto": "What time does the bus leave?", "descricaoPT": "A ordem da pergunta não pode seguir a estrutura portuguesa diretamente — precisa do auxiliar 'does' na posição correta." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hello! How can I help you?", "opcoes": [
+            { "texto": "A single ticket to the city centre, please.", "proximoNo": "horario" }
+          ]},
+          { "id": "horario", "interlocutorFala": "Sure, that's five euros. The next bus leaves in ten minutes.", "opcoes": [
+            { "texto": "Great, thank you!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you ask about departure time?", "opcoes": ["When leaves the bus?", "What time does the bus leave?", "Bus when leave?"], "correta": 1, "explicacao": "Ordem correta com auxiliar 'does'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "De que plataforma sai o comboio?", "destino": "Which platform does the train leave from?" },
+      { "tipo": "ditado", "textoParaOuvir": "What time does the next bus leave?", "respostaEsperada": ["What time does the next bus leave?"] }
+    ],
+    "srsItens": [{ "id": "sit-basico-transportespublicos-integradora", "tipo": "situacao", "pergunta": "Como perguntar a que horas parte um autocarro?", "resposta": "What time does the bus leave?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-89",
+    "nivel": "basico",
+    "titulo": "Situação: No Banco e nos Correios",
+    "objetivos": ["Fazer operações simples no banco e nos correios"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "bancocorreios",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para operações simples no banco e nos correios.",
+        "exemplos": ["I'd like to open a bank account.", "How much does it cost to send this parcel?", "Could you sign here, please?"],
+        "erroComum": { "errado": "I want make an account.", "correto": "I'd like to open a bank account.", "descricaoPT": "Usa-se 'open an account' (abrir conta), não 'make an account' — collocation fixa diferente da tradução direta." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good morning, how can I help you?", "opcoes": [
+            { "texto": "I'd like to send this parcel to Spain, please.", "proximoNo": "preco" }
+          ]},
+          { "id": "preco", "interlocutorFala": "Sure, that will be seven euros. Could you sign here, please?", "opcoes": [
+            { "texto": "Of course, here you go.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct for opening a bank account?", "opcoes": ["I want make an account.", "I'd like to open a bank account.", "I make account bank."], "correta": 1, "explicacao": "'Open a bank account' é a collocation correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quanto custa enviar esta encomenda?", "destino": "How much does it cost to send this parcel?" },
+      { "tipo": "ditado", "textoParaOuvir": "Could you sign here, please?", "respostaEsperada": ["Could you sign here, please?"] }
+    ],
+    "srsItens": [{ "id": "sit-basico-bancocorreios-integradora", "tipo": "situacao", "pergunta": "Como se diz 'abrir uma conta bancária' em inglês?", "resposta": "open a bank account" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-90",
+    "nivel": "basico",
+    "titulo": "Revisão Geral: Checkpoint do Básico",
+    "objetivos": ["Consolidar pontos gramaticais e vocabulário de várias sessões anteriores"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Sessão de revisão ampla, combinando pontos gramaticais e vocabulário de várias sessões anteriores, antes de continuares a avançar no Básico.",
+        "exemplos": ["I am a teacher and I work in Lisbon. (to be + Present Simple)", "I went to the bank yesterday. (Past Simple)", "I'd like to try on this jacket. (would like)"],
+        "erroComum": { "errado": "Misturar vários erros já vistos (esquecer -s na 3ª pessoa, usar to have para idade, etc.).", "correto": "Revê os erros comuns das sessões anteriores — são os mesmos padrões que continuam a aparecer.", "descricaoPT": "Esta sessão é uma oportunidade de consolidar tudo o que já viste, não de aprender conteúdo novo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ in a hospital.", "opcoes": ["work", "works", "working"], "correta": 1, "explicacao": "Present Simple, 3ª pessoa: works." },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ 25 years old.", "opcoes": ["have", "am", "is"], "correta": 1, "explicacao": "Idade sempre com to be." },
+      { "tipo": "escolha_multipla", "pergunta": "Yesterday I ___ to the bank.", "opcoes": ["go", "went", "goes"], "correta": 1, "explicacao": "'Yesterday' pede Past Simple." },
+      { "tipo": "preenchimento_espaco", "frase": "I'd ___ to try on this jacket.", "resposta": "like", "explicacao": "'I'd like to' = gostaria de." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela trabalha como enfermeira e vive em Coimbra.", "destino": "She works as a nurse and lives in Coimbra." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um pequeno parágrafo (3-4 frases) sobre ti: quem és, o que fazes, e algo que fizeste recentemente.", "palavrasChaveEsperadas": ["i am", "i work", "i went"], "respostaModelo": "I am Ana. I work as a teacher. Yesterday I went to the cinema." }
+    ],
+    "srsItens": [{ "id": "gra-basico-checkpoint-revisao-geral", "tipo": "gramatica", "pergunta": "Quais são os 3 erros mais comuns revistos nesta sessão?", "resposta": "esquecer -s na 3ª pessoa, usar to have para idade, tempo verbal errado com marcadores temporais" }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
