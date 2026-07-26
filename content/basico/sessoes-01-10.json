@@ -1,0 +1,290 @@
+[
+  {
+    "id": "basico-01",
+    "nivel": "basico",
+    "titulo": "Verbo To Be",
+    "objetivos": ["Usar o verbo to be na afirmativa e interrogativa", "Reconhecer contrações (I'm, isn't, aren't)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o verbo to be (am/is/are) para falar de identidade, características e estados. I am, You are, He/She/It is, We are, They are.",
+        "exemplos": ["I am a teacher.", "She is happy.", "They are from Portugal."],
+        "erroComum": { "errado": "I student.", "correto": "I am a student.", "descricaoPT": "Em português é possível dizer 'Eu, estudante' de forma mais solta, mas em inglês o verbo to be nunca pode ser omitido." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ a doctor.", "opcoes": ["is", "am", "are"], "correta": 0, "explicacao": "Com 'she', usa-se sempre 'is'." },
+      { "tipo": "escolha_multipla", "pergunta": "We ___ from Lisbon.", "opcoes": ["is", "am", "are"], "correta": 2, "explicacao": "Com 'we', usa-se sempre 'are'." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ tired today.", "resposta": "am", "explicacao": "Com 'I', usa-se sempre 'am'." },
+      { "tipo": "preenchimento_espaco", "frase": "They ___ not ready yet.", "resposta": "are", "explicacao": "'They are not' = 'They aren't'." },
+      { "tipo": "ditado", "textoParaOuvir": "I am not from England.", "respostaEsperada": ["I am not from England.", "I'm not from England."] },
+      { "tipo": "oral", "promptTTS": "Are you a student?", "respostaEsperada": ["Yes, I am", "No, I'm not", "Yes I am", "No I'm not"] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a dizeres quem és, usando to be (nome e/ou profissão).", "palavrasChaveEsperadas": ["I am", "I'm"], "respostaModelo": "I am Ana, I am a nurse." }
+    ],
+    "srsItens": [{ "id": "gra-basico-tobe-afirmativa", "tipo": "gramatica", "pergunta": "Como se conjuga to be na afirmativa?", "resposta": "I am, you/we/they are, he/she/it is" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-02",
+    "nivel": "basico",
+    "titulo": "Verbo To Have (e a idade!)",
+    "objetivos": ["Usar to have para posse e relações", "Saber que a idade se diz com to be, não com to have"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se to have (have/has) para posse e relações. He/She/It usa 'has'. IMPORTANTE: para a idade, o inglês usa sempre to be, não to have.",
+        "exemplos": ["I have a car.", "She has two brothers.", "I am 25 years old (NUNCA 'I have 25 years')."],
+        "erroComum": { "errado": "I have 20 years.", "correto": "I am 20 years old.", "descricaoPT": "Em português dizemos 'Eu tenho 20 anos', mas em inglês a idade usa-se sempre com to be — este é um dos erros mais comuns de falantes de português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ a sister.", "opcoes": ["have", "has", "is"], "correta": 1, "explicacao": "Com he/she/it, usa-se 'has'." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ 30 years old.", "resposta": "am", "explicacao": "Idade usa-se sempre com to be." },
+      { "tipo": "preenchimento_espaco", "frase": "They ___ a big house.", "resposta": "have", "explicacao": "Posse usa-se com to have." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele tem 15 anos.", "destino": "He is 15 years old.", "alternativas": ["He's 15 years old.", "He is fifteen years old."] },
+      { "tipo": "ditado", "textoParaOuvir": "I have two children.", "respostaEsperada": ["I have two children."] },
+      { "tipo": "oral", "promptTTS": "Do you have a pet?", "respostaEsperada": ["Yes, I do", "No, I don't", "Yes I do", "No I don't"] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase com to have (posse) e outra com to be (idade).", "palavrasChaveEsperadas": ["have", "am"], "respostaModelo": "I have a bike. I am 28 years old." }
+    ],
+    "srsItens": [{ "id": "gra-basico-tohave-vs-tobe-idade", "tipo": "gramatica", "pergunta": "Como se diz a idade em inglês?", "resposta": "com to be (I am ... years old), nunca com to have" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-03",
+    "nivel": "basico",
+    "titulo": "Apresentações e Cumprimentos",
+    "objetivos": ["Apresentar-te em inglês", "Usar frases fixas de cumprimento"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para te apresentares e cumprimentares em inglês.",
+        "exemplos": ["Hello! / Hi!", "Nice to meet you.", "What's your name? — My name is ___."],
+        "erroComum": { "errado": "How is your name?", "correto": "What's your name?", "descricaoPT": "A tradução literal de 'Como se chama' dá erro em inglês — a pergunta correta é 'What's your name?'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Nice to ___ you.", "opcoes": ["meet", "know", "see"], "correta": 0, "explicacao": "'Nice to meet you' é a expressão fixa usada ao conhecer alguém pela primeira vez." },
+      { "tipo": "preenchimento_espaco", "frase": "___ your name?", "resposta": "What's", "explicacao": "'What's your name?' é a forma correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Prazer em conhecer-te.", "destino": "Nice to meet you.", "alternativas": ["Nice to meet you too."] },
+      { "tipo": "ditado", "textoParaOuvir": "My name is John, nice to meet you.", "respostaEsperada": ["My name is John, nice to meet you."] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: Nice to meet you.", "respostaEsperada": ["Nice to meet you", "Nice to meet you."] },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi there! I'm Buddy. What's your name?", "opcoes": [
+            { "texto": "Hi, my name is Ana.", "proximoNo": "resposta1" },
+            { "texto": "I don't understand.", "proximoNo": "ajuda" }
+          ]},
+          { "id": "ajuda", "interlocutorFala": "No problem! Just try: 'My name is ...'", "opcoes": [
+            { "texto": "Ok, my name is Ana.", "proximoNo": "resposta1" }
+          ]},
+          { "id": "resposta1", "interlocutorFala": "Nice to meet you, Ana! Where are you from?", "opcoes": [
+            { "texto": "I'm from Portugal.", "proximoNo": null }
+          ]}
+        ]
+      }
+    ],
+    "srsItens": [{ "id": "voc-basico-apresentacoes", "tipo": "vocabulario", "pergunta": "Como perguntar o nome de alguém em inglês?", "resposta": "What's your name?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-04",
+    "nivel": "basico",
+    "titulo": "Present Simple — Afirmativa",
+    "objetivos": ["Usar o Present Simple para rotinas e factos", "Acrescentar -s na 3ª pessoa do singular"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o Present Simple para rotinas, factos e verdades gerais. Na 3ª pessoa do singular (he/she/it), acrescenta-se -s ao verbo.",
+        "exemplos": ["I work in Lisbon.", "She works in Porto.", "They live in Spain."],
+        "erroComum": { "errado": "She work every day.", "correto": "She works every day.", "descricaoPT": "É muito comum esquecer o -s na 3ª pessoa do singular — em português a conjugação já muda de forma mais visível, por isso este 's' passa despercebido." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "He ___ English every day.", "opcoes": ["study", "studies", "studying"], "correta": 1, "explicacao": "3ª pessoa: study → studies." },
+      { "tipo": "preenchimento_espaco", "frase": "My sister ___ in a hospital.", "resposta": "works", "explicacao": "work → works na 3ª pessoa." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ in Coimbra.", "resposta": "live", "explicacao": "Com 'I', o verbo fica na forma base." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela fala três línguas.", "destino": "She speaks three languages." },
+      { "tipo": "ditado", "textoParaOuvir": "He drinks coffee every morning.", "respostaEsperada": ["He drinks coffee every morning."] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve duas frases sobre a tua rotina diária usando o Present Simple.", "palavrasChaveEsperadas": ["i", "every day"], "respostaModelo": "I wake up at 7. I work every day." }
+    ],
+    "srsItens": [{ "id": "gra-basico-presentsimple-afirmativa", "tipo": "gramatica", "pergunta": "Que se acrescenta ao verbo na 3ª pessoa do Present Simple?", "resposta": "-s (ou -es/-ies consoante o verbo)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-05",
+    "nivel": "basico",
+    "titulo": "Present Simple — Negativa e Interrogativa",
+    "objetivos": ["Formar perguntas e negativas com do/does"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Para perguntas e negativas no Present Simple usa-se do/does + verbo na forma base. Does usa-se com he/she/it.",
+        "exemplos": ["Do you like tea?", "Does she like tea?", "I don't like tea. / She doesn't like tea."],
+        "erroComum": { "errado": "She don't like tea.", "correto": "She doesn't like tea.", "descricaoPT": "Com he/she/it usa-se sempre 'doesn't', nunca 'don't' — é um erro comum mesmo em níveis mais avançados." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ you speak English?", "opcoes": ["Do", "Does", "Are"], "correta": 0, "explicacao": "Com 'you', usa-se 'Do'." },
+      { "tipo": "escolha_multipla", "pergunta": "___ he play football?", "opcoes": ["Do", "Does", "Is"], "correta": 1, "explicacao": "Com 'he', usa-se 'Does'." },
+      { "tipo": "preenchimento_espaco", "frase": "She doesn't ___ (like) coffee.", "resposta": "like", "explicacao": "Depois de doesn't/don't, o verbo fica na forma base." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ have a car.", "resposta": "don't", "explicacao": "Negativa com 'I': don't." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele não trabalha aos domingos.", "destino": "He doesn't work on Sundays." },
+      { "tipo": "oral", "promptTTS": "Repeat after me: Do you like coffee?", "respostaEsperada": ["Do you like coffee", "Do you like coffee?"] },
+      { "tipo": "ditado", "textoParaOuvir": "Does she live in Lisbon?", "respostaEsperada": ["Does she live in Lisbon?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-presentsimple-negativa-interrogativa", "tipo": "gramatica", "pergunta": "Qual auxiliar se usa com he/she/it no Present Simple?", "resposta": "does (doesn't na negativa)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-06",
+    "nivel": "basico",
+    "titulo": "Estrutura da Frase (SVO)",
+    "objetivos": ["Usar a ordem Sujeito + Verbo + Objeto"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A ordem das palavras em inglês é normalmente fixa: Sujeito + Verbo + Objeto (SVO). Ao contrário do português, não se pode mudar livremente a ordem.",
+        "exemplos": ["I eat pizza on Fridays.", "She reads books every night.", "We watch movies at home."],
+        "erroComum": { "errado": "Eat I pizza.", "correto": "I eat pizza.", "descricaoPT": "Em português a ordem das palavras é mais flexível; em inglês, o sujeito quase sempre vem antes do verbo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Qual frase está correta?", "opcoes": ["Pizza I eat.", "I eat pizza.", "Eat pizza I."], "correta": 1, "explicacao": "A ordem correta é Sujeito + Verbo + Objeto." },
+      { "tipo": "preenchimento_espaco", "frase": "___ football every weekend.", "resposta": "I play", "explicacao": "Sujeito antes do verbo: I play." },
+      { "tipo": "escolha_multipla", "pergunta": "Qual é a pergunta correta?", "opcoes": ["You like tea do?", "Do you like tea?", "Like you tea?"], "correta": 1, "explicacao": "Nas perguntas, o auxiliar (Do) vem antes do sujeito." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela bebe chá todas as manhãs.", "destino": "She drinks tea every morning." },
+      { "tipo": "ditado", "textoParaOuvir": "We visit our grandparents every Sunday.", "respostaEsperada": ["We visit our grandparents every Sunday."] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase na ordem Sujeito+Verbo+Objeto sobre algo que fazes ao fim de semana.", "palavrasChaveEsperadas": ["i"], "respostaModelo": "I play tennis on Saturdays." }
+    ],
+    "srsItens": [{ "id": "gra-basico-estrutura-svo", "tipo": "gramatica", "pergunta": "Qual é a ordem normal das palavras numa frase afirmativa em inglês?", "resposta": "Sujeito + Verbo + Objeto (SVO)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-07",
+    "nivel": "basico",
+    "titulo": "Artigos: A / An",
+    "objetivos": ["Escolher entre a/an consoante o som inicial da palavra seguinte"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa 'a' antes de som de consoante, e 'an' antes de som de vogal (a/e/i/o/u). É o SOM que conta, não a letra escrita.",
+        "exemplos": ["a book", "an apple", "an hour (o 'h' é mudo, por isso soa a vogal)"],
+        "erroComum": { "errado": "I have an car.", "correto": "I have a car.", "descricaoPT": "O 'an' usa-se pelo som inicial, não pela letra — por isso 'a university' (soa 'iu-') mas 'an hour' (h mudo)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I have ___ orange.", "opcoes": ["a", "an"], "correta": 1, "explicacao": "'Orange' começa por som de vogal → 'an'." },
+      { "tipo": "escolha_multipla", "pergunta": "She is ___ teacher.", "opcoes": ["a", "an"], "correta": 0, "explicacao": "'Teacher' começa por som de consoante → 'a'." },
+      { "tipo": "preenchimento_espaco", "frase": "He has ___ umbrella.", "resposta": "an", "explicacao": "'Umbrella' começa por som de vogal." },
+      { "tipo": "preenchimento_espaco", "frase": "This is ___ hour of practice.", "resposta": "an", "explicacao": "O 'h' de 'hour' é mudo, por isso soa a vogal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela tem uma ideia.", "destino": "She has an idea." },
+      { "tipo": "ditado", "textoParaOuvir": "I need an apple and a banana.", "respostaEsperada": ["I need an apple and a banana."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-artigos-a-an", "tipo": "gramatica", "pergunta": "Quando se usa 'an' em vez de 'a'?", "resposta": "antes de som de vogal (não letra)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-08",
+    "nivel": "basico",
+    "titulo": "Artigo The (ou nenhum artigo)",
+    "objetivos": ["Distinguir quando usar 'the', e quando não usar artigo nenhum"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa 'the' quando falas de algo específico ou já conhecido por ambos. Não uses artigo nenhum para generalizações nem antes da maioria dos nomes próprios.",
+        "exemplos": ["The book on the table is mine (livro específico).", "I like books in general (sem artigo).", "I live in Portugal (sem artigo antes do país)."],
+        "erroComum": { "errado": "I like the coffee.", "correto": "I like coffee.", "descricaoPT": "Para falar de café em geral (não um café específico), não se usa 'the' — 'I like the coffee' só está correto se estiveres a referir um café específico já mencionado." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ sun is shining today.", "opcoes": ["A", "The", "(sem artigo)"], "correta": 1, "explicacao": "Há só um sol — é sempre específico, por isso 'The sun'." },
+      { "tipo": "escolha_multipla", "pergunta": "I love ___ music.", "opcoes": ["the", "a", "(sem artigo)"], "correta": 2, "explicacao": "Generalização (música em geral) → sem artigo." },
+      { "tipo": "preenchimento_espaco", "frase": "___ Eiffel Tower is in Paris.", "resposta": "The", "explicacao": "Monumento específico e único → 'The'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os cães são leais.", "destino": "Dogs are loyal.", "alternativas": ["Dogs are loyal animals."] },
+      { "tipo": "ditado", "textoParaOuvir": "The book you gave me is amazing.", "respostaEsperada": ["The book you gave me is amazing."] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase geral sem artigo e outra específica com 'the'.", "palavrasChaveEsperadas": ["the"], "respostaModelo": "I like cats. The cat next door is very friendly." }
+    ],
+    "srsItens": [{ "id": "gra-basico-artigo-the", "tipo": "gramatica", "pergunta": "Quando se usa 'the'?", "resposta": "para algo específico/já conhecido; generalizações não levam artigo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-09",
+    "nivel": "basico",
+    "titulo": "Socialização — Small Talk",
+    "objetivos": ["Usar expressões fixas de conversa informal do dia a dia"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para pequenas conversas informais (small talk) do dia a dia.",
+        "exemplos": ["How's it going?", "Long time no see!", "See you soon!"],
+        "erroComum": { "errado": "How is your life?", "correto": "How's it going? / How are you?", "descricaoPT": "Traduzir literalmente uma saudação portuguesa pode soar estranho em inglês — usa sempre as expressões fixas habituais." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is an informal greeting?", "opcoes": ["How's it going?", "Good afternoon, sir.", "I would like to inform you..."], "correta": 0, "explicacao": "'How's it going?' é informal e usada entre amigos/conhecidos." },
+      { "tipo": "preenchimento_espaco", "frase": "Long time no ___!", "resposta": "see", "explicacao": "'Long time no see!' diz-se quando não vemos alguém há tempo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Até já!", "destino": "See you soon!", "alternativas": ["See you later!"] },
+      { "tipo": "ditado", "textoParaOuvir": "It was great to catch up with you!", "respostaEsperada": ["It was great to catch up with you!"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: Long time no see!", "respostaEsperada": ["Long time no see", "Long time no see!"] },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hey! Long time no see! How's it going?", "opcoes": [
+            { "texto": "I'm good, thanks! And you?", "proximoNo": "seguimento" },
+            { "texto": "I don't understand.", "proximoNo": "ajuda" }
+          ]},
+          { "id": "ajuda", "interlocutorFala": "No worries! Just say: 'I'm good, thanks!'", "opcoes": [
+            { "texto": "I'm good, thanks!", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "I'm doing well too! What are your plans for the weekend?", "opcoes": [
+            { "texto": "I'm meeting some friends.", "proximoNo": null }
+          ]}
+        ]
+      }
+    ],
+    "srsItens": [{ "id": "voc-basico-socializacao-smalltalk", "tipo": "vocabulario", "pergunta": "Como dizer 'Há quanto tempo não te via!' em inglês?", "resposta": "Long time no see!" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-10",
+    "nivel": "basico",
+    "titulo": "Situação: Conhecer Alguém Novo",
+    "objetivos": ["Combinar to be, to have, Present Simple, artigos e vocabulário de socialização numa conversa real"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "socializacao",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Esta sessão junta tudo o que aprendeste até agora (to be, to have, Present Simple, artigos, small talk) numa situação real: conheceres alguém novo numa festa ou evento.",
+        "exemplos": ["Hi, I'm Ana. Nice to meet you!", "I'm a nurse and I have two kids.", "I work in a hospital and I live in Coimbra."],
+        "erroComum": { "errado": "I am nurse and I have 30 years.", "correto": "I am a nurse and I am 30 years old.", "descricaoPT": "Repara nos dois erros mais comuns juntos: falta do artigo 'a' antes da profissão, e uso errado de to have para a idade." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! I don't think we've met. I'm Buddy.", "opcoes": [
+            { "texto": "Hi Buddy, I'm Ana. Nice to meet you.", "proximoNo": "profissao" }
+          ]},
+          { "id": "profissao", "interlocutorFala": "Nice to meet you too, Ana! What do you do?", "opcoes": [
+            { "texto": "I'm a teacher. I work in Lisbon.", "proximoNo": "familia" },
+            { "texto": "I'm a nurse. I work in a hospital.", "proximoNo": "familia" }
+          ]},
+          { "id": "familia", "interlocutorFala": "That sounds interesting! Do you have any children?", "opcoes": [
+            { "texto": "Yes, I have two kids.", "proximoNo": "despedida" },
+            { "texto": "No, I don't have children.", "proximoNo": "despedida" }
+          ]},
+          { "id": "despedida", "interlocutorFala": "It was great talking to you! See you soon.", "opcoes": [
+            { "texto": "See you soon! Nice to meet you.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence is fully correct?", "opcoes": ["I am a teacher and I have 40 years.", "I am a teacher and I am 40 years old.", "I have a teacher and I am 40 years."], "correta": 1, "explicacao": "Profissão com artigo 'a' + to be, e idade sempre com to be." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Prazer em conhecer-te. Eu sou professora e trabalho em Lisboa.", "destino": "Nice to meet you. I am a teacher and I work in Lisbon." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um pequeno diálogo (3-4 frases) a apresentares-te a alguém novo: nome, profissão, onde vives.", "palavrasChaveEsperadas": ["i am", "i'm"], "respostaModelo": "Hi, I'm Ana. Nice to meet you. I am a teacher and I live in Porto." },
+      { "tipo": "ditado", "textoParaOuvir": "It was great talking to you, see you soon!", "respostaEsperada": ["It was great talking to you, see you soon!"] }
+    ],
+    "srsItens": [{ "id": "sit-basico-socializacao-integradora", "tipo": "situacao", "pergunta": "Numa apresentação, que erros mais comuns deves evitar?", "resposta": "esquecer o artigo antes da profissão e usar to have para a idade" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]

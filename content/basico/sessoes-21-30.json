@@ -1,0 +1,265 @@
+[
+  {
+    "id": "basico-21",
+    "nivel": "basico",
+    "titulo": "Plural de Substantivos",
+    "objetivos": ["Formar o plural regular (-s) e reconhecer os plurais irregulares mais comuns"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Forma-se o plural normalmente acrescentando -s. Algumas palavras têm plurais irregulares que têm de ser memorizados.",
+        "exemplos": ["book → books", "man → men", "child → children"],
+        "erroComum": { "errado": "Two mans were waiting.", "correto": "Two men were waiting.", "descricaoPT": "'Man' tem um plural irregular ('men') — não se acrescenta -s como na maioria das palavras." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What is the plural of 'child'?", "opcoes": ["childs", "children", "childes"], "correta": 1, "explicacao": "Plural irregular: child → children." },
+      { "tipo": "escolha_multipla", "pergunta": "What is the plural of 'book'?", "opcoes": ["books", "bookes", "bookies"], "correta": 0, "explicacao": "Plural regular: +s." },
+      { "tipo": "preenchimento_espaco", "frase": "There are three ___ in the room (man).", "resposta": "men", "explicacao": "man → men." },
+      { "tipo": "preenchimento_espaco", "frase": "I have two ___ (child).", "resposta": "children", "explicacao": "child → children." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela tem três filhos.", "destino": "She has three children." },
+      { "tipo": "ditado", "textoParaOuvir": "The children are playing in the park.", "respostaEsperada": ["The children are playing in the park."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-plural-substantivos", "tipo": "gramatica", "pergunta": "Qual é o plural de 'man' e de 'child'?", "resposta": "men, children (irregulares)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-22",
+    "nivel": "basico",
+    "titulo": "Quantificadores: Some / Any",
+    "objetivos": ["Usar some em afirmativas e any em negativas/perguntas"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se 'some' em afirmativas (e em ofertas/pedidos educados), e 'any' em negativas e perguntas.",
+        "exemplos": ["I have some money.", "Do you have any questions?", "I don't have any time."],
+        "erroComum": { "errado": "I don't have some time.", "correto": "I don't have any time.", "descricaoPT": "Em frases negativas usa-se sempre 'any', nunca 'some' — 'I don't have some time' está gramaticalmente errado." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I have ___ friends in London.", "opcoes": ["some", "any"], "correta": 0, "explicacao": "Afirmativa → some." },
+      { "tipo": "escolha_multipla", "pergunta": "Do you have ___ brothers?", "opcoes": ["some", "any"], "correta": 1, "explicacao": "Pergunta → any." },
+      { "tipo": "preenchimento_espaco", "frase": "She doesn't have ___ money.", "resposta": "any", "explicacao": "Negativa → any." },
+      { "tipo": "preenchimento_espaco", "frase": "Would you like ___ tea?", "resposta": "some", "explicacao": "Oferta educada → some, mesmo sendo pergunta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não tenho nenhuma pergunta.", "destino": "I don't have any questions." },
+      { "tipo": "ditado", "textoParaOuvir": "I have some good news for you.", "respostaEsperada": ["I have some good news for you."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-some-any", "tipo": "gramatica", "pergunta": "Quando se usa 'any' em vez de 'some'?", "resposta": "em negativas e perguntas (exceto ofertas/pedidos educados)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-23",
+    "nivel": "basico",
+    "titulo": "Quantificadores: Much / Many / A lot of",
+    "objetivos": ["Distinguir contáveis (many) de incontáveis (much)"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Many usa-se com substantivos contáveis (many books), much com incontáveis (much water). 'A lot of' funciona com ambos e é mais comum na linguagem informal.",
+        "exemplos": ["How many books do you have?", "I don't have much time.", "There's a lot of traffic today."],
+        "erroComum": { "errado": "I have much friends.", "correto": "I have many friends.", "descricaoPT": "'Friends' é contável, por isso usa-se 'many', não 'much' — em português 'muitos' não faz esta distinção tão claramente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How ___ water do you drink?", "opcoes": ["much", "many"], "correta": 0, "explicacao": "'Water' é incontável → much." },
+      { "tipo": "escolha_multipla", "pergunta": "I don't have ___ friends here.", "opcoes": ["much", "many"], "correta": 1, "explicacao": "'Friends' é contável → many." },
+      { "tipo": "preenchimento_espaco", "frase": "There is ___ traffic today.", "resposta": "a lot of", "explicacao": "'A lot of' funciona com incontáveis também." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não tenho muito tempo.", "destino": "I don't have much time." },
+      { "tipo": "ditado", "textoParaOuvir": "There are many people at the party.", "respostaEsperada": ["There are many people at the party."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-much-many-alotof", "tipo": "gramatica", "pergunta": "Quando se usa 'much' em vez de 'many'?", "resposta": "com substantivos incontáveis" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-24",
+    "nivel": "basico",
+    "titulo": "Futuro: Going to",
+    "objetivos": ["Usar 'going to' para planos e intenções já decididas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se 'to be going to' para falar de planos e intenções já decididas.",
+        "exemplos": ["I am going to visit my parents.", "She is going to study medicine.", "We are going to travel next year."],
+        "erroComum": { "errado": "I go to visit my parents tomorrow.", "correto": "I am going to visit my parents tomorrow.", "descricaoPT": "Para planos futuros já decididos usa-se 'to be going to', não o Present Simple sozinho." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ going to call her later.", "opcoes": ["am", "is", "are"], "correta": 0, "explicacao": "Com 'I', usa-se 'am'." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ going to study medicine.", "resposta": "is", "explicacao": "Com 'she', usa-se 'is'." },
+      { "tipo": "preenchimento_espaco", "frase": "We ___ going to travel next year.", "resposta": "are", "explicacao": "Com 'we', usa-se 'are'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu vou visitar os meus pais no fim de semana.", "destino": "I am going to visit my parents this weekend." },
+      { "tipo": "ditado", "textoParaOuvir": "They are going to buy a new car.", "respostaEsperada": ["They are going to buy a new car."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-futuro-goingto", "tipo": "gramatica", "pergunta": "Quando se usa 'going to'?", "resposta": "para planos/intenções já decididas" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-25",
+    "nivel": "basico",
+    "titulo": "Futuro: Will (vs. Going to)",
+    "objetivos": ["Usar 'will' para decisões espontâneas e previsões", "Distinguir will de going to"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se 'will' para decisões espontâneas, promessas e previsões gerais. 'Going to' usa-se mais para planos já decididos com antecedência.",
+        "exemplos": ["I think it will rain tomorrow.", "I'll help you with that! (decisão no momento)", "I am going to study abroad next year (plano já decidido)."],
+        "erroComum": { "errado": "I will go to Paris next month (referindo-se a bilhetes já comprados).", "correto": "I am going to go to Paris next month.", "descricaoPT": "Quando o plano já está organizado com antecedência, o mais natural é 'going to'; 'will' soa mais a decisão espontânea ou previsão." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I think it ___ rain tomorrow (previsão).", "opcoes": ["will", "is going to", "am"], "correta": 0, "explicacao": "Previsão geral → will." },
+      { "tipo": "escolha_multipla", "pergunta": "Don't worry, I ___ help you! (decisão espontânea)", "opcoes": ["will", "am", "going"], "correta": 0, "explicacao": "Decisão espontânea → will." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ probably arrive late.", "resposta": "will", "explicacao": "Previsão → will." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu acho que ela vai gostar do presente.", "destino": "I think she will like the gift." },
+      { "tipo": "ditado", "textoParaOuvir": "I'll call you back later.", "respostaEsperada": ["I'll call you back later.", "I will call you back later."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-futuro-will-vs-goingto", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'will' e 'going to'?", "resposta": "will = decisão espontânea/previsão; going to = plano já decidido" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-26",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs Essenciais",
+    "objetivos": ["Usar phrasal verbs do dia a dia: get up, look for, turn off, give up"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs são combinações de verbo + partícula com um significado próprio, muitas vezes diferente do verbo isolado. Alguns dos mais usados no dia a dia: get up, look for, turn off, give up.",
+        "exemplos": ["I get up at 7am.", "She is looking for her keys.", "Turn off the lights, please.", "Never give up!"],
+        "erroComum": { "errado": "I raise at 7am.", "correto": "I get up at 7am.", "descricaoPT": "Falantes de português tendem a procurar uma palavra única equivalente a 'levantar-me', mas no dia a dia inglês usa-se o phrasal verb 'get up'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What time do you ___ in the morning?", "opcoes": ["get up", "get down", "get in"], "correta": 0, "explicacao": "'Get up' = levantar-se." },
+      { "tipo": "escolha_multipla", "pergunta": "She is ___ her keys.", "opcoes": ["looking for", "looking at", "looking up"], "correta": 0, "explicacao": "'Look for' = procurar." },
+      { "tipo": "preenchimento_espaco", "frase": "Please ___ the TV.", "resposta": "turn off", "explicacao": "'Turn off' = desligar." },
+      { "tipo": "preenchimento_espaco", "frase": "Don't ___! You can do it.", "resposta": "give up", "explicacao": "'Give up' = desistir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele nunca desiste.", "destino": "He never gives up." },
+      { "tipo": "ditado", "textoParaOuvir": "I look for my phone every morning.", "respostaEsperada": ["I look for my phone every morning."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-essenciais", "tipo": "vocabulario", "pergunta": "O que significa 'give up'?", "resposta": "desistir" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-27",
+    "nivel": "basico",
+    "titulo": "Pronúncia: Vogais e a Terminação -ed",
+    "objetivos": ["Distinguir pares mínimos por duração da vogal", "Reconhecer as 3 pronúncias da terminação -ed"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Alguns pares de palavras só se distinguem pela duração da vogal (ship = vogal curta, sheep = vogal longa). A terminação -ed do passado pode soar de três formas: /t/, /d/ ou /ɪd/, consoante o som final do verbo.",
+        "exemplos": ["ship (curto) vs. sheep (longo)", "full (curto) vs. fool (longo)", "worked = /t/, played = /d/, wanted = /ɪd/"],
+        "erroComum": { "errado": "Pronunciar 'ship' e 'sheep' exatamente da mesma forma.", "correto": "'Ship' tem vogal curta, 'sheep' tem vogal longa — são sons diferentes.", "descricaoPT": "O português não distingue tanto a duração das vogais, por isso este contraste exige prática auditiva extra." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: ship.", "respostaEsperada": ["ship"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: sheep.", "respostaEsperada": ["sheep"] },
+      { "tipo": "escolha_multipla", "pergunta": "Which word has a LONG vowel sound?", "opcoes": ["full", "fool"], "correta": 1, "explicacao": "'Fool' tem vogal longa; 'full' tem vogal curta." },
+      { "tipo": "escolha_multipla", "pergunta": "How is -ed pronounced in 'wanted'?", "opcoes": ["/t/", "/d/", "/ɪd/"], "correta": 2, "explicacao": "Depois de /t/ ou /d/, o -ed soa /ɪd/, como em 'wanted'." },
+      { "tipo": "ditado", "textoParaOuvir": "I worked and played all day.", "respostaEsperada": ["I worked and played all day."] }
+    ],
+    "srsItens": [{ "id": "pro-basico-vogais-curtas-longas-ed", "tipo": "pronuncia", "pergunta": "Quantas pronúncias diferentes pode ter a terminação -ed?", "resposta": "três: /t/, /d/, /ɪd/" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-28",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Casa e Família",
+    "objetivos": ["Vocabulário nuclear sobre a casa e a família"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário nuclear sobre a casa e a família — um dos campos semânticos mais úteis no dia a dia.",
+        "exemplos": ["kitchen, bedroom, living room", "mother, father, siblings", "This is my bedroom."],
+        "erroComum": { "errado": "My familiars are coming to visit.", "correto": "My relatives/family are coming to visit.", "descricaoPT": "'Familiars' não existe com este sentido em inglês — usa-se 'family' ou 'relatives' para falar de parentes." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Where do you cook? In the ___.", "opcoes": ["bedroom", "kitchen", "bathroom"], "correta": 1, "explicacao": "Cozinhar → kitchen." },
+      { "tipo": "escolha_multipla", "pergunta": "Your mother's sister is your ___.", "opcoes": ["cousin", "aunt", "niece"], "correta": 1, "explicacao": "Irmã da mãe = aunt (tia)." },
+      { "tipo": "preenchimento_espaco", "frase": "I usually watch TV in the ___ (sala de estar).", "resposta": "living room", "explicacao": "'Living room' = sala de estar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A minha família vem visitar-me no domingo.", "destino": "My family is coming to visit me on Sunday." },
+      { "tipo": "ditado", "textoParaOuvir": "My bedroom is upstairs, next to the bathroom.", "respostaEsperada": ["My bedroom is upstairs, next to the bathroom."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-casa-familia", "tipo": "vocabulario", "pergunta": "Como se diz 'sala de estar' em inglês?", "resposta": "living room" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-29",
+    "nivel": "basico",
+    "titulo": "Situação: Compras e Serviços",
+    "objetivos": ["Fazer compras e reclamações educadamente numa loja/restaurante"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "comprasservicos",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar vocabulário e gramática recentes numa situação de compras: numa loja ou restaurante, incluindo como fazer um pedido ou reclamação de forma educada.",
+        "exemplos": ["How much does this cost?", "Can I have the bill, please?", "I'd like to make a complaint."],
+        "erroComum": { "errado": "I want make a complaint.", "correto": "I would like to make a complaint. / I'd like to make a complaint.", "descricaoPT": "Para pedidos educados usa-se 'I would like to...' (I'd like to), não 'I want' seguido diretamente do verbo sem 'to'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi, can I help you?", "opcoes": [
+            { "texto": "Yes, how much is this jacket?", "proximoNo": "preco" },
+            { "texto": "I'm just looking, thanks.", "proximoNo": null }
+          ]},
+          { "id": "preco", "interlocutorFala": "It's 45 euros.", "opcoes": [
+            { "texto": "That's a bit expensive, but I'll take it.", "proximoNo": "despedida" }
+          ]},
+          { "id": "despedida", "interlocutorFala": "Great, would you like a bag?", "opcoes": [
+            { "texto": "Yes, please.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the most polite way to ask for the bill?", "opcoes": ["Give me the bill.", "Can I have the bill, please?", "Bill now."], "correta": 1, "explicacao": "'Can I have... please?' é o pedido educado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quanto custa isto?", "destino": "How much does this cost?", "alternativas": ["How much is this?"] },
+      { "tipo": "preenchimento_espaco", "frase": "I'd like ___ make a complaint.", "resposta": "to", "explicacao": "'I'd like to' + verbo." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase educada a pedir a conta num restaurante.", "palavrasChaveEsperadas": ["could", "can", "please"], "respostaModelo": "Could I have the bill, please?" },
+      { "tipo": "ditado", "textoParaOuvir": "Excuse me, could I have the bill, please?", "respostaEsperada": ["Excuse me, could I have the bill, please?"] }
+    ],
+    "srsItens": [{ "id": "sit-basico-comprasservicos-integradora", "tipo": "situacao", "pergunta": "Como pedir algo educadamente numa loja/restaurante?", "resposta": "I'd like to... / Could I have...?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-30",
+    "nivel": "basico",
+    "titulo": "Situação: Saúde",
+    "objetivos": ["Marcar uma consulta e descrever sintomas simples"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "saude",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário e frases-chave para marcar uma consulta médica e descrever sintomas simples.",
+        "exemplos": ["I'd like to make an appointment.", "I have a headache.", "I don't feel well."],
+        "erroComum": { "errado": "I am with pain in my head.", "correto": "I have a headache. / My head hurts.", "descricaoPT": "A estrutura 'estar com dor' não se traduz literalmente — em inglês usa-se 'have a headache' ou 'my head hurts'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good morning, how can I help you?", "opcoes": [
+            { "texto": "I'd like to make an appointment.", "proximoNo": "sintomas" }
+          ]},
+          { "id": "sintomas", "interlocutorFala": "Of course. What's the problem?", "opcoes": [
+            { "texto": "I have a headache and a sore throat.", "proximoNo": "despedida" },
+            { "texto": "I don't feel well, I think I have a fever.", "proximoNo": "despedida" }
+          ]},
+          { "id": "despedida", "interlocutorFala": "Ok, the doctor can see you tomorrow at 10am.", "opcoes": [
+            { "texto": "Thank you, see you then.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence describes a symptom correctly?", "opcoes": ["I am with fever.", "I have a fever.", "I fever."], "correta": 1, "explicacao": "Sintomas usam-se com 'have': I have a fever." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não me sinto bem.", "destino": "I don't feel well." },
+      { "tipo": "preenchimento_espaco", "frase": "I have a ___ (dor de cabeça).", "resposta": "headache", "explicacao": "'Headache' = dor de cabeça." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a descreveres um sintoma e a pedir uma consulta.", "palavrasChaveEsperadas": ["appointment", "i have", "i feel"], "respostaModelo": "I'd like to make an appointment, I have a sore throat." },
+      { "tipo": "ditado", "textoParaOuvir": "I have a headache and a sore throat.", "respostaEsperada": ["I have a headache and a sore throat."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-saude-integradora", "tipo": "situacao", "pergunta": "Como se descreve um sintoma simples em inglês?", "resposta": "I have a... / I don't feel well." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]

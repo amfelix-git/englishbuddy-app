@@ -1,0 +1,257 @@
+[
+  {
+    "id": "basico-11",
+    "nivel": "basico",
+    "titulo": "Present Continuous",
+    "objetivos": ["Usar o Present Continuous para ações a decorrer e planos combinados"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o Present Continuous (to be + verbo-ing) para ações a decorrer neste momento, ou planos já combinados para o futuro próximo.",
+        "exemplos": ["I am reading a book right now.", "She is working today.", "We are meeting friends tomorrow (plano já combinado)."],
+        "erroComum": { "errado": "I reading a book.", "correto": "I am reading a book.", "descricaoPT": "O Present Continuous precisa sempre do verbo to be (am/is/are) antes do verbo com -ing — não chega só o -ing." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ dinner right now.", "opcoes": ["cooks", "is cooking", "cook"], "correta": 1, "explicacao": "Ação a decorrer agora → to be + verbo-ing." },
+      { "tipo": "escolha_multipla", "pergunta": "___ you working today?", "opcoes": ["Do", "Are", "Is"], "correta": 1, "explicacao": "Com 'you', usa-se 'Are'." },
+      { "tipo": "preenchimento_espaco", "frase": "They ___ a movie at the moment.", "resposta": "are watching", "explicacao": "3ª pessoa plural + verbo-ing." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela está a estudar agora.", "destino": "She is studying now.", "alternativas": ["She's studying now."] },
+      { "tipo": "ditado", "textoParaOuvir": "We are meeting friends tomorrow.", "respostaEsperada": ["We are meeting friends tomorrow."] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase sobre o que estás a fazer agora, usando Present Continuous.", "palavrasChaveEsperadas": ["ing"], "respostaModelo": "I am learning English right now." }
+    ],
+    "srsItens": [{ "id": "gra-basico-present-continuous", "tipo": "gramatica", "pergunta": "Como se forma o Present Continuous?", "resposta": "to be (am/is/are) + verbo-ing" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-12",
+    "nivel": "basico",
+    "titulo": "Past Simple — Verbos Regulares",
+    "objetivos": ["Usar o Past Simple para ações concluídas no passado com verbos regulares"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o Past Simple para ações e factos concluídos no passado. Verbos regulares acrescentam -ed.",
+        "exemplos": ["I worked yesterday.", "She studied English last year.", "They played football on Sunday."],
+        "erroComum": { "errado": "Yesterday I work late.", "correto": "Yesterday I worked late.", "descricaoPT": "É comum esquecer o -ed no passado, sobretudo em frases mais longas — o Past Simple regular exige sempre o -ed." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ late yesterday.", "opcoes": ["work", "worked", "working"], "correta": 1, "explicacao": "Past Simple regular: work → worked." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ English last year.", "resposta": "studied", "explicacao": "study → studied." },
+      { "tipo": "preenchimento_espaco", "frase": "We ___ football on Sunday.", "resposta": "played", "explicacao": "play → played." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eles visitaram os avós no mês passado.", "destino": "They visited their grandparents last month." },
+      { "tipo": "ditado", "textoParaOuvir": "I finished my homework early.", "respostaEsperada": ["I finished my homework early."] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase sobre algo que fizeste ontem, no Past Simple.", "palavrasChaveEsperadas": ["ed"], "respostaModelo": "I watched a movie yesterday." }
+    ],
+    "srsItens": [{ "id": "gra-basico-pastsimple-regular", "tipo": "gramatica", "pergunta": "Como se forma o Past Simple regular?", "resposta": "verbo + -ed" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-13",
+    "nivel": "basico",
+    "titulo": "Past Simple — Verbos Irregulares",
+    "objetivos": ["Reconhecer e usar as formas irregulares mais comuns do Past Simple"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Muitos verbos comuns em inglês têm formas irregulares no passado — não seguem a regra do -ed e têm de ser memorizados.",
+        "exemplos": ["go → went", "have → had", "see → saw"],
+        "erroComum": { "errado": "I goed to the beach.", "correto": "I went to the beach.", "descricaoPT": "'Goed' não existe — 'go' é irregular e a forma correta é 'went'. É um erro muito comum porque a lógica do -ed é aplicada onde não deve ser." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Yesterday I ___ to the cinema.", "opcoes": ["goed", "went", "going"], "correta": 1, "explicacao": "go é irregular: went." },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ a great time at the party.", "opcoes": ["haved", "have", "had"], "correta": 2, "explicacao": "have é irregular: had." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ a good film last night.", "resposta": "saw", "explicacao": "see → saw." },
+      { "tipo": "preenchimento_espaco", "frase": "They ___ to Spain last summer.", "resposta": "went", "explicacao": "go → went." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu tive uma boa ideia.", "destino": "I had a good idea." },
+      { "tipo": "ditado", "textoParaOuvir": "She saw an old friend yesterday.", "respostaEsperada": ["She saw an old friend yesterday."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-pastsimple-irregular", "tipo": "gramatica", "pergunta": "Dá 3 exemplos de verbos irregulares no passado.", "resposta": "go→went, have→had, see→saw" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-14",
+    "nivel": "basico",
+    "titulo": "Demonstrativos e Possessivos",
+    "objetivos": ["Usar this/that/these/those", "Formar o possessivo com 's"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "This/these para algo perto, that/those para algo longe (this/that = singular, these/those = plural). Para posse, usa-se 's a seguir ao nome da pessoa (ex.: Ana's book).",
+        "exemplos": ["This is my phone.", "Those are her friends.", "That's John's car."],
+        "erroComum": { "errado": "This is the car of John.", "correto": "That's John's car.", "descricaoPT": "Em português dizemos 'o carro do John', mas em inglês o mais natural é o possessivo com apóstrofo: John's car, não 'the car of John'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ is my sister (aqui ao meu lado).", "opcoes": ["This", "That", "These"], "correta": 0, "explicacao": "Singular e perto → This." },
+      { "tipo": "escolha_multipla", "pergunta": "___ are my parents (ali longe).", "opcoes": ["This", "That", "Those"], "correta": 2, "explicacao": "Plural e longe → Those." },
+      { "tipo": "preenchimento_espaco", "frase": "This is ___ book (livro da Ana).", "resposta": "Ana's", "explicacao": "Posse: Ana's book." },
+      { "tipo": "preenchimento_espaco", "frase": "___ car is red (o carro dela).", "resposta": "Her", "explicacao": "Possessivo antes do nome: her car." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este é o carro do meu irmão.", "destino": "This is my brother's car." },
+      { "tipo": "ditado", "textoParaOuvir": "That is her house, not mine.", "respostaEsperada": ["That is her house, not mine."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-demonstrativos-possessivos", "tipo": "gramatica", "pergunta": "Como se forma o possessivo de um nome próprio?", "resposta": "nome + 's (ex.: Ana's book)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-15",
+    "nivel": "basico",
+    "titulo": "Pronomes Pessoais e Possessivos",
+    "objetivos": ["Distinguir pronomes de sujeito, objeto e possessivos"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Pronomes pessoais mudam consoante a função: sujeito (I, you, he, she, it, we, they) vs. objeto (me, you, him, her, it, us, them). Pronomes possessivos (mine, yours, his, hers, ours, theirs) substituem o nome todo.",
+        "exemplos": ["She loves him.", "Give it to me.", "This book is mine."],
+        "erroComum": { "errado": "This is mine book.", "correto": "This book is mine. / This is my book.", "descricaoPT": "'Mine' é um pronome possessivo e substitui o nome — nunca se usa antes de um nome; antes do nome usa-se 'my'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Give the book to ___ (eu).", "opcoes": ["I", "me", "my"], "correta": 1, "explicacao": "Depois de preposição/verbo, usa-se o pronome de objeto: me." },
+      { "tipo": "escolha_multipla", "pergunta": "This pen is ___ (substitui 'my pen').", "opcoes": ["my", "mine", "me"], "correta": 1, "explicacao": "Pronome possessivo sozinho: mine." },
+      { "tipo": "preenchimento_espaco", "frase": "___ loves him (ela).", "resposta": "She", "explicacao": "Pronome de sujeito: She." },
+      { "tipo": "preenchimento_espaco", "frase": "That car is ___ (deles).", "resposta": "theirs", "explicacao": "Pronome possessivo: theirs." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele ama-a.", "destino": "He loves her." },
+      { "tipo": "ditado", "textoParaOuvir": "This book is mine, not yours.", "respostaEsperada": ["This book is mine, not yours."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-pronomes-pessoais-possessivos", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'my' e 'mine'?", "resposta": "'my' vem antes do nome (my book); 'mine' substitui o nome todo (this is mine)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-16",
+    "nivel": "basico",
+    "titulo": "Preposições de Lugar (in/on/at)",
+    "objetivos": ["Escolher corretamente entre in, on e at para lugares"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "In para espaços fechados/grandes áreas, on para superfícies, at para pontos específicos.",
+        "exemplos": ["I live in Lisbon.", "The book is on the table.", "She is at the bus stop."],
+        "erroComum": { "errado": "I am in the bus stop.", "correto": "I am at the bus stop.", "descricaoPT": "É comum usar 'in' para tudo, por influência do 'em' português, mas em inglês 'at' usa-se para pontos/locais específicos como paragens, portas e eventos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The keys are ___ the table.", "opcoes": ["in", "on", "at"], "correta": 1, "explicacao": "Superfície → on." },
+      { "tipo": "escolha_multipla", "pergunta": "I live ___ Portugal.", "opcoes": ["in", "on", "at"], "correta": 0, "explicacao": "País/área grande → in." },
+      { "tipo": "preenchimento_espaco", "frase": "She is waiting ___ the airport.", "resposta": "at", "explicacao": "Ponto/local específico → at." },
+      { "tipo": "preenchimento_espaco", "frase": "The cat is ___ the box.", "resposta": "in", "explicacao": "Espaço fechado → in." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O meu carro está na rua.", "destino": "My car is in the street.", "alternativas": ["My car is on the street."] },
+      { "tipo": "ditado", "textoParaOuvir": "Meet me at the entrance.", "respostaEsperada": ["Meet me at the entrance."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-preposicoes-lugar", "tipo": "gramatica", "pergunta": "Quando se usa 'at' para lugares?", "resposta": "para pontos/locais específicos (paragem, porta, evento)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-17",
+    "nivel": "basico",
+    "titulo": "Preposições de Tempo e There is / There are",
+    "objetivos": ["Usar in/on/at para tempo", "Usar there is / there are para dizer que algo existe"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Tempo: in para meses/anos/estações, on para dias, at para horas. 'There is' (singular) e 'there are' (plural) usam-se para dizer que algo existe.",
+        "exemplos": ["I was born in 1990.", "See you on Monday.", "The meeting is at 3pm.", "There is a cat in the garden.", "There are three books on the shelf."],
+        "erroComum": { "errado": "The meeting is in 3pm.", "correto": "The meeting is at 3pm.", "descricaoPT": "Horas usam-se sempre com 'at', nunca 'in' — 'in 3pm' não existe em inglês." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I was born ___ 1990.", "opcoes": ["in", "on", "at"], "correta": 0, "explicacao": "Ano → in." },
+      { "tipo": "escolha_multipla", "pergunta": "See you ___ Monday.", "opcoes": ["in", "on", "at"], "correta": 1, "explicacao": "Dia da semana → on." },
+      { "tipo": "preenchimento_espaco", "frase": "The party starts ___ 8pm.", "resposta": "at", "explicacao": "Hora → at." },
+      { "tipo": "preenchimento_espaco", "frase": "___ a lot of people at the party.", "resposta": "There are", "explicacao": "Plural → there are." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Há um livro em cima da mesa.", "destino": "There is a book on the table." },
+      { "tipo": "ditado", "textoParaOuvir": "There are three chairs in the room.", "respostaEsperada": ["There are three chairs in the room."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-preposicoes-tempo-there-is-are", "tipo": "gramatica", "pergunta": "Que preposição de tempo se usa com horas?", "resposta": "at" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-18",
+    "nivel": "basico",
+    "titulo": "Can / Must e Advérbios de Frequência",
+    "objetivos": ["Usar can (capacidade/permissão) e must (obrigação)", "Colocar corretamente advérbios de frequência"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Can exprime capacidade/permissão, must exprime obrigação forte. Advérbios de frequência (always, usually, sometimes, never) colocam-se normalmente antes do verbo principal (mas depois de to be).",
+        "exemplos": ["I can swim.", "You must wear a seatbelt.", "She is always late.", "I usually wake up at 7."],
+        "erroComum": { "errado": "I wake up always at 7.", "correto": "I always wake up at 7.", "descricaoPT": "Advérbios de frequência colocam-se normalmente antes do verbo principal, não depois — ordem diferente do que por vezes acontece em português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ speak three languages.", "opcoes": ["can", "cans", "canning"], "correta": 0, "explicacao": "Can não varia com a pessoa: she can." },
+      { "tipo": "escolha_multipla", "pergunta": "You ___ stop at a red light.", "opcoes": ["can", "must", "maybe"], "correta": 1, "explicacao": "Obrigação forte → must." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ drink coffee in the morning.", "resposta": "always drink", "explicacao": "Advérbio antes do verbo principal." },
+      { "tipo": "preenchimento_espaco", "frase": "He ___ eats meat.", "resposta": "never eats", "explicacao": "Advérbio antes do verbo principal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela pode nadar muito bem.", "destino": "She can swim very well." },
+      { "tipo": "ditado", "textoParaOuvir": "You must wear a seatbelt in the car.", "respostaEsperada": ["You must wear a seatbelt in the car."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-modais-can-must-advebios-frequencia", "tipo": "gramatica", "pergunta": "Onde se colocam os advérbios de frequência?", "resposta": "antes do verbo principal (depois de to be)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-19",
+    "nivel": "basico",
+    "titulo": "Falsos Amigos PT-EN",
+    "objetivos": ["Reconhecer palavras enganosas entre português e inglês"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Falsos amigos são palavras parecidas em português e inglês mas com significados diferentes — não te fies na intuição, decora-os. Esta é uma primeira lista (semente) — vai crescendo em sessões futuras.",
+        "exemplos": ["actually = na verdade (não 'atualmente')", "pretend = fingir (não 'pretender')", "library = biblioteca (não 'livraria')"],
+        "erroComum": { "errado": "Actually, I work in marketing (a querer dizer 'atualmente').", "correto": "Currently, I work in marketing.", "descricaoPT": "'Actually' significa 'na verdade' e usa-se para corrigir ou enfatizar algo — 'atualmente' diz-se 'currently' ou 'at the moment'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Actually' significa...", "opcoes": ["Atualmente", "Na verdade", "Realmente rápido"], "correta": 1, "explicacao": "'Actually' = na verdade." },
+      { "tipo": "escolha_multipla", "pergunta": "'Library' significa...", "opcoes": ["Livraria", "Biblioteca", "Livro"], "correta": 1, "explicacao": "'Library' = biblioteca; livraria diz-se 'bookshop'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu vou à livraria comprar um livro.", "destino": "I'm going to the bookshop to buy a book.", "alternativas": ["I'm going to the bookstore to buy a book.", "I am going to the bookshop to buy a book."] },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele finge que não ouviu.", "destino": "He pretends he didn't hear.", "alternativas": ["He pretends not to have heard."] },
+      { "tipo": "preenchimento_espaco", "frase": "'Parentes' em inglês NÃO é 'parents' — diz-se ___.", "resposta": "relatives", "explicacao": "'Parents' significa 'pais'; 'parentes' em geral diz-se 'relatives'." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase usando corretamente a palavra 'actually'.", "palavrasChaveEsperadas": ["actually"], "respostaModelo": "Actually, I don't like coffee." },
+      { "tipo": "ditado", "textoParaOuvir": "Actually, I have never been to Paris.", "respostaEsperada": ["Actually, I have never been to Paris."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-falsos-amigos-seed", "tipo": "vocabulario", "pergunta": "O que significa 'actually' em inglês?", "resposta": "na verdade (não 'atualmente')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-20",
+    "nivel": "basico",
+    "titulo": "Situação: Viagens (Aeroporto e Direções)",
+    "objetivos": ["Combinar gramática e vocabulário das últimas sessões numa situação real de viagem"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "viagens",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Esta sessão junta o que aprendeste nas últimas sessões (Present Continuous, Past Simple, preposições, can, falsos amigos) numa situação real: uma viagem — aeroporto e pedir direções.",
+        "exemplos": ["Excuse me, where is the check-in desk?", "I have a reservation for two nights.", "Can you tell me how to get to the museum?"],
+        "erroComum": { "errado": "Where is situated the hotel?", "correto": "Where is the hotel located? / Where's the hotel?", "descricaoPT": "A ordem 'is situated' antes do sujeito é uma tradução literal do português que soa pouco natural em inglês — a pergunta direta é mais simples e mais usada." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good morning! Welcome to the check-in desk. Do you have your passport?", "opcoes": [
+            { "texto": "Yes, here it is.", "proximoNo": "bagagem" }
+          ]},
+          { "id": "bagagem", "interlocutorFala": "Great, thank you. Are you checking in any bags?", "opcoes": [
+            { "texto": "Yes, one suitcase.", "proximoNo": "despedida" },
+            { "texto": "No, just hand luggage.", "proximoNo": "despedida" }
+          ]},
+          { "id": "despedida", "interlocutorFala": "Perfect, here's your boarding pass. Have a nice flight!", "opcoes": [
+            { "texto": "Thank you very much!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which question asks for directions?", "opcoes": ["Can you tell me how to get to the museum?", "I am going to the museum.", "The museum was closed yesterday."], "correta": 0, "explicacao": "Pedir direções: 'Can you tell me how to get to...?'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu tenho uma reserva para duas noites.", "destino": "I have a reservation for two nights." },
+      { "tipo": "preenchimento_espaco", "frase": "Excuse me, ___ is the check-in desk?", "resposta": "where", "explicacao": "Pergunta de localização: where." },
+      { "tipo": "ditado", "textoParaOuvir": "Can you tell me how to get to the hotel?", "respostaEsperada": ["Can you tell me how to get to the hotel?"] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a pedires direções para o teu hotel.", "palavrasChaveEsperadas": ["can you", "excuse me"], "respostaModelo": "Excuse me, can you tell me how to get to my hotel? I am a bit lost." }
+    ],
+    "srsItens": [{ "id": "sit-basico-viagens-integradora", "tipo": "situacao", "pergunta": "Como pedir direções educadamente em inglês?", "resposta": "Excuse me, can you tell me how to get to...?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]

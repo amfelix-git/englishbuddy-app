@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EnglishBuddy — Aprende inglês todos os dias</title>
+<meta name="description" content="App gratuita de aprendizagem de inglês para falantes de português, com sessões diárias curtas.">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon.svg">
+<meta name="theme-color" content="#2f6f4f">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="cabecalho">
+  <span class="logo">📘 EnglishBuddy</span>
+  <button id="btn-abrir-definicoes" class="botao-icone" title="Definições" aria-label="Definições">⚙️</button>
+</header>
+
+<main>
+
+  <section data-ecra="boas-vindas" class="ecra">
+    <h1>Bem-vindo ao EnglishBuddy!</h1>
+    <p>Uma app gratuita para aprenderes inglês todos os dias, ao teu ritmo — escrita, oralidade e tradução PT↔EN.</p>
+    <p>Queres começar com um pequeno teste para sugerirmos o teu nível de partida?</p>
+    <button id="btn-comecar-teste" class="botao-primario">Fazer o teste de nivelamento (2 min)</button>
+    <button id="btn-saltar-teste" class="botao-secundario">Saltar — começar no nível Básico</button>
+  </section>
+
+  <section data-ecra="teste-nivelamento" class="ecra escondido">
+    <h2>Teste de nivelamento</h2>
+    <p>Escolhe a opção que achas correta em cada frase. Não faz mal não saberes todas.</p>
+    <div id="teste-nivelamento-container"></div>
+  </section>
+
+  <section data-ecra="resultado-nivelamento" class="ecra escondido">
+    <h2>O teu nível sugerido</h2>
+    <p id="nivel-sugerido-texto"></p>
+    <label for="select-nivel-manual">Ou escolhe outro nível manualmente:</label>
+    <select id="select-nivel-manual">
+      <option value="basico">Básico</option>
+      <option value="intermedio">Intermédio</option>
+      <option value="especialista">Especialista</option>
+    </select>
+    <button id="btn-confirmar-nivel" class="botao-primario">Continuar</button>
+  </section>
+
+  <section data-ecra="definicoes" class="ecra escondido">
+    <h2 id="titulo-definicoes">Definições</h2>
+
+    <fieldset>
+      <legend>Sobre ti</legend>
+      <label for="input-genero-utilizador">O teu género (opcional, ajuda a adequar a linguagem)</label>
+      <select id="input-genero-utilizador">
+        <option value="">Prefiro não dizer</option>
+        <option value="F">Feminino</option>
+        <option value="M">Masculino</option>
+      </select>
+
+      <label>Áreas de interesse / necessidades</label>
+      <div id="lista-areas-interesse" class="lista-checkboxes">
+        <label><input type="checkbox" value="viagens"> Viagens</label>
+        <label><input type="checkbox" value="trabalho"> Trabalho</label>
+        <label><input type="checkbox" value="estudos"> Estudos</label>
+        <label><input type="checkbox" value="conversacao-social"> Conversação social</label>
+        <label><input type="checkbox" value="exames"> Preparação para exames (Cambridge)</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>O teu interlocutor</legend>
+      <label for="input-sotaque">Sotaque</label>
+      <select id="input-sotaque">
+        <option value="en-GB">Inglaterra</option>
+        <option value="en-US">Estados Unidos</option>
+        <option value="en-AU">Austrália</option>
+      </select>
+
+      <label for="input-genero-interlocutor">Género do interlocutor</label>
+      <select id="input-genero-interlocutor">
+        <option value="F">Feminino</option>
+        <option value="M">Masculino</option>
+      </select>
+      <p class="nota">Nem todos os telemóveis têm todas as combinações de sotaque/género — se faltar alguma, a app avisa-te e usa a mais próxima disponível.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Tempo diário</legend>
+      <label for="input-tempo-diario">Quanto tempo queres dedicar por dia?</label>
+      <select id="input-tempo-diario">
+        <option value="10">Até 10 minutos/dia (~365 sessões até seres Especialista)</option>
+        <option value="5">Até 5 minutos/dia (~730 sessões, mesmo conteúdo)</option>
+      </select>
+      <p class="nota">Podes sempre fazer mais do que uma sessão no mesmo dia para avançar mais depressa.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>Modo Conversação com IA (opcional)</legend>
+      <p class="nota">Desligado por omissão. Se ligares e colares a tua própria chave de API gratuita (ex.: Google Gemini), terás conversa livre e tradução de qualquer frase — mas o consumo de tokens é da tua própria conta, nunca nossa.</p>
+      <label><input type="checkbox" id="input-modo-ia-ativo"> Ativar Modo IA</label>
+      <label for="input-modo-ia-fornecedor">Fornecedor</label>
+      <select id="input-modo-ia-fornecedor">
+        <option value="google-gemini">Google Gemini (tem camada gratuita)</option>
+      </select>
+      <label for="input-modo-ia-chave">A tua chave de API</label>
+      <input type="password" id="input-modo-ia-chave" placeholder="Cola aqui a tua chave">
+    </fieldset>
+
+    <fieldset>
+      <legend>Progresso</legend>
+      <button id="btn-exportar-progresso" class="botao-secundario">⬇️ Exportar progresso (backup)</button>
+      <label class="botao-secundario" for="input-importar-progresso">⬆️ Importar progresso</label>
+      <input type="file" id="input-importar-progresso" accept="application/json" class="input-ficheiro-escondido">
+      <p class="nota">Os teus dados ficam só neste telemóvel/navegador — sem conta, sem sincronização. Exporta regularmente para não perderes o progresso.</p>
+    </fieldset>
+
+    <button id="btn-guardar-definicoes" class="botao-primario">Guardar</button>
+    <button id="btn-voltar-definicoes" class="botao-secundario">Voltar sem guardar</button>
+  </section>
+
+  <section data-ecra="inicio" class="ecra escondido">
+    <h1>Olá!</h1>
+    <div class="cartao-resumo">
+      <p id="resumo-nivel"></p>
+      <p id="resumo-percurso"></p>
+      <p id="resumo-streak"></p>
+      <p id="resumo-pontos"></p>
+      <p id="resumo-badges"></p>
+    </div>
+    <button id="btn-iniciar-sessao" class="botao-primario botao-grande">▶️ Começar a sessão de hoje</button>
+  </section>
+
+  <section data-ecra="sessao" class="ecra escondido">
+    <div class="barra-progresso-fundo"><div id="barra-progresso-sessao" class="barra-progresso"></div></div>
+    <h2 id="titulo-sessao"></h2>
+    <p id="mensagem-boas-vindas-sessao" class="mensagem-buddy"></p>
+    <div id="area-exercicio" class="area-exercicio"></div>
+  </section>
+
+  <section data-ecra="fim-sessao" class="ecra escondido">
+    <h2>Sessão concluída! 🎉</h2>
+    <p id="mensagem-despedida-sessao" class="mensagem-buddy"></p>
+    <p id="resumo-fim-sessao"></p>
+    <ul id="novos-badges"></ul>
+    <button id="btn-outra-sessao" class="botao-primario">Fazer mais uma sessão hoje</button>
+    <button id="btn-voltar-inicio" class="botao-secundario">Voltar ao início</button>
+  </section>
+
+</main>
+
+<script src="https://unpkg.com/dexie@4.0.8/dist/dexie.min.js"></script>
+<script type="module" src="js/app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => navigator.serviceWorker.register('service-worker.js').catch(() => {}));
+  }
+</script>
+</body>
+</html>

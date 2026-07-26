@@ -1,0 +1,15 @@
+{
+  "name": "EnglishBuddy — Aprende inglês todos os dias",
+  "short_name": "EnglishBuddy",
+  "description": "App gratuita de aprendizagem de inglês para falantes de português, com sessões diárias curtas, escrita, oralidade e tradução PT-EN.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2f6f4f",
+  "orientation": "portrait",
+  "lang": "pt-PT",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
