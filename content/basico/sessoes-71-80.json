@@ -1,0 +1,242 @@
+[
+  {
+    "id": "basico-71",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Corpo Humano e Saúde",
+    "objetivos": ["Vocabulário do corpo humano", "Descrever dores corretamente"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário do corpo humano e expressões para descrever dores, complementando o que já aprendeste sobre marcar consultas.",
+        "exemplos": ["head, arm, leg, stomach", "My back hurts.", "I have a sore throat."],
+        "erroComum": { "errado": "My leg is paining.", "correto": "My leg hurts.", "descricaoPT": "'Paining' não é natural em inglês — usa-se 'hurt' (My leg hurts) ou 'I have a pain in my leg'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a body part?", "opcoes": ["arm", "chair", "book"], "correta": 0, "explicacao": "'Arm' = braço." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you say a part of your body is in pain?", "opcoes": ["It's paining.", "It hurts.", "It has pain."], "correta": 1, "explicacao": "'It hurts' é a forma natural." },
+      { "tipo": "preenchimento_espaco", "frase": "I have a sore ___.", "resposta": "throat", "explicacao": "'Sore throat' = dor de garganta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "As minhas costas doem.", "destino": "My back hurts." },
+      { "tipo": "ditado", "textoParaOuvir": "My stomach hurts a little today.", "respostaEsperada": ["My stomach hurts a little today."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-corpo-saude", "tipo": "vocabulario", "pergunta": "Como se diz 'dói-me' em inglês?", "resposta": "it hurts" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-72",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Profissões e Trabalho",
+    "objetivos": ["Vocabulário de profissões", "Perguntar e responder sobre o que se faz profissionalmente"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de profissões e a estrutura para perguntar/responder sobre o que se faz profissionalmente.",
+        "exemplos": ["doctor, teacher, engineer, chef", "What do you do? — I'm a doctor.", "She works as a nurse."],
+        "erroComum": { "errado": "I am work as a teacher.", "correto": "I work as a teacher. / I am a teacher.", "descricaoPT": "Não se combina 'am' com o verbo 'work' diretamente — ou usas 'I work as a...' ou 'I am a...', nunca as duas estruturas misturadas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you ask about someone's job?", "opcoes": ["What do you do?", "What you make?", "How is your work?"], "correta": 0, "explicacao": "'What do you do?' é a pergunta padrão." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I am work as a teacher.", "I work as a teacher.", "I working teacher."], "correta": 1, "explicacao": "'I work as a...' é a estrutura correta." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ a doctor.", "resposta": "is", "explicacao": "'She is a doctor' com to be." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele trabalha como engenheiro.", "destino": "He works as an engineer." },
+      { "tipo": "ditado", "textoParaOuvir": "What do you do for a living?", "respostaEsperada": ["What do you do for a living?"] }
+    ],
+    "srsItens": [{ "id": "voc-basico-profissoes-trabalho", "tipo": "vocabulario", "pergunta": "Como se pergunta a profissão de alguém em inglês?", "resposta": "What do you do?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-73",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Natureza e Animais",
+    "objetivos": ["Vocabulário nuclear de natureza e animais"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário nuclear de natureza e animais comuns.",
+        "exemplos": ["tree, mountain, river, sea", "dog, cat, bird, fish", "I have a dog and two cats."],
+        "erroComum": { "errado": "I have two cat.", "correto": "I have two cats.", "descricaoPT": "Revisão: substantivos contáveis levam sempre -s no plural — erro comum ao falar de animais e quantidades." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is an animal?", "opcoes": ["mountain", "dog", "river"], "correta": 1, "explicacao": "'Dog' = cão." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I have two cat.", "I have two cats.", "I have two cats's."], "correta": 1, "explicacao": "Plural regular: cats." },
+      { "tipo": "preenchimento_espaco", "frase": "The ___ flows into the sea.", "resposta": "river", "explicacao": "'River' = rio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu vivo perto de uma montanha.", "destino": "I live near a mountain." },
+      { "tipo": "ditado", "textoParaOuvir": "I have a dog and two cats.", "respostaEsperada": ["I have a dog and two cats."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-natureza-animais", "tipo": "vocabulario", "pergunta": "Como se diz 'rio' em inglês?", "resposta": "river" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-74",
+    "nivel": "basico",
+    "titulo": "Vocabulário: A Cidade e Direções",
+    "objetivos": ["Vocabulário de lugares na cidade", "Dar e pedir direções"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de lugares na cidade e frases para dar/pedir direções.",
+        "exemplos": ["bank, post office, supermarket, park", "Turn left at the corner.", "Go straight ahead."],
+        "erroComum": { "errado": "Turn to left.", "correto": "Turn left.", "descricaoPT": "'Turn left/right' não leva a preposição 'to' — é uma exceção que se aprende de cor." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a place in the city?", "opcoes": ["supermarket", "elbow", "weather"], "correta": 0, "explicacao": "'Supermarket' = supermercado." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["Turn to left.", "Turn left.", "Turn on left."], "correta": 1, "explicacao": "'Turn left', sem preposição." },
+      { "tipo": "preenchimento_espaco", "frase": "Go ___ and then turn right.", "resposta": "straight", "explicacao": "'Go straight' = seguir em frente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O banco fica perto do parque.", "destino": "The bank is near the park." },
+      { "tipo": "ditado", "textoParaOuvir": "Turn left at the corner and go straight ahead.", "respostaEsperada": ["Turn left at the corner and go straight ahead."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-cidade-direcoes", "tipo": "vocabulario", "pergunta": "Como se diz 'seguir em frente' em inglês?", "resposta": "go straight (ahead)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-75",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs — Partículas 'In'/'Out'",
+    "objetivos": ["Usar fill in, find out, work out, run out of"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs com 'in'/'out': fill in (preencher), find out (descobrir), work out (resolver/exercitar), run out of (ficar sem).",
+        "exemplos": ["Please fill in this form.", "I need to find out what happened.", "We worked out a solution.", "We ran out of milk."],
+        "erroComum": { "errado": "Fill this form.", "correto": "Fill in this form.", "descricaoPT": "'Fill in' (preencher um formulário) precisa da partícula 'in' — sem ela, o sentido fica incompleto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Please ___ this form.", "opcoes": ["fill in", "fill of", "fill on"], "correta": 0, "explicacao": "'Fill in' = preencher." },
+      { "tipo": "escolha_multipla", "pergunta": "I need to ___ what happened.", "opcoes": ["find out", "find in", "find up"], "correta": 0, "explicacao": "'Find out' = descobrir." },
+      { "tipo": "preenchimento_espaco", "frase": "We ___ milk this morning.", "resposta": "ran out of", "explicacao": "'Run out of' = ficar sem." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos encontrar uma solução.", "destino": "Let's work out a solution." },
+      { "tipo": "ditado", "textoParaOuvir": "We ran out of milk this morning.", "respostaEsperada": ["We ran out of milk this morning."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-particula-in-out", "tipo": "vocabulario", "pergunta": "O que significa 'run out of'?", "resposta": "ficar sem algo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-76",
+    "nivel": "basico",
+    "titulo": "Idiomas: Tempo e Sorte",
+    "objetivos": ["Reconhecer idiomas relacionados com tempo e sorte"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas relacionados com tempo e sorte: a blessing in disguise (um mal que vem por bem), in the nick of time (mesmo a tempo).",
+        "exemplos": ["Losing that job was a blessing in disguise.", "We arrived in the nick of time.", "Better safe than sorry."],
+        "erroComum": { "errado": "Traduzir 'a blessing in disguise' literalmente.", "correto": "'A blessing in disguise' significa algo que parecia mau mas acabou por ser bom.", "descricaoPT": "Idioma sem tradução literal — memoriza o sentido completo, não palavra a palavra." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'A blessing in disguise' means...", "opcoes": ["Something that seemed bad but turned out good", "A religious blessing", "A disguise for a party"], "correta": 0, "explicacao": "Um mal que afinal foi um bem." },
+      { "tipo": "escolha_multipla", "pergunta": "'In the nick of time' means...", "opcoes": ["Too late", "Just in time", "Never"], "correta": 1, "explicacao": "'In the nick of time' = mesmo a tempo." },
+      { "tipo": "preenchimento_espaco", "frase": "Better safe than ___.", "resposta": "sorry", "explicacao": "'Better safe than sorry' = mais vale prevenir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Chegámos mesmo a tempo.", "destino": "We arrived in the nick of time." },
+      { "tipo": "ditado", "textoParaOuvir": "Losing that job was a blessing in disguise.", "respostaEsperada": ["Losing that job was a blessing in disguise."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-tempo-sorte", "tipo": "vocabulario", "pergunta": "O que significa 'a blessing in disguise'?", "resposta": "algo que parecia mau mas acabou por ser bom" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-77",
+    "nivel": "basico",
+    "titulo": "Leitura: A Rotina da Maria",
+    "objetivos": ["Praticar compreensão de leitura com um texto curto"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê o texto com atenção antes de responderes às perguntas seguintes.\n\n\"Maria wakes up at seven o'clock every morning. She has breakfast and then goes to work by bus. She works as a teacher at a primary school. At one o'clock, she has lunch with her colleagues. In the evening, she likes reading books or watching movies. On weekends, she visits her parents.\"",
+        "exemplos": ["wakes up = acorda", "colleagues = colegas", "on weekends = aos fins de semana"],
+        "erroComum": { "errado": "Tentar traduzir cada palavra individualmente antes de responder.", "correto": "Lê o texto todo primeiro para captar a ideia geral, depois procura os detalhes específicos de cada pergunta.", "descricaoPT": "Não precisas de perceber 100% das palavras para responderes corretamente — foca-te no sentido geral primeiro (skimming)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What time does Maria wake up?", "opcoes": ["Six o'clock", "Seven o'clock", "Eight o'clock"], "correta": 1, "explicacao": "O texto diz 'seven o'clock'." },
+      { "tipo": "escolha_multipla", "pergunta": "How does Maria go to work?", "opcoes": ["By car", "By bus", "On foot"], "correta": 1, "explicacao": "O texto diz 'goes to work by bus'." },
+      { "tipo": "escolha_multipla", "pergunta": "What is Maria's job?", "opcoes": ["Doctor", "Teacher", "Chef"], "correta": 1, "explicacao": "O texto diz 'works as a teacher'." },
+      { "tipo": "escolha_multipla", "pergunta": "What does she do on weekends?", "opcoes": ["She works.", "She visits her parents.", "She goes to school."], "correta": 1, "explicacao": "O texto diz 'she visits her parents'." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a resumir o que a Maria faz à noite.", "palavrasChaveEsperadas": ["reading", "watching", "evening"], "respostaModelo": "In the evening, she likes reading books or watching movies." }
+    ],
+    "srsItens": [{ "id": "rw-basico-leitura-texto-curto-1", "tipo": "situacao", "pergunta": "Estratégia de leitura: o que fazer antes de responder às perguntas?", "resposta": "ler o texto todo primeiro para captar o sentido geral" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-78",
+    "nivel": "basico",
+    "titulo": "Pronúncia: Entoação em Perguntas",
+    "objetivos": ["Usar a entoação correta em perguntas sim/não e perguntas wh-"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A entoação em inglês sobe no final de perguntas de sim/não, e desce no final de perguntas com wh-words.",
+        "exemplos": ["Are you coming? ↗ (entoação ascendente)", "Where are you going? ↘ (entoação descendente)", "Is this seat free? ↗"],
+        "erroComum": { "errado": "Usar a mesma entoação plana para todos os tipos de pergunta.", "correto": "Perguntas de sim/não sobem no final; perguntas wh- descem no final.", "descricaoPT": "Esta distinção de entoação ajuda a soar mais natural e facilita a compreensão de quem te ouve." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: Are you coming?", "respostaEsperada": ["Are you coming", "Are you coming?"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: Where are you going?", "respostaEsperada": ["Where are you going", "Where are you going?"] },
+      { "tipo": "escolha_multipla", "pergunta": "Which type of question has RISING intonation at the end?", "opcoes": ["Yes/No questions", "Wh- questions"], "correta": 0, "explicacao": "Perguntas de sim/não sobem no final." },
+      { "tipo": "escolha_multipla", "pergunta": "Which type of question has FALLING intonation at the end?", "opcoes": ["Yes/No questions", "Wh- questions"], "correta": 1, "explicacao": "Perguntas wh- descem no final." },
+      { "tipo": "ditado", "textoParaOuvir": "Is this seat free?", "respostaEsperada": ["Is this seat free?"] }
+    ],
+    "srsItens": [{ "id": "pro-basico-entoacao-perguntas", "tipo": "pronuncia", "pergunta": "Como é a entoação numa pergunta wh- no final?", "resposta": "descendente (falling)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-79",
+    "nivel": "basico",
+    "titulo": "Revisão em Espiral: Perguntas em Vários Tempos",
+    "objetivos": ["Formar perguntas corretamente em Present Simple, Present Continuous, Past Simple e going to"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão: formar perguntas corretamente em Present Simple, Present Continuous, Past Simple e com 'going to'.",
+        "exemplos": ["Do you like coffee? (Present Simple)", "Are you working today? (Present Continuous)", "Did you call her? (Past Simple)", "Are you going to travel? (going to)"],
+        "erroComum": { "errado": "Did you called her?", "correto": "Did you call her?", "descricaoPT": "Depois do auxiliar 'did', o verbo principal fica sempre na forma base, nunca no passado — 'did' já indica o passado sozinho." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ you like coffee?", "opcoes": ["Do", "Are", "Did"], "correta": 0, "explicacao": "Present Simple → Do." },
+      { "tipo": "escolha_multipla", "pergunta": "___ you working today?", "opcoes": ["Do", "Are", "Did"], "correta": 1, "explicacao": "Present Continuous → Are." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["Did you called her?", "Did you call her?", "Did you calling her?"], "correta": 1, "explicacao": "Depois de 'did', forma base do verbo." },
+      { "tipo": "preenchimento_espaco", "frase": "___ you going to travel this summer?", "resposta": "Are", "explicacao": "'Going to' usa to be (Are)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tu telefonaste-lhe ontem?", "destino": "Did you call her yesterday?" }
+    ],
+    "srsItens": [{ "id": "gra-basico-revisao-perguntas-tempos", "tipo": "gramatica", "pergunta": "Depois de 'did' numa pergunta, em que forma fica o verbo principal?", "resposta": "forma base (infinitivo sem 'to')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-80",
+    "nivel": "basico",
+    "titulo": "Situação Integradora: Perdido na Cidade",
+    "objetivos": ["Combinar vocabulário da cidade, direções e phrasal verbs numa situação de pedir ajuda"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "cidade",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar vocabulário da cidade, direções e phrasal verbs das últimas sessões numa situação: estás perdido e precisas de ajuda.",
+        "exemplos": ["Excuse me, I'm a bit lost. Can you help me?", "Turn left and go straight ahead.", "I need to find out where the bank is."],
+        "erroComum": { "errado": "I am lost, help.", "correto": "Excuse me, I'm a bit lost. Could you help me, please?", "descricaoPT": "Mesmo precisando de ajuda, mantém a estrutura educada que já praticaste — soa muito mais natural e simpático." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "You look a bit lost. Can I help you?", "opcoes": [
+            { "texto": "Yes, please! I'm looking for the bank.", "proximoNo": "direcoes" }
+          ]},
+          { "id": "direcoes", "interlocutorFala": "Sure, go straight ahead and turn left at the corner.", "opcoes": [
+            { "texto": "Thank you so much!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a polite way to ask for help when lost?", "opcoes": ["Help me now!", "Excuse me, I'm a bit lost. Could you help me?", "Where bank?"], "correta": 1, "explicacao": "Pedido educado e completo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Preciso de descobrir onde fica o banco.", "destino": "I need to find out where the bank is." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a pedires direções educadamente para um lugar da cidade.", "palavrasChaveEsperadas": ["excuse me", "could you", "turn"], "respostaModelo": "Excuse me, could you tell me how to get to the park? Do I turn left or right?" },
+      { "tipo": "ditado", "textoParaOuvir": "Go straight ahead and turn left at the corner.", "respostaEsperada": ["Go straight ahead and turn left at the corner."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-perdidonacidade-integradora", "tipo": "situacao", "pergunta": "Como pedir ajuda educadamente quando estás perdido?", "resposta": "Excuse me, I'm a bit lost. Could you help me, please?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
