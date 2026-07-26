@@ -1,0 +1,243 @@
+[
+  {
+    "id": "intermedio-01",
+    "nivel": "intermedio",
+    "titulo": "Present Perfect — Introdução e Uso",
+    "objetivos": ["Usar o Present Perfect para experiências de vida sem tempo específico"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O Present Perfect (have/has + particípio passado) usa-se para experiências de vida sem tempo específico, ou ações passadas com relevância no presente.",
+        "exemplos": ["I have visited Paris. (experiência, sem dizer quando)", "She has never eaten sushi.", "Have you ever been to Japan?"],
+        "erroComum": { "errado": "I have visited Paris in 2019.", "correto": "I visited Paris in 2019. (Past Simple, porque há uma data específica)", "descricaoPT": "Quando há uma data ou momento específico, usa-se Past Simple, não Present Perfect — mesmo que em português se use o pretérito perfeito composto de forma diferente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ you ever been to Japan?", "opcoes": ["Did", "Have", "Do"], "correta": 1, "explicacao": "Experiência sem tempo específico → Present Perfect." },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ never eaten sushi.", "opcoes": ["has", "have", "did"], "correta": 0, "explicacao": "3ª pessoa: has." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ Paris three times.", "resposta": "have visited", "explicacao": "Present Perfect: have visited." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela já viajou para muitos países.", "destino": "She has travelled to many countries." },
+      { "tipo": "ditado", "textoParaOuvir": "Have you ever tried Thai food?", "respostaEsperada": ["Have you ever tried Thai food?"] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase sobre uma experiência que já tiveste (sem dizer quando), usando Present Perfect.", "palavrasChaveEsperadas": ["have", "has"], "respostaModelo": "I have travelled to five countries." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-presentperfect-introducao", "tipo": "gramatica", "pergunta": "Quando se usa o Present Perfect em vez do Past Simple?", "resposta": "para experiências sem tempo específico (sem data)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-02",
+    "nivel": "intermedio",
+    "titulo": "Present Perfect vs. Past Simple",
+    "objetivos": ["Distinguir claramente Present Perfect e Past Simple"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A distinção mais crítica: Present Perfect para experiências sem tempo específico ou situações que continuam relevantes; Past Simple para factos concluídos com tempo específico (marcadores: yesterday, last year, in 2020, ago).",
+        "exemplos": ["I have lived here since 2015. (continua a viver aqui)", "I lived in Porto for two years. (já não vive lá, período fechado)", "I have already finished. vs. I finished yesterday."],
+        "erroComum": { "errado": "I live here since 2015.", "correto": "I have lived here since 2015.", "descricaoPT": "Erro muito comum de falantes de português: usar Present Simple onde o inglês exige Present Perfect quando há 'since' indicando uma situação que começou no passado e continua." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ here since 2015.", "opcoes": ["live", "have lived", "lived"], "correta": 1, "explicacao": "'Since' + situação que continua → Present Perfect." },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ to the cinema yesterday.", "opcoes": ["have gone", "went", "go"], "correta": 1, "explicacao": "'Yesterday' → Past Simple." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ her homework already.", "resposta": "has finished", "explicacao": "'Already' com relevância no presente → Present Perfect." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu moro aqui desde 2015.", "destino": "I have lived here since 2015." },
+      { "tipo": "ditado", "textoParaOuvir": "I have already finished my homework.", "respostaEsperada": ["I have already finished my homework."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-presentperfect-vs-pastsimple", "tipo": "gramatica", "pergunta": "Erro típico: como se diz corretamente 'moro aqui desde 2015'?", "resposta": "I have lived here since 2015 (não 'I live here since 2015')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-03",
+    "nivel": "intermedio",
+    "titulo": "Present Perfect: 'For' e 'Since'",
+    "objetivos": ["Distinguir 'for' (duração) de 'since' (ponto de partida)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'For' usa-se com uma duração (for two years, for a month); 'since' usa-se com um ponto de partida no tempo (since 2015, since Monday).",
+        "exemplos": ["I have worked here for five years.", "I have worked here since 2019.", "She has known him for a long time."],
+        "erroComum": { "errado": "I have lived here for 2015.", "correto": "I have lived here since 2015. / I have lived here for X years.", "descricaoPT": "'For' e 'since' não são intercambiáveis — 'for' + duração, 'since' + ponto de partida no tempo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I have known her ___ ten years.", "opcoes": ["since", "for", "in"], "correta": 1, "explicacao": "Duração → for." },
+      { "tipo": "escolha_multipla", "pergunta": "I have worked here ___ 2019.", "opcoes": ["since", "for", "in"], "correta": 0, "explicacao": "Ponto de partida → since." },
+      { "tipo": "preenchimento_espaco", "frase": "She has lived in London ___ three years.", "resposta": "for", "explicacao": "Duração → for." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele trabalha aqui desde segunda-feira.", "destino": "He has worked here since Monday." },
+      { "tipo": "ditado", "textoParaOuvir": "I have known her for ten years.", "respostaEsperada": ["I have known her for ten years."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-for-since", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'for' e 'since'?", "resposta": "'for' + duração; 'since' + ponto de partida no tempo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-04",
+    "nivel": "intermedio",
+    "titulo": "Present Perfect Continuous",
+    "objetivos": ["Usar o Present Perfect Continuous para enfatizar a duração de uma ação"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o Present Perfect Continuous (have/has been + verbo-ing) para dar ênfase à duração de uma ação que começou no passado e continua (ou acabou de acabar) agora.",
+        "exemplos": ["I have been studying English for two years.", "It has been raining all day.", "She has been working since 8am."],
+        "erroComum": { "errado": "I study English for two years.", "correto": "I have been studying English for two years.", "descricaoPT": "Quando queres enfatizar a duração contínua de uma ação até agora, o Present Perfect Continuous é mais natural do que o Present Simple." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "It ___ raining all day.", "opcoes": ["has been", "is", "was"], "correta": 0, "explicacao": "Duração contínua até agora → has been + -ing." },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ studying English for two years.", "opcoes": ["have been", "am", "was"], "correta": 0, "explicacao": "Present Perfect Continuous." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ since 8am.", "resposta": "has been working", "explicacao": "'Has been working' enfatiza a duração." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Está a chover há horas.", "destino": "It has been raining for hours." },
+      { "tipo": "ditado", "textoParaOuvir": "I have been studying English for two years.", "respostaEsperada": ["I have been studying English for two years."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-presentperfectcontinuous", "tipo": "gramatica", "pergunta": "Como se forma o Present Perfect Continuous?", "resposta": "have/has been + verbo-ing" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-05",
+    "nivel": "intermedio",
+    "titulo": "Past Continuous",
+    "objetivos": ["Usar o Past Continuous para ações em curso no passado, frequentemente interrompidas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o Past Continuous (was/were + verbo-ing) para uma ação em curso no passado, frequentemente interrompida por outra ação (no Past Simple).",
+        "exemplos": ["I was reading when the phone rang.", "They were watching TV at 9pm.", "While I was cooking, she arrived."],
+        "erroComum": { "errado": "I read when the phone rang.", "correto": "I was reading when the phone rang.", "descricaoPT": "Para descrever uma ação em curso interrompida por outra, usa-se Past Continuous para a ação de fundo e Past Simple para a interrupção." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ when the phone rang.", "opcoes": ["read", "was reading", "have read"], "correta": 1, "explicacao": "Ação de fundo → Past Continuous." },
+      { "tipo": "escolha_multipla", "pergunta": "They ___ TV at 9pm yesterday.", "opcoes": ["watched", "were watching", "watch"], "correta": 1, "explicacao": "Ação em curso num momento específico do passado." },
+      { "tipo": "preenchimento_espaco", "frase": "While I ___, she arrived.", "resposta": "was cooking", "explicacao": "Ação de fundo interrompida." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu estava a dormir quando ele telefonou.", "destino": "I was sleeping when he called." },
+      { "tipo": "ditado", "textoParaOuvir": "I was reading when the phone rang.", "respostaEsperada": ["I was reading when the phone rang."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-pastcontinuous", "tipo": "gramatica", "pergunta": "Quando se usa o Past Continuous?", "resposta": "para uma ação em curso no passado, frequentemente interrompida por outra" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-06",
+    "nivel": "intermedio",
+    "titulo": "Past Perfect",
+    "objetivos": ["Usar o Past Perfect para indicar anterioridade dentro do passado"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se o Past Perfect (had + particípio passado) para indicar que uma ação aconteceu antes de outra ação no passado.",
+        "exemplos": ["When I arrived, the film had already started.", "She had finished dinner before I called.", "I had never seen snow before that trip."],
+        "erroComum": { "errado": "When I arrived, the film already started.", "correto": "When I arrived, the film had already started.", "descricaoPT": "Para marcar que uma ação aconteceu ANTES de outra ação passada, precisas do Past Perfect na ação mais antiga — o Past Simple simples não distingue a ordem." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "When I arrived, the film ___ already started.", "opcoes": ["has", "had", "was"], "correta": 1, "explicacao": "Anterioridade no passado → had + particípio." },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ dinner before I called.", "opcoes": ["finished", "had finished", "has finished"], "correta": 1, "explicacao": "Ação anterior a outra ação passada." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ snow before that trip.", "resposta": "had never seen", "explicacao": "Past Perfect: had never seen." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela já tinha saído quando eu cheguei.", "destino": "She had already left when I arrived." },
+      { "tipo": "ditado", "textoParaOuvir": "The film had already started when I arrived.", "respostaEsperada": ["The film had already started when I arrived."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-pastperfect", "tipo": "gramatica", "pergunta": "Para que serve o Past Perfect?", "resposta": "indicar que uma ação aconteceu antes de outra ação no passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-07",
+    "nivel": "intermedio",
+    "titulo": "Modais de Dedução: Must / Might / Could / Can't",
+    "objetivos": ["Exprimir graus de certeza sobre o presente com modais de dedução"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usam-se modais para exprimir graus de certeza sobre o presente: must (quase de certeza que sim), might/could (talvez), can't (quase de certeza que não).",
+        "exemplos": ["She must be tired, she worked all day.", "He might be at home.", "That can't be true!"],
+        "erroComum": { "errado": "That mustn't be true! (para dizer 'não deve ser verdade')", "correto": "That can't be true!", "descricaoPT": "Para negar com certeza, usa-se 'can't', não 'mustn't' — 'mustn't' significa proibição, não dedução negativa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ be tired, she worked all day.", "opcoes": ["must", "mustn't", "can't"], "correta": 0, "explicacao": "Quase certeza positiva → must." },
+      { "tipo": "escolha_multipla", "pergunta": "That ___ be true, it's impossible!", "opcoes": ["must", "can't", "might"], "correta": 1, "explicacao": "Quase certeza negativa → can't." },
+      { "tipo": "preenchimento_espaco", "frase": "He ___ be at home, I'm not sure.", "resposta": "might", "explicacao": "Possibilidade → might." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Isso não pode ser verdade!", "destino": "That can't be true!" },
+      { "tipo": "ditado", "textoParaOuvir": "She must be tired after such a long day.", "respostaEsperada": ["She must be tired after such a long day."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-modais-deducao", "tipo": "gramatica", "pergunta": "Qual modal se usa para negar com certeza (dedução)?", "resposta": "can't (não 'mustn't')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-08",
+    "nivel": "intermedio",
+    "titulo": "Voz Passiva — Introdução",
+    "objetivos": ["Formar e usar a voz passiva no presente e passado"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se a voz passiva (to be + particípio passado) quando o foco está na ação ou no recetor, não em quem a pratica.",
+        "exemplos": ["The report was written by John.", "This car is made in Germany.", "The window has been broken."],
+        "erroComum": { "errado": "The report is writing by John.", "correto": "The report was written by John.", "descricaoPT": "A voz passiva usa sempre o particípio passado (written, made, broken), não o gerúndio — erro comum ao construir a estrutura." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "This car ___ in Germany.", "opcoes": ["is make", "is made", "make"], "correta": 1, "explicacao": "to be + particípio passado." },
+      { "tipo": "escolha_multipla", "pergunta": "The report ___ by John yesterday.", "opcoes": ["was written", "was writing", "writes"], "correta": 0, "explicacao": "Passiva no passado: was written." },
+      { "tipo": "preenchimento_espaco", "frase": "The window ___ by the wind.", "resposta": "was broken", "explicacao": "Passiva: was broken." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este livro foi escrito por um autor famoso.", "destino": "This book was written by a famous author." },
+      { "tipo": "ditado", "textoParaOuvir": "The window has been broken.", "respostaEsperada": ["The window has been broken."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-vozpassiva-introducao", "tipo": "gramatica", "pergunta": "Como se forma a voz passiva?", "resposta": "to be + particípio passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-09",
+    "nivel": "intermedio",
+    "titulo": "Discurso Relatado — Afirmações",
+    "objetivos": ["Usar o discurso relatado com o recuo correto dos tempos verbais (backshift)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "No discurso relatado (reported speech), os tempos verbais recuam um passo no passado (backshift): Present Simple → Past Simple, Present Perfect → Past Perfect, will → would.",
+        "exemplos": ["\"I am tired,\" she said. → She said (that) she was tired.", "\"I have finished,\" he said. → He said (that) he had finished.", "\"I will call you,\" she said. → She said she would call me."],
+        "erroComum": { "errado": "She said that she is tired.", "correto": "She said that she was tired.", "descricaoPT": "No discurso relatado, o tempo verbal da frase original recua um passo para trás — é um dos pontos mais difíceis de dominar neste nível." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "\"I am tired,\" she said. → She said she ___ tired.", "opcoes": ["is", "was", "has been"], "correta": 1, "explicacao": "Present Simple → Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "\"I will call you,\" she said. → She said she ___ call me.", "opcoes": ["will", "would", "can"], "correta": 1, "explicacao": "will → would." },
+      { "tipo": "preenchimento_espaco", "frase": "\"I have finished,\" he said. → He said he ___ finished.", "resposta": "had", "explicacao": "Present Perfect → Past Perfect." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela disse que estava cansada.", "destino": "She said (that) she was tired." },
+      { "tipo": "ditado", "textoParaOuvir": "She said she would call me later.", "respostaEsperada": ["She said she would call me later."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-discursorelatado-afirmacoes", "tipo": "gramatica", "pergunta": "O que acontece aos tempos verbais no discurso relatado?", "resposta": "recuam um passo (backshift): present→past, will→would, etc." }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-10",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: Contar uma Experiência de Vida",
+    "objetivos": ["Combinar Present Perfect (experiências) e Past Simple (detalhes) numa conversa natural"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "experienciadevida",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar Present Perfect (experiências) e Past Simple (detalhes específicos) numa conversa real sobre experiências de vida — este padrão (pergunta geral com Present Perfect, seguida de detalhe com Past Simple) é extremamente comum em inglês natural.",
+        "exemplos": ["Have you ever travelled abroad? — Yes, I have been to Italy. I went there in 2019.", "I've never tried sushi.", "She has lived in three countries."],
+        "erroComum": { "errado": "Misturar Present Perfect e Past Simple sem lógica.", "correto": "Usa Present Perfect para introduzir a experiência (Have you ever...?) e Past Simple para dar detalhes específicos (When did you go? I went in 2019).", "descricaoPT": "Este padrão de conversa é um dos mais úteis e comuns em inglês natural — vale a pena automatizá-lo." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Have you ever travelled abroad?", "opcoes": [
+            { "texto": "Yes, I have been to Italy.", "proximoNo": "detalhe" }
+          ]},
+          { "id": "detalhe", "interlocutorFala": "Really? When did you go?", "opcoes": [
+            { "texto": "I went there in 2019, it was amazing!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which question asks about general experience?", "opcoes": ["Have you ever been to Italy?", "Did you go to Italy in 2019?", "You went Italy when?"], "correta": 0, "explicacao": "Present Perfect para experiência geral." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela já viveu em três países diferentes.", "destino": "She has lived in three different countries." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre uma experiência de vida: usa Present Perfect para introduzir, e Past Simple para um detalhe específico.", "palavrasChaveEsperadas": ["have", "went", "was"], "respostaModelo": "I have been to Japan. I went there in 2018 and it was incredible." },
+      { "tipo": "ditado", "textoParaOuvir": "Have you ever tried sushi?", "respostaEsperada": ["Have you ever tried sushi?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-experienciadevida-integradora", "tipo": "situacao", "pergunta": "Que padrão combina Present Perfect e Past Simple numa conversa natural?", "resposta": "Have you ever...? (experiência) seguido de When did you...? (detalhe específico)" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
