@@ -1,0 +1,260 @@
+[
+  {
+    "id": "basico-91",
+    "nivel": "basico",
+    "titulo": "Modal 'Should' para Conselhos",
+    "objetivos": ["Usar 'should/shouldn't' para dar conselhos"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se 'should' para dar conselhos ou dizer o que é uma boa ideia fazer. Negativa: shouldn't.",
+        "exemplos": ["You should drink more water.", "You shouldn't work so much.", "What should I do?"],
+        "erroComum": { "errado": "You should to rest.", "correto": "You should rest.", "descricaoPT": "Depois de 'should' (como os outros modais), o verbo fica sempre na forma base, sem 'to' — 'should to' está sempre errado." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "You ___ see a doctor.", "opcoes": ["should", "should to", "shoulds"], "correta": 0, "explicacao": "'Should' + forma base." },
+      { "tipo": "escolha_multipla", "pergunta": "Which gives advice correctly?", "opcoes": ["You should to rest.", "You should rest.", "You should resting."], "correta": 1, "explicacao": "'Should rest', sem 'to'." },
+      { "tipo": "preenchimento_espaco", "frase": "You ___ eat so much sugar.", "resposta": "shouldn't", "explicacao": "Negativa: shouldn't." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Devias estudar mais.", "destino": "You should study more." },
+      { "tipo": "ditado", "textoParaOuvir": "You should drink more water.", "respostaEsperada": ["You should drink more water."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-should-conselhos", "tipo": "gramatica", "pergunta": "Que forma verbal segue 'should'?", "resposta": "forma base do verbo, sem 'to'" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-92",
+    "nivel": "basico",
+    "titulo": "'There Was' / 'There Were'",
+    "objetivos": ["Usar o passado de there is/there are"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'There was' (singular) e 'there were' (plural) são o passado de 'there is/there are'.",
+        "exemplos": ["There was a party last night.", "There were many people at the party.", "There wasn't any food left."],
+        "erroComum": { "errado": "There was many people.", "correto": "There were many people.", "descricaoPT": "Com plural, usa-se sempre 'there were', nunca 'there was' — o mesmo erro de concordância que acontece no presente com there is/are." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ a party last night.", "opcoes": ["There was", "There were", "There is"], "correta": 0, "explicacao": "Singular → there was." },
+      { "tipo": "escolha_multipla", "pergunta": "___ many people at the party.", "opcoes": ["There was", "There were"], "correta": 1, "explicacao": "Plural → there were." },
+      { "tipo": "preenchimento_espaco", "frase": "___ any food left.", "resposta": "There wasn't", "explicacao": "Negativa singular: there wasn't." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Havia três livros na mesa.", "destino": "There were three books on the table." },
+      { "tipo": "ditado", "textoParaOuvir": "There was a party last night.", "respostaEsperada": ["There was a party last night."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-there-was-were", "tipo": "gramatica", "pergunta": "Qual é o passado de 'there are'?", "resposta": "there were" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-93",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Redes Sociais",
+    "objetivos": ["Usar vocabulário essencial de redes sociais e comunicação digital"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário essencial de redes sociais e comunicação digital.",
+        "exemplos": ["I posted a photo.", "Can you follow me?", "She liked and shared my post."],
+        "erroComum": { "errado": "I put a photo on Instagram.", "correto": "I posted a photo on Instagram.", "descricaoPT": "Para publicar conteúdo online, usa-se 'post', não 'put' — verbo específico deste contexto digital." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What do you do when you like a photo on social media?", "opcoes": ["I like it.", "I love it.", "I want it."], "correta": 0, "explicacao": "'Like' é a ação padrão." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I put a photo.", "I posted a photo.", "I made a photo."], "correta": 1, "explicacao": "'Post' é o verbo correto." },
+      { "tipo": "preenchimento_espaco", "frase": "Can you ___ me on Instagram?", "resposta": "follow", "explicacao": "'Follow' = seguir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela partilhou a minha publicação.", "destino": "She shared my post." },
+      { "tipo": "ditado", "textoParaOuvir": "I posted a photo and she liked it.", "respostaEsperada": ["I posted a photo and she liked it."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-redes-sociais", "tipo": "vocabulario", "pergunta": "Que verbo se usa para publicar conteúdo online?", "resposta": "post (não 'put')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-94",
+    "nivel": "basico",
+    "titulo": "Situação: Na Farmácia",
+    "objetivos": ["Pedir medicamentos e conselhos numa farmácia"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "farmacia",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para pedir medicamentos e conselhos numa farmácia.",
+        "exemplos": ["Do you have anything for a headache?", "How many times a day should I take this?", "Take two tablets with water."],
+        "erroComum": { "errado": "I want medicine for head.", "correto": "Do you have anything for a headache?", "descricaoPT": "Pede-se de forma indireta e educada ('Do you have anything for...?'), não de forma direta e incompleta." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hello, how can I help you?", "opcoes": [
+            { "texto": "Do you have anything for a headache?", "proximoNo": "instrucoes" }
+          ]},
+          { "id": "instrucoes", "interlocutorFala": "Yes, try these tablets. Take two with water, twice a day.", "opcoes": [
+            { "texto": "Thank you very much!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the polite way to ask for medicine?", "opcoes": ["Give me medicine.", "Do you have anything for a headache?", "Medicine now."], "correta": 1, "explicacao": "Pedido educado e completo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quantas vezes por dia devo tomar isto?", "destino": "How many times a day should I take this?" },
+      { "tipo": "ditado", "textoParaOuvir": "Take two tablets with water, twice a day.", "respostaEsperada": ["Take two tablets with water, twice a day."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-farmacia-integradora", "tipo": "situacao", "pergunta": "Como pedir um remédio para uma dor de cabeça?", "resposta": "Do you have anything for a headache?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-95",
+    "nivel": "basico",
+    "titulo": "Situação: No Cabeleireiro",
+    "objetivos": ["Pedir um corte de cabelo usando expressões naturais"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": "cabeleireiro",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para marcar e pedir um corte de cabelo.",
+        "exemplos": ["I'd like a haircut, please.", "Just a trim, please.", "Not too short, please."],
+        "erroComum": { "errado": "Cut my hair a little.", "correto": "Just a trim, please. / Not too short, please.", "descricaoPT": "Usa expressões fixas naturais em vez de traduzir diretamente 'cortar um pouco' — soam mais naturais num contexto real." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! What can I do for you today?", "opcoes": [
+            { "texto": "I'd like a haircut, please. Just a trim.", "proximoNo": "confirmacao" }
+          ]},
+          { "id": "confirmacao", "interlocutorFala": "Sure, not too short?", "opcoes": [
+            { "texto": "Exactly, not too short, please.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What does 'just a trim' mean?", "opcoes": ["A completely new style", "Cut just a little bit", "Shave it all off"], "correta": 1, "explicacao": "'A trim' = aparar só um pouco." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não muito curto, por favor.", "destino": "Not too short, please." },
+      { "tipo": "ditado", "textoParaOuvir": "I'd like a haircut, please. Just a trim.", "respostaEsperada": ["I'd like a haircut, please. Just a trim."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-cabeleireiro-integradora", "tipo": "situacao", "pergunta": "Como se diz 'só aparar um pouco' o cabelo em inglês?", "resposta": "Just a trim, please." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-96",
+    "nivel": "basico",
+    "titulo": "Revisão de Phrasal Verbs",
+    "objetivos": ["Rever phrasal verbs de várias partículas já aprendidas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada de phrasal verbs aprendidos até agora: partículas up, down, off, on, in, out, away, back.",
+        "exemplos": ["Wake up, look up, grow up (up)", "Sit down, calm down (down)", "Fill in, find out, run out of (in/out)"],
+        "erroComum": { "errado": "Misturar as partículas de phrasal verbs já vistos.", "correto": "Cada phrasal verb tem uma partícula fixa que não se pode trocar livremente — revê os que já aprendeste.", "descricaoPT": "Não há uma lógica 100% previsível — memorização e prática são essenciais para os phrasal verbs." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What time did you wake ___?", "opcoes": ["up", "down", "out"], "correta": 0, "explicacao": "'Wake up' = acordar." },
+      { "tipo": "escolha_multipla", "pergunta": "Please turn ___ the lights.", "opcoes": ["off", "in", "up"], "correta": 0, "explicacao": "'Turn off' = desligar." },
+      { "tipo": "escolha_multipla", "pergunta": "I need to find ___ what happened.", "opcoes": ["out", "up", "back"], "correta": 0, "explicacao": "'Find out' = descobrir." },
+      { "tipo": "preenchimento_espaco", "frase": "Can you give me ___ my book?", "resposta": "back", "explicacao": "'Give back' = devolver." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos terminar esta tarefa.", "destino": "Let's finish up this task." }
+    ],
+    "srsItens": [{ "id": "pv-basico-revisao-mix", "tipo": "vocabulario", "pergunta": "Junta 3 phrasal verbs de partículas diferentes que já aprendeste.", "resposta": "ex.: wake up, turn off, find out" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-97",
+    "nivel": "basico",
+    "titulo": "Mais Idiomas: Comida",
+    "objetivos": ["Reconhecer mais idiomas relacionados com comida"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais idiomas relacionados com comida: spill the beans (revelar um segredo), a lot on your plate (muito trabalho/ocupado).",
+        "exemplos": ["Come on, spill the beans! What happened?", "We lost the game, but that's the way the cookie crumbles.", "I have a lot on my plate this week."],
+        "erroComum": { "errado": "Traduzir 'spill the beans' à letra como entornar feijões.", "correto": "'Spill the beans' significa revelar um segredo.", "descricaoPT": "Mais um idioma sem tradução literal — o contexto de comida é só metafórico." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Spill the beans' means...", "opcoes": ["To reveal a secret", "To cook beans", "To spill food"], "correta": 0, "explicacao": "'Spill the beans' = revelar um segredo." },
+      { "tipo": "escolha_multipla", "pergunta": "'I have a lot on my plate' means...", "opcoes": ["I'm very hungry", "I'm very busy", "I like food"], "correta": 1, "explicacao": "'A lot on my plate' = muito trabalho/ocupado." },
+      { "tipo": "preenchimento_espaco", "frase": "Come on, ___ the beans! What happened?", "resposta": "spill", "explicacao": "'Spill the beans.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tenho muita coisa para fazer esta semana.", "destino": "I have a lot on my plate this week." },
+      { "tipo": "ditado", "textoParaOuvir": "Come on, spill the beans!", "respostaEsperada": ["Come on, spill the beans!"] }
+    ],
+    "srsItens": [{ "id": "idi-basico-comida-2", "tipo": "vocabulario", "pergunta": "O que significa 'spill the beans'?", "resposta": "revelar um segredo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-98",
+    "nivel": "basico",
+    "titulo": "Leitura: Avisos e Placas",
+    "objetivos": ["Praticar a leitura de avisos e placas práticas do dia a dia"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê os avisos com atenção antes de responderes às perguntas. Este tipo de leitura prática (placas, avisos) é muito útil em viagens.\n\nAviso 1: \"CLOSED ON SUNDAYS. Open Monday to Saturday, 9am - 6pm.\"\nAviso 2: \"NO PARKING. Vehicles will be towed away.\"\nAviso 3: \"PLEASE KEEP THIS DOOR CLOSED AT ALL TIMES.\"",
+        "exemplos": ["towed away = rebocado", "at all times = sempre/em todas as alturas", "closed on Sundays = fechado aos domingos"],
+        "erroComum": { "errado": "Ignorar avisos escritos por parecerem simples de mais.", "correto": "Avisos e placas usam vocabulário fixo e importante para segurança/regras — vale a pena treinar este tipo de leitura.", "descricaoPT": "Este tipo de texto aparece muito em viagens e no dia a dia — é uma competência prática muito útil." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "According to Aviso 1, is the shop open on Sundays?", "opcoes": ["Yes", "No"], "correta": 1, "explicacao": "'Closed on Sundays' = fechado aos domingos." },
+      { "tipo": "escolha_multipla", "pergunta": "According to Aviso 2, what happens if you park there?", "opcoes": ["Nothing", "Your car will be towed away", "You get a discount"], "correta": 1, "explicacao": "'Towed away' = rebocado." },
+      { "tipo": "escolha_multipla", "pergunta": "What does Aviso 3 ask you to do?", "opcoes": ["Open the door", "Keep the door closed", "Lock the door"], "correta": 1, "explicacao": "'Keep this door closed' = manter a porta fechada." },
+      { "tipo": "preenchimento_espaco", "frase": "'Towed away' means the car will be ___.", "resposta": "removed", "explicacao": "'Towed away' = removido/rebocado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Por favor, mantenha esta porta fechada.", "destino": "Please keep this door closed." }
+    ],
+    "srsItens": [{ "id": "rw-basico-leitura-avisos-placas", "tipo": "situacao", "pergunta": "O que significa um aviso 'NO PARKING'?", "resposta": "proibido estacionar, sob pena de reboque" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-99",
+    "nivel": "basico",
+    "titulo": "Fazer Planos: Combinar Encontros",
+    "objetivos": ["Combinar encontros e planos com alguém"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para combinar encontros e planos com alguém.",
+        "exemplos": ["Shall we meet at 5pm?", "What time works for you?", "Does Saturday work for you?"],
+        "erroComum": { "errado": "What hour is good for you?", "correto": "What time works for you?", "descricaoPT": "'What time works for you?' é a expressão natural para perguntar disponibilidade — 'what hour' soa pouco natural em inglês." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a natural way to ask about availability?", "opcoes": ["What hour is good for you?", "What time works for you?", "Which hour you can?"], "correta": 1, "explicacao": "'What time works for you?' é natural." },
+      { "tipo": "escolha_multipla", "pergunta": "___ we meet at 5pm?", "opcoes": ["Shall", "Should", "Do"], "correta": 0, "explicacao": "'Shall we...?' para sugerir um encontro." },
+      { "tipo": "preenchimento_espaco", "frase": "Does Saturday ___ for you?", "resposta": "work", "explicacao": "'Work for you' = ser conveniente para ti." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Que tal encontrarmo-nos às cinco?", "destino": "How about meeting at five?" },
+      { "tipo": "ditado", "textoParaOuvir": "What time works for you?", "respostaEsperada": ["What time works for you?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-fazer-planos-encontros", "tipo": "situacao", "pergunta": "Como perguntar se um horário é conveniente para alguém?", "resposta": "Does [dia/hora] work for you? / What time works for you?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-100",
+    "nivel": "basico",
+    "titulo": "Marco: Uma Semana Completa",
+    "objetivos": ["Combinar rotina, planos, sentimentos e phrasal verbs numa narrativa de uma semana"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "semanacompleta",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 100! Vamos juntar rotina, planos, sentimentos e phrasal verbs numa narrativa de uma semana normal, como celebração deste marco.",
+        "exemplos": ["On Monday, I woke up early and went to work by bus.", "On Wednesday, we should meet for coffee.", "By Friday, I was really excited about the weekend!"],
+        "erroComum": { "errado": "Esquecer de rever os erros comuns das últimas sessões.", "correto": "Continua a praticar regularmente — a repetição espaçada vai ajudar-te a fixar tudo.", "descricaoPT": "Este é um marco de celebração, não um teste — o objetivo é veres o quanto já sabes." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hey! Long time no see! What are your plans this week?", "opcoes": [
+            { "texto": "I'm pretty busy, but I should have some free time on Saturday.", "proximoNo": "encontro" }
+          ]},
+          { "id": "encontro", "interlocutorFala": "Great, shall we meet for coffee then?", "opcoes": [
+            { "texto": "Sounds good! What time works for you?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence correctly combines a feeling and a plan?", "opcoes": ["I excited am for the weekend.", "I'm excited about the weekend plans.", "Excited I about weekend."], "correta": 1, "explicacao": "Ordem correta: I'm excited about..." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estou muito entusiasmado com os planos deste fim de semana.", "destino": "I'm really excited about this weekend's plans." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um parágrafo (4-5 frases) a descreveres uma semana normal tua, usando pelo menos um phrasal verb e um sentimento.", "palavrasChaveEsperadas": ["i", "should", "excited"], "respostaModelo": "On Monday, I wake up early and go to work by bus. On Wednesday, I usually meet friends. By Friday, I'm really excited about the weekend!" },
+      { "tipo": "ditado", "textoParaOuvir": "I'm really excited about this weekend's plans.", "respostaEsperada": ["I'm really excited about this weekend's plans."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-semanacompleta-marco100", "tipo": "situacao", "pergunta": "Consegues descrever uma semana normal combinando rotina, planos e sentimentos?", "resposta": "sim — é o objetivo desta sessão de marco" }],
+    "gamificacao": { "pontosBase": 25, "badge": null }
+  }
+]
