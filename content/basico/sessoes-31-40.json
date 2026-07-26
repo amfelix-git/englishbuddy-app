@@ -1,0 +1,258 @@
+[
+  {
+    "id": "basico-31",
+    "nivel": "basico",
+    "titulo": "Situação: Trabalho",
+    "objetivos": ["Usar vocabulário e expressões de contexto profissional: reuniões, emails, entrevistas"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "trabalho",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário e expressões-chave para o ambiente de trabalho: reuniões, emails profissionais e entrevistas de emprego.",
+        "exemplos": ["Let's schedule a meeting for Monday.", "I am writing to follow up on...", "I have three years of experience in this field."],
+        "erroComum": { "errado": "I have experience in this area since 3 years.", "correto": "I have three years of experience in this field.", "descricaoPT": "A estrutura 'desde X anos' não se traduz literalmente — usa-se simplesmente 'X years of experience', sem 'since'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a professional way to start an email?", "opcoes": ["Hey what's up", "I am writing to inform you that...", "Yo, quick question"], "correta": 1, "explicacao": "Registo formal em email profissional." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase is used to schedule a meeting?", "opcoes": ["Let's schedule a meeting for Monday.", "I schedule a meeting Monday.", "Meeting Monday now."], "correta": 0, "explicacao": "'Let's schedule a meeting for...' é a forma natural." },
+      { "tipo": "preenchimento_espaco", "frase": "I have three years of ___ in marketing.", "resposta": "experience", "explicacao": "'Experience' = experiência." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tenho muito prazer em trabalhar em equipa.", "destino": "I really enjoy working in a team.", "alternativas": ["I enjoy teamwork a lot."] },
+      { "tipo": "ditado", "textoParaOuvir": "I am writing to follow up on our meeting.", "respostaEsperada": ["I am writing to follow up on our meeting."] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase de abertura educada para um email profissional.", "palavrasChaveEsperadas": ["i am writing", "dear"], "respostaModelo": "I am writing to ask about the job opening." }
+    ],
+    "srsItens": [{ "id": "sit-basico-trabalho-integradora", "tipo": "situacao", "pergunta": "Como começar um email profissional em inglês?", "resposta": "I am writing to..." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-32",
+    "nivel": "basico",
+    "titulo": "Situação: Telefone",
+    "objetivos": ["Usar expressões específicas para falar ao telefone"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "telefone",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Expressões específicas para falar ao telefone, diferentes das usadas cara a cara.",
+        "exemplos": ["Hold on, please.", "I'll put you through.", "Can I take a message?"],
+        "erroComum": { "errado": "Who is?", "correto": "Who's calling, please?", "descricaoPT": "Ao telefone, para perguntar quem está do outro lado usa-se 'Who's calling?', não uma tradução literal incompleta." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you politely ask someone to wait on the phone?", "opcoes": ["Wait!", "Hold on, please.", "Stay there."], "correta": 1, "explicacao": "'Hold on, please' é a forma educada." },
+      { "tipo": "escolha_multipla", "pergunta": "What do you say to transfer a call?", "opcoes": ["I'll put you through.", "I'll send you.", "I'll pass you."], "correta": 0, "explicacao": "'Put someone through' = transferir a chamada." },
+      { "tipo": "preenchimento_espaco", "frase": "Can I take a ___ for you?", "resposta": "message", "explicacao": "'Take a message' = anotar um recado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Posso falar com o João, por favor?", "destino": "Can I speak to João, please?" },
+      { "tipo": "ditado", "textoParaOuvir": "Hold on, please, I'll put you through.", "respostaEsperada": ["Hold on, please, I'll put you through."] },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hello, ABC Company, how can I help you?", "opcoes": [
+            { "texto": "Can I speak to Mrs. Silva, please?", "proximoNo": "espera" }
+          ]},
+          { "id": "espera", "interlocutorFala": "Hold on, please, I'll put you through.", "opcoes": [
+            { "texto": "Thank you.", "proximoNo": null }
+          ]}
+        ]
+      }
+    ],
+    "srsItens": [{ "id": "sit-basico-telefone-integradora", "tipo": "situacao", "pergunta": "Como pedir a alguém para aguardar ao telefone?", "resposta": "Hold on, please." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-33",
+    "nivel": "basico",
+    "titulo": "Situação: Emergências",
+    "objetivos": ["Pedir ajuda e descrever uma emergência de forma clara e rápida"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "emergencias",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário e frases essenciais para pedir ajuda e descrever uma emergência rapidamente.",
+        "exemplos": ["Call an ambulance!", "I need help, it's an emergency.", "There's been an accident."],
+        "erroComum": { "errado": "Help me please slowly explain.", "correto": "Help! There's been an accident!", "descricaoPT": "Numa emergência real, as frases devem ser curtas e diretas — não há tempo para frases longas ou muito formais." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What do you say to call for urgent medical help?", "opcoes": ["Call an ambulance!", "Call a taxi!", "Call a friend!"], "correta": 0, "explicacao": "'Call an ambulance!' pede ajuda médica urgente." },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence reports an emergency clearly?", "opcoes": ["There's been an accident.", "Something happened maybe.", "I think possibly an issue."], "correta": 0, "explicacao": "Frase curta e direta é o mais eficaz numa emergência." },
+      { "tipo": "preenchimento_espaco", "frase": "I need help, it's an ___!", "resposta": "emergency", "explicacao": "'Emergency' = emergência." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Chame a polícia, por favor!", "destino": "Call the police, please!" },
+      { "tipo": "ditado", "textoParaOuvir": "There's been an accident, call an ambulance!", "respostaEsperada": ["There's been an accident, call an ambulance!"] },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase curta e clara para pedir ajuda numa emergência.", "palavrasChaveEsperadas": ["help", "call"], "respostaModelo": "Help! Call an ambulance, please!" }
+    ],
+    "srsItens": [{ "id": "sit-basico-emergencias-integradora", "tipo": "situacao", "pergunta": "Como pedir ajuda médica urgente em inglês?", "resposta": "Call an ambulance! / I need help, it's an emergency." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-34",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs — Partícula 'Up'",
+    "objetivos": ["Usar phrasal verbs com 'up' (conclusão/aumento): wake up, grow up, look up, finish up"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Muitos phrasal verbs com 'up' têm sentido de conclusão ou aumento: wake up, grow up, look up, finish up.",
+        "exemplos": ["I woke up early today.", "She grew up in Lisbon.", "Look up the word in a dictionary.", "Let's finish up this task."],
+        "erroComum": { "errado": "I looked the word.", "correto": "I looked up the word.", "descricaoPT": "'Look up' (consultar/pesquisar) precisa sempre da partícula 'up' — sem ela, 'look' sozinho tem um sentido diferente ('olhar')." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What time did you ___ this morning?", "opcoes": ["wake up", "wake down", "wake off"], "correta": 0, "explicacao": "'Wake up' = acordar." },
+      { "tipo": "escolha_multipla", "pergunta": "I don't know this word, let me ___ it.", "opcoes": ["look up", "look down", "look at"], "correta": 0, "explicacao": "'Look up' = consultar/pesquisar." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ in a small village.", "resposta": "grew up", "explicacao": "'Grow up' = crescer/criar-se." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos terminar esta tarefa.", "destino": "Let's finish up this task.", "alternativas": ["Let's finish this task."] },
+      { "tipo": "ditado", "textoParaOuvir": "I woke up early and looked up the address.", "respostaEsperada": ["I woke up early and looked up the address."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-particula-up", "tipo": "vocabulario", "pergunta": "O que significa 'look up a word'?", "resposta": "consultar/pesquisar uma palavra" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-35",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs — Partículas 'Down' e 'Off'",
+    "objetivos": ["Usar phrasal verbs com 'down'/'off' (redução/paragem): sit down, calm down, switch off, cut off"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs com 'down' e 'off' têm frequentemente sentido de redução ou paragem: sit down, calm down, switch off, cut off.",
+        "exemplos": ["Please sit down.", "Calm down, everything is fine.", "Switch off the lights before leaving.", "The line was cut off."],
+        "erroComum": { "errado": "Switch the lights.", "correto": "Switch off the lights.", "descricaoPT": "Sem a partícula 'off', 'switch' sozinho fica incompleto — 'switch off' é que significa desligar." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Please ___, the meeting is starting.", "opcoes": ["sit down", "sit up", "sit off"], "correta": 0, "explicacao": "'Sit down' = sentar-se." },
+      { "tipo": "escolha_multipla", "pergunta": "___! Everything will be fine.", "opcoes": ["Calm down", "Calm up", "Calm off"], "correta": 0, "explicacao": "'Calm down' = acalmar-se." },
+      { "tipo": "preenchimento_espaco", "frase": "Please ___ the lights before leaving.", "resposta": "switch off", "explicacao": "'Switch off' = desligar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A chamada foi cortada.", "destino": "The call was cut off." },
+      { "tipo": "ditado", "textoParaOuvir": "Calm down and sit down, please.", "respostaEsperada": ["Calm down and sit down, please."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-particula-down-off", "tipo": "vocabulario", "pergunta": "O que significa 'switch off'?", "resposta": "desligar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-36",
+    "nivel": "basico",
+    "titulo": "Idiomas de Alta Frequência",
+    "objetivos": ["Reconhecer e usar expressões idiomáticas do dia a dia"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas (expressões idiomáticas) de uso quotidiano cujo significado não se deduz das palavras isoladas.",
+        "exemplos": ["It's raining cats and dogs. (chove imenso)", "Break the ice. (quebrar o gelo numa situação social)", "Once in a blue moon. (raramente)"],
+        "erroComum": { "errado": "Traduzir 'break the ice' literalmente como quebrar gelo real.", "correto": "'Break the ice' significa tornar uma situação social menos tensa, não quebrar gelo literalmente.", "descricaoPT": "Idiomas nunca se traduzem palavra a palavra — o significado é do conjunto todo, não de cada palavra isolada." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'It's raining cats and dogs' means...", "opcoes": ["It's raining a lot", "Animals are falling", "It's sunny"], "correta": 0, "explicacao": "Expressão idiomática para chuva forte." },
+      { "tipo": "escolha_multipla", "pergunta": "'Break the ice' means...", "opcoes": ["To literally break ice", "To make a social situation less awkward", "To be very cold"], "correta": 1, "explicacao": "'Break the ice' = quebrar o gelo socialmente." },
+      { "tipo": "preenchimento_espaco", "frase": "I only see him ___ in a blue moon.", "resposta": "once", "explicacao": "'Once in a blue moon' = raramente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Está a chover a potes.", "destino": "It's raining cats and dogs." },
+      { "tipo": "ditado", "textoParaOuvir": "He told a joke to break the ice.", "respostaEsperada": ["He told a joke to break the ice."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-alta-frequencia", "tipo": "vocabulario", "pergunta": "O que significa 'break the ice'?", "resposta": "tornar uma situação social menos tensa" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-37",
+    "nivel": "basico",
+    "titulo": "Expressões Fixas (Chunks) Conversacionais",
+    "objetivos": ["Usar blocos fixos de linguagem que dão fluência natural à conversa"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Chunks' são blocos de palavras fixos que se usam inteiros, e dão fluência natural à conversa: to be honest, at the end of the day, as far as I know.",
+        "exemplos": ["To be honest, I don't like it.", "At the end of the day, it's your decision.", "As far as I know, the shop is closed."],
+        "erroComum": { "errado": "In the end of the day.", "correto": "At the end of the day.", "descricaoPT": "A expressão fixa usa sempre 'at', não 'in' — sendo um bloco fixo, não se pode trocar as palavras livremente mesmo que pareça fazer sentido." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which chunk means 'honestly'?", "opcoes": ["To be honest", "To be clear", "To be short"], "correta": 0, "explicacao": "'To be honest' = para ser sincero." },
+      { "tipo": "escolha_multipla", "pergunta": "Complete: '___ the end of the day, it's your choice.'", "opcoes": ["At", "In", "On"], "correta": 0, "explicacao": "'At the end of the day' é a expressão fixa correta." },
+      { "tipo": "preenchimento_espaco", "frase": "___ far as I know, he's not coming.", "resposta": "As", "explicacao": "'As far as I know' = pelo que sei." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Para ser sincero, não gostei do filme.", "destino": "To be honest, I didn't like the movie." },
+      { "tipo": "ditado", "textoParaOuvir": "As far as I know, the shop is closed today.", "respostaEsperada": ["As far as I know, the shop is closed today."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-chunks-conversacionais", "tipo": "vocabulario", "pergunta": "Como se diz 'pelo que sei' em inglês?", "resposta": "As far as I know" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-38",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Word Families e Collocations",
+    "objetivos": ["Reconhecer família de palavras por derivação", "Usar collocations fixas comuns"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Word families são grupos de palavras relacionadas por derivação (decide → decision → decisive). Collocations são combinações naturais de palavras que 'soam bem' juntas (make a mistake, heavy rain, strong coffee).",
+        "exemplos": ["decide (verbo) → decision (nome) → decisive (adjetivo)", "make a mistake (não 'do a mistake')", "heavy rain, strong coffee"],
+        "erroComum": { "errado": "I did a mistake.", "correto": "I made a mistake.", "descricaoPT": "'Mistake' combina-se com 'make', não com 'do' — são collocations fixas que têm de ser memorizadas, não deduzidas pela lógica." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I did a mistake.", "I made a mistake.", "I made an error mistake."], "correta": 1, "explicacao": "Collocation fixa: make a mistake." },
+      { "tipo": "escolha_multipla", "pergunta": "What is the noun form of 'decide'?", "opcoes": ["decision", "decisive", "decidely"], "correta": 0, "explicacao": "decide (verbo) → decision (nome)." },
+      { "tipo": "preenchimento_espaco", "frase": "It's raining hard — it's ___ rain.", "resposta": "heavy", "explicacao": "Collocation: heavy rain." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele tomou uma decisão difícil.", "destino": "He made a difficult decision." },
+      { "tipo": "ditado", "textoParaOuvir": "I need a strong coffee this morning.", "respostaEsperada": ["I need a strong coffee this morning."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-wordfamilies-collocations", "tipo": "vocabulario", "pergunta": "Com que verbo se combina 'a mistake'?", "resposta": "make (make a mistake, não do a mistake)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-39",
+    "nivel": "basico",
+    "titulo": "Pronúncia: Sons 'Th' e 'R' Inglês",
+    "objetivos": ["Praticar o som 'th' (θ/ð) e o 'r' inglês"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Dois sons frequentemente difíceis para falantes de português: o 'th' (θ/ð, como em think/this) e o 'r' inglês (mais suave e menos vibrado do que o português).",
+        "exemplos": ["think /θɪŋk/ vs. this /ðɪs/", "red, right, around (r suave, sem vibração)"],
+        "erroComum": { "errado": "Pronunciar 'th' como 't' ou 'f'.", "correto": "'Th' tem um som próprio, com a língua entre os dentes — não é nem 't' nem 'f'.", "descricaoPT": "Não existe o som 'th' em português, por isso é normal a tendência de o substituir por 't', 'f' ou 'd' — vale a pena praticar isoladamente." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: think.", "respostaEsperada": ["think"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: this.", "respostaEsperada": ["this"] },
+      { "tipo": "escolha_multipla", "pergunta": "Which word starts with a voiceless 'th' sound, as in 'think'?", "opcoes": ["this", "think", "the"], "correta": 1, "explicacao": "'Think' tem o 'th' surdo (θ)." },
+      { "tipo": "escolha_multipla", "pergunta": "Which word starts with a voiced 'th' sound, as in 'this'?", "opcoes": ["thanks", "think", "that"], "correta": 2, "explicacao": "'That' tem o 'th' sonoro (ð), tal como 'this'." },
+      { "tipo": "ditado", "textoParaOuvir": "I think this is the right answer.", "respostaEsperada": ["I think this is the right answer."] }
+    ],
+    "srsItens": [{ "id": "pro-basico-th-r-ingles", "tipo": "pronuncia", "pergunta": "Quantos sons diferentes tem a letra combinação 'th' em inglês?", "resposta": "dois: surdo θ (think) e sonoro ð (this)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-40",
+    "nivel": "basico",
+    "titulo": "Situação Integradora: Chamada de Trabalho",
+    "objetivos": ["Combinar phrasal verbs, idiomas, chunks e vocabulário de trabalho/telefone das últimas sessões"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "trabalho",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Sessão de revisão: vamos juntar phrasal verbs, idiomas, chunks e vocabulário de trabalho/telefone das últimas sessões numa situação real — uma chamada de trabalho a marcar uma reunião.",
+        "exemplos": ["Let's schedule a meeting to finish up the project.", "To be honest, we need to sort this out quickly.", "I'll put you through to the manager."],
+        "erroComum": { "errado": "Let's finish the project up (ordem menos natural com objeto longo).", "correto": "Let's finish up the project.", "descricaoPT": "A ordem das palavras em phrasal verbs pode confundir por transferência direta do português — repara nos exemplos e pratica a ordem mais natural." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hello, this is Ana speaking. How can I help?", "opcoes": [
+            { "texto": "Hi Ana, can I speak to the manager, please?", "proximoNo": "espera" }
+          ]},
+          { "id": "espera", "interlocutorFala": "Hold on, please, I'll put you through.", "opcoes": [
+            { "texto": "Thank you, I'll wait.", "proximoNo": "reuniao" }
+          ]},
+          { "id": "reuniao", "interlocutorFala": "Hi, this is the manager. Let's schedule a meeting to finish up the project.", "opcoes": [
+            { "texto": "Sounds good, how about Monday?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence uses a chunk correctly?", "opcoes": ["To be honest, this needs more work.", "Honest to be, this needs work.", "Being honest this need work."], "correta": 0, "explicacao": "'To be honest' é a forma fixa correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos marcar uma reunião para terminar o projeto.", "destino": "Let's schedule a meeting to finish up the project." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases combinando um phrasal verb e um chunk conversacional sobre trabalho.", "palavrasChaveEsperadas": ["to be honest", "let's", "finish up"], "respostaModelo": "To be honest, let's finish up this report by Friday." },
+      { "tipo": "ditado", "textoParaOuvir": "Let's schedule a meeting to finish up the project.", "respostaEsperada": ["Let's schedule a meeting to finish up the project."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-trabalho-revisao-integradora", "tipo": "situacao", "pergunta": "Que tipo de linguagem combina phrasal verbs, idiomas e chunks numa chamada de trabalho?", "resposta": "linguagem profissional natural e fluente, não tradução literal do português" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
