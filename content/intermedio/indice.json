@@ -1,5 +1,6 @@
 [
   { "ficheiro": "sessoes-01-10.json", "de": 1, "ate": 10 },
   { "ficheiro": "sessoes-11-20.json", "de": 11, "ate": 20 },
-  { "ficheiro": "sessoes-21-30.json", "de": 21, "ate": 30 }
+  { "ficheiro": "sessoes-21-30.json", "de": 21, "ate": 30 },
+  { "ficheiro": "sessoes-31-40.json", "de": 31, "ate": 40 }
 ]

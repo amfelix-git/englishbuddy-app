@@ -1,0 +1,241 @@
+[
+  {
+    "id": "intermedio-31",
+    "nivel": "intermedio",
+    "titulo": "Word Families: Prefixos e Sufixos",
+    "objetivos": ["Formar palavras novas com prefixos (un-/dis-) e sufixos (-ness/-tion/-able)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Prefixos e sufixos permitem formar palavras novas a partir de uma raiz: un-/dis- (negação), -ness/-tion (nomes), -able (adjetivo de possibilidade).",
+        "exemplos": ["happy → unhappy (negação)", "agree → disagree (negação)", "happy → happiness / decide → decision (nomes)", "believe → believable (adjetivo)"],
+        "erroComum": { "errado": "She is very unhappiness.", "correto": "She is very unhappy.", "descricaoPT": "'Unhappiness' é um nome (a infelicidade), 'unhappy' é um adjetivo — confundir a classe gramatical ao adicionar sufixos é um erro comum." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What is the opposite of 'agree'?", "opcoes": ["unagree", "disagree", "nonagree"], "correta": 1, "explicacao": "'Disagree' é a forma correta." },
+      { "tipo": "escolha_multipla", "pergunta": "What is the noun form of 'happy'?", "opcoes": ["happyness", "happiness", "happyful"], "correta": 1, "explicacao": "happy → happiness." },
+      { "tipo": "preenchimento_espaco", "frase": "This task is very ___ (fácil de gerir, de 'manage').", "resposta": "manageable", "explicacao": "manage + -able = manageable." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Isto é impossível de acreditar.", "destino": "This is unbelievable.", "alternativas": ["This is hard to believe."] },
+      { "tipo": "ditado", "textoParaOuvir": "This task is very manageable.", "respostaEsperada": ["This task is very manageable."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-prefixos-sufixos", "tipo": "vocabulario", "pergunta": "Qual a diferença entre 'unhappy' e 'unhappiness'?", "resposta": "'unhappy' = adjetivo; 'unhappiness' = nome" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-32",
+    "nivel": "intermedio",
+    "titulo": "Collocations Avançadas",
+    "objetivos": ["Usar collocations avançadas: make an effort, take a risk, reach an agreement"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Collocations mais avançadas: make an effort, take a risk, reach an agreement, raise awareness.",
+        "exemplos": ["We need to make an effort to improve.", "She decided to take a risk.", "They reached an agreement after hours of talks."],
+        "erroComum": { "errado": "They did an agreement.", "correto": "They reached an agreement.", "descricaoPT": "'Agreement' combina-se com 'reach' ou 'come to', não com 'do' — collocations têm de ser memorizadas em bloco." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["do an agreement", "reach an agreement", "make an agreement"], "correta": 1, "explicacao": "'Reach an agreement' é a collocation correta." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["make an effort", "do an effort", "take an effort"], "correta": 0, "explicacao": "'Make an effort' é a collocation correta." },
+      { "tipo": "preenchimento_espaco", "frase": "She decided to ___ a risk.", "resposta": "take", "explicacao": "'Take a risk' = correr um risco." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Precisamos de aumentar a consciencialização sobre este problema.", "destino": "We need to raise awareness about this problem." },
+      { "tipo": "ditado", "textoParaOuvir": "We need to make an effort to improve.", "respostaEsperada": ["We need to make an effort to improve."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-collocations-avancadas", "tipo": "vocabulario", "pergunta": "Com que verbo se combina 'an agreement'?", "resposta": "reach (reach an agreement)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-33",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs Profissionais (II)",
+    "objetivos": ["Usar deal with, come up with, point out"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais phrasal verbs de contexto profissional: deal with (lidar com), come up with (propor/criar), point out (salientar).",
+        "exemplos": ["I need to deal with this problem.", "She came up with a great idea.", "He pointed out an important detail."],
+        "erroComum": { "errado": "I need to deal this problem.", "correto": "I need to deal with this problem.", "descricaoPT": "'Deal with' precisa sempre da partícula 'with' — sem ela, o verbo fica gramaticalmente incompleto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I need to ___ this problem.", "opcoes": ["deal", "deal with", "deal on"], "correta": 1, "explicacao": "'Deal with' = lidar com." },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ a great idea.", "opcoes": ["came up with", "came up", "came with"], "correta": 0, "explicacao": "'Come up with' = propor/criar." },
+      { "tipo": "preenchimento_espaco", "frase": "He ___ an important detail.", "resposta": "pointed out", "explicacao": "'Point out' = salientar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos ter de lidar com isto.", "destino": "We'll have to deal with this." },
+      { "tipo": "ditado", "textoParaOuvir": "She came up with a great idea.", "respostaEsperada": ["She came up with a great idea."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-profissionais-2", "tipo": "vocabulario", "pergunta": "O que significa 'come up with'?", "resposta": "propor/criar (uma ideia)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-34",
+    "nivel": "intermedio",
+    "titulo": "Idiomas de Negócios (II)",
+    "objetivos": ["Reconhecer mais idiomas de contexto profissional"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais idiomas de contexto profissional: get the ball rolling (começar algo), back to the drawing board (recomeçar do zero), keep someone in the loop (manter informado).",
+        "exemplos": ["Let's get the ball rolling on this project.", "That didn't work, back to the drawing board.", "Please keep me in the loop."],
+        "erroComum": { "errado": "Traduzir 'back to the drawing board' à letra.", "correto": "'Back to the drawing board' significa ter de recomeçar do zero depois de um plano falhar.", "descricaoPT": "Idioma de negócios muito comum — não tem equivalente literal em português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Get the ball rolling' means...", "opcoes": ["To start something", "To play football", "To stop something"], "correta": 0, "explicacao": "'Get the ball rolling' = começar algo." },
+      { "tipo": "escolha_multipla", "pergunta": "'Back to the drawing board' means...", "opcoes": ["To draw a picture", "To start over after a failed plan", "To finish a project"], "correta": 1, "explicacao": "Recomeçar do zero depois de um plano falhado." },
+      { "tipo": "preenchimento_espaco", "frase": "Please keep me in the ___.", "resposta": "loop", "explicacao": "'Keep in the loop' = manter informado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos começar este projeto.", "destino": "Let's get the ball rolling on this project." },
+      { "tipo": "ditado", "textoParaOuvir": "That didn't work, back to the drawing board.", "respostaEsperada": ["That didn't work, back to the drawing board."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-negocios-2", "tipo": "vocabulario", "pergunta": "O que significa 'keep someone in the loop'?", "resposta": "manter alguém informado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-35",
+    "nivel": "intermedio",
+    "titulo": "Funções Comunicativas: Persuadir e Negociar",
+    "objetivos": ["Usar linguagem persuasiva e de negociação de forma educada"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para persuadir e negociar: I really think we should..., What if we...?, Let's find a middle ground.",
+        "exemplos": ["I really think we should try this approach.", "What if we compromised on the price?", "Let's find a middle ground."],
+        "erroComum": { "errado": "You must do this.", "correto": "I really think we should consider this.", "descricaoPT": "Para persuadir/negociar de forma eficaz, é mais natural sugerir e convidar à colaboração do que impor diretamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a persuasive suggestion, not a command?", "opcoes": ["You must do this.", "I really think we should try this.", "Do this now."], "correta": 1, "explicacao": "Sugestão persuasiva, não imposição." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase proposes a compromise?", "opcoes": ["Let's find a middle ground.", "I'm right, you're wrong.", "No negotiation."], "correta": 0, "explicacao": "'Find a middle ground' propõe um compromisso." },
+      { "tipo": "preenchimento_espaco", "frase": "___ we compromised on the price?", "resposta": "What if", "explicacao": "'What if' propõe uma alternativa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos encontrar um meio-termo.", "destino": "Let's find a middle ground." },
+      { "tipo": "ditado", "textoParaOuvir": "What if we compromised on the price?", "respostaEsperada": ["What if we compromised on the price?"] }
+    ],
+    "srsItens": [{ "id": "prag-intermedio-persuadir-negociar", "tipo": "situacao", "pergunta": "Como propor um compromisso de forma educada?", "resposta": "Let's find a middle ground. / What if we...?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-36",
+    "nivel": "intermedio",
+    "titulo": "Leitura: Artigo de Opinião",
+    "objetivos": ["Praticar leitura de um artigo de opinião com argumentos a favor e contra"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê o artigo de opinião com atenção antes de responderes.\n\n\"Many people believe that working from home has changed our lives for the better. It offers flexibility and saves time on commuting. However, some argue that it can lead to isolation and make it harder to separate work from personal life. In my opinion, a balance between office and remote work is probably the best solution for most people.\"",
+        "exemplos": ["for the better = para melhor", "commuting = deslocação para o trabalho", "in my opinion = na minha opinião"],
+        "erroComum": { "errado": "Não distinguir os argumentos a favor dos argumentos contra.", "correto": "Textos de opinião normalmente apresentam os dois lados antes de dar a opinião pessoal do autor.", "descricaoPT": "Esta estrutura (argumento a favor, argumento contra, opinião pessoal) é típica de textos de opinião e de ensaios do exame Cambridge." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "According to the text, what is an advantage of working from home?", "opcoes": ["It causes isolation", "It offers flexibility", "It's more expensive"], "correta": 1, "explicacao": "O texto diz 'offers flexibility'." },
+      { "tipo": "escolha_multipla", "pergunta": "What is a disadvantage mentioned?", "opcoes": ["It saves time", "It can lead to isolation", "It's cheaper"], "correta": 1, "explicacao": "O texto diz 'can lead to isolation'." },
+      { "tipo": "escolha_multipla", "pergunta": "What is the author's opinion?", "opcoes": ["Working from home is always better", "A balance between office and remote work is best", "Office work is always better"], "correta": 1, "explicacao": "O texto conclui a favor de um equilíbrio." },
+      { "tipo": "preenchimento_espaco", "frase": "It offers flexibility and saves time on ___.", "resposta": "commuting", "explicacao": "'Commuting' = deslocação para o trabalho." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a dar a tua opinião sobre trabalhar a partir de casa.", "palavrasChaveEsperadas": ["in my opinion", "i think", "i believe"], "respostaModelo": "In my opinion, working from home has both advantages and disadvantages." }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-leitura-artigoopiniao", "tipo": "situacao", "pergunta": "Que estrutura é típica de um artigo de opinião?", "resposta": "argumento a favor, argumento contra, opinião pessoal do autor" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-37",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Ensaio Argumentativo",
+    "objetivos": ["Estruturar um ensaio argumentativo com introdução, desenvolvimento e conclusão"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Um ensaio argumentativo (essay) tem normalmente: introdução (apresenta o tema), parágrafos com argumentos (a favor e contra, ou dois pontos de vista), e conclusão com a tua opinião.",
+        "exemplos": ["Introduction: Nowadays, many people discuss whether...", "Body: On one hand,... On the other hand,...", "Conclusion: In conclusion, I believe that..."],
+        "erroComum": { "errado": "Escrever um ensaio sem estrutura clara em parágrafos.", "correto": "Organiza sempre em parágrafos: introdução, desenvolvimento (com conectores como 'on one hand'/'on the other hand'), e conclusão.", "descricaoPT": "A estrutura clara é tão importante como a gramática correta na avaliação de um ensaio (Organisation é um dos critérios oficiais do Cambridge)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase introduces a contrasting argument?", "opcoes": ["In conclusion", "On the other hand", "For example"], "correta": 1, "explicacao": "'On the other hand' contrasta." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase is used to start a conclusion?", "opcoes": ["Nowadays", "In conclusion", "On one hand"], "correta": 1, "explicacao": "'In conclusion' introduz o fecho." },
+      { "tipo": "preenchimento_espaco", "frase": "___, remote work offers flexibility.", "resposta": "On one hand", "explicacao": "'On one hand' = por um lado." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a frase de abertura (introdução) de um ensaio sobre 'Should schools give homework?'.", "palavrasChaveEsperadas": ["nowadays", "many people", "whether"], "respostaModelo": "Nowadays, many people discuss whether homework is really necessary for students." },
+      { "tipo": "ditado", "textoParaOuvir": "On one hand, remote work offers flexibility.", "respostaEsperada": ["On one hand, remote work offers flexibility."] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-ensaio-argumentativo", "tipo": "situacao", "pergunta": "Quais são as 3 partes de um ensaio argumentativo?", "resposta": "introdução, desenvolvimento (argumentos), conclusão" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-38",
+    "nivel": "intermedio",
+    "titulo": "Pronúncia: Acento em Frases",
+    "objetivos": ["Reconhecer o padrão de acentuação de palavras de conteúdo vs. de função numa frase"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Em inglês, o acento numa frase cai nas palavras de conteúdo (nomes, verbos principais, adjetivos, advérbios) — as palavras de função (artigos, preposições, pronomes) ficam normalmente átonas.",
+        "exemplos": ["I WANT to BUY a NEW CAR. (maiúsculas = acentuadas)", "SHE's GOING to the STORE.", "As palavras de função (a, to, the) dizem-se rapidamente e sem ênfase."],
+        "erroComum": { "errado": "Dar a mesma ênfase a todas as palavras da frase.", "correto": "Acentua as palavras de conteúdo (informação nova/importante) e reduz as palavras de função.", "descricaoPT": "O português tende a ter um ritmo mais uniforme; o inglês é 'stress-timed', com contrastes fortes entre sílabas acentuadas e átonas." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: I want to buy a new car.", "respostaEsperada": ["I want to buy a new car", "I want to buy a new car."] },
+      { "tipo": "escolha_multipla", "pergunta": "In a sentence, which type of word usually carries the stress?", "opcoes": ["Content words (nouns, verbs)", "Function words (articles, prepositions)"], "correta": 0, "explicacao": "Palavras de conteúdo carregam o acento." },
+      { "tipo": "escolha_multipla", "pergunta": "Which word would normally be stressed in \"She's going to the STORE\"?", "opcoes": ["the", "to", "STORE"], "correta": 2, "explicacao": "'Store' é palavra de conteúdo." },
+      { "tipo": "ditado", "textoParaOuvir": "I want to buy a new car.", "respostaEsperada": ["I want to buy a new car."] }
+    ],
+    "srsItens": [{ "id": "pro-intermedio-acento-frases", "tipo": "pronuncia", "pergunta": "Que tipo de palavras carregam normalmente o acento numa frase inglesa?", "resposta": "palavras de conteúdo (nomes, verbos, adjetivos, advérbios)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-39",
+    "nivel": "intermedio",
+    "titulo": "Cultura: Humor e Ironia",
+    "objetivos": ["Reconhecer humor e ironia básicos em inglês"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O humor e a ironia em inglês muitas vezes dizem o oposto do que se quer dizer, com um tom específico — é uma das competências mais difíceis de dominar numa língua estrangeira.",
+        "exemplos": ["\"Oh great, another Monday!\" (dito com ironia, significa o oposto de entusiasmo)", "\"Nice weather we're having!\" (dito durante uma tempestade, é irónico)", "British humour, in particular, often uses understatement and sarcasm."],
+        "erroComum": { "errado": "Interpretar sempre as frases literalmente.", "correto": "Presta atenção ao tom e ao contexto — às vezes o que é dito é o oposto do que é sentido.", "descricaoPT": "Este é um dos aspetos mais subtis de uma língua — não te preocupes se ainda não conseguires captar sempre a ironia, é normal a este nível." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "\"Oh great, another Monday!\" said with a sarcastic tone probably means...", "opcoes": ["The person is excited about Monday", "The person is NOT excited about Monday", "It's not Monday"], "correta": 1, "explicacao": "Tom irónico inverte o sentido literal." },
+      { "tipo": "escolha_multipla", "pergunta": "What often characterises British humour?", "opcoes": ["Loud exaggeration", "Understatement and sarcasm", "Never joking"], "correta": 1, "explicacao": "Understatement e sarcasmo são típicos." },
+      { "tipo": "preenchimento_espaco", "frase": "Saying 'Nice weather!' during a storm is an example of ___.", "resposta": "irony", "explicacao": "'Irony' = ironia." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela disse isso com ironia.", "destino": "She said that ironically." },
+      { "tipo": "ditado", "textoParaOuvir": "Oh great, another Monday!", "respostaEsperada": ["Oh great, another Monday!"] }
+    ],
+    "srsItens": [{ "id": "cult-intermedio-humor-ironia", "tipo": "cultura", "pergunta": "O que caracteriza frequentemente o humor britânico?", "resposta": "understatement (subestimação) e sarcasmo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-40",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: Reunião de Trabalho",
+    "objetivos": ["Combinar persuasão, negociação e vocabulário profissional numa reunião simulada"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "reuniaotrabalho",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar persuasão, negociação e vocabulário profissional das últimas sessões numa reunião de trabalho simulada.",
+        "exemplos": ["I really think we should consider a different approach.", "What if we found a middle ground on the budget?", "Let's get the ball rolling on this."],
+        "erroComum": { "errado": "You have to do it my way.", "correto": "I really think we should consider a different approach.", "descricaoPT": "Mantém sempre o tom colaborativo/persuasivo em vez de impositivo, como praticaste nas últimas sessões." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "So, what do you think about the new proposal?", "opcoes": [
+            { "texto": "I really think we should consider a different approach.", "proximoNo": "negociacao" }
+          ]},
+          { "id": "negociacao", "interlocutorFala": "Interesting. What do you suggest?", "opcoes": [
+            { "texto": "What if we found a middle ground on the budget?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase is appropriate to open a negotiation?", "opcoes": ["Do it my way.", "What if we found a middle ground?", "I don't care."], "correta": 1, "explicacao": "Tom colaborativo de negociação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Acho mesmo que devíamos considerar outra abordagem.", "destino": "I really think we should consider a different approach." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a propores uma ideia numa reunião de trabalho, de forma persuasiva mas educada.", "palavrasChaveEsperadas": ["i think", "what if", "suggest"], "respostaModelo": "I think we should try a new strategy. What if we tested it for one month first?" },
+      { "tipo": "ditado", "textoParaOuvir": "Let's get the ball rolling on this.", "respostaEsperada": ["Let's get the ball rolling on this."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-reuniaotrabalho-integradora", "tipo": "situacao", "pergunta": "Como propor uma ideia numa reunião de forma persuasiva mas educada?", "resposta": "I really think we should... / What if we...?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
