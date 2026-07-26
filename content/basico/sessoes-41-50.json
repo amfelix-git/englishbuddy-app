@@ -1,0 +1,233 @@
+[
+  {
+    "id": "basico-41",
+    "nivel": "basico",
+    "titulo": "Vocabulário por Registo (Informal vs. Formal)",
+    "objetivos": ["Distinguir palavras informais e formais para o mesmo conceito"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O inglês tem palavras diferentes para o registo informal e formal do mesmo conceito — usa a palavra certa consoante o contexto.",
+        "exemplos": ["kids (informal) vs. children (neutro/formal)", "get (informal) vs. obtain (formal)", "folks (informal) vs. parents (neutro)"],
+        "erroComum": { "errado": "Usar 'obtain' numa conversa informal com amigos.", "correto": "Em conversa informal, usa 'get' em vez de 'obtain' — soa mais natural.", "descricaoPT": "Um erro comum é usar sempre a palavra mais 'sofisticada' (muitas vezes parecida com o português), o que soa demasiado formal ou estranho em conversa do dia a dia." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which word is more informal?", "opcoes": ["kids", "children"], "correta": 0, "explicacao": "'Kids' é informal; 'children' é neutro/formal." },
+      { "tipo": "escolha_multipla", "pergunta": "In a formal report, which word is better?", "opcoes": ["get", "obtain"], "correta": 1, "explicacao": "'Obtain' é mais formal, adequado a um relatório." },
+      { "tipo": "preenchimento_espaco", "frase": "Talking to a friend: 'I need to ___ some milk.'", "resposta": "get", "explicacao": "Registo informal → get." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Preciso de obter uma cópia do documento (registo formal).", "destino": "I need to obtain a copy of the document." },
+      { "tipo": "ditado", "textoParaOuvir": "My kids love playing in the park.", "respostaEsperada": ["My kids love playing in the park."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-registo-informal-formal", "tipo": "vocabulario", "pergunta": "Dá um par informal/formal do mesmo conceito.", "resposta": "kids/children, get/obtain" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-42",
+    "nivel": "basico",
+    "titulo": "Sinónimos e Registo de Intensidade",
+    "objetivos": ["Usar escalas de intensidade de adjetivos", "Distinguir say/tell/speak/talk"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Muitos adjetivos têm sinónimos de intensidade crescente: good → great → excellent → outstanding. Verbos de comunicação também têm nuances: say/tell/speak/talk.",
+        "exemplos": ["The food was good. → The food was excellent!", "Tell me a story. (tell + pessoa)", "Talk to me. (talk + preposição)"],
+        "erroComum": { "errado": "Say me the answer.", "correto": "Tell me the answer.", "descricaoPT": "'Say' nunca leva diretamente uma pessoa como objeto ('say me' está errado) — usa-se 'tell' + pessoa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the strongest way to say something is good?", "opcoes": ["good", "fine", "outstanding"], "correta": 2, "explicacao": "'Outstanding' é o mais intenso dos três." },
+      { "tipo": "escolha_multipla", "pergunta": "___ me your name.", "opcoes": ["Say", "Tell", "Speak"], "correta": 1, "explicacao": "'Tell' + pessoa: tell me." },
+      { "tipo": "preenchimento_espaco", "frase": "Can you ___ English?", "resposta": "speak", "explicacao": "'Speak' + língua." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O filme foi excelente!", "destino": "The movie was excellent!" },
+      { "tipo": "ditado", "textoParaOuvir": "Tell me what happened yesterday.", "respostaEsperada": ["Tell me what happened yesterday."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-sinonimos-say-tell-speak-talk", "tipo": "vocabulario", "pergunta": "Qual a diferença entre 'say' e 'tell'?", "resposta": "'tell' leva diretamente uma pessoa como objeto (tell me), 'say' não (say something to me)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-43",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs Profissionais e Separabilidade",
+    "objetivos": ["Usar phrasal verbs de contexto profissional", "Distinguir separáveis de inseparáveis"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs frequentes em contexto profissional: carry out, follow up, set up. Alguns são separáveis (turn it off / turn off the light), outros inseparáveis (look after the children — nunca 'look the children after').",
+        "exemplos": ["We need to carry out some tests.", "I'll follow up with an email.", "Let's set up a new project.", "She looks after her grandmother."],
+        "erroComum": { "errado": "Look the children after.", "correto": "Look after the children.", "descricaoPT": "'Look after' é inseparável — o objeto vem sempre depois das duas palavras juntas, nunca no meio." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "We need to ___ some tests.", "opcoes": ["carry out", "carry in", "carry off"], "correta": 0, "explicacao": "'Carry out' = realizar." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct (inseparável)?", "opcoes": ["Look after the children.", "Look the children after."], "correta": 0, "explicacao": "'Look after' não se separa." },
+      { "tipo": "preenchimento_espaco", "frase": "I'll ___ with an email tomorrow.", "resposta": "follow up", "explicacao": "'Follow up' = dar seguimento." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos criar um novo projeto.", "destino": "Let's set up a new project." },
+      { "tipo": "ditado", "textoParaOuvir": "She looks after her grandmother every weekend.", "respostaEsperada": ["She looks after her grandmother every weekend."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-profissionais-separabilidade", "tipo": "vocabulario", "pergunta": "'Look after' é separável ou inseparável?", "resposta": "inseparável — o objeto vem sempre depois" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-44",
+    "nivel": "basico",
+    "titulo": "Idiomas: Trabalho e Emoções",
+    "objetivos": ["Usar idiomas de contexto profissional e emocional"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas usados em contexto de trabalho e para expressar emoções: think outside the box, touch base (trabalho); over the moon, get cold feet (emoções).",
+        "exemplos": ["We need to think outside the box.", "Let's touch base next week.", "I'm over the moon about the news!", "He got cold feet before the wedding."],
+        "erroComum": { "errado": "Traduzir 'touch base' literalmente como tocar numa base.", "correto": "'Touch base' significa contactar/atualizar alguém rapidamente.", "descricaoPT": "Idiomas de negócios em inglês não têm equivalente direto em português — memoriza o significado completo, não palavra a palavra." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Touch base' means...", "opcoes": ["To contact someone briefly to update them", "To touch a physical base", "To start a game"], "correta": 0, "explicacao": "'Touch base' = contactar rapidamente para atualizar informação." },
+      { "tipo": "escolha_multipla", "pergunta": "'Over the moon' means...", "opcoes": ["Very sad", "Very happy", "Very tired"], "correta": 1, "explicacao": "'Over the moon' = extremamente feliz." },
+      { "tipo": "preenchimento_espaco", "frase": "He got cold ___ before the wedding.", "resposta": "feet", "explicacao": "'Get cold feet' = desistir por medo/nervosismo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos ter de pensar fora da caixa.", "destino": "We need to think outside the box." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm over the moon about the good news!", "respostaEsperada": ["I'm over the moon about the good news!"] }
+    ],
+    "srsItens": [{ "id": "idi-basico-trabalho-emocoes", "tipo": "vocabulario", "pergunta": "O que significa 'get cold feet'?", "resposta": "desistir de algo por medo/nervosismo de última hora" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-45",
+    "nivel": "basico",
+    "titulo": "Provérbios",
+    "objetivos": ["Reconhecer provérbios ingleses comuns"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Provérbios são frases fixas de sabedoria popular — importa reconhecê-los, mesmo sem precisar de os usar ativamente.",
+        "exemplos": ["Actions speak louder than words.", "Better late than never.", "Practice makes perfect."],
+        "erroComum": { "errado": "Traduzir provérbios português-inglês palavra a palavra.", "correto": "Provérbios raramente têm tradução literal — usa o equivalente inglês, não uma tradução direta.", "descricaoPT": "Por exemplo, 'Quem não arrisca não petisca' não se traduz literalmente — o equivalente inglês mais próximo é 'Nothing ventured, nothing gained'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Practice makes perfect' means...", "opcoes": ["Practicing regularly leads to improvement", "Perfect people practice", "Practice is perfect"], "correta": 0, "explicacao": "A prática regular leva à melhoria." },
+      { "tipo": "escolha_multipla", "pergunta": "Which proverb matches 'É melhor tarde do que nunca'?", "opcoes": ["Better late than never.", "Actions speak louder than words.", "Practice makes perfect."], "correta": 0, "explicacao": "Correspondência direta de sentido." },
+      { "tipo": "preenchimento_espaco", "frase": "___ speak louder than words.", "resposta": "Actions", "explicacao": "'Actions speak louder than words.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É melhor tarde do que nunca.", "destino": "Better late than never." },
+      { "tipo": "ditado", "textoParaOuvir": "Remember, practice makes perfect.", "respostaEsperada": ["Remember, practice makes perfect."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-proverbios", "tipo": "vocabulario", "pergunta": "Como se diz 'a prática leva à perfeição' em inglês?", "resposta": "Practice makes perfect." }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-46",
+    "nivel": "basico",
+    "titulo": "Pronúncia: Acento Tónico (Word Stress)",
+    "objetivos": ["Reconhecer palavras que mudam de significado consoante a sílaba tónica"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Algumas palavras mudam de significado consoante a sílaba tónica — nomes têm acento na 1ª sílaba, verbos na 2ª (record, present, import).",
+        "exemplos": ["RECord (nome) vs. reCORD (verbo)", "PRESent (nome/adjetivo) vs. preSENT (verbo)", "IMport (nome) vs. imPORT (verbo)"],
+        "erroComum": { "errado": "Pronunciar 'record' sempre da mesma forma, independentemente do contexto.", "correto": "'RECord' (nome, ex.: a music record) vs. 'reCORD' (verbo, ex.: to record a song) têm acentos diferentes.", "descricaoPT": "Esta distinção não existe da mesma forma em português, por isso é fácil esquecer — mas afeta a inteligibilidade em inglês." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: record, as in a music record.", "respostaEsperada": ["record"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: record, as in to record a video.", "respostaEsperada": ["record"] },
+      { "tipo": "escolha_multipla", "pergunta": "In 'I want to buy a new record', which syllable is stressed?", "opcoes": ["The first", "The second"], "correta": 0, "explicacao": "Como nome, o acento cai na 1ª sílaba." },
+      { "tipo": "escolha_multipla", "pergunta": "In 'Please record this meeting', which syllable is stressed?", "opcoes": ["The first", "The second"], "correta": 1, "explicacao": "Como verbo, o acento cai na 2ª sílaba." },
+      { "tipo": "ditado", "textoParaOuvir": "Can you record this song for me?", "respostaEsperada": ["Can you record this song for me?"] }
+    ],
+    "srsItens": [{ "id": "pro-basico-acento-tonico", "tipo": "pronuncia", "pergunta": "Como muda o acento tónico entre o nome e o verbo 'record'?", "resposta": "nome: RECord (1ª sílaba); verbo: reCORD (2ª sílaba)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-47",
+    "nivel": "basico",
+    "titulo": "Connected Speech: Contrações Naturais",
+    "objetivos": ["Reconhecer contrações informais faladas: gonna, wanna, kinda"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na fala natural e rápida, o inglês usa muitas contrações informais: gonna (going to), wanna (want to), kinda (kind of). Servem só para reconhecimento auditivo — na escrita formal usa-se sempre a forma completa.",
+        "exemplos": ["I'm gonna call you later. (= going to)", "Do you wanna come? (= want to)", "It's kinda difficult. (= kind of)"],
+        "erroComum": { "errado": "Escrever 'gonna'/'wanna' num email formal.", "correto": "Usa 'going to'/'want to' na escrita formal — 'gonna'/'wanna' são só orais e informais.", "descricaoPT": "Estas contrações ajudam a PERCEBER inglês falado rápido, mas nunca se escrevem em contextos formais." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: I'm gonna call you later.", "respostaEsperada": ["I'm gonna call you later", "I'm gonna call you later."] },
+      { "tipo": "escolha_multipla", "pergunta": "'Gonna' is the informal spoken form of...", "opcoes": ["going to", "get on", "gone away"], "correta": 0, "explicacao": "'Gonna' = going to." },
+      { "tipo": "escolha_multipla", "pergunta": "'Wanna' is the informal spoken form of...", "opcoes": ["want a", "want to", "warn to"], "correta": 1, "explicacao": "'Wanna' = want to." },
+      { "tipo": "preenchimento_espaco", "frase": "In formal writing, 'kinda' should be written as ___.", "resposta": "kind of", "explicacao": "Forma completa e formal: kind of." },
+      { "tipo": "ditado", "textoParaOuvir": "Do you wanna come with us tonight?", "respostaEsperada": ["Do you wanna come with us tonight?"] }
+    ],
+    "srsItens": [{ "id": "pro-basico-connected-speech-contracoes", "tipo": "pronuncia", "pergunta": "O que significam 'gonna' e 'wanna'?", "resposta": "going to / want to (formas orais informais)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-48",
+    "nivel": "basico",
+    "titulo": "Funções Comunicativas: Opinião e Esclarecimento",
+    "objetivos": ["Dar opinião, concordar/discordar educadamente, pedir esclarecimento"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para dar opinião, concordar/discordar educadamente, e pedir esclarecimento numa conversa.",
+        "exemplos": ["In my opinion, it's a great idea.", "I totally agree. / I'm not sure I agree.", "Could you clarify that, please?"],
+        "erroComum": { "errado": "I don't agree, this is stupid.", "correto": "I see your point, but I don't fully agree, because...", "descricaoPT": "Discordar em inglês, sobretudo em contexto profissional/social, costuma ser mais suavizado do que uma tradução direta e brusca do português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a polite way to disagree?", "opcoes": ["That's wrong.", "I see your point, but I'm not sure I agree.", "No, you're wrong."], "correta": 1, "explicacao": "Discordância suavizada e educada." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you ask someone to explain again?", "opcoes": ["Could you clarify that, please?", "Say again now.", "What?!"], "correta": 0, "explicacao": "Pedido educado de esclarecimento." },
+      { "tipo": "preenchimento_espaco", "frase": "In my ___, this is a great idea.", "resposta": "opinion", "explicacao": "'In my opinion' = na minha opinião." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Concordo totalmente contigo.", "destino": "I totally agree with you." },
+      { "tipo": "ditado", "textoParaOuvir": "Could you clarify that, please?", "respostaEsperada": ["Could you clarify that, please?"] }
+    ],
+    "srsItens": [{ "id": "prag-basico-opiniao-esclarecimento", "tipo": "situacao", "pergunta": "Como discordar educadamente em inglês?", "resposta": "I see your point, but I'm not sure I agree..." }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-49",
+    "nivel": "basico",
+    "titulo": "Escrita Funcional: Emails e Mensagens",
+    "objetivos": ["Escrever emails formais e mensagens informais adequadas ao registo"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Templates úteis para escrita funcional do dia a dia: emails formais e mensagens informais.",
+        "exemplos": ["Dear Mr. Smith, ... Best regards, (email formal)", "Hey! Just checking in — are we still on for tomorrow? (mensagem informal)"],
+        "erroComum": { "errado": "Usar 'Hey' a abrir um email formal para um desconhecido.", "correto": "Usa 'Dear Mr./Mrs. [Apelido],' num email formal.", "descricaoPT": "O registo do cumprimento inicial de um email deve corresponder à formalidade da situação — misturar registos soa estranho." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a correct formal email opening?", "opcoes": ["Hey dude,", "Dear Mr. Smith,", "Yo Smith,"], "correta": 1, "explicacao": "'Dear Mr. Smith,' é o registo formal correto." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a correct informal message?", "opcoes": ["Dear Sir, I am writing to inform you...", "Hey! Are we still on for tomorrow?", "To Whom It May Concern,"], "correta": 1, "explicacao": "Registo informal adequado a uma mensagem entre amigos." },
+      { "tipo": "preenchimento_espaco", "frase": "Formal email closing: 'Best ___,'", "resposta": "regards", "explicacao": "'Best regards,' é uma despedida formal comum." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura e uma frase de um email formal a pedir informação.", "palavrasChaveEsperadas": ["dear", "i am writing"], "respostaModelo": "Dear Mr. Silva, I am writing to ask about your services." },
+      { "tipo": "ditado", "textoParaOuvir": "Dear Mr. Smith, I am writing to follow up.", "respostaEsperada": ["Dear Mr. Smith, I am writing to follow up."] }
+    ],
+    "srsItens": [{ "id": "rw-basico-emails-mensagens", "tipo": "situacao", "pergunta": "Como se abre um email formal em inglês?", "resposta": "Dear Mr./Mrs. [Apelido]," }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-50",
+    "nivel": "basico",
+    "titulo": "Cultura: Inglês Britânico vs. Americano",
+    "objetivos": ["Reconhecer diferenças de vocabulário e ortografia entre BrE e AmE"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "variacaoregional",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O inglês britânico (BrE) e americano (AmE) têm diferenças de vocabulário e ortografia. Nenhum dos dois é 'mais correto' — o importante é seres consistente.",
+        "exemplos": ["flat (BrE) / apartment (AmE)", "colour (BrE) / color (AmE)", "lift (BrE) / elevator (AmE)"],
+        "erroComum": { "errado": "Misturar ortografia britânica e americana no mesmo texto.", "correto": "Escolhe um estilo (BrE ou AmE) e sê consistente em todo o texto.", "descricaoPT": "Não há certo/errado absoluto entre BrE e AmE, mas misturar as duas ortografias no mesmo texto (ex.: 'colour' e 'realize' juntos) é visto como inconsistência." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Flat' (BrE) means the same as... (AmE)", "opcoes": ["apartment", "house", "hotel"], "correta": 0, "explicacao": "'Flat' (BrE) = 'apartment' (AmE)." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the American spelling?", "opcoes": ["colour", "color"], "correta": 1, "explicacao": "'Color' é a ortografia americana; 'colour' é a britânica." },
+      { "tipo": "preenchimento_espaco", "frase": "BrE: 'lift' = AmE: '___'.", "resposta": "elevator", "explicacao": "'Lift' (BrE) = 'elevator' (AmE)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela vive num apartamento em Londres (usa o termo britânico).", "destino": "She lives in a flat in London." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase usando um par de palavras BrE/AmE diferentes (ex.: flat/apartment, colour/color).", "palavrasChaveEsperadas": ["flat", "apartment", "colour", "color"], "respostaModelo": "My flat has a lovely colour on the walls." },
+      { "tipo": "ditado", "textoParaOuvir": "In British English, we say flat, not apartment.", "respostaEsperada": ["In British English, we say flat, not apartment."] }
+    ],
+    "srsItens": [{ "id": "cult-basico-bre-vs-ame", "tipo": "cultura", "pergunta": "Dá um par de palavras diferentes entre BrE e AmE.", "resposta": "flat/apartment, colour/color, lift/elevator" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
