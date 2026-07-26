@@ -1,0 +1,254 @@
+[
+  {
+    "id": "basico-51",
+    "nivel": "basico",
+    "titulo": "Números Cardinais",
+    "objetivos": ["Usar números cardinais em inglês corretamente"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Os números cardinais em inglês seguem um padrão regular a partir de 20 (twenty, twenty-one...), com algumas irregularidades entre 11-19 e na ortografia das dezenas.",
+        "exemplos": ["13 = thirteen, 14 = fourteen", "20 = twenty, 21 = twenty-one", "100 = a hundred / one hundred"],
+        "erroComum": { "errado": "I am twenty and five years old.", "correto": "I am twenty-five years old.", "descricaoPT": "Não se usa 'and' entre dezenas e unidades como por vezes se faz em português — 'twenty-five', não 'twenty and five'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you write 13?", "opcoes": ["threeteen", "thirteen", "thirtenn"], "correta": 1, "explicacao": "13 = thirteen." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you write 40?", "opcoes": ["fourty", "forty", "fourthy"], "correta": 1, "explicacao": "40 = forty (não 'fourty', apesar de vir de 'four')." },
+      { "tipo": "preenchimento_espaco", "frase": "25 = twenty-___.", "resposta": "five", "explicacao": "twenty-five, sem 'and'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela tem trinta e dois anos.", "destino": "She is thirty-two years old." },
+      { "tipo": "ditado", "textoParaOuvir": "There are forty-two students in the class.", "respostaEsperada": ["There are forty-two students in the class."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-numeros-cardinais", "tipo": "vocabulario", "pergunta": "Como se escreve 40 em inglês?", "resposta": "forty (não fourty)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-52",
+    "nivel": "basico",
+    "titulo": "Números Ordinais e Datas",
+    "objetivos": ["Usar números ordinais", "Dizer datas em inglês"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Números ordinais (first, second, third...) usam-se para datas e ordens. Datas dizem-se com 'the' + ordinal + 'of' + mês, ex.: the 3rd of May.",
+        "exemplos": ["1st = first, 2nd = second, 3rd = third, 4th = fourth", "My birthday is on the 5th of June.", "What's the date today? It's the 10th of March."],
+        "erroComum": { "errado": "Traduzir 'terceiro' apenas como 'three'.", "correto": "'Third', não 'three', para o ordinal.", "descricaoPT": "Números ordinais e cardinais são palavras diferentes em inglês — first, second, third são irregulares e têm de ser memorizados à parte." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What is the ordinal for '1'?", "opcoes": ["oneth", "first", "onest"], "correta": 1, "explicacao": "1 → first." },
+      { "tipo": "escolha_multipla", "pergunta": "What is the ordinal for '3'?", "opcoes": ["threeth", "thirdth", "third"], "correta": 2, "explicacao": "3 → third." },
+      { "tipo": "preenchimento_espaco", "frase": "My birthday is on the ___ of June (5).", "resposta": "fifth", "explicacao": "5 → fifth." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Hoje é dia três de maio.", "destino": "Today is the third of May." },
+      { "tipo": "ditado", "textoParaOuvir": "What's the date today?", "respostaEsperada": ["What's the date today?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-numeros-ordinais-datas", "tipo": "gramatica", "pergunta": "Como se diz uma data em inglês (estrutura)?", "resposta": "the + ordinal + of + mês (ex.: the 3rd of May)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-53",
+    "nivel": "basico",
+    "titulo": "Horas (Telling Time)",
+    "objetivos": ["Dizer as horas em inglês corretamente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Para dizer as horas em inglês: o'clock para horas certas, half past para X:30, quarter to/past para 15 minutos antes/depois.",
+        "exemplos": ["3:00 = three o'clock", "3:30 = half past three", "3:15 = quarter past three", "3:45 = quarter to four"],
+        "erroComum": { "errado": "Three and a half (para dizer 3:30).", "correto": "Half past three.", "descricaoPT": "A estrutura de horas em inglês não segue a lógica direta do português ('três e meia') — usa-se 'half past' + hora anterior." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you say 3:30?", "opcoes": ["Half past three", "Three and half", "Half to three"], "correta": 0, "explicacao": "3:30 = half past three." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you say 4:45?", "opcoes": ["Quarter to five", "Quarter past four", "Four to five"], "correta": 0, "explicacao": "4:45 = quarter to five (15 min antes das 5)." },
+      { "tipo": "preenchimento_espaco", "frase": "2:15 = quarter ___ two.", "resposta": "past", "explicacao": "2:15 = quarter past two." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "São quinze para as dez.", "destino": "It's quarter to ten." },
+      { "tipo": "ditado", "textoParaOuvir": "It's half past seven.", "respostaEsperada": ["It's half past seven."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-horas-telling-time", "tipo": "gramatica", "pergunta": "Como se diz 3:30 em inglês?", "resposta": "half past three" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-54",
+    "nivel": "basico",
+    "titulo": "Cores, Formas e Descrição Física",
+    "objetivos": ["Descrever cores, formas e a aparência de alguém"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário nuclear de cores, formas e adjetivos simples para descrever a aparência de alguém.",
+        "exemplos": ["red, blue, green, yellow", "round, square", "She has long, curly hair. He is tall and thin."],
+        "erroComum": { "errado": "She has the hairs long.", "correto": "She has long hair.", "descricaoPT": "'Hair' é normalmente incontável (singular) em inglês, ao contrário de 'cabelos' em português — não se usa 'hairs' nem se inverte a ordem do adjetivo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What colour is the sky?", "opcoes": ["Blue", "Square", "Tall"], "correta": 0, "explicacao": "O céu é azul (blue)." },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes hair correctly?", "opcoes": ["long hairs", "long hair", "hairs long"], "correta": 1, "explicacao": "'Long hair', singular e adjetivo antes do nome." },
+      { "tipo": "preenchimento_espaco", "frase": "He is ___ and thin.", "resposta": "tall", "explicacao": "'Tall' = alto." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela tem cabelo curto e escuro.", "destino": "She has short, dark hair." },
+      { "tipo": "ditado", "textoParaOuvir": "He has short brown hair and blue eyes.", "respostaEsperada": ["He has short brown hair and blue eyes."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-cores-descricao-fisica", "tipo": "vocabulario", "pergunta": "Como se diz 'cabelo comprido' em inglês, no singular ou plural?", "resposta": "long hair (singular, incontável)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-55",
+    "nivel": "basico",
+    "titulo": "Tempo Meteorológico",
+    "objetivos": ["Descrever o tempo meteorológico"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário do tempo meteorológico e a estrutura 'It's + adjetivo' para o descrever.",
+        "exemplos": ["It's sunny/rainy/cloudy/windy today.", "What's the weather like?", "It's cold/hot/warm."],
+        "erroComum": { "errado": "The weather is sun.", "correto": "It's sunny. / The weather is sunny.", "descricaoPT": "Usa-se o adjetivo (sunny, rainy), não o nome (sun, rain), depois de 'it's' ou 'the weather is'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "It's ___ today, take an umbrella.", "opcoes": ["rain", "rainy", "rains"], "correta": 1, "explicacao": "'It's rainy' usa o adjetivo." },
+      { "tipo": "escolha_multipla", "pergunta": "What's the ___ like today?", "opcoes": ["weather", "time", "climate"], "correta": 0, "explicacao": "'What's the weather like?' é a pergunta padrão." },
+      { "tipo": "preenchimento_espaco", "frase": "It's very ___ in summer.", "resposta": "hot", "explicacao": "'Hot' = quente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Está muito vento hoje.", "destino": "It's very windy today." },
+      { "tipo": "ditado", "textoParaOuvir": "It's cloudy and cold today.", "respostaEsperada": ["It's cloudy and cold today."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-tempo-meteorologico", "tipo": "vocabulario", "pergunta": "Como se pergunta como está o tempo em inglês?", "resposta": "What's the weather like?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-56",
+    "nivel": "basico",
+    "titulo": "Comida e Bebida",
+    "objetivos": ["Vocabulário nuclear de comida e bebida", "Expressar fome e sede corretamente"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário nuclear de comida e bebida, essencial para o dia a dia.",
+        "exemplos": ["bread, rice, chicken, fish", "water, juice, coffee, tea", "I'm hungry / I'm thirsty."],
+        "erroComum": { "errado": "I have hunger.", "correto": "I'm hungry.", "descricaoPT": "Em inglês, fome e sede exprimem-se com to be + adjetivo ('I'm hungry/thirsty'), não com to have como em português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a drink?", "opcoes": ["rice", "juice", "chicken"], "correta": 1, "explicacao": "'Juice' é uma bebida." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you say you're hungry?", "opcoes": ["I have hunger.", "I'm hungry.", "I am hunger."], "correta": 1, "explicacao": "'I'm hungry' com to be + adjetivo." },
+      { "tipo": "preenchimento_espaco", "frase": "I'm really ___, can I have some water?", "resposta": "thirsty", "explicacao": "'Thirsty' = com sede." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu gosto de arroz e frango.", "destino": "I like rice and chicken." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm hungry, let's have some bread and cheese.", "respostaEsperada": ["I'm hungry, let's have some bread and cheese."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-comida-bebida", "tipo": "vocabulario", "pergunta": "Como se diz 'estou com fome' em inglês?", "resposta": "I'm hungry (não 'I have hunger')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-57",
+    "nivel": "basico",
+    "titulo": "Situação: No Restaurante",
+    "objetivos": ["Pedir comida e pagar a conta educadamente num restaurante"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "restaurante",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para pedir comida e pagar a conta num restaurante.",
+        "exemplos": ["Can I see the menu, please?", "I'll have the chicken, please.", "Could we have the bill, please?"],
+        "erroComum": { "errado": "I want the chicken.", "correto": "I'll have the chicken, please. / Could I have the chicken, please?", "descricaoPT": "Em inglês, pedir comida com 'I want' soa brusco — o mais educado e natural é 'I'll have...' ou 'Could I have...'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good evening! Are you ready to order?", "opcoes": [
+            { "texto": "Yes, I'll have the chicken, please.", "proximoNo": "bebida" }
+          ]},
+          { "id": "bebida", "interlocutorFala": "Great choice. Anything to drink?", "opcoes": [
+            { "texto": "Just water, thanks.", "proximoNo": "conta" }
+          ]},
+          { "id": "conta", "interlocutorFala": "Here's your bill, thank you!", "opcoes": [
+            { "texto": "Thank you very much!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the most polite way to order?", "opcoes": ["I want the chicken.", "I'll have the chicken, please.", "Give me chicken."], "correta": 1, "explicacao": "'I'll have... please' é o pedido educado natural." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Podemos ver o menu, por favor?", "destino": "Can we see the menu, please?" },
+      { "tipo": "ditado", "textoParaOuvir": "Could we have the bill, please?", "respostaEsperada": ["Could we have the bill, please?"] }
+    ],
+    "srsItens": [{ "id": "sit-basico-restaurante-integradora", "tipo": "situacao", "pergunta": "Como pedir comida educadamente num restaurante?", "resposta": "I'll have... please. / Could I have...?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-58",
+    "nivel": "basico",
+    "titulo": "Hobbies e Tempos Livres",
+    "objetivos": ["Falar sobre hobbies usando like/love/enjoy + gerúndio"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário e estruturas para falar de hobbies e tempos livres, usando gostos (like/love/enjoy + gerúndio).",
+        "exemplos": ["I enjoy reading books.", "She loves playing tennis.", "What do you do in your free time?"],
+        "erroComum": { "errado": "I like to swimming.", "correto": "I like swimming. / I like to swim.", "descricaoPT": "Depois de 'like/love/enjoy', usa-se ou o gerúndio (swimming) ou 'to' + infinitivo (to swim), mas nunca as duas formas misturadas ('to swimming')." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What do you do in your ___ time?", "opcoes": ["free", "empty", "open"], "correta": 0, "explicacao": "'Free time' = tempos livres." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I like to swimming.", "I like swimming.", "I like swim."], "correta": 1, "explicacao": "'Like' + gerúndio: I like swimming." },
+      { "tipo": "preenchimento_espaco", "frase": "She loves ___ the guitar.", "resposta": "playing", "explicacao": "'Love' + gerúndio: loves playing." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu gosto de ler livros nos tempos livres.", "destino": "I enjoy reading books in my free time." },
+      { "tipo": "ditado", "textoParaOuvir": "What do you do in your free time?", "respostaEsperada": ["What do you do in your free time?"] }
+    ],
+    "srsItens": [{ "id": "gra-basico-hobbies-gerundio", "tipo": "gramatica", "pergunta": "Que forma verbal segue like/love/enjoy?", "resposta": "gerúndio (-ing) ou 'to' + infinitivo, nunca 'to' + gerúndio" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-59",
+    "nivel": "basico",
+    "titulo": "Transportes",
+    "objetivos": ["Usar vocabulário de meios de transporte com a preposição 'by'"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de meios de transporte e a preposição 'by' para dizer como te deslocas.",
+        "exemplos": ["by car, by bus, by train, on foot", "How do you get to work?", "I go to work by bike."],
+        "erroComum": { "errado": "I go with car.", "correto": "I go by car.", "descricaoPT": "Para meios de transporte usa-se sempre 'by' (by car, by bus), exceto 'on foot' (a pé) — nunca 'with'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you get to work?", "opcoes": ["I go with car.", "I go by car.", "I go in car."], "correta": 1, "explicacao": "'By car' é a forma correta." },
+      { "tipo": "escolha_multipla", "pergunta": "How do you say 'a pé'?", "opcoes": ["by foot", "on foot", "in foot"], "correta": 1, "explicacao": "'On foot' é a exceção à regra do 'by'." },
+      { "tipo": "preenchimento_espaco", "frase": "She goes to school ___ bus.", "resposta": "by", "explicacao": "'By bus' = de autocarro." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu vou trabalhar de comboio.", "destino": "I go to work by train." },
+      { "tipo": "ditado", "textoParaOuvir": "I usually go to work by bike.", "respostaEsperada": ["I usually go to work by bike."] }
+    ],
+    "srsItens": [{ "id": "gra-basico-transportes-preposicao-by", "tipo": "gramatica", "pergunta": "Que preposição se usa com meios de transporte?", "resposta": "by (exceto 'on foot')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-60",
+    "nivel": "basico",
+    "titulo": "Situação Integradora: Um Dia na Cidade",
+    "objetivos": ["Combinar números/horas, transporte, comida e tempo meteorológico numa narrativa do dia a dia"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "cidade",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar horas, transporte, comida e tempo meteorológico das últimas sessões numa narrativa de um dia normal na cidade.",
+        "exemplos": ["It's quarter past eight and I'm going to work by bus.", "At one o'clock, I have lunch at a restaurant.", "It's sunny today, a perfect day for a walk."],
+        "erroComum": { "errado": "It's eight and quarter.", "correto": "It's quarter past eight.", "descricaoPT": "Revê a estrutura correta de horas praticada nas sessões anteriores — é um dos pontos mais transferidos incorretamente do português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence uses time correctly?", "opcoes": ["It's quarter past eight.", "It's eight and quarter.", "It's quarter eight past."], "correta": 0, "explicacao": "'Quarter past eight' é a estrutura correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Às oito e meia, vou de autocarro para o trabalho.", "destino": "At half past eight, I go to work by bus." },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! What's your day like today?", "opcoes": [
+            { "texto": "I wake up at seven o'clock and go to work by bus.", "proximoNo": "tempo" }
+          ]},
+          { "id": "tempo", "interlocutorFala": "Nice! And what's the weather like today?", "opcoes": [
+            { "texto": "It's sunny today, a perfect day for a walk.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 3-4 frases a descreveres um dia normal teu: hora que acordas, como vais trabalhar/estudar, o que comes.", "palavrasChaveEsperadas": ["o'clock", "by", "half past"], "respostaModelo": "I wake up at seven o'clock. I go to work by car. At one o'clock, I have lunch." },
+      { "tipo": "ditado", "textoParaOuvir": "It's sunny today, a perfect day for a walk.", "respostaEsperada": ["It's sunny today, a perfect day for a walk."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-diaacidade-integradora", "tipo": "situacao", "pergunta": "Como descrever a rotina diária combinando horas e transporte?", "resposta": "ex.: I wake up at seven o'clock and go to work by bus." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
