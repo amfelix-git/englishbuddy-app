@@ -1,0 +1,262 @@
+[
+  {
+    "id": "basico-101",
+    "nivel": "basico",
+    "titulo": "Vocabulário: Estações do Ano",
+    "objetivos": ["Vocabulário das quatro estações e atividades típicas"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário das quatro estações do ano e atividades típicas de cada uma.",
+        "exemplos": ["spring, summer, autumn/fall, winter", "In summer, I go to the beach.", "It's cold in winter."],
+        "erroComum": { "errado": "I go the beach.", "correto": "I go to the beach.", "descricaoPT": "Falta o 'to' antes de 'the beach' — 'go to the beach', não 'go the beach'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which season comes after summer?", "opcoes": ["Spring", "Autumn/Fall", "Winter"], "correta": 1, "explicacao": "Depois do verão vem o outono." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I go the beach.", "I go to the beach.", "I go at the beach."], "correta": 1, "explicacao": "'Go to the beach' é a forma correta." },
+      { "tipo": "preenchimento_espaco", "frase": "It's very cold in ___.", "resposta": "winter", "explicacao": "'Winter' = inverno." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Na primavera, as flores nascem.", "destino": "In spring, flowers bloom." },
+      { "tipo": "ditado", "textoParaOuvir": "In summer, I go to the beach.", "respostaEsperada": ["In summer, I go to the beach."] }
+    ],
+    "srsItens": [{ "id": "voc-basico-estacoes-do-ano", "tipo": "vocabulario", "pergunta": "Quais são as 4 estações do ano em inglês?", "resposta": "spring, summer, autumn/fall, winter" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-102",
+    "nivel": "basico",
+    "titulo": "Situação: No Ginásio",
+    "objetivos": ["Vocabulário e frases para o ginásio e exercício físico"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "ginasio",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário e frases para o ginásio e exercício físico.",
+        "exemplos": ["I'd like to sign up for the gym.", "How often do you work out?", "I usually work out three times a week."],
+        "erroComum": { "errado": "I do gym three times.", "correto": "I go to the gym three times a week. / I work out three times a week.", "descricaoPT": "'Do gym' não é natural — usa-se 'go to the gym' ou 'work out'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! Are you interested in signing up?", "opcoes": [
+            { "texto": "Yes, I'd like to sign up for the gym.", "proximoNo": "frequencia" }
+          ]},
+          { "id": "frequencia", "interlocutorFala": "Great! How often do you plan to come?", "opcoes": [
+            { "texto": "I usually work out three times a week.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I do gym.", "I go to the gym.", "I make gym."], "correta": 1, "explicacao": "'Go to the gym' é a forma correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Com que frequência treinas?", "destino": "How often do you work out?" },
+      { "tipo": "ditado", "textoParaOuvir": "I usually work out three times a week.", "respostaEsperada": ["I usually work out three times a week."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-ginasio-integradora", "tipo": "situacao", "pergunta": "Como se diz 'malhar/exercitar-se' em inglês?", "resposta": "work out" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-103",
+    "nivel": "basico",
+    "titulo": "Situação: No Cinema / Teatro",
+    "objetivos": ["Comprar bilhetes e perguntar sobre sessões de cinema/teatro"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "cinemateatro",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para comprar bilhetes e perguntar sobre sessões no cinema ou teatro.",
+        "exemplos": ["What's on tonight?", "Two tickets for the 8 o'clock show, please.", "Where are the best seats?"],
+        "erroComum": { "errado": "What is passing tonight?", "correto": "What's on tonight?", "descricaoPT": "'What's on?' é a expressão fixa para perguntar o que está em exibição — não se traduz literalmente 'o que está a passar'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! How can I help you?", "opcoes": [
+            { "texto": "What's on tonight?", "proximoNo": "bilhetes" }
+          ]},
+          { "id": "bilhetes", "interlocutorFala": "We have a new comedy at 8pm. Would you like tickets?", "opcoes": [
+            { "texto": "Yes, two tickets for the 8 o'clock show, please.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you ask what's playing at the cinema?", "opcoes": ["What is passing tonight?", "What's on tonight?", "What plays now?"], "correta": 1, "explicacao": "'What's on?' é a expressão fixa correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Onde ficam os melhores lugares?", "destino": "Where are the best seats?" },
+      { "tipo": "ditado", "textoParaOuvir": "Two tickets for the 8 o'clock show, please.", "respostaEsperada": ["Two tickets for the 8 o'clock show, please."] }
+    ],
+    "srsItens": [{ "id": "sit-basico-cinemateatro-integradora", "tipo": "situacao", "pergunta": "Como se pergunta o que está em exibição no cinema?", "resposta": "What's on?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-104",
+    "nivel": "basico",
+    "titulo": "Phrasal Verbs: Hang Out, Bring Up, Break Down",
+    "objetivos": ["Usar phrasal verbs de contexto social e emocional"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais phrasal verbs úteis no contexto social e emocional: hang out (conviver/sair com amigos), bring up (mencionar um assunto), break down (avariar).",
+        "exemplos": ["Let's hang out this weekend.", "She brought up an interesting point.", "My car broke down yesterday."],
+        "erroComum": { "errado": "Let's stay together this weekend (para dizer 'conviver').", "correto": "Let's hang out this weekend.", "descricaoPT": "'Hang out' é a expressão natural para 'conviver/sair com amigos' — uma tradução mais literal soa estranha." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which means 'to spend time with friends'?", "opcoes": ["hang out", "hang up", "hang on"], "correta": 0, "explicacao": "'Hang out' = conviver." },
+      { "tipo": "escolha_multipla", "pergunta": "Which means 'to mention a topic'?", "opcoes": ["bring up", "bring back", "bring in"], "correta": 0, "explicacao": "'Bring up' = mencionar um assunto." },
+      { "tipo": "preenchimento_espaco", "frase": "My car ___ yesterday.", "resposta": "broke down", "explicacao": "'Break down' = avariar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos conviver este fim de semana.", "destino": "Let's hang out this weekend." },
+      { "tipo": "ditado", "textoParaOuvir": "She brought up an interesting point.", "respostaEsperada": ["She brought up an interesting point."] }
+    ],
+    "srsItens": [{ "id": "pv-basico-hangout-bringup-breakdown", "tipo": "vocabulario", "pergunta": "O que significa 'hang out'?", "resposta": "conviver/passar tempo com alguém" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-105",
+    "nivel": "basico",
+    "titulo": "Idiomas: Família e Relações",
+    "objetivos": ["Reconhecer idiomas relacionados com família"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas relacionados com família: a chip off the old block (tal pai, tal filho), run in the family (é de família/hereditário).",
+        "exemplos": ["He's a chip off the old block — just like his dad!", "Musical talent runs in the family.", "Blood is thicker than water."],
+        "erroComum": { "errado": "Traduzir 'run in the family' como correr na família.", "correto": "'Run in the family' significa que uma característica é hereditária/comum na família.", "descricaoPT": "Idioma sem tradução literal — 'run' aqui não tem o sentido de correr fisicamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'A chip off the old block' means...", "opcoes": ["Very different from parents", "Very similar to a parent", "A piece of wood"], "correta": 1, "explicacao": "Muito parecido com um dos pais." },
+      { "tipo": "escolha_multipla", "pergunta": "'Runs in the family' means...", "opcoes": ["Everyone in the family runs", "It's a family tradition/trait", "The family is fast"], "correta": 1, "explicacao": "É uma característica hereditária/comum na família." },
+      { "tipo": "preenchimento_espaco", "frase": "Musical talent ___ in the family.", "resposta": "runs", "explicacao": "'Runs in the family.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É de família ser bom em desporto.", "destino": "Being good at sports runs in the family." },
+      { "tipo": "ditado", "textoParaOuvir": "He's a chip off the old block.", "respostaEsperada": ["He's a chip off the old block."] }
+    ],
+    "srsItens": [{ "id": "idi-basico-familia-relacoes", "tipo": "vocabulario", "pergunta": "O que significa 'runs in the family'?", "resposta": "é uma característica hereditária/comum na família" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-106",
+    "nivel": "basico",
+    "titulo": "Leitura: Uma Pequena História",
+    "objetivos": ["Praticar compreensão de leitura com uma narrativa curta no passado"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê a história curta com atenção antes de responderes às perguntas.\n\n\"Last Saturday, Tom woke up late and missed the bus. He decided to walk to his friend's house instead. On the way, it started raining, so he ran the rest of the way. When he arrived, his friend gave him a towel and they both laughed about it. They spent the afternoon watching movies and eating pizza.\"",
+        "exemplos": ["missed the bus = perdeu o autocarro", "on the way = a caminho", "the rest of the way = o resto do caminho"],
+        "erroComum": { "errado": "Focar-te só em palavras desconhecidas em vez do sentido geral.", "correto": "Segue a sequência de acontecimentos (o que aconteceu primeiro, depois, etc.) para perceberes a narrativa.", "descricaoPT": "Histórias no passado seguem uma sequência temporal — presta atenção à ordem dos eventos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Why did Tom miss the bus?", "opcoes": ["He woke up late", "He didn't have money", "The bus didn't come"], "correta": 0, "explicacao": "O texto diz 'woke up late and missed the bus'." },
+      { "tipo": "escolha_multipla", "pergunta": "What did Tom do instead of taking the bus?", "opcoes": ["He took a taxi", "He walked", "He stayed home"], "correta": 1, "explicacao": "O texto diz 'decided to walk'." },
+      { "tipo": "escolha_multipla", "pergunta": "What happened on the way?", "opcoes": ["It started raining", "He met a friend", "He got lost"], "correta": 0, "explicacao": "O texto diz 'it started raining'." },
+      { "tipo": "preenchimento_espaco", "frase": "They spent the afternoon ___ movies.", "resposta": "watching", "explicacao": "'Spend time + gerúndio': watching." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a resumir o que aconteceu no fim da história.", "palavrasChaveEsperadas": ["watched", "ate", "laughed"], "respostaModelo": "They watched movies, ate pizza, and laughed about the rain." }
+    ],
+    "srsItens": [{ "id": "rw-basico-leitura-historia-curta", "tipo": "situacao", "pergunta": "Que estratégia ajuda a seguir uma história no passado?", "resposta": "seguir a sequência temporal dos acontecimentos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-107",
+    "nivel": "basico",
+    "titulo": "Revisão em Espiral: Todos os Tempos Verbais",
+    "objetivos": ["Escolher corretamente entre Present Simple, Present Continuous, Past Simple, going to e will"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão final: escolher corretamente entre Present Simple, Present Continuous, Past Simple, going to e will, consoante o contexto.",
+        "exemplos": ["I work in Lisbon. (rotina)", "I'm working right now. (agora)", "I worked yesterday. (passado)", "I'm going to travel next month. (plano)", "I think it will rain. (previsão)"],
+        "erroComum": { "errado": "Misturar tempos verbais sem atender ao marcador temporal ou contexto.", "correto": "Identifica sempre a pista (marcador temporal, contexto) antes de escolheres o tempo verbal.", "descricaoPT": "Esta é a competência mais importante para comunicares com confiança — praticar identificar pistas de contexto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ in an office (rotina geral).", "opcoes": ["work", "am working", "worked"], "correta": 0, "explicacao": "Rotina geral → Present Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "Look! It ___ (a acontecer agora)!", "opcoes": ["rains", "is raining", "rained"], "correta": 1, "explicacao": "Agora mesmo → Present Continuous." },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ to Spain last year.", "opcoes": ["travel", "am travelling", "travelled"], "correta": 2, "explicacao": "'Last year' → Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "We ___ to visit my parents next week (plano já decidido).", "opcoes": ["are going", "will", "travel"], "correta": 0, "explicacao": "Plano já decidido → going to." },
+      { "tipo": "preenchimento_espaco", "frase": "I think it ___ be sunny tomorrow.", "resposta": "will", "explicacao": "Previsão → will." }
+    ],
+    "srsItens": [{ "id": "gra-basico-revisao-final-tempos-verbais", "tipo": "gramatica", "pergunta": "Que pista usas para escolher entre going to e will?", "resposta": "going to = plano já decidido; will = decisão espontânea/previsão" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-108",
+    "nivel": "basico",
+    "titulo": "Pronúncia: Revisão de Sons Difíceis",
+    "objetivos": ["Rever os sons mais difíceis para falantes de português"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão dos sons mais difíceis para falantes de português: th (θ/ð), r inglês, vogais curtas/longas, e a terminação -ed.",
+        "exemplos": ["think, this (th)", "red, right (r suave)", "ship/sheep (vogais)", "worked/played/wanted (-ed)"],
+        "erroComum": { "errado": "Voltar aos hábitos de pronúncia do português sem praticar conscientemente.", "correto": "Continua a praticar estes sons isoladamente — a consciência é o primeiro passo para a melhoria.", "descricaoPT": "A pronúncia melhora com prática consciente e repetida, não de um dia para o outro." }
+      },
+      { "tipo": "oral", "promptTTS": "Repeat after me: think.", "respostaEsperada": ["think"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: this.", "respostaEsperada": ["this"] },
+      { "tipo": "oral", "promptTTS": "Repeat after me: right.", "respostaEsperada": ["right"] },
+      { "tipo": "escolha_multipla", "pergunta": "Which word has the voiceless 'th' sound?", "opcoes": ["this", "think", "that"], "correta": 1, "explicacao": "'Think' tem o 'th' surdo." },
+      { "tipo": "ditado", "textoParaOuvir": "I think this is right.", "respostaEsperada": ["I think this is right."] }
+    ],
+    "srsItens": [{ "id": "pro-basico-revisao-sons-dificeis", "tipo": "pronuncia", "pergunta": "Quais são os sons mais difíceis revistos nesta sessão?", "resposta": "th, r inglês, vogais curtas/longas, terminação -ed" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "basico-109",
+    "nivel": "basico",
+    "titulo": "Situação Integradora: Convite para Sair",
+    "objetivos": ["Combinar planos, sugestões, sentimentos e lazer num convite para sair"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "conviteparasair",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar planos, sugestões, sentimentos e lazer (cinema/ginásio) das últimas sessões, combinando um convite para sair.",
+        "exemplos": ["Do you want to hang out this weekend?", "How about going to the cinema?", "I'm really excited, what's on?"],
+        "erroComum": { "errado": "You want go out?", "correto": "Do you want to go out?", "descricaoPT": "A pergunta precisa do auxiliar 'do' e do 'to' antes do infinitivo — não se pode formar diretamente." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hey! Do you want to hang out this weekend?", "opcoes": [
+            { "texto": "Sure! How about going to the cinema?", "proximoNo": "filme" }
+          ]},
+          { "id": "filme", "interlocutorFala": "Sounds great! What's on this week?", "opcoes": [
+            { "texto": "I'm not sure, let's check when we get there!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the correct question to invite someone out?", "opcoes": ["You want go out?", "Do you want to go out?", "Want out you?"], "correta": 1, "explicacao": "Pergunta correta com 'Do' e 'to'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Queres ir ao ginásio comigo amanhã?", "destino": "Do you want to go to the gym with me tomorrow?" },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um pequeno convite (2-3 frases) para saíres com um amigo, combinando o local e a hora.", "palavrasChaveEsperadas": ["do you want", "shall we", "how about"], "respostaModelo": "Do you want to hang out on Saturday? How about going to the cinema at 8pm?" },
+      { "tipo": "ditado", "textoParaOuvir": "Do you want to hang out this weekend?", "respostaEsperada": ["Do you want to hang out this weekend?"] }
+    ],
+    "srsItens": [{ "id": "sit-basico-conviteparasair-integradora", "tipo": "situacao", "pergunta": "Como convidar alguém para sair educadamente?", "resposta": "Do you want to hang out...? / How about...?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "basico-110",
+    "nivel": "basico",
+    "titulo": "Graduação: Revisão Final do Nível Básico",
+    "objetivos": ["Consolidar, numa única sessão, os pontos essenciais de todo o Nível Básico"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Parabéns por chegares à última sessão do Nível Básico! Esta é uma revisão final ampla, tocando nos pontos mais importantes de tudo o que aprendeste: verbos (to be, to have, presente, passado, futuro, modais), artigos, preposições, would like, question words, e vocabulário essencial.",
+        "exemplos": ["I am a teacher and I work in Lisbon. (to be + Present Simple)", "Yesterday, I went to the bank and paid a bill. (Past Simple)", "Tomorrow, I'm going to visit my parents. (going to)"],
+        "erroComum": { "errado": "Pensar que já não precisas de rever nada.", "correto": "A repetição espaçada desta app vai continuar a trazer-te de volta os pontos mais importantes — tens agora uma base sólida A1-A2.", "descricaoPT": "Parabéns — a partir daqui, o Nível Intermédio vai introduzir estruturas mais ricas como o Present Perfect, a voz passiva e os condicionais." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ a doctor and ___ in a hospital.", "opcoes": ["is / works", "are / work", "is / work"], "correta": 0, "explicacao": "to be (is) + Present Simple 3ª pessoa (works)." },
+      { "tipo": "escolha_multipla", "pergunta": "Yesterday, I ___ to the bank.", "opcoes": ["go", "went", "goes"], "correta": 1, "explicacao": "Past Simple: went." },
+      { "tipo": "escolha_multipla", "pergunta": "I'd ___ to try this jacket on.", "opcoes": ["like", "liking", "likes"], "correta": 0, "explicacao": "'I'd like to' + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "___ do you live?", "opcoes": ["What", "Where", "Who"], "correta": 1, "explicacao": "Pergunta de lugar: Where." },
+      { "tipo": "preenchimento_espaco", "frase": "There ___ many people at the party.", "resposta": "were", "explicacao": "Plural no passado: there were." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu sou professora, trabalho em Lisboa e ontem visitei os meus pais.", "destino": "I am a teacher, I work in Lisbon, and yesterday I visited my parents." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um parágrafo final (4-6 frases) sobre ti: quem és, o que fazes, algo que fizeste recentemente, e um plano futuro.", "palavrasChaveEsperadas": ["i am", "i work", "i went", "going to"], "respostaModelo": "I am Ana, I am a teacher, and I work in Porto. Last week, I visited my parents. Next month, I am going to travel to Spain." }
+    ],
+    "srsItens": [{ "id": "gra-basico-graduacao-revisao-final", "tipo": "gramatica", "pergunta": "Que estruturas principais vais encontrar no Nível Intermédio?", "resposta": "Present Perfect, voz passiva, discurso relatado, condicionais, orações relativas, comparativos/superlativos" }],
+    "gamificacao": { "pontosBase": 30, "badge": null }
+  }
+]
