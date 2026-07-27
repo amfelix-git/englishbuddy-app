@@ -1,0 +1,231 @@
+[
+  {
+    "id": "intermedio-71",
+    "nivel": "intermedio",
+    "titulo": "Exame Cambridge B2 First — Visão Geral",
+    "objetivos": ["Conhecer a estrutura do exame B2 First (FCE)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O exame B2 First (FCE) tem 4 provas: Reading & Use of English (1h15, 40%), Writing (1h20, 20%), Listening (~40min, 20%), Speaking (14min em pares, 20%). A partir de agora, vamos preparar-nos para cada uma.",
+        "exemplos": ["Reading & Use of English: 7 partes, 52 perguntas", "Writing: ensaio obrigatório + 1 tarefa à escolha", "Speaking: em pares, com 2 examinadores"],
+        "erroComum": { "errado": "Achar que basta saber gramática para passar no exame.", "correto": "O exame também avalia estratégias específicas de cada tipo de tarefa — vamos praticar cada uma.", "descricaoPT": "Cada parte do exame tem um formato muito específico que vale a pena treinar isoladamente, além da língua em si." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How many papers does the B2 First exam have?", "opcoes": ["Two", "Three", "Four"], "correta": 2, "explicacao": "4 provas: Reading & Use of English, Writing, Listening, Speaking." },
+      { "tipo": "escolha_multipla", "pergunta": "What percentage of the total mark is Reading & Use of English?", "opcoes": ["20%", "40%", "60%"], "correta": 1, "explicacao": "Reading & Use of English vale 40%." },
+      { "tipo": "preenchimento_espaco", "frase": "The Speaking test is done in ___.", "resposta": "pairs", "explicacao": "Speaking = em pares." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O exame tem quatro provas.", "destino": "The exam has four papers." },
+      { "tipo": "ditado", "textoParaOuvir": "The exam has four papers: Reading, Writing, Listening and Speaking.", "respostaEsperada": ["The exam has four papers: Reading, Writing, Listening and Speaking."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-visaogeral", "tipo": "situacao", "pergunta": "Quantas provas tem o exame B2 First e quais são?", "resposta": "4: Reading & Use of English, Writing, Listening, Speaking" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-72",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Reading — Multiple Choice Cloze",
+    "objetivos": ["Praticar o formato da Parte 1 de Reading & Use of English"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 1 do Reading & Use of English, escolhes a palavra certa (entre 4 opções muito parecidas) para preencher espaços num texto — testa vocabulário preciso, collocations e phrasal verbs.",
+        "exemplos": ["She has a great ___ for languages. (skill/talent/ability/gift — só uma forma a collocation certa)", "He finally made up his mind."],
+        "erroComum": { "errado": "Escolher a primeira opção que 'parece fazer sentido' sem comparar as 4.", "correto": "Compara sempre as 4 opções — normalmente só uma forma a collocation correta no contexto.", "descricaoPT": "Este tipo de exercício testa precisão de vocabulário, não só compreensão geral." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She has a great ___ for languages.", "opcoes": ["skill", "talent", "ability", "gift"], "correta": 3, "explicacao": "'A gift for' é a collocation idiomática correta." },
+      { "tipo": "escolha_multipla", "pergunta": "He finally ___ up his mind about the job.", "opcoes": ["did", "made", "took", "got"], "correta": 1, "explicacao": "'Make up your mind' é a collocation correta." },
+      { "tipo": "escolha_multipla", "pergunta": "The company decided to ___ down the old factory.", "opcoes": ["take", "pull", "put", "knock"], "correta": 1, "explicacao": "'Pull down' = demolir." },
+      { "tipo": "preenchimento_espaco", "frase": "It's important to ___ attention in class.", "resposta": "pay", "explicacao": "'Pay attention' = prestar atenção." },
+      { "tipo": "ditado", "textoParaOuvir": "He finally made up his mind about the job.", "respostaEsperada": ["He finally made up his mind about the job."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-multiplechoicecloze", "tipo": "situacao", "pergunta": "O que testa a Parte 1 (Multiple Choice Cloze) do Reading & Use of English?", "resposta": "vocabulário preciso, collocations e phrasal verbs" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-73",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Reading — Open Cloze",
+    "objetivos": ["Praticar o formato da Parte 2 de Reading & Use of English"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2 do Reading & Use of English, preenches espaços sem opções — normalmente com palavras gramaticais (preposições, artigos, pronomes, conectores).",
+        "exemplos": ["I've been waiting for an hour.", "She's interested in learning French.", "Even though it was raining, we went out."],
+        "erroComum": { "errado": "Tentar preencher com palavras de conteúdo (nomes/verbos) em vez de palavras gramaticais.", "correto": "Esta parte testa principalmente palavras gramaticais pequenas — preposições, artigos, conectores.", "descricaoPT": "Diferente da Parte 1, aqui não há opções — precisas de saber a palavra de cor." }
+      },
+      { "tipo": "preenchimento_espaco", "frase": "I've been waiting ___ an hour.", "resposta": "for", "explicacao": "'Wait for' = esperar por." },
+      { "tipo": "preenchimento_espaco", "frase": "She's interested ___ learning French.", "resposta": "in", "explicacao": "'Interested in' = interessado em." },
+      { "tipo": "preenchimento_espaco", "frase": "___ though it was raining, we went out.", "resposta": "Even", "explicacao": "'Even though' = apesar de." },
+      { "tipo": "preenchimento_espaco", "frase": "This is the book ___ I told you about.", "resposta": "which", "explicacao": "Pronome relativo: which." },
+      { "tipo": "ditado", "textoParaOuvir": "I've been waiting for an hour.", "respostaEsperada": ["I've been waiting for an hour."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-opencloze", "tipo": "situacao", "pergunta": "Que tipo de palavras testa a Parte 2 (Open Cloze)?", "resposta": "palavras gramaticais: preposições, artigos, pronomes, conectores" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-74",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Reading — Word Formation",
+    "objetivos": ["Praticar o formato da Parte 3 de Reading & Use of English"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 3, transformas uma palavra dada (numa raiz) na forma gramatical correta para completar a frase — geralmente com prefixos/sufixos.",
+        "exemplos": ["Her decision was completely unreasonable. (de REASON)", "The play was a huge success. (de SUCCEED)", "I was really impressed by the performance. (de IMPRESS)"],
+        "erroComum": { "errado": "Esquecer de verificar se a palavra precisa de prefixo negativo (un-/dis-) além do sufixo.", "correto": "Lê a frase toda: às vezes precisas de negativo E mudança de classe gramatical ao mesmo tempo.", "descricaoPT": "Este é o tipo de exercício mais diretamente ligado ao que praticaste nas sessões de word families." }
+      },
+      { "tipo": "preenchimento_espaco", "frase": "Her decision was completely ___ (de REASON).", "resposta": "unreasonable", "explicacao": "REASON + un- + -able = unreasonable." },
+      { "tipo": "preenchimento_espaco", "frase": "The play was a huge ___ (de SUCCEED).", "resposta": "success", "explicacao": "SUCCEED → success (nome)." },
+      { "tipo": "preenchimento_espaco", "frase": "I was really ___ (de IMPRESS) by the performance.", "resposta": "impressed", "explicacao": "IMPRESS → impressed (adjetivo)." },
+      { "tipo": "preenchimento_espaco", "frase": "This task requires a lot of ___ (de PATIENT).", "resposta": "patience", "explicacao": "PATIENT → patience (nome)." },
+      { "tipo": "ditado", "textoParaOuvir": "I was really impressed by the performance.", "respostaEsperada": ["I was really impressed by the performance."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-wordformation", "tipo": "situacao", "pergunta": "O que testa a Parte 3 (Word Formation)?", "resposta": "transformar uma palavra-raiz na classe gramatical correta com prefixos/sufixos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-75",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Reading — Key Word Transformation",
+    "objetivos": ["Praticar o formato da Parte 4 de Reading & Use of English"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 4, reescreves uma frase usando uma palavra-chave dada, mantendo o mesmo significado. É considerada a parte mais difícil, e testa domínio de estruturas gramaticais alternativas.",
+        "exemplos": ["It's possible that he forgot. (MIGHT) → He might have forgotten.", "\"I didn't do it,\" he said. (DENIED) → He denied doing it.", "I haven't seen a better film. (BEST) → This is the best film I've ever seen."],
+        "erroComum": { "errado": "Mudar o significado da frase original ao tentar usar a palavra-chave.", "correto": "O significado tem de se manter exatamente igual — só a estrutura muda.", "descricaoPT": "Exige conhecimento profundo de estruturas alternativas (discurso relatado, voz passiva, condicionais, modais)." }
+      },
+      { "tipo": "preenchimento_espaco", "frase": "It's possible that he forgot. (MIGHT) → He ___ forgotten.", "resposta": "might have", "explicacao": "Modal de dedução no passado." },
+      { "tipo": "preenchimento_espaco", "frase": "\"I didn't do it,\" he said. (DENIED) → He ___ it.", "resposta": "denied doing", "explicacao": "'Deny' + gerúndio." },
+      { "tipo": "preenchimento_espaco", "frase": "I haven't seen a better film. (BEST) → This is the ___ film I've ever seen.", "resposta": "best", "explicacao": "Superlativo equivalente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Reescreve mantendo o sentido: 'Tenho a certeza que ela já saiu.' com MUST.", "destino": "She must have left already." },
+      { "tipo": "ditado", "textoParaOuvir": "He might have forgotten.", "respostaEsperada": ["He might have forgotten."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-keywordtransformation", "tipo": "situacao", "pergunta": "O que é essencial manter na Key Word Transformation?", "resposta": "o significado exato da frase original, só a estrutura muda" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-76",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Writing — Email/Carta Semi-Formal",
+    "objetivos": ["Escrever um email/carta em registo semi-formal (formato do exame)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2 do Writing, uma opção é escrever um email/carta semi-formal — registo intermédio entre formal e informal, comum entre conhecidos ou em contexto profissional leve.",
+        "exemplos": ["Dear Anna, (semi-formal)", "I hope this email finds you well.", "Looking forward to hearing from you."],
+        "erroComum": { "errado": "Misturar 'Dear Sir/Madam' (muito formal) com uma despedida informal como 'Bye!'.", "correto": "Mantém o registo semi-formal consistente: 'Dear Anna,' e 'Best wishes,'.", "descricaoPT": "O registo semi-formal é o mais comum no dia a dia profissional e é frequentemente pedido no exame." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which opening suits a semi-formal email to a colleague?", "opcoes": ["Hey dude!", "Dear Anna,", "To Whom It May Concern,"], "correta": 1, "explicacao": "Registo semi-formal adequado." },
+      { "tipo": "escolha_multipla", "pergunta": "Which closing is semi-formal?", "opcoes": ["Love,", "Best wishes,", "Yours faithfully,"], "correta": 1, "explicacao": "'Best wishes,' é semi-formal." },
+      { "tipo": "preenchimento_espaco", "frase": "I hope this email finds you ___.", "resposta": "well", "explicacao": "'Finds you well' = frase fixa." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura e uma frase de um email semi-formal a confirmar uma reunião.", "palavrasChaveEsperadas": ["dear", "hope", "meeting"], "respostaModelo": "Dear Mr. Silva, I hope you are well. I am writing to confirm our meeting on Friday." },
+      { "tipo": "ditado", "textoParaOuvir": "Looking forward to hearing from you.", "respostaEsperada": ["Looking forward to hearing from you."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-email-semiformal", "tipo": "situacao", "pergunta": "Como se abre e fecha um email semi-formal?", "resposta": "ex.: 'Dear [Nome],' ... 'Best wishes,'" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-77",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Writing — Review",
+    "objetivos": ["Escrever uma review (crítica) com opinião pessoal e recomendação"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma review (crítica) descreve e avalia algo — um filme, livro, restaurante — com uma opinião clara e recomendação final.",
+        "exemplos": ["The film tells the story of...", "What I liked most was...", "I would definitely recommend this to..."],
+        "erroComum": { "errado": "Escrever só um resumo sem dar opinião pessoal.", "correto": "Uma review precisa sempre de opinião pessoal e avaliação, não só descrição.", "descricaoPT": "O critério 'Content' do exame exige que respondas ao que foi pedido — uma review sem opinião não cumpre a tarefa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase gives a personal opinion in a review?", "opcoes": ["The film tells the story of...", "What I liked most was...", "The film lasts two hours."], "correta": 1, "explicacao": "Opinião pessoal explícita." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a good way to end a review?", "opcoes": ["The end.", "I would definitely recommend this.", "That's all."], "correta": 1, "explicacao": "Recomendação final clara." },
+      { "tipo": "preenchimento_espaco", "frase": "What I ___ most was the acting.", "resposta": "liked", "explicacao": "'What I liked most' = opinião." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2 frases de uma review de um filme que gostaste, incluindo a tua opinião.", "palavrasChaveEsperadas": ["i liked", "recommend", "enjoyed"], "respostaModelo": "I really enjoyed this film. I would definitely recommend it to anyone who likes action movies." },
+      { "tipo": "ditado", "textoParaOuvir": "I would definitely recommend this restaurant.", "respostaEsperada": ["I would definitely recommend this restaurant."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-review", "tipo": "situacao", "pergunta": "O que não pode faltar numa review?", "resposta": "opinião pessoal e recomendação final" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-78",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Listening — Compreensão Detalhada",
+    "objetivos": ["Aplicar estratégias de listening para detalhe específico"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Nas provas de Listening do exame, ouves cada gravação duas vezes e respondes a perguntas de detalhe específico, não só de ideia geral.",
+        "exemplos": ["Listen for specific numbers, names, and reasons.", "The second listening is your chance to check answers, not to hear something new.", "Predict possible answers before listening, based on the questions."],
+        "erroComum": { "errado": "Só ouvir uma vez com atenção e não usar a segunda audição para confirmar.", "correto": "Usa a primeira audição para responderes ao que conseguires, e a segunda para confirmar/completar.", "descricaoPT": "Estratégia de exame: nunca desperdices a segunda audição." }
+      },
+      { "tipo": "ditado", "textoParaOuvir": "The train to London leaves from platform nine at half past three.", "respostaEsperada": ["The train to London leaves from platform nine at half past three."] },
+      { "tipo": "escolha_multipla", "pergunta": "According to the recording, what platform does the train leave from?", "opcoes": ["Platform six", "Platform nine", "Platform three"], "correta": 1, "explicacao": "O ditado anterior confirma 'platform nine'." },
+      { "tipo": "escolha_multipla", "pergunta": "What is the best strategy for the second listening?", "opcoes": ["Ignore it", "Confirm and complete answers", "Start over completely"], "correta": 1, "explicacao": "Usar a 2ª audição para confirmar." },
+      { "tipo": "ditado", "textoParaOuvir": "Predict possible answers before listening, based on the questions.", "respostaEsperada": ["Predict possible answers before listening, based on the questions."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-listening-estrategia", "tipo": "situacao", "pergunta": "Qual a melhor estratégia para a segunda audição no exame?", "resposta": "confirmar e completar as respostas já dadas, não procurar informação nova" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-79",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Speaking — Descrição Comparativa de Imagens",
+    "objetivos": ["Comparar duas imagens usando linguagem de comparação e especulação"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2 do Speaking, comparas duas imagens durante 1 minuto, usando linguagem de comparação e especulação (it looks like, might be, seems to be).",
+        "exemplos": ["In the first picture, people are relaxing, while in the second, they seem to be working.", "The man in the first photo might be a tourist.", "Both pictures show..."],
+        "erroComum": { "errado": "Descrever só uma imagem em detalhe e ignorar a comparação.", "correto": "Tens sempre de comparar as duas imagens e falar de ambas.", "descricaoPT": "A tarefa é explicitamente comparativa — descrever só uma imagem não cumpre o objetivo da parte 2." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase introduces speculation about an image?", "opcoes": ["This is definitely...", "It might be...", "I know it is..."], "correta": 1, "explicacao": "'Might be' introduz especulação." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase compares two images?", "opcoes": ["In the first picture...", "While in the second...", "The end."], "correta": 1, "explicacao": "'While in the second...' faz a comparação." },
+      { "tipo": "preenchimento_espaco", "frase": "The man in the first photo ___ a tourist.", "resposta": "might be", "explicacao": "Especulação: might be." },
+      { "tipo": "oral", "promptTTS": "Repeat after me: Both pictures show people enjoying their free time.", "respostaEsperada": ["Both pictures show people enjoying their free time", "Both pictures show people enjoying their free time."] },
+      { "tipo": "ditado", "textoParaOuvir": "Both pictures show people enjoying their free time.", "respostaEsperada": ["Both pictures show people enjoying their free time."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-speaking-comparacaoimagens", "tipo": "situacao", "pergunta": "O que não pode faltar ao comparar duas imagens no Speaking?", "resposta": "falar das duas imagens e compará-las, não só descrever uma" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-80",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: Mini-Simulado do B2 First",
+    "objetivos": ["Combinar as estratégias das últimas sessões num pequeno simulado do exame"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": "simuladofirst",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos combinar as estratégias aprendidas nas últimas sessões (multiple choice cloze, word formation, key word transformation, email semi-formal) num pequeno simulado do formato do exame B2 First.",
+        "exemplos": ["Practice makes perfect — this mini simulation combines everything you've learned about the First exam format."],
+        "erroComum": { "errado": "Tentar fazer tudo com pressa sem rever cada resposta.", "correto": "Mesmo num simulado curto, confirma cada resposta antes de avançar.", "descricaoPT": "O hábito de rever é tão importante no exame real como nesta prática." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She has a great ___ for music.", "opcoes": ["skill", "talent", "ability", "gift"], "correta": 3, "explicacao": "Multiple Choice Cloze: 'a gift for'." },
+      { "tipo": "preenchimento_espaco", "frase": "I've been living here ___ 2015.", "resposta": "since", "explicacao": "Open Cloze: since." },
+      { "tipo": "preenchimento_espaco", "frase": "Her performance was truly ___ (de IMPRESS).", "resposta": "impressive", "explicacao": "Word Formation: impressive." },
+      { "tipo": "preenchimento_espaco", "frase": "It's possible she forgot. (MIGHT) → She ___ forgotten.", "resposta": "might have", "explicacao": "Key Word Transformation." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura de um email semi-formal a pedir informações sobre um curso.", "palavrasChaveEsperadas": ["dear", "i am writing", "information"], "respostaModelo": "Dear Sir/Madam, I am writing to ask for more information about your English course." }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-simuladoreduzido", "tipo": "situacao", "pergunta": "Que tipos de tarefa do exame First já praticaste até agora?", "resposta": "multiple choice cloze, open cloze, word formation, key word transformation, email/review, listening, speaking" }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
