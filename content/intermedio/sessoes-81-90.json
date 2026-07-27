@@ -1,0 +1,242 @@
+[
+  {
+    "id": "intermedio-81",
+    "nivel": "intermedio",
+    "titulo": "Wish + Past Simple / Past Perfect",
+    "objetivos": ["Exprimir desejos sobre o presente e arrependimentos sobre o passado com 'wish'"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Wish' + Past Simple exprime um desejo sobre o presente (situação diferente da real); 'wish' + Past Perfect exprime arrependimento sobre o passado.",
+        "exemplos": ["I wish I had more time. (desejo presente)", "I wish I had studied harder. (arrependimento passado)", "I wish it wasn't raining."],
+        "erroComum": { "errado": "I wish I have more time.", "correto": "I wish I had more time.", "descricaoPT": "Depois de 'wish' para desejos sobre o presente, usa-se sempre o Past Simple, nunca o Present Simple." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I wish I ___ more time.", "opcoes": ["have", "had", "will have"], "correta": 1, "explicacao": "Desejo presente → Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "I wish I ___ harder for the exam (arrependimento passado).", "opcoes": ["studied", "had studied", "study"], "correta": 1, "explicacao": "Arrependimento passado → Past Perfect." },
+      { "tipo": "preenchimento_espaco", "frase": "I wish it ___ raining.", "resposta": "wasn't", "explicacao": "Desejo presente negativo: wasn't." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quem me dera ter mais tempo.", "destino": "I wish I had more time." },
+      { "tipo": "ditado", "textoParaOuvir": "I wish I had studied harder for the exam.", "respostaEsperada": ["I wish I had studied harder for the exam."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-wish-past", "tipo": "gramatica", "pergunta": "Que tempo verbal segue 'wish' para arrependimentos do passado?", "resposta": "Past Perfect" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-82",
+    "nivel": "intermedio",
+    "titulo": "Would Rather",
+    "objetivos": ["Exprimir preferências com 'would rather'"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Would rather' exprime preferência. Seguido de infinitivo sem 'to' quando é sobre ti mesmo; seguido de Past Simple quando é sobre outra pessoa.",
+        "exemplos": ["I'd rather stay home tonight.", "I'd rather you didn't tell anyone.", "Would you rather have tea or coffee?"],
+        "erroComum": { "errado": "I'd rather to stay home.", "correto": "I'd rather stay home.", "descricaoPT": "'Would rather' é seguido de infinitivo SEM 'to' — erro comum é acrescentar 'to' por analogia com outras estruturas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I'd rather ___ home tonight.", "opcoes": ["to stay", "stay", "staying"], "correta": 1, "explicacao": "'Would rather' + infinitivo sem to." },
+      { "tipo": "escolha_multipla", "pergunta": "Would you rather have tea ___ coffee?", "opcoes": ["or", "than", "and"], "correta": 0, "explicacao": "'Or' para alternativas." },
+      { "tipo": "preenchimento_espaco", "frase": "I'd rather you ___ anyone.", "resposta": "didn't tell", "explicacao": "Sobre outra pessoa: Past Simple." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Prefiro ficar em casa esta noite.", "destino": "I'd rather stay home tonight." },
+      { "tipo": "ditado", "textoParaOuvir": "I'd rather stay home tonight.", "respostaEsperada": ["I'd rather stay home tonight."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-wouldrather", "tipo": "gramatica", "pergunta": "Que forma verbal segue 'would rather' quando falas de ti mesmo?", "resposta": "infinitivo sem 'to'" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-83",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Reading Partes 5-7",
+    "objetivos": ["Conhecer as estratégias das Partes 5, 6 e 7 do Reading"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Nas Partes 5-7 do Reading, lês textos mais longos: Parte 5 testa compreensão detalhada (multiple choice), Parte 6 pede para recolocar frases removidas no texto (gapped text), Parte 7 pede para associar informação a diferentes textos curtos (multiple matching).",
+        "exemplos": ["Part 5: Choose the answer that best matches the text's meaning.", "Part 6: Find where a removed sentence fits back, using logical/grammatical clues.", "Part 7: Match specific details to the correct short text."],
+        "erroComum": { "errado": "Ler só uma vez rapidamente e responder de memória.", "correto": "Volta sempre ao texto para confirmar cada resposta com evidência específica.", "descricaoPT": "Estas partes testam compreensão detalhada, não impressão geral." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 6 (Gapped Text), what helps you find where a sentence fits?", "opcoes": ["Guessing randomly", "Logical and grammatical clues (pronouns, connectors)", "Reading only the first paragraph"], "correta": 1, "explicacao": "Pistas lógicas e gramaticais." },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 7 (Multiple Matching), you match details to...", "opcoes": ["One long text", "Several short texts", "A single sentence"], "correta": 1, "explicacao": "Vários textos curtos." },
+      { "tipo": "escolha_multipla", "pergunta": "What should you always do before choosing a final answer?", "opcoes": ["Trust your memory only", "Confirm with evidence in the text", "Skip difficult questions"], "correta": 1, "explicacao": "Confirmar sempre com evidência no texto." },
+      { "tipo": "preenchimento_espaco", "frase": "Part 5 tests ___ comprehension of a single text.", "resposta": "detailed", "explicacao": "Compreensão detalhada." },
+      { "tipo": "ditado", "textoParaOuvir": "Always confirm your answer with evidence from the text.", "respostaEsperada": ["Always confirm your answer with evidence from the text."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-reading-partes567", "tipo": "situacao", "pergunta": "O que testa a Parte 6 (Gapped Text)?", "resposta": "recolocar frases removidas no texto usando pistas lógicas/gramaticais" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-84",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Writing — Article",
+    "objetivos": ["Escrever um artigo com tom pessoal e envolvente"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Um artigo (article) para revista/site tem um título cativante, um tom mais pessoal/envolvente do que um ensaio, e frequentemente dirige-se ao leitor diretamente.",
+        "exemplos": ["Title: 'My Unforgettable Trip to Japan'", "Have you ever wondered what it's like to...?", "Let me tell you about..."],
+        "erroComum": { "errado": "Escrever um artigo com o mesmo tom formal e impessoal de um ensaio.", "correto": "Um artigo pode ser mais pessoal e envolvente, com perguntas diretas ao leitor.", "descricaoPT": "O tom do artigo é normalmente diferente do ensaio — mais próximo do leitor, por vezes com humor." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a good article title?", "opcoes": ["Essay about travelling", "My Unforgettable Trip to Japan", "Report on Travel Statistics"], "correta": 1, "explicacao": "Título cativante e pessoal." },
+      { "tipo": "escolha_multipla", "pergunta": "Which opening engages the reader directly?", "opcoes": ["This essay will discuss...", "Have you ever wondered...?", "The purpose of this text is..."], "correta": 1, "explicacao": "Pergunta direta ao leitor." },
+      { "tipo": "preenchimento_espaco", "frase": "___ tell you about my trip.", "resposta": "Let me", "explicacao": "'Let me' = deixa-me." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um título cativante e a primeira frase de um artigo sobre uma viagem inesquecível.", "palavrasChaveEsperadas": ["let me", "have you ever", "unforgettable"], "respostaModelo": "My Unforgettable Trip to Japan — Have you ever wondered what it's like to visit Tokyo?" },
+      { "tipo": "ditado", "textoParaOuvir": "Let me tell you about my unforgettable trip.", "respostaEsperada": ["Let me tell you about my unforgettable trip."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-writing-article", "tipo": "situacao", "pergunta": "Em que difere o tom de um artigo do de um ensaio?", "resposta": "mais pessoal e envolvente, dirige-se diretamente ao leitor" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-85",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Viagens e Turismo (Avançado)",
+    "objetivos": ["Usar vocabulário idiomático de viagens e turismo"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário mais avançado de viagens: a hidden gem (um lugar pouco conhecido mas especial), off the beaten track, a tourist trap.",
+        "exemplos": ["This restaurant is a real hidden gem.", "We love travelling off the beaten track.", "Avoid that place, it's a tourist trap."],
+        "erroComum": { "errado": "Traduzir 'off the beaten track' literalmente.", "correto": "Significa um lugar pouco visitado por turistas, fora do comum.", "descricaoPT": "Expressão idiomática de viagens muito usada em reviews e artigos de turismo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'A hidden gem' means...", "opcoes": ["A famous landmark", "A special place not many people know", "An expensive jewel"], "correta": 1, "explicacao": "Um lugar especial pouco conhecido." },
+      { "tipo": "escolha_multipla", "pergunta": "'A tourist trap' means...", "opcoes": ["A place designed to attract and overcharge tourists", "A place only locals know", "A dangerous place"], "correta": 0, "explicacao": "Local que atrai e sobretaxa turistas." },
+      { "tipo": "preenchimento_espaco", "frase": "We love travelling ___ the beaten track.", "resposta": "off", "explicacao": "'Off the beaten track' = fora do comum." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este restaurante é uma verdadeira joia escondida.", "destino": "This restaurant is a real hidden gem." },
+      { "tipo": "ditado", "textoParaOuvir": "Avoid that place, it's a tourist trap.", "respostaEsperada": ["Avoid that place, it's a tourist trap."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-viagens-avancado", "tipo": "vocabulario", "pergunta": "O que significa 'off the beaten track'?", "resposta": "fora do circuito turístico habitual, pouco visitado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-86",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Tecnologia e Inovação",
+    "objetivos": ["Usar vocabulário sobre tecnologia e inovação"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre tecnologia e inovação: artificial intelligence, a breakthrough, cutting-edge. Revisão: 'current' = atual, 'actual' = real/verdadeiro (falso amigo).",
+        "exemplos": ["Artificial intelligence is changing many industries.", "Scientists made a major breakthrough.", "This is cutting-edge technology."],
+        "erroComum": { "errado": "The actual technology is very advanced (para dizer 'a tecnologia atual').", "correto": "The current technology is very advanced.", "descricaoPT": "Revisão de um falso amigo importante: 'actual' significa 'real/verdadeiro', não 'atual' (que é 'current')." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which means a major discovery/advance?", "opcoes": ["A breakthrough", "A backdrop", "A drawback"], "correta": 0, "explicacao": "'A breakthrough' = um avanço importante." },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes the most modern technology?", "opcoes": ["Cutting-edge", "Old-fashioned", "Basic"], "correta": 0, "explicacao": "'Cutting-edge' = de ponta." },
+      { "tipo": "preenchimento_espaco", "frase": "___ is changing many industries.", "resposta": "Artificial intelligence", "explicacao": "Inteligência artificial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os cientistas fizeram um avanço importante.", "destino": "Scientists made a major breakthrough." },
+      { "tipo": "ditado", "textoParaOuvir": "This is cutting-edge technology.", "respostaEsperada": ["This is cutting-edge technology."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-tecnologia-inovacao", "tipo": "vocabulario", "pergunta": "Qual a diferença entre 'current' e 'actual'?", "resposta": "current = atual; actual = real/verdadeiro" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-87",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Set Off, Check In, Turn Up",
+    "objetivos": ["Usar phrasal verbs de viagens"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs de viagens: set off (partir/pôr-se a caminho), check in (fazer o check-in), turn up (aparecer/chegar, muitas vezes inesperadamente).",
+        "exemplos": ["We set off early to avoid traffic.", "Please check in two hours before the flight.", "He turned up late, as usual."],
+        "erroComum": { "errado": "We started off early.", "correto": "We set off early.", "descricaoPT": "'Set off' é a expressão idiomática natural para iniciar uma viagem, mais do que 'start off'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "We ___ early to avoid traffic.", "opcoes": ["set off", "set up", "set on"], "correta": 0, "explicacao": "'Set off' = partir." },
+      { "tipo": "escolha_multipla", "pergunta": "Please ___ two hours before the flight.", "opcoes": ["check in", "check out", "check up"], "correta": 0, "explicacao": "'Check in' = fazer o check-in." },
+      { "tipo": "preenchimento_espaco", "frase": "He ___ late, as usual.", "resposta": "turned up", "explicacao": "'Turn up' = aparecer." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos partir cedo amanhã.", "destino": "We'll set off early tomorrow." },
+      { "tipo": "ditado", "textoParaOuvir": "We set off early to avoid traffic.", "respostaEsperada": ["We set off early to avoid traffic."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-setoff-checkin-turnup", "tipo": "vocabulario", "pergunta": "O que significa 'set off'?", "resposta": "partir/pôr-se a caminho" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-88",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Speaking Parte 1 — Entrevista Pessoal",
+    "objetivos": ["Responder de forma desenvolvida a perguntas pessoais simples"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 1 do Speaking, os examinadores fazem perguntas pessoais simples (nome, trabalho, hobbies) — respostas curtas mas completas, não só sim/não.",
+        "exemplos": ["Where are you from? — I'm from Portugal, a small city called Coimbra.", "What do you do in your free time? — I really enjoy reading and playing tennis."],
+        "erroComum": { "errado": "Responder só 'Yes' ou 'No' ou com uma palavra.", "correto": "Dá sempre uma resposta um pouco mais desenvolvida, mesmo que curta.", "descricaoPT": "Respostas de uma palavra não mostram o teu nível de inglês." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a better answer to 'What do you do in your free time?'", "opcoes": ["Nothing.", "I really enjoy reading and playing tennis.", "Yes."], "correta": 1, "explicacao": "Resposta desenvolvida." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a complete answer to 'Where are you from?'", "opcoes": ["Portugal.", "I'm from a small city in Portugal called Coimbra.", "Yes, Portugal."], "correta": 1, "explicacao": "Resposta completa e desenvolvida." },
+      { "tipo": "preenchimento_espaco", "frase": "I'm ___ a small city called Coimbra.", "resposta": "from", "explicacao": "'From' = de." },
+      { "tipo": "oral", "promptTTS": "Repeat after me: I really enjoy reading and playing tennis.", "respostaEsperada": ["I really enjoy reading and playing tennis", "I really enjoy reading and playing tennis."] },
+      { "tipo": "ditado", "textoParaOuvir": "I'm from a small city called Coimbra.", "respostaEsperada": ["I'm from a small city called Coimbra."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-speaking-parte1", "tipo": "situacao", "pergunta": "Como devem ser as respostas na Parte 1 do Speaking?", "resposta": "curtas mas desenvolvidas, nunca só uma palavra" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-89",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Speaking Partes 3 e 4 — Tarefa Colaborativa e Discussão",
+    "objetivos": ["Interagir e negociar com o par, e aprofundar a discussão com o examinador"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 3, discutes com o teu par sobre um tema, chegando a uma decisão conjunta; na Parte 4, aprofundas o tema com o examinador. Usa linguagem de negociação e de dar opinião já praticada.",
+        "exemplos": ["What do you think about this option?", "I see your point, but I'd suggest...", "Shall we agree on this one?"],
+        "erroComum": { "errado": "Falar sozinho sem envolver o par na conversa.", "correto": "A Parte 3 é avaliada também pela tua capacidade de interagir — pergunta a opinião do teu par.", "descricaoPT": "Interação e turn-taking são critérios avaliados explicitamente nesta parte do exame." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase invites your partner's opinion?", "opcoes": ["I'm right.", "What do you think about this?", "That's final."], "correta": 1, "explicacao": "Convida à participação do par." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase politely disagrees while staying collaborative?", "opcoes": ["You're wrong.", "I see your point, but I'd suggest...", "No way."], "correta": 1, "explicacao": "Discordância educada e colaborativa." },
+      { "tipo": "preenchimento_espaco", "frase": "___ agree on this one?", "resposta": "Shall we", "explicacao": "'Shall we...?' propõe acordo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O que achas desta opção?", "destino": "What do you think about this option?" },
+      { "tipo": "ditado", "textoParaOuvir": "I see your point, but I'd suggest a different approach.", "respostaEsperada": ["I see your point, but I'd suggest a different approach."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-speaking-parte34", "tipo": "situacao", "pergunta": "Que critério importante é avaliado na Parte 3 do Speaking?", "resposta": "a interação e capacidade de negociar/reagir ao par" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-90",
+    "nivel": "intermedio",
+    "titulo": "Marco: Viagem de Negócios",
+    "objetivos": ["Combinar vocabulário de viagens, phrasal verbs e linguagem profissional numa viagem de negócios"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "viagemdenegocios",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 90 do Intermédio! Vamos juntar vocabulário de viagens, phrasal verbs e linguagem profissional numa situação de viagem de negócios.",
+        "exemplos": ["I need to check in for my flight.", "We set off for the airport at 6am.", "Let's discuss the agenda for tomorrow's meeting."],
+        "erroComum": { "errado": "Misturar registo informal e profissional na mesma conversa.", "correto": "Mantém o registo profissional consistente ao longo da conversa de negócios.", "descricaoPT": "Consistência de registo continua a ser importante mesmo em situações combinadas como esta." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good morning, are you checking in for a flight?", "opcoes": [
+            { "texto": "Yes, I need to check in for my flight to London.", "proximoNo": "bagagem" }
+          ]},
+          { "id": "bagagem", "interlocutorFala": "Great. Any bags to check in?", "opcoes": [
+            { "texto": "Just one suitcase, thank you.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrasal verb means to start a journey?", "opcoes": ["Set off", "Set up", "Set down"], "correta": 0, "explicacao": "'Set off' = partir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos discutir a agenda da reunião de amanhã.", "destino": "Let's discuss the agenda for tomorrow's meeting." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre uma viagem de negócios, combinando vocabulário de viagens e trabalho.", "palavrasChaveEsperadas": ["check in", "meeting", "set off"], "respostaModelo": "We set off for the airport early. After checking in, we discussed the agenda for the meeting." },
+      { "tipo": "ditado", "textoParaOuvir": "Let's discuss the agenda for tomorrow's meeting.", "respostaEsperada": ["Let's discuss the agenda for tomorrow's meeting."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-viagemdenegocios-marco90", "tipo": "situacao", "pergunta": "Como combinar vocabulário de viagens e trabalho numa frase?", "resposta": "ex.: We set off for the airport, then discussed the agenda for the meeting." }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
