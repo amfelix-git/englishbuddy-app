@@ -1,0 +1,251 @@
+[
+  {
+    "id": "intermedio-51",
+    "nivel": "intermedio",
+    "titulo": "Used To vs. Would (Hábitos Passados)",
+    "objetivos": ["Distinguir 'used to' e 'would' para hábitos e estados passados"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Used to' e 'would' descrevem hábitos ou situações repetidas no passado que já não acontecem. 'Used to' também descreve estados; 'would' só se usa para ações repetidas, não para estados.",
+        "exemplos": ["I used to play football every weekend. / I would play football every weekend.", "I used to live in Porto. (estado — só 'used to')", "She didn't use to like coffee."],
+        "erroComum": { "errado": "I would live in Porto when I was young.", "correto": "I used to live in Porto when I was young.", "descricaoPT": "'Would' não se usa para estados (viver num sítio, gostar de algo) — só para ações repetidas. 'Used to' serve para ambos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ live in Porto when I was young (estado).", "opcoes": ["would", "used to", "was"], "correta": 1, "explicacao": "Estado → só used to." },
+      { "tipo": "escolha_multipla", "pergunta": "Every summer, we ___ go to the beach (ação repetida).", "opcoes": ["would", "use", "used"], "correta": 0, "explicacao": "Ação repetida → would (ou used to)." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ to like coffee.", "resposta": "didn't use", "explicacao": "Negativa: didn't use to." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu costumava jogar futebol todos os fins de semana.", "destino": "I used to play football every weekend." },
+      { "tipo": "ditado", "textoParaOuvir": "I used to live in Porto when I was young.", "respostaEsperada": ["I used to live in Porto when I was young."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-usedto-vs-would", "tipo": "gramatica", "pergunta": "Pode-se usar 'would' para descrever um estado passado (ex.: viver num sítio)?", "resposta": "não, só 'used to' serve para estados" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-52",
+    "nivel": "intermedio",
+    "titulo": "Causativo: Have Something Done",
+    "objetivos": ["Usar a estrutura causativa para dizer que outra pessoa faz algo por nós"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se 'have/get + objeto + particípio passado' para dizer que outra pessoa faz algo por nós (não fazemos nós próprios).",
+        "exemplos": ["I had my hair cut yesterday. (o cabeleireiro cortou)", "She's getting her car repaired.", "We had the house painted last month."],
+        "erroComum": { "errado": "I cut my hair yesterday (querendo dizer que foi ao cabeleireiro).", "correto": "I had my hair cut yesterday.", "descricaoPT": "'I cut my hair' significa que TU cortaste o teu próprio cabelo — para dizeres que outra pessoa o fez por ti, precisas da estrutura causativa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which means someone else cut your hair?", "opcoes": ["I cut my hair.", "I had my hair cut.", "I am cutting my hair."], "correta": 1, "explicacao": "Estrutura causativa: had + particípio." },
+      { "tipo": "escolha_multipla", "pergunta": "She's ___ her car repaired.", "opcoes": ["getting", "doing", "making"], "correta": 0, "explicacao": "'Get' também funciona no causativo." },
+      { "tipo": "preenchimento_espaco", "frase": "We ___ the house painted last month.", "resposta": "had", "explicacao": "Causativo: had + particípio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu mandei pintar a casa.", "destino": "I had the house painted." },
+      { "tipo": "ditado", "textoParaOuvir": "I had my hair cut yesterday.", "respostaEsperada": ["I had my hair cut yesterday."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-causativo-havesomethingdone", "tipo": "gramatica", "pergunta": "Como se forma a estrutura causativa 'mandar fazer algo'?", "resposta": "have/get + objeto + particípio passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-53",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Figure Out, Get Around, Cut Back On",
+    "objetivos": ["Usar mais phrasal verbs de uso frequente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais phrasal verbs úteis: figure out (perceber/resolver), get around (contornar/lidar com), cut back on (reduzir).",
+        "exemplos": ["I can't figure out how this works.", "We need to get around this problem.", "I'm trying to cut back on sugar."],
+        "erroComum": { "errado": "I can't understand out how this works.", "correto": "I can't figure out how this works.", "descricaoPT": "'Figure out' já significa 'perceber/resolver' por si só — não se combina com 'understand'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I can't ___ how this works.", "opcoes": ["figure out", "figure up", "figure in"], "correta": 0, "explicacao": "'Figure out' = perceber/resolver." },
+      { "tipo": "escolha_multipla", "pergunta": "I'm trying to ___ sugar.", "opcoes": ["cut back on", "cut off", "cut out of"], "correta": 0, "explicacao": "'Cut back on' = reduzir." },
+      { "tipo": "preenchimento_espaco", "frase": "We need to ___ this problem.", "resposta": "get around", "explicacao": "'Get around' = contornar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não consigo perceber como isto funciona.", "destino": "I can't figure out how this works." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm trying to cut back on sugar.", "respostaEsperada": ["I'm trying to cut back on sugar."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-figureout-getaround-cutbackon", "tipo": "vocabulario", "pergunta": "O que significa 'figure out'?", "resposta": "perceber/resolver" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-54",
+    "nivel": "intermedio",
+    "titulo": "Idiomas: Dinheiro",
+    "objetivos": ["Reconhecer idiomas relacionados com dinheiro"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas relacionados com dinheiro: break the bank (custar uma fortuna), save for a rainy day (poupar para imprevistos).",
+        "exemplos": ["This trip won't break the bank.", "It's wise to save for a rainy day.", "She's saving up for a new car."],
+        "erroComum": { "errado": "Traduzir 'break the bank' literalmente como partir o banco.", "correto": "'Break the bank' significa gastar mais do que se pode pagar/custar uma fortuna.", "descricaoPT": "Idioma sem tradução literal — usado frequentemente na negativa: 'won't break the bank'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'This won't break the bank' means...", "opcoes": ["It's very expensive", "It's affordable, won't cost too much", "It's free"], "correta": 1, "explicacao": "Não vai custar uma fortuna." },
+      { "tipo": "escolha_multipla", "pergunta": "'Save for a rainy day' means...", "opcoes": ["Save money for emergencies", "Save umbrellas", "Only save when it rains"], "correta": 0, "explicacao": "Poupar para imprevistos." },
+      { "tipo": "preenchimento_espaco", "frase": "It's wise to save for a ___ day.", "resposta": "rainy", "explicacao": "'Save for a rainy day.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Esta viagem não vai custar uma fortuna.", "destino": "This trip won't break the bank." },
+      { "tipo": "ditado", "textoParaOuvir": "It's wise to save for a rainy day.", "respostaEsperada": ["It's wise to save for a rainy day."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-dinheiro", "tipo": "vocabulario", "pergunta": "O que significa 'break the bank'?", "resposta": "custar uma fortuna" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-55",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Media e Notícias",
+    "objetivos": ["Usar vocabulário sobre media e notícias"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre media e notícias: breaking news, a reliable source, go viral.",
+        "exemplos": ["Did you see the breaking news?", "Always check if the source is reliable.", "That video went viral overnight."],
+        "erroComum": { "errado": "That video became viral.", "correto": "That video went viral.", "descricaoPT": "'Go viral' é a collocation fixa, não 'become viral'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["become viral", "go viral", "turn viral"], "correta": 1, "explicacao": "'Go viral' é a forma correta." },
+      { "tipo": "escolha_multipla", "pergunta": "What do we call urgent, just-announced news?", "opcoes": ["Breaking news", "Old news", "Fake news"], "correta": 0, "explicacao": "'Breaking news' = notícias de última hora." },
+      { "tipo": "preenchimento_espaco", "frase": "Always check if the source is ___.", "resposta": "reliable", "explicacao": "'Reliable' = fiável." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Esse vídeo tornou-se viral durante a noite.", "destino": "That video went viral overnight." },
+      { "tipo": "ditado", "textoParaOuvir": "Did you see the breaking news?", "respostaEsperada": ["Did you see the breaking news?"] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-media-noticias", "tipo": "vocabulario", "pergunta": "Como se diz 'tornar-se viral' em inglês?", "resposta": "go viral (não 'become viral')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-56",
+    "nivel": "intermedio",
+    "titulo": "Situação: Alugar uma Casa",
+    "objetivos": ["Fazer perguntas relevantes ao alugar uma casa/apartamento"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "alugarcasa",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para alugar uma casa ou apartamento: perguntar sobre condições, depósito, e contrato.",
+        "exemplos": ["Is the deposit refundable?", "How long is the contract for?", "Are bills included in the rent?"],
+        "erroComum": { "errado": "The rent include bills?", "correto": "Are bills included in the rent?", "descricaoPT": "A estrutura da pergunta em voz passiva precisa do auxiliar 'are' — não se pode formar diretamente como em português." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "So, this is the apartment. Any questions?", "opcoes": [
+            { "texto": "Yes, are bills included in the rent?", "proximoNo": "deposito" }
+          ]},
+          { "id": "deposito", "interlocutorFala": "No, bills are separate. There's also a deposit required.", "opcoes": [
+            { "texto": "Is the deposit refundable?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a good question when renting a place?", "opcoes": ["How much rent?", "How long is the contract for?", "Rent how much money?"], "correta": 1, "explicacao": "Pergunta bem formada e completa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O depósito é reembolsável?", "destino": "Is the deposit refundable?" },
+      { "tipo": "ditado", "textoParaOuvir": "Are bills included in the rent?", "respostaEsperada": ["Are bills included in the rent?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-alugarcasa-integradora", "tipo": "situacao", "pergunta": "Como perguntar se as contas estão incluídas na renda?", "resposta": "Are bills included in the rent?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-57",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Carta de Reclamação Formal",
+    "objetivos": ["Escrever uma carta/email de reclamação formal com estrutura correta"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma carta/email de reclamação formal segue uma estrutura: saudação formal, explicação do problema, o que se pede como resolução, despedida formal.",
+        "exemplos": ["Dear Sir/Madam,", "I am writing to complain about...", "I would appreciate a full refund.", "Yours faithfully,"],
+        "erroComum": { "errado": "Dear Sir/Madam, ... Best, John (misturar formal e informal).", "correto": "Dear Sir/Madam, ... Yours faithfully, John Smith.", "descricaoPT": "Uma carta formal deve manter o registo consistente do início ao fim." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which opening is correct for a formal complaint letter?", "opcoes": ["Hi there!", "Dear Sir/Madam,", "Hey!"], "correta": 1, "explicacao": "Saudação formal correta." },
+      { "tipo": "escolha_multipla", "pergunta": "Which closing matches 'Dear Sir/Madam'?", "opcoes": ["Best wishes,", "Yours faithfully,", "Love,"], "correta": 1, "explicacao": "'Yours faithfully' combina com 'Dear Sir/Madam'." },
+      { "tipo": "preenchimento_espaco", "frase": "I am writing to ___ about the poor service.", "resposta": "complain", "explicacao": "'Complain' = reclamar." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a frase de abertura de uma carta formal de reclamação sobre um produto danificado.", "palavrasChaveEsperadas": ["dear sir", "i am writing", "complain"], "respostaModelo": "Dear Sir/Madam, I am writing to complain about a damaged product I recently purchased." },
+      { "tipo": "ditado", "textoParaOuvir": "I would appreciate a full refund.", "respostaEsperada": ["I would appreciate a full refund."] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-cartareclamacao-formal", "tipo": "situacao", "pergunta": "Que despedida combina com 'Dear Sir/Madam,'?", "resposta": "Yours faithfully," }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-58",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Educação e Qualificações",
+    "objetivos": ["Usar vocabulário sobre educação e qualificações"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre educação e qualificações: a degree, a scholarship, graduate from.",
+        "exemplos": ["She has a degree in economics.", "He received a scholarship to study abroad.", "I graduated from university in 2020."],
+        "erroComum": { "errado": "I finished the university in 2020.", "correto": "I graduated from university in 2020.", "descricaoPT": "'Graduate from' é a expressão natural para concluir um curso universitário, não 'finish the university'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I finished the university.", "I graduated from university.", "I ended university."], "correta": 1, "explicacao": "'Graduate from university' é a forma correta." },
+      { "tipo": "escolha_multipla", "pergunta": "What do we call money given to study, based on merit?", "opcoes": ["A scholarship", "A salary", "A loan"], "correta": 0, "explicacao": "'A scholarship' = bolsa de estudo." },
+      { "tipo": "preenchimento_espaco", "frase": "She has a ___ in economics.", "resposta": "degree", "explicacao": "'Degree' = licenciatura." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele recebeu uma bolsa para estudar no estrangeiro.", "destino": "He received a scholarship to study abroad." },
+      { "tipo": "ditado", "textoParaOuvir": "I graduated from university in 2020.", "respostaEsperada": ["I graduated from university in 2020."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-educacao-qualificacoes", "tipo": "vocabulario", "pergunta": "Como se diz 'formar-se na universidade' em inglês?", "resposta": "graduate from university" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-59",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Used To/Would, Causativo e Phrasal Verbs",
+    "objetivos": ["Rever hábitos passados, a estrutura causativa e phrasal verbs recentes"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada: used to/would (hábitos passados), have something done (causativo), e os phrasal verbs mais recentes.",
+        "exemplos": ["I used to walk to school. / I would walk to school.", "I had my car fixed.", "I need to figure out a solution."],
+        "erroComum": { "errado": "Misturar as estruturas sem rever cada uma isoladamente.", "correto": "Revê cada estrutura com calma — a prática espaçada ajuda a fixá-las.", "descricaoPT": "É normal precisares de mais prática nestas estruturas mais recentes." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ live in a small village (estado).", "opcoes": ["would", "used to", "use"], "correta": 1, "explicacao": "Estado → used to." },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ her nails done every month.", "opcoes": ["has", "does", "makes"], "correta": 0, "explicacao": "Causativo: has + particípio." },
+      { "tipo": "escolha_multipla", "pergunta": "I can't ___ how to fix this.", "opcoes": ["figure out", "figure up", "understand out"], "correta": 0, "explicacao": "'Figure out' = perceber." },
+      { "tipo": "preenchimento_espaco", "frase": "We ___ the kitchen renovated last year.", "resposta": "had", "explicacao": "Causativo: had + particípio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele costumava jogar à bola todos os dias.", "destino": "He used to play football every day." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-usedto-causative-phrasalverbs", "tipo": "gramatica", "pergunta": "Que 3 estruturas foram revistas nesta sessão?", "resposta": "used to/would, causativo (have something done), phrasal verbs recentes" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-60",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: Na Universidade (Matrícula)",
+    "objetivos": ["Combinar vocabulário de educação e pedidos educados numa matrícula universitária"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "universidadematricula",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar vocabulário de educação e pedidos educados das últimas sessões numa situação de matrícula universitária.",
+        "exemplos": ["I'd like to enrol in this course.", "What are the entry requirements?", "Is there a scholarship available?"],
+        "erroComum": { "errado": "I want to make matriculation.", "correto": "I'd like to enrol in this course.", "descricaoPT": "'Enrol in' é o verbo natural para se matricular num curso — evita traduções diretas de 'fazer matrícula'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! How can I help you today?", "opcoes": [
+            { "texto": "I'd like to enrol in this course.", "proximoNo": "requisitos" }
+          ]},
+          { "id": "requisitos", "interlocutorFala": "Great! Do you meet the entry requirements?", "opcoes": [
+            { "texto": "I think so. Is there a scholarship available too?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct for joining a course?", "opcoes": ["I want to make matriculation.", "I'd like to enrol in this course.", "I make register course."], "correta": 1, "explicacao": "'Enrol in' é a forma correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quais são os requisitos de admissão?", "destino": "What are the entry requirements?" },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a pedires informações sobre te matriculares num curso.", "palavrasChaveEsperadas": ["i'd like", "enrol", "requirements"], "respostaModelo": "I'd like to enrol in this course. What are the entry requirements?" },
+      { "tipo": "ditado", "textoParaOuvir": "Is there a scholarship available?", "respostaEsperada": ["Is there a scholarship available?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-universidadematricula-integradora", "tipo": "situacao", "pergunta": "Como se diz 'matricular-se num curso' em inglês?", "resposta": "enrol in a course" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
