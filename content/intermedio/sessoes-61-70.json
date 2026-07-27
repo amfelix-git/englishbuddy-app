@@ -1,0 +1,251 @@
+[
+  {
+    "id": "intermedio-61",
+    "nivel": "intermedio",
+    "titulo": "Must vs. Have To vs. Should",
+    "objetivos": ["Distinguir obrigação pessoal (must), obrigação externa (have to) e conselho (should)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Must' exprime obrigação pessoal/forte opinião do próprio falante; 'have to' exprime obrigação externa (regras, outras pessoas); 'should' exprime conselho, não obrigação.",
+        "exemplos": ["I must call my mother today. (obrigação pessoal)", "I have to wear a uniform at work. (regra externa)", "You should see a doctor. (conselho)"],
+        "erroComum": { "errado": "I must wear a uniform at work (para uma regra da empresa).", "correto": "I have to wear a uniform at work.", "descricaoPT": "'Must' e 'have to' não são totalmente intercambiáveis — 'have to' é mais natural para regras impostas por outros." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ wear a uniform at work (regra da empresa).", "opcoes": ["must", "have to", "should"], "correta": 1, "explicacao": "Regra externa → have to." },
+      { "tipo": "escolha_multipla", "pergunta": "You ___ see a doctor about that cough (conselho).", "opcoes": ["must", "have to", "should"], "correta": 2, "explicacao": "Conselho → should." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ call my mother, I promised her.", "resposta": "must", "explicacao": "Obrigação pessoal → must." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tenho de usar uniforme no trabalho.", "destino": "I have to wear a uniform at work." },
+      { "tipo": "ditado", "textoParaOuvir": "You should see a doctor about that cough.", "respostaEsperada": ["You should see a doctor about that cough."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-must-haveto-should", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'must' e 'have to'?", "resposta": "must = obrigação pessoal/opinião; have to = obrigação externa/regra" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-62",
+    "nivel": "intermedio",
+    "titulo": "Gerúndio como Sujeito",
+    "objetivos": ["Usar o gerúndio como sujeito de uma frase"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O gerúndio (-ing) pode funcionar como sujeito de uma frase, equivalente ao infinitivo em português.",
+        "exemplos": ["Smoking is bad for your health.", "Learning a language takes time.", "Swimming is my favourite hobby."],
+        "erroComum": { "errado": "To smoke is bad for your health.", "correto": "Smoking is bad for your health.", "descricaoPT": "Embora o infinitivo também possa ser sujeito, o gerúndio é a opção mais natural e comum em inglês para generalizações." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ is bad for your health.", "opcoes": ["Smoke", "Smoking", "To smoking"], "correta": 1, "explicacao": "Gerúndio como sujeito: Smoking." },
+      { "tipo": "escolha_multipla", "pergunta": "___ a language takes time.", "opcoes": ["Learn", "Learning", "To learning"], "correta": 1, "explicacao": "Gerúndio como sujeito: Learning." },
+      { "tipo": "preenchimento_espaco", "frase": "___ is my favourite hobby.", "resposta": "Swimming", "explicacao": "Gerúndio: Swimming." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Aprender inglês é divertido.", "destino": "Learning English is fun." },
+      { "tipo": "ditado", "textoParaOuvir": "Learning a language takes time.", "respostaEsperada": ["Learning a language takes time."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-gerundio-sujeito", "tipo": "gramatica", "pergunta": "Que forma verbal é mais natural como sujeito de uma frase em inglês?", "resposta": "o gerúndio (-ing)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-63",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Look Forward To, Put Up With, Run Into",
+    "objetivos": ["Usar mais phrasal verbs de uso frequente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais phrasal verbs: look forward to (aguardar com expectativa, + gerúndio), put up with (tolerar), run into (encontrar por acaso).",
+        "exemplos": ["I'm looking forward to seeing you.", "I can't put up with this noise anymore.", "I ran into an old friend yesterday."],
+        "erroComum": { "errado": "I look forward to see you.", "correto": "I look forward to seeing you.", "descricaoPT": "'Look forward to' é sempre seguido de gerúndio, não de infinitivo — exceção importante a memorizar." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I'm looking forward to ___ you.", "opcoes": ["see", "seeing", "saw"], "correta": 1, "explicacao": "'Look forward to' + gerúndio." },
+      { "tipo": "escolha_multipla", "pergunta": "I can't ___ this noise anymore.", "opcoes": ["put up with", "put up", "put with"], "correta": 0, "explicacao": "'Put up with' = tolerar." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ an old friend yesterday.", "resposta": "ran into", "explicacao": "'Run into' = encontrar por acaso." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estou ansioso por te ver.", "destino": "I'm looking forward to seeing you." },
+      { "tipo": "ditado", "textoParaOuvir": "I ran into an old friend yesterday.", "respostaEsperada": ["I ran into an old friend yesterday."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-lookforwardto-putupwith-runinto", "tipo": "vocabulario", "pergunta": "Que forma verbal segue 'look forward to'?", "resposta": "gerúndio (-ing)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-64",
+    "nivel": "intermedio",
+    "titulo": "Idiomas de Comunicação",
+    "objetivos": ["Reconhecer idiomas sobre comunicação direta e indireta"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas sobre comunicação: get to the point (ir direto ao assunto), beat around the bush (dar voltas ao assunto).",
+        "exemplos": ["Please get to the point, we don't have much time.", "Stop beating around the bush and tell me what happened.", "He always gets straight to the point."],
+        "erroComum": { "errado": "Traduzir 'beat around the bush' literalmente.", "correto": "'Beat around the bush' significa evitar dizer algo diretamente.", "descricaoPT": "Idioma muito comum em contexto profissional e conversas do dia a dia." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Get to the point' means...", "opcoes": ["To talk for a long time", "To say something directly", "To point at something"], "correta": 1, "explicacao": "Ir direto ao assunto." },
+      { "tipo": "escolha_multipla", "pergunta": "'Beat around the bush' means...", "opcoes": ["To avoid saying something directly", "To hit a plant", "To speak clearly"], "correta": 0, "explicacao": "Dar voltas ao assunto." },
+      { "tipo": "preenchimento_espaco", "frase": "Stop ___ around the bush and tell me!", "resposta": "beating", "explicacao": "'Beating around the bush.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Por favor, vai direto ao assunto.", "destino": "Please get to the point." },
+      { "tipo": "ditado", "textoParaOuvir": "Please get to the point, we don't have much time.", "respostaEsperada": ["Please get to the point, we don't have much time."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-comunicacao", "tipo": "vocabulario", "pergunta": "O que significa 'beat around the bush'?", "resposta": "dar voltas ao assunto sem ir direto" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-65",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Crime e Lei",
+    "objetivos": ["Usar vocabulário básico sobre crime e lei"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário básico sobre crime e lei: to steal, a witness, to report a crime. 'Steal' usa-se para objetos; 'rob' usa-se para pessoas/lugares.",
+        "exemplos": ["Someone stole my bike.", "I was a witness to the accident.", "You should report this to the police."],
+        "erroComum": { "errado": "They stole the bank.", "correto": "They robbed the bank.", "descricaoPT": "'Steal' usa-se para objetos (rouba-se uma coisa); 'rob' usa-se para pessoas/lugares (rouba-se um banco/loja/pessoa)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["Someone robbed my bike.", "Someone stole my bike.", "Someone thefted my bike."], "correta": 1, "explicacao": "'Steal' para objetos." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["They stole the bank.", "They robbed the bank.", "They stealed the bank."], "correta": 1, "explicacao": "'Rob' para lugares." },
+      { "tipo": "preenchimento_espaco", "frase": "I was a ___ to the accident.", "resposta": "witness", "explicacao": "'Witness' = testemunha." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Devias reportar isto à polícia.", "destino": "You should report this to the police." },
+      { "tipo": "ditado", "textoParaOuvir": "Someone stole my bike yesterday.", "respostaEsperada": ["Someone stole my bike yesterday."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-crime-lei", "tipo": "vocabulario", "pergunta": "Qual a diferença entre 'steal' e 'rob'?", "resposta": "steal + objeto (steal a bike); rob + pessoa/lugar (rob a bank)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-66",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Artes e Entretenimento",
+    "objetivos": ["Usar vocabulário sobre artes e entretenimento"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre artes e entretenimento: a exhibition, a performance, a masterpiece.",
+        "exemplos": ["We went to an art exhibition.", "Her performance was amazing.", "This painting is considered a masterpiece."],
+        "erroComum": { "errado": "We went to see an art exposition.", "correto": "We went to an art exhibition.", "descricaoPT": "'Exhibition' é a palavra correta para uma exposição de arte — 'exposition' em inglês tem um sentido diferente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the correct word for 'exposição de arte'?", "opcoes": ["Exposition", "Exhibition", "Explanation"], "correta": 1, "explicacao": "'Exhibition' = exposição." },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes an excellent work of art?", "opcoes": ["A masterpiece", "A mistake", "A draft"], "correta": 0, "explicacao": "'A masterpiece' = uma obra-prima." },
+      { "tipo": "preenchimento_espaco", "frase": "Her ___ on stage was amazing.", "resposta": "performance", "explicacao": "'Performance' = atuação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este quadro é considerado uma obra-prima.", "destino": "This painting is considered a masterpiece." },
+      { "tipo": "ditado", "textoParaOuvir": "We went to an art exhibition last weekend.", "respostaEsperada": ["We went to an art exhibition last weekend."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-artes-entretenimento", "tipo": "vocabulario", "pergunta": "Como se diz 'exposição de arte' em inglês?", "resposta": "an exhibition (não 'exposition')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-67",
+    "nivel": "intermedio",
+    "titulo": "Situação: Na Biblioteca / Museu",
+    "objetivos": ["Pedir informações e fazer pedidos educados numa biblioteca ou museu"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "bibliotecamuseu",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para a biblioteca e o museu: pedir informações, horários, e regras.",
+        "exemplos": ["Could I borrow this book?", "What time does the museum close?", "Is photography allowed here?"],
+        "erroComum": { "errado": "I want borrow this book.", "correto": "Could I borrow this book?", "descricaoPT": "Mantém o pedido educado com 'could' — importante em contexto formal como biblioteca/museu." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Good afternoon, how can I help you?", "opcoes": [
+            { "texto": "Could I borrow this book, please?", "proximoNo": "prazo" }
+          ]},
+          { "id": "prazo", "interlocutorFala": "Of course. It's due back in two weeks.", "opcoes": [
+            { "texto": "Great, thank you!", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How do you politely ask to borrow something?", "opcoes": ["I want borrow this.", "Could I borrow this?", "Give me this."], "correta": 1, "explicacao": "Pedido educado com 'could'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É permitido tirar fotografias aqui?", "destino": "Is photography allowed here?" },
+      { "tipo": "ditado", "textoParaOuvir": "What time does the museum close?", "respostaEsperada": ["What time does the museum close?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-bibliotecamuseu-integradora", "tipo": "situacao", "pergunta": "Como pedir para pedir um livro emprestado educadamente?", "resposta": "Could I borrow this book, please?" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-68",
+    "nivel": "intermedio",
+    "titulo": "Leitura: Biografia Curta",
+    "objetivos": ["Praticar leitura de uma biografia com datas e factos específicos"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê a biografia com atenção antes de responderes.\n\n\"Marie Curie was born in Warsaw in 1867. She moved to Paris to study physics and chemistry, where she later met her husband, Pierre. Together, they discovered two new elements, polonium and radium. In 1903, she became the first woman to win a Nobel Prize, and in 1911 she won a second one — becoming the only person ever to win Nobel Prizes in two different sciences.\"",
+        "exemplos": ["was born in = nasceu em", "discovered = descobriu", "the only person ever to = a única pessoa a alguma vez"],
+        "erroComum": { "errado": "Confundir as datas e a ordem dos eventos na biografia.", "correto": "Presta atenção às datas específicas — são frequentemente testadas em perguntas de compreensão.", "descricaoPT": "Textos biográficos combinam muito Past Simple com datas específicas — boa oportunidade para reveres esse tempo verbal." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Where was Marie Curie born?", "opcoes": ["Paris", "Warsaw", "London"], "correta": 1, "explicacao": "O texto diz 'born in Warsaw'." },
+      { "tipo": "escolha_multipla", "pergunta": "What did Marie Curie discover with her husband?", "opcoes": ["Two new elements", "A new country", "A new language"], "correta": 0, "explicacao": "O texto diz 'discovered two new elements'." },
+      { "tipo": "escolha_multipla", "pergunta": "How many Nobel Prizes did she win?", "opcoes": ["One", "Two", "Three"], "correta": 1, "explicacao": "O texto diz '1903... 1911 she won a second one'." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ the first woman to win a Nobel Prize.", "resposta": "became", "explicacao": "'Became' = tornou-se." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a resumir a maior conquista de Marie Curie.", "palavrasChaveEsperadas": ["nobel", "first", "won"], "respostaModelo": "She was the first person to win Nobel Prizes in two different sciences." }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-leitura-biografia", "tipo": "situacao", "pergunta": "A que devemos prestar atenção especial numa biografia?", "resposta": "datas específicas e a sequência de eventos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-69",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Narrativa Curta",
+    "objetivos": ["Escrever uma narrativa curta usando conectores de sequência"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma narrativa curta (short story) normalmente tem: um cenário inicial, um problema/evento inesperado, e uma resolução — usa conectores de sequência (first, then, suddenly, finally).",
+        "exemplos": ["First, I woke up late. Then, suddenly, I heard a strange noise. Finally, I discovered it was just the cat!", "It was a quiet evening when..."],
+        "erroComum": { "errado": "Escrever uma história sem nenhum conector de sequência.", "correto": "Usa conectores como first/then/suddenly/finally para dar clareza à sequência de eventos.", "descricaoPT": "Conectores de sequência tornam a narrativa mais fácil de seguir e são valorizados na avaliação de Writing do Cambridge." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which connector suggests something unexpected?", "opcoes": ["First", "Suddenly", "Finally"], "correta": 1, "explicacao": "'Suddenly' introduz o inesperado." },
+      { "tipo": "escolha_multipla", "pergunta": "Which connector is used to end a story?", "opcoes": ["Suddenly", "Then", "Finally"], "correta": 2, "explicacao": "'Finally' fecha a narrativa." },
+      { "tipo": "preenchimento_espaco", "frase": "___, the lights went out.", "resposta": "Suddenly", "explicacao": "'Suddenly' = de repente." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve as primeiras 2-3 frases de uma pequena história, usando pelo menos um conector de sequência.", "palavrasChaveEsperadas": ["first", "then", "suddenly"], "respostaModelo": "First, I locked my keys inside the house. Then, suddenly, it started to rain." },
+      { "tipo": "ditado", "textoParaOuvir": "Suddenly, the lights went out.", "respostaEsperada": ["Suddenly, the lights went out."] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-narrativa-curta", "tipo": "situacao", "pergunta": "Que conectores organizam uma narrativa curta?", "resposta": "first, then, suddenly, finally" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-70",
+    "nivel": "intermedio",
+    "titulo": "Situação Integradora: Relatar um Pequeno Incidente",
+    "objetivos": ["Combinar Past Simple, conectores de sequência e vocabulário de crime numa situação de relato à polícia"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "relatarincidente",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos juntar Past Simple, conectores de sequência e vocabulário de crime/segurança das últimas sessões numa situação de relatar um pequeno incidente à polícia.",
+        "exemplos": ["I'd like to report a theft.", "First, I parked my car, then I went shopping. When I came back, my bike was gone.", "Can you describe what happened?"],
+        "erroComum": { "errado": "Help, thief! (frase sem contexto/detalhe).", "correto": "I'd like to report a theft. First,... then... when I came back...", "descricaoPT": "Um relato claro combina o pedido inicial com uma sequência de eventos bem organizada." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hello, how can I help you?", "opcoes": [
+            { "texto": "I'd like to report a theft.", "proximoNo": "detalhe" }
+          ]},
+          { "id": "detalhe", "interlocutorFala": "I'm sorry to hear that. Can you describe what happened?", "opcoes": [
+            { "texto": "First, I parked my bike, then I went into the shop. When I came out, it was gone.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a good way to start reporting a crime?", "opcoes": ["Someone stole something!", "I'd like to report a theft.", "Help, thief!"], "correta": 1, "explicacao": "Início claro e educado de um relato." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Pode descrever o que aconteceu?", "destino": "Can you describe what happened?" },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a relatares um pequeno incidente, usando conectores de sequência.", "palavrasChaveEsperadas": ["first", "then", "when"], "respostaModelo": "First, I left my bag on the table. Then, when I turned around, it was gone." },
+      { "tipo": "ditado", "textoParaOuvir": "I'd like to report a theft.", "respostaEsperada": ["I'd like to report a theft."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-relatarincidente-integradora", "tipo": "situacao", "pergunta": "Como se inicia um relato de um pequeno crime à polícia?", "resposta": "I'd like to report a theft/incident..." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
