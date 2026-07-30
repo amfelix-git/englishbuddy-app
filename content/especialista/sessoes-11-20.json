@@ -1,0 +1,232 @@
+[
+  {
+    "id": "especialista-11",
+    "nivel": "especialista",
+    "titulo": "Nominalização e Registo Formal",
+    "objetivos": ["Transformar verbos/adjetivos em substantivos para elevar o registo"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A nominalização transforma verbos ou adjetivos em substantivos (decide→decision, arrive→arrival, aware→awareness), tornando o texto mais formal, denso e típico de escrita académica ou profissional.",
+        "exemplos": ["We decided to postpone the meeting. → Our decision was to postpone the meeting.", "The company grew rapidly. → The rapid growth of the company...", "They analysed the data carefully. → Their careful analysis of the data..."],
+        "erroComum": { "errado": "Manter sempre a forma verbal em textos formais (relatórios, ensaios).", "correto": "Preferir a forma nominalizada em registos formais — soa mais objetivo e profissional.", "descricaoPT": "Em português também existe nominalização, mas em inglês académico/profissional o seu uso é ainda mais sistemático — vale a pena praticá-la deliberadamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the more formal, nominalised version?", "opcoes": ["They decided quickly.", "Their decision was quick.", "Decide quickly they did."], "correta": 1, "explicacao": "'Decision' é a nominalização de 'decide'." },
+      { "tipo": "escolha_multipla", "pergunta": "The nominalisation of 'aware' is:", "opcoes": ["awareful", "awareness", "awaring"], "correta": 1, "explicacao": "aware → awareness." },
+      { "tipo": "preenchimento_espaco", "frase": "The rapid ___ of the company surprised investors. (grow)", "resposta": "growth", "explicacao": "grow → growth (nominalização)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A análise cuidadosa dos dados revelou um padrão.", "destino": "The careful analysis of the data revealed a pattern." },
+      { "tipo": "ditado", "textoParaOuvir": "Their decision was quick, but the growth of the company was slow.", "respostaEsperada": ["Their decision was quick, but the growth of the company was slow."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-nominalizacao", "tipo": "gramatica", "pergunta": "O que é nominalização e para que serve?", "resposta": "transformar verbos/adjetivos em substantivos para elevar o registo (decide→decision)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-12",
+    "nivel": "especialista",
+    "titulo": "Registo Formal vs. Informal",
+    "objetivos": ["Reconhecer e escolher vocabulário adequado ao registo formal"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Muitas palavras têm um par informal (phrasal verb, coloquial) e um par formal (latino, mais 'elevado'): find out/discover, get/obtain, put off/postpone, kids/children, a lot of/numerous.",
+        "exemplos": ["We need to find out the cause. (informal) → We need to discover the cause. (formal)", "Can you get more info? (informal) → Can you obtain further information? (formal)", "The meeting was put off. (informal) → The meeting was postponed. (formal)"],
+        "erroComum": { "errado": "Usar phrasal verbs coloquiais em emails ou ensaios formais (ex.: 'find out', 'sort out').", "correto": "Substituir por equivalentes formais em registo escrito formal: 'discover', 'resolve'.", "descricaoPT": "Não é um erro gramatical, mas um erro de registo — muito penalizado em exames como o C2 Proficiency." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the FORMAL equivalent of 'find out'?", "opcoes": ["discover", "check out", "look into"], "correta": 0, "explicacao": "'Discover' é o equivalente formal de 'find out'." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the FORMAL equivalent of 'put off'?", "opcoes": ["cancel", "postpone", "call off"], "correta": 1, "explicacao": "'Postpone' é o par formal de 'put off'." },
+      { "tipo": "preenchimento_espaco", "frase": "The committee decided to ___ (put off, formal) the decision.", "resposta": "postpone", "explicacao": "Registo formal → postpone." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Precisamos de obter mais informação antes de decidir. (registo formal)", "destino": "We need to obtain further information before deciding." },
+      { "tipo": "ditado", "textoParaOuvir": "The committee decided to postpone the meeting.", "respostaEsperada": ["The committee decided to postpone the meeting."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-registoformalinformal", "tipo": "gramatica", "pergunta": "Dá um exemplo de par informal/formal em inglês.", "resposta": "find out (informal) / discover (formal)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-13",
+    "nivel": "especialista",
+    "titulo": "Colocações Avançadas",
+    "objetivos": ["Usar colocações fortes (collocations) típicas de C1-C2"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Colocações são combinações fixas de palavras que soam naturais a falantes nativos (bear/make a decision, heavy/strong rain vs. *powerful rain). Dominar colocações é essencial para soar fluente.",
+        "exemplos": ["make a decision (não 'do a decision')", "heavy rain / strong wind (não 'powerful rain')", "bitterly disappointed / deeply concerned"],
+        "erroComum": { "errado": "I did a decision about it.", "correto": "I made a decision about it.", "descricaoPT": "'Fazer uma decisão' traduz-se literalmente mal — em inglês usa-se sempre 'make a decision', nunca 'do a decision'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "You ___ a decision, you don't 'do' one.", "opcoes": ["make", "take", "have"], "correta": 0, "explicacao": "'Make a decision' é a colocação correta." },
+      { "tipo": "escolha_multipla", "pergunta": "'___ rain' is the natural collocation, not 'powerful rain'.", "opcoes": ["Strong", "Heavy", "Big"], "correta": 1, "explicacao": "'Heavy rain' é a colocação natural." },
+      { "tipo": "preenchimento_espaco", "frase": "She was bitterly ___ with the result. (disappoint)", "resposta": "disappointed", "explicacao": "'Bitterly disappointed' é uma colocação forte comum." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estou profundamente preocupado com a situação.", "destino": "I am deeply concerned about the situation." },
+      { "tipo": "ditado", "textoParaOuvir": "She was bitterly disappointed with the heavy rain.", "respostaEsperada": ["She was bitterly disappointed with the heavy rain."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-colocacoesavancadas", "tipo": "gramatica", "pergunta": "Qual é a colocação correta: 'do a decision' ou 'make a decision'?", "resposta": "make a decision" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-14",
+    "nivel": "especialista",
+    "titulo": "Phrasal Verbs Avançados e Idiomáticos",
+    "objetivos": ["Usar phrasal verbs de significado figurativo típicos de C1-C2"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A partir do C1, os phrasal verbs tornam-se cada vez mais figurativos e menos previsíveis do significado literal das suas partes (come across = parecer/encontrar por acaso, fall through = falhar/não se concretizar, get ahead = progredir).",
+        "exemplos": ["He comes across as very confident. (parece)", "Our plans fell through at the last minute. (falharam)", "She's determined to get ahead in her career. (progredir)"],
+        "erroComum": { "errado": "Traduzir 'fall through' literalmente como 'cair através'.", "correto": "'Fall through' significa 'não se concretizar' — o significado figurativo é totalmente diferente do literal.", "descricaoPT": "Nestes níveis, os phrasal verbs deixam de ser previsíveis pela soma das partes — têm de ser aprendidos como unidades de vocabulário." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'He comes across as confident' means:", "opcoes": ["he crosses a street confidently", "he appears/seems confident", "he argues confidently"], "correta": 1, "explicacao": "'Come across as' = parecer/dar a impressão de." },
+      { "tipo": "escolha_multipla", "pergunta": "'Our plans fell through' means:", "opcoes": ["our plans succeeded", "our plans failed to happen", "our plans were postponed"], "correta": 1, "explicacao": "'Fall through' = não se concretizar." },
+      { "tipo": "preenchimento_espaco", "frase": "She's determined to get ___ in her career. (progredir)", "resposta": "ahead", "explicacao": "'Get ahead' = progredir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os nossos planos falharam à última hora.", "destino": "Our plans fell through at the last minute." },
+      { "tipo": "ditado", "textoParaOuvir": "He comes across as very confident, but our plans fell through.", "respostaEsperada": ["He comes across as very confident, but our plans fell through."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-phrasalverbsavancados", "tipo": "gramatica", "pergunta": "O que significa 'fall through' (planos)?", "resposta": "não se concretizar, falhar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-15",
+    "nivel": "especialista",
+    "titulo": "Idiomas e Expressões Idiomáticas C1-C2",
+    "objetivos": ["Usar expressões idiomáticas comuns em contexto"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Expressões idiomáticas dão naturalidade e cor à fala e escrita avançadas, mas devem ser usadas com moderação e no registo certo (muitas são informais, adequadas à fala mas não a ensaios formais).",
+        "exemplos": ["It's not rocket science. (não é complicado)", "We're on the same page. (estamos de acordo)", "That's the last straw. (foi a gota de água)"],
+        "erroComum": { "errado": "Usar expressões idiomáticas informais num ensaio académico formal.", "correto": "Reservar idiomas coloquiais para a fala ou escrita informal; em ensaios formais, preferir formulações mais neutras.", "descricaoPT": "Saber idiomas é importante para compreensão e fala natural, mas o exagero ou uso no registo errado soa estranho, não fluente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'We're on the same page' means:", "opcoes": ["we're reading the same book", "we agree / understand each other", "we're in the same room"], "correta": 1, "explicacao": "'On the same page' = de acordo." },
+      { "tipo": "escolha_multipla", "pergunta": "'It's not rocket science' means:", "opcoes": ["it's very complicated", "it's not difficult to understand", "it's a scientific topic"], "correta": 1, "explicacao": "= não é complicado." },
+      { "tipo": "preenchimento_espaco", "frase": "Losing the contract was the last ___ for the struggling company.", "resposta": "straw", "explicacao": "'The last straw' = a gota de água." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Acho que estamos de acordo sobre isto.", "destino": "I think we're on the same page about this." },
+      { "tipo": "ditado", "textoParaOuvir": "It's not rocket science, we're just not on the same page.", "respostaEsperada": ["It's not rocket science, we're just not on the same page."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-idiomasc1c2", "tipo": "gramatica", "pergunta": "Onde se deve evitar usar idiomas muito coloquiais?", "resposta": "em registo formal/académico, como ensaios" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-16",
+    "nivel": "especialista",
+    "titulo": "Coesão Textual Avançada",
+    "objetivos": ["Usar conectores e marcadores discursivos avançados para ligar ideias"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Conectores avançados (furthermore, nonetheless, whereas, in light of, notwithstanding) tornam um texto mais coeso e sofisticado, marcando com precisão relações de adição, contraste, causa e concessão.",
+        "exemplos": ["The plan is ambitious; nonetheless, it is achievable.", "Sales rose in Europe, whereas they fell in Asia.", "In light of the new evidence, we revised our conclusions."],
+        "erroComum": { "errado": "Usar só 'but' e 'and' repetidamente em textos formais longos.", "correto": "Variar com 'nonetheless', 'whereas', 'furthermore' para maior coesão e sofisticação.", "descricaoPT": "Repetir sempre 'but'/'and' é normal na fala, mas em escrita formal avançada torna o texto pobre — os conectores avançados assinalam nível C1-C2." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'___, the plan is achievable.' (contraste apesar de ser ambicioso)", "opcoes": ["Furthermore", "Nonetheless", "Similarly"], "correta": 1, "explicacao": "'Nonetheless' = contudo/apesar disso." },
+      { "tipo": "escolha_multipla", "pergunta": "Sales rose in Europe, ___ they fell in Asia.", "opcoes": ["whereas", "moreover", "therefore"], "correta": 0, "explicacao": "'Whereas' marca contraste direto entre duas situações." },
+      { "tipo": "preenchimento_espaco", "frase": "___ the new evidence, we revised our conclusions. (à luz de)", "resposta": "In light of", "explicacao": "'In light of' = à luz de." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O plano é ambicioso; ainda assim, é exequível.", "destino": "The plan is ambitious; nonetheless, it is achievable." },
+      { "tipo": "ditado", "textoParaOuvir": "Sales rose in Europe, whereas they fell in Asia.", "respostaEsperada": ["Sales rose in Europe, whereas they fell in Asia."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-coesaotextualavancada", "tipo": "gramatica", "pergunta": "Dá um exemplo de conector avançado de contraste.", "resposta": "whereas, nonetheless, notwithstanding" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-17",
+    "nivel": "especialista",
+    "titulo": "Precisão em Artigos Avançada",
+    "objetivos": ["Usar artigos corretamente em referência genérica e substantivos abstratos"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Em registo formal/académico, usa-se 'the + adjetivo' para grupos genéricos (the elderly, the unemployed), artigo zero para substantivos abstratos em sentido geral (poverty, education), e 'the' para referência específica desses mesmos conceitos.",
+        "exemplos": ["The government must support the elderly. (grupo genérico)", "Education is the key to progress. (conceito geral, sem artigo)", "The education he received was excellent. (referência específica, com 'the')"],
+        "erroComum": { "errado": "The education is important in general.", "correto": "Education is important in general.", "descricaoPT": "Quando se fala de um conceito abstrato em sentido geral (educação em geral, não uma educação específica), não se usa artigo em inglês — ao contrário do português, que usa sempre 'a educação'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ is the key to progress. (conceito geral)", "opcoes": ["The education", "Education", "An education"], "correta": 1, "explicacao": "Conceito abstrato geral → sem artigo." },
+      { "tipo": "escolha_multipla", "pergunta": "The government must support ___ elderly.", "opcoes": ["a", "an", "the"], "correta": 2, "explicacao": "'The + adjetivo' para grupo genérico (os idosos)." },
+      { "tipo": "preenchimento_espaco", "frase": "___ education he received at that school was excellent. (referência específica)", "resposta": "The", "explicacao": "Referência específica → 'the'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A pobreza continua a ser um grande desafio. (sentido geral)", "destino": "Poverty remains a major challenge." },
+      { "tipo": "ditado", "textoParaOuvir": "Education is the key to progress, but the education he received was excellent.", "respostaEsperada": ["Education is the key to progress, but the education he received was excellent."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-artigosavancados", "tipo": "gramatica", "pergunta": "Usa-se artigo antes de um substantivo abstrato em sentido geral, como 'education' ou 'poverty'?", "resposta": "não, artigo zero; só se usa 'the' para referência específica" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-18",
+    "nivel": "especialista",
+    "titulo": "Verbos de Discurso Relatado Avançados",
+    "objetivos": ["Usar verbos de relato precisos (allege, contend, imply, concede)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Além de 'say' e 'tell', o inglês avançado usa verbos de relato precisos que já indicam a atitude do falante: allege (alegar, sem prova), contend (defender/argumentar), imply (sugerir indiretamente), concede (admitir/ceder).",
+        "exemplos": ["The article alleges that the company broke the law.", "She contends that the policy is flawed.", "He implied that he wasn't satisfied, without saying it directly.", "The minister conceded that mistakes had been made."],
+        "erroComum": { "errado": "Usar sempre 'say' para tudo, mesmo quando o contexto pede um verbo mais preciso.", "correto": "Escolher o verbo de relato que reflete a atitude exata: allege/contend/imply/concede.", "descricaoPT": "Usar 'say' repetidamente é correto mas pobre — verbos de relato precisos são uma marca de escrita e leitura de nível C1-C2, muito comuns em jornalismo e ensaios." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'The article ___ that the company broke the law' (sem prova direta).", "opcoes": ["alleges", "concedes", "implies"], "correta": 0, "explicacao": "'Allege' = alegar sem prova confirmada." },
+      { "tipo": "escolha_multipla", "pergunta": "'The minister ___ that mistakes had been made' (admitiu).", "opcoes": ["contended", "conceded", "implied"], "correta": 1, "explicacao": "'Concede' = admitir/ceder." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ that the policy is flawed. (defende com argumentos)", "resposta": "contends", "explicacao": "'Contend' = defender uma posição com argumentos." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele sugeriu indiretamente que não estava satisfeito.", "destino": "He implied that he wasn't satisfied." },
+      { "tipo": "ditado", "textoParaOuvir": "The minister conceded that mistakes had been made.", "respostaEsperada": ["The minister conceded that mistakes had been made."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-verbosreportagemavancados", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'allege' e 'concede'?", "resposta": "allege = alegar sem prova; concede = admitir/ceder" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-19",
+    "nivel": "especialista",
+    "titulo": "Registo Académico e Ensaio Argumentativo",
+    "objetivos": ["Estruturar um parágrafo argumentativo em registo académico"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Um parágrafo argumentativo académico típico segue: afirmação (claim) → justificação/evidência → reconhecimento de contra-argumento → conclusão parcial, usando conectores de coesão e vocabulário nominalizado/formal já praticado.",
+        "exemplos": ["Remote work undoubtedly increases flexibility. Employees report higher satisfaction and better work-life balance. Critics argue that collaboration suffers; however, digital tools largely mitigate this concern. On balance, the benefits outweigh the drawbacks.", "Furthermore, productivity data supports this view.", "Nonetheless, further research is needed."],
+        "erroComum": { "errado": "Escrever um parágrafo argumentativo sem reconhecer nenhum contra-argumento.", "correto": "Um bom parágrafo académico reconhece e responde a uma objeção, mostrando pensamento crítico.", "descricaoPT": "Em exames como o C2 Proficiency, a ausência de contra-argumentação é um dos motivos mais comuns para pontuação baixa em Writing." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A strong academic paragraph should:", "opcoes": ["only present one side of the argument", "acknowledge a counter-argument and respond to it", "avoid any conclusion"], "correta": 1, "explicacao": "Reconhecer e responder a um contra-argumento é essencial em registo académico." },
+      { "tipo": "escolha_multipla", "pergunta": "Which connector best introduces a counter-argument?", "opcoes": ["Furthermore", "Critics argue that... however,", "In addition,"], "correta": 1, "explicacao": "Introduz e depois refuta a objeção." },
+      { "tipo": "preenchimento_espaco", "frase": "___ the benefits outweigh the drawbacks. (conclusão ponderada)", "resposta": "On balance,", "explicacao": "'On balance' = ponderando tudo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os críticos argumentam que a colaboração sofre; contudo, as ferramentas digitais atenuam largamente essa preocupação.", "destino": "Critics argue that collaboration suffers; however, digital tools largely mitigate this concern." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um parágrafo curto (3-4 frases) sobre um tema à tua escolha, seguindo a estrutura: afirmação, evidência, contra-argumento com 'however', conclusão com 'on balance'.", "palavrasChaveEsperadas": ["however", "on balance"], "respostaModelo": "Working from home undoubtedly boosts flexibility. Employees report better focus. Critics argue that teamwork suffers; however, video calls largely solve this. On balance, the benefits outweigh the drawbacks." }
+    ],
+    "srsItens": [{ "id": "gra-especialista-ensaioargumentativo", "tipo": "gramatica", "pergunta": "Que elemento é frequentemente esquecido em parágrafos argumentativos fracos?", "resposta": "o reconhecimento de um contra-argumento" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-20",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Artigo de Opinião",
+    "objetivos": ["Combinar nominalização, colocações, coesão e registo formal num artigo de opinião curto"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": "artigodeopiniao",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos combinar nominalização, colocações fortes, conectores de coesão avançados e verbos de relato precisos das últimas sessões para escrever um pequeno artigo de opinião, no registo típico do exame C2 Proficiency.",
+        "exemplos": ["The rapid growth of remote work has undoubtedly changed our lives.", "Critics contend that it harms collaboration; nonetheless, the evidence suggests otherwise.", "On balance, this is a change worth embracing."],
+        "erroComum": { "errado": "Misturar registo coloquial (phrasal verbs, idiomas informais) com registo académico no mesmo texto.", "correto": "Manter consistência de registo formal do início ao fim do artigo de opinião.", "descricaoPT": "A consistência de registo é um critério de avaliação explícito em exames de escrita avançados como o C2 Proficiency." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence has the most consistent formal register?", "opcoes": ["The growth of remote work has changed things a lot, you know?", "The rapid growth of remote work has undoubtedly changed our lives.", "Remote work kind of changed everything, I guess."], "correta": 1, "explicacao": "Registo formal e consistente, com nominalização e advérbio de ênfase." },
+      { "tipo": "preenchimento_espaco", "frase": "Critics contend that it harms collaboration; ___, the evidence suggests otherwise.", "resposta": "nonetheless", "explicacao": "Conector de contraste avançado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ponderando tudo, é uma mudança que vale a pena abraçar.", "destino": "On balance, this is a change worth embracing." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um pequeno artigo de opinião (4-6 frases) sobre um tema atual à tua escolha, usando pelo menos uma nominalização, um conector avançado (however/nonetheless/whereas) e uma conclusão com 'on balance'.", "palavrasChaveEsperadas": ["however", "on balance", "growth"], "respostaModelo": "The rapid growth of remote work has undoubtedly changed our lives. Employees report greater flexibility and satisfaction. Critics contend that it harms collaboration; however, digital tools largely address this concern. On balance, this is a change worth embracing." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, this is a change worth embracing.", "respostaEsperada": ["On balance, this is a change worth embracing."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-artigodeopiniao-integradora", "tipo": "situacao", "pergunta": "Que critério de escrita académica é frequentemente avaliado em exames como o C2 Proficiency?", "resposta": "consistência de registo formal do início ao fim do texto" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
