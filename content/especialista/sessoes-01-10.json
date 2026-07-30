@@ -1,0 +1,242 @@
+[
+  {
+    "id": "especialista-01",
+    "nivel": "especialista",
+    "titulo": "Inversão Após Advérbios Negativos",
+    "objetivos": ["Usar inversão do sujeito e auxiliar após advérbios negativos/restritivos no início da frase"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Advérbios negativos ou restritivos no início da frase (never, rarely, seldom, not only, no sooner) exigem inversão do sujeito e do auxiliar, tal como nas perguntas.",
+        "exemplos": ["Never have I seen such a beautiful sunset.", "Rarely does she complain about anything.", "Not only did he apologise, but he also brought flowers."],
+        "erroComum": { "errado": "Never I have seen such a thing.", "correto": "Never have I seen such a thing.", "descricaoPT": "Depois do advérbio negativo no início, a ordem inverte-se (auxiliar antes do sujeito) — é um erro comum manter a ordem normal por influência do português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Never ___ such a beautiful sunset.", "opcoes": ["I have seen", "have I seen", "I saw"], "correta": 1, "explicacao": "Inversão: have + I + seen." },
+      { "tipo": "escolha_multipla", "pergunta": "Rarely ___ about anything.", "opcoes": ["she complains", "does she complain", "she does complain"], "correta": 1, "explicacao": "Inversão com does." },
+      { "tipo": "preenchimento_espaco", "frase": "Not only ___ late, but he also forgot his notes.", "resposta": "did he arrive", "explicacao": "Inversão com did." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Raramente vejo um pôr do sol tão bonito.", "destino": "Rarely do I see such a beautiful sunset." },
+      { "tipo": "ditado", "textoParaOuvir": "Never have I seen such a beautiful sunset.", "respostaEsperada": ["Never have I seen such a beautiful sunset."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-inversao-adverbiosnegativos", "tipo": "gramatica", "pergunta": "O que acontece à ordem das palavras depois de 'never' no início de uma frase?", "resposta": "há inversão do sujeito e do auxiliar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-02",
+    "nivel": "especialista",
+    "titulo": "Cleft Sentences",
+    "objetivos": ["Usar frases clivadas para destacar informação"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Cleft sentences (frases clivadas) destacam uma parte da informação usando 'It is/was... that/who...' ou 'What... is...'.",
+        "exemplos": ["It was John who called, not Mary.", "What I need is a good night's sleep.", "It is the lack of time that worries me most."],
+        "erroComum": { "errado": "John was who called.", "correto": "It was John who called.", "descricaoPT": "A estrutura cleft começa sempre com 'It is/was', não com o elemento a destacar diretamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ who called, not Mary.", "opcoes": ["John was", "It was John", "Was John"], "correta": 1, "explicacao": "Cleft sentence: It was John who..." },
+      { "tipo": "escolha_multipla", "pergunta": "What I need ___ a good night's sleep.", "opcoes": ["is", "are", "was"], "correta": 0, "explicacao": "'What... is' com verbo no singular." },
+      { "tipo": "preenchimento_espaco", "frase": "It is the lack of time ___ worries me most.", "resposta": "that", "explicacao": "'It is... that' = cleft sentence." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O que eu preciso é de mais tempo.", "destino": "What I need is more time." },
+      { "tipo": "ditado", "textoParaOuvir": "It was John who called, not Mary.", "respostaEsperada": ["It was John who called, not Mary."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-cleftsentences", "tipo": "gramatica", "pergunta": "Como se forma uma cleft sentence para destacar uma pessoa?", "resposta": "It was/is + [pessoa] + who/that + resto da frase" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-03",
+    "nivel": "especialista",
+    "titulo": "Estruturas Enfáticas com 'Do'",
+    "objetivos": ["Usar do/does/did para dar ênfase a uma afirmação"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Usa-se 'do/does/did' antes do verbo principal para dar ênfase a uma afirmação, frequentemente contradizendo uma dúvida ou negação implícita.",
+        "exemplos": ["I do think that's a good idea.", "She does want to help, she's just busy.", "He did warn us, but we didn't listen."],
+        "erroComum": { "errado": "I think really that's a good idea.", "correto": "I do think that's a good idea.", "descricaoPT": "Para dar ênfase a uma afirmação no Present/Past Simple, usa-se 'do/does/did' antes do verbo, não um advérbio como 'really' sozinho." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ think that's a good idea (ênfase).", "opcoes": ["really", "do", "am"], "correta": 1, "explicacao": "Ênfase com 'do'." },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ want to help, she's just busy.", "opcoes": ["does", "is", "has"], "correta": 0, "explicacao": "Ênfase com 'does'." },
+      { "tipo": "preenchimento_espaco", "frase": "He ___ warn us, but we didn't listen.", "resposta": "did", "explicacao": "Ênfase no passado: did." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu gosto mesmo deste livro.", "destino": "I do like this book." },
+      { "tipo": "ditado", "textoParaOuvir": "She does want to help, she's just busy.", "respostaEsperada": ["She does want to help, she's just busy."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-enfase-do", "tipo": "gramatica", "pergunta": "Como se dá ênfase a uma afirmação no Present Simple?", "resposta": "do/does + verbo na forma base" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-04",
+    "nivel": "especialista",
+    "titulo": "Subtileza: Present Perfect Simple vs. Continuous",
+    "objetivos": ["Distinguir nuances entre Present Perfect Simple e Continuous"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O Present Perfect Simple foca-se no resultado/conclusão; o Present Perfect Continuous foca-se na duração/processo, mesmo quando ambos são gramaticalmente possíveis.",
+        "exemplos": ["I've painted the fence. (resultado: está pintada)", "I've been painting the fence. (processo: pode não estar terminado)", "She's written three novels. (resultado, quantidade)"],
+        "erroComum": { "errado": "Usar sempre a forma Continuous para tudo o que envolve duração.", "correto": "Quando o foco é no resultado ou quantidade, usa-se Simple, não Continuous.", "descricaoPT": "Esta nuance é subtil — nem sempre há um erro 'gramatical', mas uma forma soa mais natural consoante o foco pretendido." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She's ___ three novels (foco na quantidade/resultado).", "opcoes": ["writing", "written", "write"], "correta": 1, "explicacao": "Resultado/quantidade → Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "I've ___ all morning (foco no processo).", "opcoes": ["been painting", "painted", "paint"], "correta": 0, "explicacao": "Processo/duração → Continuous." },
+      { "tipo": "preenchimento_espaco", "frase": "I've ___ the fence — it looks great now.", "resposta": "painted", "explicacao": "Resultado visível → Simple." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela tem estado a estudar toda a tarde.", "destino": "She's been studying all afternoon." },
+      { "tipo": "ditado", "textoParaOuvir": "I've been painting the fence all day.", "respostaEsperada": ["I've been painting the fence all day."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-presentperfect-simple-vs-continuous", "tipo": "gramatica", "pergunta": "Qual a diferença de foco entre Present Perfect Simple e Continuous?", "resposta": "Simple = resultado/conclusão; Continuous = duração/processo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-05",
+    "nivel": "especialista",
+    "titulo": "'To Be About To' / 'To Be On The Point Of'",
+    "objetivos": ["Exprimir ações iminentes"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'To be about to' + infinitivo e 'to be on the point of' + gerúndio exprimem uma ação iminente, prestes a acontecer.",
+        "exemplos": ["The train is about to leave.", "She was on the point of leaving when the phone rang.", "We're about to start the meeting."],
+        "erroComum": { "errado": "I am on the point to leave.", "correto": "I am on the point of leaving.", "descricaoPT": "'On the point of' é sempre seguido de gerúndio — diferente de 'about to', que usa infinitivo." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The train is ___ leave.", "opcoes": ["about to", "on the point to", "on point"], "correta": 0, "explicacao": "'About to' + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "She was on the point of ___ when the phone rang.", "opcoes": ["leave", "leaving", "to leave"], "correta": 1, "explicacao": "'On the point of' + gerúndio." },
+      { "tipo": "preenchimento_espaco", "frase": "We're ___ start the meeting.", "resposta": "about to", "explicacao": "'About to' = prestes a." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estávamos prestes a sair quando ela chegou.", "destino": "We were about to leave when she arrived." },
+      { "tipo": "ditado", "textoParaOuvir": "The train is about to leave.", "respostaEsperada": ["The train is about to leave."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-abouttoo-onpointof", "tipo": "gramatica", "pergunta": "Que forma verbal segue 'on the point of'?", "resposta": "gerúndio (-ing)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-06",
+    "nivel": "especialista",
+    "titulo": "Condicionais Mistos",
+    "objetivos": ["Usar condicionais mistos combinando tempos de diferentes condicionais"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Condicionais mistos combinam tempos de diferentes condicionais: uma condição no passado com resultado no presente, ou uma condição geral no presente com resultado no passado.",
+        "exemplos": ["If I had studied medicine, I would be a doctor now. (passado + presente)", "If she weren't so shy, she would have spoken up. (presente + passado)", "If I hadn't missed the flight, I would be there now."],
+        "erroComum": { "errado": "If I had studied medicine, I would have been a doctor now.", "correto": "If I had studied medicine, I would be a doctor now.", "descricaoPT": "No condicional misto passado→presente, a oração principal fica no Second Conditional (would + infinitivo), porque o resultado é AGORA." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If I had studied medicine, I ___ a doctor now.", "opcoes": ["would have been", "would be", "will be"], "correta": 1, "explicacao": "Resultado no presente → would + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "If she weren't so shy, she ___ up at the meeting yesterday.", "opcoes": ["would speak", "would have spoken", "will speak"], "correta": 1, "explicacao": "Característica geral + resultado passado." },
+      { "tipo": "preenchimento_espaco", "frase": "If I ___ the flight, I would be there now.", "resposta": "hadn't missed", "explicacao": "Condição no passado (Past Perfect)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se eu tivesse mais dinheiro, teria comprado essa casa.", "destino": "If I had more money, I would have bought that house." },
+      { "tipo": "ditado", "textoParaOuvir": "If I had studied medicine, I would be a doctor now.", "respostaEsperada": ["If I had studied medicine, I would be a doctor now."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-condicionaismistos", "tipo": "gramatica", "pergunta": "Como se forma um condicional misto passado→presente?", "resposta": "if + Past Perfect, would + infinitivo (não would have + particípio)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-07",
+    "nivel": "especialista",
+    "titulo": "'Had It Not Been For' / 'Were It Not For'",
+    "objetivos": ["Usar formas invertidas e formais de condicionais"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Formas invertidas e mais formais de condicionais: 'had it not been for' (= if it hadn't been for) e 'were it not for' (= if it weren't for).",
+        "exemplos": ["Had it not been for your help, I wouldn't have finished.", "Were it not for the rain, we would go for a walk.", "Had I known, I would have told you."],
+        "erroComum": { "errado": "Usar sempre a forma com 'if', evitando a inversão em registo formal.", "correto": "A forma invertida (sem 'if') é mais formal e elegante — vale a pena dominá-la para escrita avançada.", "descricaoPT": "Omite-se o 'if' e inverte-se sujeito/auxiliar — muito usado em registo escrito avançado." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ your help, I wouldn't have finished.", "opcoes": ["If it had not been for", "Had it not been for", "It had not been for"], "correta": 1, "explicacao": "Forma invertida formal." },
+      { "tipo": "escolha_multipla", "pergunta": "___ the rain, we would go for a walk.", "opcoes": ["Were it not for", "It were not for", "If were it not"], "correta": 0, "explicacao": "'Were it not for' = se não fosse." },
+      { "tipo": "preenchimento_espaco", "frase": "___, I would have told you.", "resposta": "Had I known", "explicacao": "Inversão: Had + sujeito + particípio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se não fosse a tua ajuda, eu não teria terminado.", "destino": "Had it not been for your help, I wouldn't have finished." },
+      { "tipo": "ditado", "textoParaOuvir": "Had it not been for your help, I wouldn't have finished.", "respostaEsperada": ["Had it not been for your help, I wouldn't have finished."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-haditnotbeenfor-wereitnotfor", "tipo": "gramatica", "pergunta": "O que significa 'were it not for'?", "resposta": "se não fosse (= if it weren't for), forma invertida e formal" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-08",
+    "nivel": "especialista",
+    "titulo": "Subjuntivo Formal",
+    "objetivos": ["Usar o subjuntivo formal com a forma base do verbo"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O subjuntivo formal usa a forma base do verbo (sem -s na 3ª pessoa), independentemente do sujeito, em contextos muito formais depois de certos adjetivos (essential, vital, important).",
+        "exemplos": ["It is essential that he be present at the meeting.", "It is vital that she arrive on time.", "It was recommended that the report be revised."],
+        "erroComum": { "errado": "It is essential that he is present.", "correto": "It is essential that he be present.", "descricaoPT": "No subjuntivo formal, usa-se sempre a forma base do verbo (be, arrive), nunca a forma conjugada, mesmo com he/she/it." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "It is essential that he ___ present at the meeting.", "opcoes": ["is", "be", "was"], "correta": 1, "explicacao": "Subjuntivo: forma base." },
+      { "tipo": "escolha_multipla", "pergunta": "It is vital that she ___ on time.", "opcoes": ["arrives", "arrive", "arrived"], "correta": 1, "explicacao": "Subjuntivo: forma base." },
+      { "tipo": "preenchimento_espaco", "frase": "It was recommended that the report ___ revised.", "resposta": "be", "explicacao": "Subjuntivo passivo: be + particípio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É essencial que ele esteja presente.", "destino": "It is essential that he be present." },
+      { "tipo": "ditado", "textoParaOuvir": "It is vital that she arrive on time.", "respostaEsperada": ["It is vital that she arrive on time."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-subjuntivo-formal", "tipo": "gramatica", "pergunta": "Que forma verbal se usa no subjuntivo formal?", "resposta": "a forma base do verbo, independentemente do sujeito" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-09",
+    "nivel": "especialista",
+    "titulo": "Subjuntivo com Suggest / Recommend / Insist",
+    "objetivos": ["Usar o subjuntivo depois de verbos como suggest, recommend, insist"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Verbos como suggest, recommend, insist, demand seguidos de 'that' usam o subjuntivo (forma base do verbo) na oração seguinte, em registo formal.",
+        "exemplos": ["I suggest that he see a doctor.", "They recommended that she apply for the position.", "The manager insisted that the report be finished by Friday."],
+        "erroComum": { "errado": "I suggest that he sees a doctor.", "correto": "I suggest that he see a doctor.", "descricaoPT": "Depois de suggest/recommend/insist + that, usa-se a forma base do verbo (subjuntivo), não a forma conjugada normal." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I suggest that he ___ a doctor.", "opcoes": ["sees", "see", "saw"], "correta": 1, "explicacao": "Subjuntivo: forma base." },
+      { "tipo": "escolha_multipla", "pergunta": "They recommended that she ___ for the position.", "opcoes": ["applies", "apply", "applied"], "correta": 1, "explicacao": "Subjuntivo: forma base." },
+      { "tipo": "preenchimento_espaco", "frase": "The manager insisted that the report ___ finished by Friday.", "resposta": "be", "explicacao": "Subjuntivo passivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Sugiro que ele veja um médico.", "destino": "I suggest that he see a doctor." },
+      { "tipo": "ditado", "textoParaOuvir": "They recommended that she apply for the position.", "respostaEsperada": ["They recommended that she apply for the position."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-subjuntivo-suggestrecommendinsist", "tipo": "gramatica", "pergunta": "Que verbos pedem o subjuntivo na oração 'that' seguinte?", "resposta": "suggest, recommend, insist, demand, entre outros" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-10",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Debate Formal",
+    "objetivos": ["Combinar inversão, ênfase e subjuntivo numa discussão formal"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": "debateformal",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos combinar inversão, ênfase e subjuntivo das últimas sessões num debate formal sobre um tema atual.",
+        "exemplos": ["Never have I heard such a compelling argument.", "It is essential that we act now.", "I do believe this policy is a step in the right direction."],
+        "erroComum": { "errado": "Usar registo demasiado informal num debate formal.", "correto": "Mantém as estruturas mais elevadas praticadas nas últimas sessões — inversão, ênfase, subjuntivo.", "descricaoPT": "Este é o registo esperado em debates formais e no exame C2 Proficiency." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "What's your opinion on this policy?", "opcoes": [
+            { "texto": "I do believe this policy is a step in the right direction.", "proximoNo": "contraargumento" }
+          ]},
+          { "id": "contraargumento", "interlocutorFala": "Interesting. But what about the costs involved?", "opcoes": [
+            { "texto": "It is essential that we consider the long-term benefits, not just the costs.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence uses emphatic 'do' correctly?", "opcoes": ["I do believe this is right.", "I really do believes this.", "Do I believe this."], "correta": 0, "explicacao": "'I do believe' é a forma correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Nunca ouvi um argumento tão convincente.", "destino": "Never have I heard such a compelling argument." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases de um argumento formal, usando pelo menos uma estrutura de inversão ou ênfase.", "palavrasChaveEsperadas": ["never", "do believe", "essential"], "respostaModelo": "Never have I seen such compelling evidence. I do believe it is essential that we act now." },
+      { "tipo": "ditado", "textoParaOuvir": "It is essential that we act now.", "respostaEsperada": ["It is essential that we act now."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-debateformal-integradora", "tipo": "situacao", "pergunta": "Que estruturas gramaticais são apropriadas num debate formal de nível C1-C2?", "resposta": "inversão, cleft sentences, ênfase com do, subjuntivo formal" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
