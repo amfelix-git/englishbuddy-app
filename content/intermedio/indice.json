@@ -9,5 +9,6 @@
   { "ficheiro": "sessoes-71-80.json", "de": 71, "ate": 80 },
   { "ficheiro": "sessoes-81-90.json", "de": 81, "ate": 90 },
   { "ficheiro": "sessoes-91-100.json", "de": 91, "ate": 100 },
-  { "ficheiro": "sessoes-101-110.json", "de": 101, "ate": 110 }
+  { "ficheiro": "sessoes-101-110.json", "de": 101, "ate": 110 },
+  { "ficheiro": "sessoes-111-120.json", "de": 111, "ate": 120 }
 ]

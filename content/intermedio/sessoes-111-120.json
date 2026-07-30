@@ -1,0 +1,260 @@
+[
+  {
+    "id": "intermedio-111",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Personalidade e Caráter",
+    "objetivos": ["Descrever traços de personalidade"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário para descrever personalidade: outgoing (extrovertido), easy-going (descontraído), stubborn (teimoso).",
+        "exemplos": ["She's very outgoing and makes friends easily.", "He's quite easy-going about most things.", "My grandfather is a bit stubborn."],
+        "erroComum": { "errado": "She is very extrovert.", "correto": "She is very outgoing / extroverted.", "descricaoPT": "'Extrovert' é normalmente um nome (an extrovert); o adjetivo mais comum é 'outgoing' ou 'extroverted'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes someone relaxed about most things?", "opcoes": ["Stubborn", "Easy-going", "Shy"], "correta": 1, "explicacao": "'Easy-going' = descontraído." },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes someone who doesn't change their mind easily?", "opcoes": ["Outgoing", "Stubborn", "Easy-going"], "correta": 1, "explicacao": "'Stubborn' = teimoso." },
+      { "tipo": "preenchimento_espaco", "frase": "She's very ___ and makes friends easily.", "resposta": "outgoing", "explicacao": "'Outgoing' = extrovertida." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O meu avô é um pouco teimoso.", "destino": "My grandfather is a bit stubborn." },
+      { "tipo": "ditado", "textoParaOuvir": "He's quite easy-going about most things.", "respostaEsperada": ["He's quite easy-going about most things."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-personalidade-carater", "tipo": "vocabulario", "pergunta": "Como se diz 'extrovertido' em inglês (adjetivo)?", "resposta": "outgoing / extroverted" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-112",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Finanças Pessoais",
+    "objetivos": ["Usar vocabulário de finanças pessoais"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de finanças pessoais: to budget, to save up, to be in debt.",
+        "exemplos": ["I try to budget carefully every month.", "I'm saving up for a new laptop.", "They're in a lot of debt."],
+        "erroComum": { "errado": "I have debts.", "correto": "They're in a lot of debt.", "descricaoPT": "'Be in debt' é a expressão mais natural para descrever a situação geral de dever dinheiro." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which means to plan your spending carefully?", "opcoes": ["To budget", "To spend", "To waste"], "correta": 0, "explicacao": "'Budget' = orçamentar." },
+      { "tipo": "escolha_multipla", "pergunta": "Which means to owe money?", "opcoes": ["To be in debt", "To be in cash", "To be in credit"], "correta": 0, "explicacao": "'Be in debt' = estar endividado." },
+      { "tipo": "preenchimento_espaco", "frase": "I'm ___ for a new laptop.", "resposta": "saving up", "explicacao": "'Save up' = poupar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eles estão muito endividados.", "destino": "They're in a lot of debt." },
+      { "tipo": "ditado", "textoParaOuvir": "I try to budget carefully every month.", "respostaEsperada": ["I try to budget carefully every month."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-financas-pessoais", "tipo": "vocabulario", "pergunta": "Como se diz 'estar endividado' em inglês?", "resposta": "to be in debt" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-113",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Give Up On, Look Down On, Stand Up For",
+    "objetivos": ["Usar phrasal verbs de três partículas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs: give up on (desistir de alguém/algo), look down on (desprezar), stand up for (defender).",
+        "exemplos": ["Don't give up on your dreams.", "He tends to look down on people with less education.", "It's important to stand up for what you believe in."],
+        "erroComum": { "errado": "He looks down people.", "correto": "He looks down on people.", "descricaoPT": "'Look down on' precisa sempre da preposição 'on' — sem ela, o phrasal verb fica incompleto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Don't ___ your dreams.", "opcoes": ["give up on", "give in", "give away"], "correta": 0, "explicacao": "'Give up on' = desistir de." },
+      { "tipo": "escolha_multipla", "pergunta": "He tends to ___ people with less education.", "opcoes": ["look down on", "look up to", "look after"], "correta": 0, "explicacao": "'Look down on' = desprezar." },
+      { "tipo": "preenchimento_espaco", "frase": "It's important to ___ what you believe in.", "resposta": "stand up for", "explicacao": "'Stand up for' = defender." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É importante defenderes o que acreditas.", "destino": "It's important to stand up for what you believe in." },
+      { "tipo": "ditado", "textoParaOuvir": "Don't give up on your dreams.", "respostaEsperada": ["Don't give up on your dreams."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-giveupon-lookdownon-standupfor", "tipo": "vocabulario", "pergunta": "O que significa 'look down on'?", "resposta": "desprezar/olhar de cima para baixo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-114",
+    "nivel": "intermedio",
+    "titulo": "Mais Idiomas: Persistência e Desistência",
+    "objetivos": ["Reconhecer idiomas sobre persistência"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas sobre persistência: throw in the towel (desistir), never say die (nunca desistir).",
+        "exemplos": ["After three failed attempts, she finally threw in the towel.", "Keep trying — never say die!", "He refused to throw in the towel, even when things got hard."],
+        "erroComum": { "errado": "Traduzir 'throw in the towel' literalmente.", "correto": "Significa desistir, vem do boxe (atirar a toalha para render o lutador).", "descricaoPT": "Idioma de origem desportiva, muito usado figurativamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Throw in the towel' means...", "opcoes": ["To clean up", "To give up", "To start again"], "correta": 1, "explicacao": "Desistir." },
+      { "tipo": "escolha_multipla", "pergunta": "'Never say die' means...", "opcoes": ["Never give up", "Be careful", "Avoid danger"], "correta": 0, "explicacao": "Nunca desistir." },
+      { "tipo": "preenchimento_espaco", "frase": "After three failed attempts, she finally threw in the ___.", "resposta": "towel", "explicacao": "'Throw in the towel.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele recusou-se a desistir.", "destino": "He refused to throw in the towel." },
+      { "tipo": "ditado", "textoParaOuvir": "Keep trying — never say die!", "respostaEsperada": ["Keep trying — never say die!"] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-persistencia-desistencia", "tipo": "vocabulario", "pergunta": "O que significa 'throw in the towel'?", "resposta": "desistir" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-115",
+    "nivel": "intermedio",
+    "titulo": "Situação: Devolver um Produto",
+    "objetivos": ["Devolver um produto e pedir reembolso ou troca"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "devolverproduto",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para devolver um produto e pedir reembolso ou troca.",
+        "exemplos": ["I'd like to return this, please.", "Do you have the receipt?", "Would you prefer a refund or an exchange?"],
+        "erroComum": { "errado": "I want to give back this.", "correto": "I'd like to return this, please.", "descricaoPT": "'Return' é o verbo natural para devolver um produto numa loja, não 'give back'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi, how can I help you?", "opcoes": [
+            { "texto": "I'd like to return this, please.", "proximoNo": "recibo" }
+          ]},
+          { "id": "recibo", "interlocutorFala": "Sure, do you have the receipt?", "opcoes": [
+            { "texto": "Yes, here it is. I'd prefer a refund.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct for returning a product?", "opcoes": ["I want to give back this.", "I'd like to return this, please.", "Return I want."], "correta": 1, "explicacao": "'I'd like to return this, please.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Prefere um reembolso ou uma troca?", "destino": "Would you prefer a refund or an exchange?" },
+      { "tipo": "ditado", "textoParaOuvir": "Do you have the receipt?", "respostaEsperada": ["Do you have the receipt?"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-devolverproduto-integradora", "tipo": "situacao", "pergunta": "Como pedir para devolver um produto educadamente?", "resposta": "I'd like to return this, please." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-116",
+    "nivel": "intermedio",
+    "titulo": "Situação: No Veterinário",
+    "objetivos": ["Comunicar sobre a saúde de um animal de estimação"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "veterinario",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para levar um animal de estimação ao veterinário.",
+        "exemplos": ["My dog hasn't been eating well.", "Does he need any vaccinations?", "How often should I bring her for check-ups?"],
+        "erroComum": { "errado": "My dog don't eat well.", "correto": "My dog hasn't been eating well.", "descricaoPT": "Usa o Present Perfect Continuous para descrever uma situação que começou e continua — mais natural do que o Present Simple aqui." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "What seems to be the problem?", "opcoes": [
+            { "texto": "My dog hasn't been eating well for a few days.", "proximoNo": "exame" }
+          ]},
+          { "id": "exame", "interlocutorFala": "I see. Let's do a quick check-up. Does he need any vaccinations?", "opcoes": [
+            { "texto": "I'm not sure, could you check his records?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["My dog don't eat well.", "My dog hasn't been eating well.", "My dog not eating."], "correta": 1, "explicacao": "Present Perfect Continuous." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Com que frequência devo trazê-la para consultas?", "destino": "How often should I bring her for check-ups?" },
+      { "tipo": "ditado", "textoParaOuvir": "My dog hasn't been eating well for a few days.", "respostaEsperada": ["My dog hasn't been eating well for a few days."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-veterinario-integradora", "tipo": "situacao", "pergunta": "Como descrever que um animal não tem comido bem há alguns dias?", "resposta": "My dog/cat hasn't been eating well for a few days." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-117",
+    "nivel": "intermedio",
+    "titulo": "Leitura: Relatório com Estatísticas",
+    "objetivos": ["Praticar leitura de um relatório com números e percentagens"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê o relatório com atenção antes de responderes.\n\n\"A recent survey of 2,000 employees revealed that 68% now prefer some form of remote work. The main reasons given were reduced commuting time and better work-life balance. However, 45% of respondents also reported feeling less connected to their colleagues. Companies are now exploring hybrid models to address both concerns.\"",
+        "exemplos": ["a survey = uma sondagem", "respondents = inquiridos", "hybrid models = modelos híbridos"],
+        "erroComum": { "errado": "Confundir as duas percentagens diferentes (68% e 45%).", "correto": "Presta muita atenção a que percentagem se refere a que informação.", "descricaoPT": "Textos com estatísticas exigem atenção redobrada a que número corresponde a que facto." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How many employees were surveyed?", "opcoes": ["200", "2,000", "20,000"], "correta": 1, "explicacao": "O texto diz '2,000 employees'." },
+      { "tipo": "escolha_multipla", "pergunta": "What percentage prefers remote work?", "opcoes": ["45%", "68%", "100%"], "correta": 1, "explicacao": "O texto diz '68% now prefer'." },
+      { "tipo": "escolha_multipla", "pergunta": "What percentage feels less connected to colleagues?", "opcoes": ["45%", "68%", "20%"], "correta": 0, "explicacao": "O texto diz '45% of respondents'." },
+      { "tipo": "preenchimento_espaco", "frase": "Companies are exploring ___ models.", "resposta": "hybrid", "explicacao": "'Hybrid' = híbrido." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase a resumir a principal conclusão do relatório.", "palavrasChaveEsperadas": ["remote work", "prefer", "connected"], "respostaModelo": "The survey found that most employees prefer remote work, but many feel less connected to colleagues." }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-leitura-relatorio", "tipo": "situacao", "pergunta": "A que se deve ter especial atenção num relatório com estatísticas?", "resposta": "a que percentagem/número corresponde a que facto específico" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-118",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Email Formal a Pedir Informação",
+    "objetivos": ["Escrever um email formal a pedir informação de forma educada"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Um email formal a pedir informação inclui: motivo do contacto, perguntas específicas e claras, e um pedido de resposta.",
+        "exemplos": ["I am writing to enquire about...", "Could you please provide more details on...?", "I would be grateful for a prompt response."],
+        "erroComum": { "errado": "What information you have?", "correto": "Could you please provide more details on...?", "descricaoPT": "Perguntas formais usam estruturas indiretas e educadas, não perguntas diretas e abruptas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a formal way to ask for information?", "opcoes": ["What info you got?", "Could you please provide more details on...?", "Give me info now."], "correta": 1, "explicacao": "Pedido educado e indireto." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase explains the reason for writing?", "opcoes": ["I am writing to enquire about...", "Hey, quick question...", "So basically..."], "correta": 0, "explicacao": "Fórmula formal de abertura." },
+      { "tipo": "preenchimento_espaco", "frase": "I would be ___ for a prompt response.", "resposta": "grateful", "explicacao": "'Grateful' = grato." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura de um email formal a pedir informações sobre um curso de inglês.", "palavrasChaveEsperadas": ["i am writing", "enquire", "could you"], "respostaModelo": "Dear Sir/Madam, I am writing to enquire about your English courses. Could you please provide more details on the schedule?" },
+      { "tipo": "ditado", "textoParaOuvir": "I would be grateful for a prompt response.", "respostaEsperada": ["I would be grateful for a prompt response."] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-email-formal-informacao", "tipo": "situacao", "pergunta": "Como se pede informação de forma formal e educada?", "resposta": "I am writing to enquire about... / Could you please provide...?" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-119",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Vocabulário e Situações Recentes",
+    "objetivos": ["Rever vocabulário e situações das últimas sessões"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada de vocabulário e situações das últimas sessões: personalidade, finanças, devoluções, veterinário.",
+        "exemplos": ["She's very outgoing.", "I'm saving up for a trip.", "I'd like to return this, please.", "My cat hasn't been eating well."],
+        "erroComum": { "errado": "Misturar as estruturas sem rever cada uma isoladamente.", "correto": "Revê cada ponto com calma antes de os combinares.", "descricaoPT": "Esta sessão consolida vocabulário e situações recentes." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes someone relaxed?", "opcoes": ["Stubborn", "Easy-going", "Rude"], "correta": 1, "explicacao": "'Easy-going' = descontraído." },
+      { "tipo": "escolha_multipla", "pergunta": "Which means to owe money?", "opcoes": ["To be in debt", "To be in credit", "To save up"], "correta": 0, "explicacao": "'Be in debt'." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct for returning something?", "opcoes": ["I give back this.", "I'd like to return this.", "Return me money."], "correta": 1, "explicacao": "'I'd like to return this.'" },
+      { "tipo": "preenchimento_espaco", "frase": "My dog ___ well.", "resposta": "hasn't been eating", "explicacao": "Present Perfect Continuous." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele é bastante teimoso, mas simpático.", "destino": "He's quite stubborn, but nice." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-vocabulario-situacoes", "tipo": "gramatica", "pergunta": "Que áreas foram revistas nesta sessão?", "resposta": "personalidade, finanças pessoais, devoluções, veterinário" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-120",
+    "nivel": "intermedio",
+    "titulo": "Marco: Reunião de Condomínio",
+    "objetivos": ["Combinar opinião, negociação e vocabulário de vizinhança numa reunião de condomínio"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "reuniaocondominio",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 120 do Intermédio! Vamos combinar linguagem de opinião, negociação e vocabulário de vizinhança numa reunião de condomínio.",
+        "exemplos": ["I think we should repaint the entrance.", "Does everyone agree with this proposal?", "Let's vote on it."],
+        "erroComum": { "errado": "Impor uma opinião sem consultar os outros.", "correto": "Convida sempre à opinião dos outros e propõe votação quando necessário.", "descricaoPT": "Reuniões de condomínio, como reuniões de trabalho, beneficiam de linguagem colaborativa." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Let's discuss the building repairs. Any suggestions?", "opcoes": [
+            { "texto": "I think we should repaint the entrance first.", "proximoNo": "votacao" }
+          ]},
+          { "id": "votacao", "interlocutorFala": "That sounds reasonable. Does everyone agree?", "opcoes": [
+            { "texto": "Let's vote on it to be sure.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase proposes a vote?", "opcoes": ["Let's vote on it.", "I don't care.", "Whatever you want."], "correta": 0, "explicacao": "Propõe uma votação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Toda a gente concorda com esta proposta?", "destino": "Does everyone agree with this proposal?" },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a propores algo numa reunião de condomínio.", "palavrasChaveEsperadas": ["i think", "suggest", "agree"], "respostaModelo": "I think we should fix the elevator first. Does everyone agree with this?" },
+      { "tipo": "ditado", "textoParaOuvir": "Let's vote on it to be sure.", "respostaEsperada": ["Let's vote on it to be sure."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-reuniaocondominio-marco120", "tipo": "situacao", "pergunta": "Como propor uma votação numa reunião?", "resposta": "Let's vote on it." }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
