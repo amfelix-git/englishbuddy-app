@@ -1,0 +1,237 @@
+[
+  {
+    "id": "intermedio-91",
+    "nivel": "intermedio",
+    "titulo": "So vs. Such",
+    "objetivos": ["Distinguir o uso de 'so' e 'such'"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'So' + adjetivo/advérbio; 'such' + (a/an) + adjetivo + nome.",
+        "exemplos": ["The film was so boring.", "It was such a boring film.", "She is so kind. / She is such a kind person."],
+        "erroComum": { "errado": "It was so boring film.", "correto": "It was such a boring film.", "descricaoPT": "Antes de um nome, usa-se 'such (a)', não 'so' — 'so' usa-se sozinho com adjetivos/advérbios, sem nome a seguir." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The film was ___ boring.", "opcoes": ["so", "such", "such a"], "correta": 0, "explicacao": "Sem nome a seguir → so." },
+      { "tipo": "escolha_multipla", "pergunta": "It was ___ boring film.", "opcoes": ["so", "such a", "such"], "correta": 1, "explicacao": "Com nome a seguir → such a." },
+      { "tipo": "preenchimento_espaco", "frase": "She is ___ kind.", "resposta": "so", "explicacao": "Sem nome → so." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Foi um dia tão longo.", "destino": "It was such a long day." },
+      { "tipo": "ditado", "textoParaOuvir": "It was such a boring film.", "respostaEsperada": ["It was such a boring film."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-so-vs-such", "tipo": "gramatica", "pergunta": "Quando se usa 'such' em vez de 'so'?", "resposta": "quando há um nome a seguir (such a + adjetivo + nome)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-92",
+    "nivel": "intermedio",
+    "titulo": "Too vs. Enough",
+    "objetivos": ["Usar 'too' (excesso) e 'enough' (suficiência) corretamente"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Too' + adjetivo indica excesso (demasiado); 'adjetivo + enough' indica suficiência. Com nomes, 'enough' vem antes do nome.",
+        "exemplos": ["This coffee is too hot.", "This coffee isn't hot enough.", "I don't have enough time."],
+        "erroComum": { "errado": "I don't have time enough.", "correto": "I don't have enough time.", "descricaoPT": "Com nomes, 'enough' vem ANTES do nome (enough time); com adjetivos, vem DEPOIS (hot enough)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "This coffee is ___ hot to drink.", "opcoes": ["too", "enough", "so"], "correta": 0, "explicacao": "Excesso → too." },
+      { "tipo": "escolha_multipla", "pergunta": "This coffee isn't hot ___.", "opcoes": ["too", "enough", "so"], "correta": 1, "explicacao": "Suficiência, adjetivo + enough." },
+      { "tipo": "preenchimento_espaco", "frase": "I don't have ___ time.", "resposta": "enough", "explicacao": "Com nome: enough + nome." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este exercício é demasiado difícil.", "destino": "This exercise is too difficult." },
+      { "tipo": "ditado", "textoParaOuvir": "This coffee isn't hot enough.", "respostaEsperada": ["This coffee isn't hot enough."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-too-vs-enough", "tipo": "gramatica", "pergunta": "Onde se coloca 'enough' com um nome, e com um adjetivo?", "resposta": "antes do nome (enough time); depois do adjetivo (hot enough)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-93",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Listening Parte 2 — Preenchimento de Notas",
+    "objetivos": ["Praticar a estratégia da Parte 2 do Listening"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2 do Listening, preenches notas/frases com UMA palavra ou número específico que ouves — a ortografia correta é importante.",
+        "exemplos": ["The meeting starts at three o'clock. (número exato)", "Presta atenção a nomes próprios e números — são frequentemente soletrados."],
+        "erroComum": { "errado": "Escrever a resposta com erros ortográficos mesmo tendo percebido a palavra.", "correto": "A ortografia correta conta neste tipo de exercício.", "descricaoPT": "É frequente a palavra ser soletrada (spelled out) precisamente para testar se a escreves corretamente." }
+      },
+      { "tipo": "ditado", "textoParaOuvir": "The meeting starts at three o'clock.", "respostaEsperada": ["The meeting starts at three o'clock."] },
+      { "tipo": "escolha_multipla", "pergunta": "In note completion, what usually matters most?", "opcoes": ["General understanding only", "Exact word/number and correct spelling", "Guessing quickly"], "correta": 1, "explicacao": "A palavra/número exatos e a ortografia contam." },
+      { "tipo": "preenchimento_espaco", "frase": "The meeting starts at ___ o'clock.", "resposta": "three", "explicacao": "Número exato ouvido." },
+      { "tipo": "ditado", "textoParaOuvir": "Please pay attention to exact numbers and names.", "respostaEsperada": ["Please pay attention to exact numbers and names."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-listening-parte2", "tipo": "situacao", "pergunta": "O que mais importa na Parte 2 do Listening (Note Completion)?", "resposta": "a palavra/número exatos e a ortografia correta" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-94",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Listening Partes 3 e 4",
+    "objetivos": ["Conhecer as estratégias das Partes 3 e 4 do Listening"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 3, ouves 5 falantes curtos e associas cada um a uma opção (multiple matching); na Parte 4, é uma conversa mais longa com perguntas de multiple choice sobre opiniões e atitudes.",
+        "exemplos": ["Part 3: Match each speaker to what they are talking about.", "Part 4: Focus on opinions, attitudes, and feelings, not just facts."],
+        "erroComum": { "errado": "Tentar perceber cada palavra em vez da ideia geral de cada orador.", "correto": "Na Parte 3, foca-te na ideia principal de cada orador, não em cada palavra.", "descricaoPT": "É normal não perceberes tudo — o importante é captar o suficiente para associar corretamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 3, you match...", "opcoes": ["Five speakers to five options", "One long text to one summary", "Numbers to a form"], "correta": 0, "explicacao": "5 falantes, 5 opções." },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 4, what should you focus on?", "opcoes": ["Only facts", "Opinions and attitudes", "Grammar mistakes"], "correta": 1, "explicacao": "Opiniões e atitudes." },
+      { "tipo": "ditado", "textoParaOuvir": "Focus on the main idea of each speaker, not every word.", "respostaEsperada": ["Focus on the main idea of each speaker, not every word."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-listening-partes34", "tipo": "situacao", "pergunta": "O que testa a Parte 4 do Listening?", "resposta": "opiniões, atitudes e sentimentos numa conversa mais longa" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-95",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Writing — Short Story (Aprofundado)",
+    "objetivos": ["Escrever uma short story seguindo uma frase de início obrigatória"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma short story do exame geralmente começa ou termina com uma frase dada. Precisa de um enredo claro (início, desenvolvimento, fim) e linguagem descritiva.",
+        "exemplos": ["Your story must begin with: 'As soon as I opened the door, I knew something was wrong.'", "Use descriptive adjectives and adverbs to make the story vivid.", "Make sure the story has a clear ending."],
+        "erroComum": { "errado": "Escrever uma história sem fim claro ou que não usa a frase dada.", "correto": "Segue sempre a instrução exata (frase de início/fim dada) e garante um fecho claro.", "descricaoPT": "Não seguir a instrução específica pode custar pontos no critério 'Content'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If given a starting sentence, what must you do?", "opcoes": ["Ignore it and write freely", "Use it exactly as the first sentence", "Change it slightly"], "correta": 1, "explicacao": "A frase dada tem de ser usada exatamente." },
+      { "tipo": "escolha_multipla", "pergunta": "What makes a story vivid?", "opcoes": ["Descriptive adjectives and adverbs", "Only short sentences", "Avoiding adjectives"], "correta": 0, "explicacao": "Linguagem descritiva." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve as 2 frases seguintes de uma história que começa com: 'As soon as I opened the door, I knew something was wrong.'", "palavrasChaveEsperadas": ["suddenly", "then", "noticed"], "respostaModelo": "The room was completely dark. Suddenly, I noticed a strange noise coming from the kitchen." },
+      { "tipo": "ditado", "textoParaOuvir": "As soon as I opened the door, I knew something was wrong.", "respostaEsperada": ["As soon as I opened the door, I knew something was wrong."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-writing-shortstory", "tipo": "situacao", "pergunta": "O que fazer quando é dada uma frase de início obrigatória para a short story?", "resposta": "usá-la exatamente como a primeira frase da história" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-96",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Wish/Would Rather + So/Such + Too/Enough",
+    "objetivos": ["Rever as estruturas mais recentes de forma combinada"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada das estruturas mais recentes: wish, would rather, so/such, too/enough.",
+        "exemplos": ["I wish I had more free time.", "I'd rather relax than work.", "It was such a long day.", "I'm too tired to go out."],
+        "erroComum": { "errado": "Misturar as estruturas sem rever cada uma isoladamente.", "correto": "Revê cada estrutura com calma antes de as combinares.", "descricaoPT": "É normal precisares de mais prática nestas estruturas mais subtis." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I wish I ___ more free time.", "opcoes": ["have", "had", "will have"], "correta": 1, "explicacao": "Desejo presente: had." },
+      { "tipo": "escolha_multipla", "pergunta": "It was ___ long day.", "opcoes": ["so", "such a", "such"], "correta": 1, "explicacao": "Com nome: such a." },
+      { "tipo": "escolha_multipla", "pergunta": "I'm ___ tired to go out.", "opcoes": ["too", "enough", "so"], "correta": 0, "explicacao": "Excesso: too." },
+      { "tipo": "preenchimento_espaco", "frase": "I'd rather ___ than work.", "resposta": "relax", "explicacao": "'Would rather' + infinitivo sem to." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não tenho energia suficiente para sair.", "destino": "I don't have enough energy to go out." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-wish-sosuch-tooenough", "tipo": "gramatica", "pergunta": "Que 4 estruturas foram revistas nesta sessão?", "resposta": "wish, would rather, so/such, too/enough" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-97",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Relações e Família",
+    "objetivos": ["Usar vocabulário sobre relações e dinâmicas familiares"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre relações e família: to get along with, a close-knit family, to grow apart.",
+        "exemplos": ["I get along really well with my sister.", "We're a close-knit family.", "They grew apart over the years."],
+        "erroComum": { "errado": "I have a good relation with my sister.", "correto": "I get along well with my sister. / I have a good relationship with my sister.", "descricaoPT": "'Relation' normalmente refere-se a um familiar (a relative); para 'relação/vínculo', usa-se 'relationship'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which means to have a good relationship with someone?", "opcoes": ["To get along with", "To get away from", "To get over"], "correta": 0, "explicacao": "'Get along with' = dar-se bem com." },
+      { "tipo": "escolha_multipla", "pergunta": "'A close-knit family' means...", "opcoes": ["A family that sews together", "A very united family", "A large family"], "correta": 1, "explicacao": "Família muito unida." },
+      { "tipo": "preenchimento_espaco", "frase": "They ___ over the years.", "resposta": "grew apart", "explicacao": "'Grow apart' = afastar-se." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Dou-me muito bem com o meu irmão.", "destino": "I get along really well with my brother." },
+      { "tipo": "ditado", "textoParaOuvir": "We're a close-knit family.", "respostaEsperada": ["We're a close-knit family."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-relacoes-familia", "tipo": "vocabulario", "pergunta": "Como se diz 'dar-se bem com alguém' em inglês?", "resposta": "get along with someone" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-98",
+    "nivel": "intermedio",
+    "titulo": "Situação: No Aeroporto (Atrasos e Remarcação)",
+    "objetivos": ["Lidar com atrasos e remarcações de voos"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "aeroportoatrasos",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para lidar com atrasos e remarcações de voos.",
+        "exemplos": ["My flight has been delayed.", "Could you rebook me on the next flight?", "Is there a compensation for the delay?"],
+        "erroComum": { "errado": "My flight is late.", "correto": "My flight has been delayed.", "descricaoPT": "'Delayed' é o termo específico e mais formal para atrasos de voos, preferível a 'late' neste contexto." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "I'm sorry, your flight has been delayed by two hours.", "opcoes": [
+            { "texto": "Could you rebook me on an earlier flight?", "proximoNo": "compensacao" }
+          ]},
+          { "id": "compensacao", "interlocutorFala": "I'm afraid there's no earlier flight. Would you like some meal vouchers?", "opcoes": [
+            { "texto": "Yes, please. Is there also compensation for the delay?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct for a flight delay?", "opcoes": ["My flight is late.", "My flight has been delayed.", "My flight go late."], "correta": 1, "explicacao": "'Has been delayed' é o termo específico." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Podia remarcar-me para o próximo voo?", "destino": "Could you rebook me on the next flight?" },
+      { "tipo": "ditado", "textoParaOuvir": "My flight has been delayed by two hours.", "respostaEsperada": ["My flight has been delayed by two hours."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-aeroportoatrasos-integradora", "tipo": "situacao", "pergunta": "Como se diz que um voo está atrasado, em inglês formal?", "resposta": "My flight has been delayed." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-99",
+    "nivel": "intermedio",
+    "titulo": "Mais Idiomas: Partes do Corpo",
+    "objetivos": ["Reconhecer mais idiomas com partes do corpo"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais idiomas com partes do corpo: all ears (a ouvir atentamente), get something off your chest (desabafar).",
+        "exemplos": ["Go ahead, I'm all ears.", "I need to get something off my chest.", "Keep an eye on the kids, please."],
+        "erroComum": { "errado": "Traduzir 'all ears' literalmente.", "correto": "'I'm all ears' significa 'estou a ouvir atentamente, podes falar'.", "descricaoPT": "Idioma comum para mostrar total atenção a quem vai falar." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'I'm all ears' means...", "opcoes": ["I can't hear well", "I'm listening attentively", "I have big ears"], "correta": 1, "explicacao": "Estou a ouvir atentamente." },
+      { "tipo": "escolha_multipla", "pergunta": "'Get something off your chest' means...", "opcoes": ["To exercise", "To share something that's been bothering you", "To remove clothes"], "correta": 1, "explicacao": "Desabafar." },
+      { "tipo": "preenchimento_espaco", "frase": "Keep an ___ on the kids, please.", "resposta": "eye", "explicacao": "'Keep an eye on' = vigiar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Preciso de desabafar sobre uma coisa.", "destino": "I need to get something off my chest." },
+      { "tipo": "ditado", "textoParaOuvir": "Go ahead, I'm all ears.", "respostaEsperada": ["Go ahead, I'm all ears."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-partes-corpo", "tipo": "vocabulario", "pergunta": "O que significa 'get something off your chest'?", "resposta": "desabafar/partilhar algo que estava a incomodar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-100",
+    "nivel": "intermedio",
+    "titulo": "Marco: Mini-Simulado Completo do B2 First",
+    "objetivos": ["Combinar todas as estratégias do exame First praticadas até agora"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": "simuladofirstcompleto",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 100 do Intermédio! Vamos combinar tudo o que praticaste do exame First: cloze, word formation, key word transformation, writing e listening estratégico.",
+        "exemplos": ["Practice makes perfect for the real exam."],
+        "erroComum": { "errado": "Ter pressa e não confirmar cada resposta.", "correto": "Mesmo num simulado curto, confirma cada resposta com calma.", "descricaoPT": "O hábito de revisão é tão importante como o conhecimento da língua." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "He made a ___ decision.", "opcoes": ["quick", "quickly", "quickness"], "correta": 0, "explicacao": "Multiple Choice Cloze: adjetivo antes de 'decision'." },
+      { "tipo": "preenchimento_espaco", "frase": "I've lived here ___ ten years.", "resposta": "for", "explicacao": "Open Cloze: for + duração." },
+      { "tipo": "preenchimento_espaco", "frase": "Her explanation was very ___ (de CONFUSE).", "resposta": "confusing", "explicacao": "Word Formation: confusing." },
+      { "tipo": "preenchimento_espaco", "frase": "I wish I ___ the answer.", "resposta": "knew", "explicacao": "Wish + Past Simple." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura de uma review sobre um livro que leste recentemente.", "palavrasChaveEsperadas": ["i recently read", "i really enjoyed", "recommend"], "respostaModelo": "I recently read a fascinating novel that I really enjoyed and would recommend to anyone who loves mystery." }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-simuladocompleto-marco100", "tipo": "situacao", "pergunta": "Que tipos de tarefa do exame First já dominas a esta altura?", "resposta": "todas as 4 partes do Reading & Use of English, Writing (email/review/article/short story), estratégias de Listening e Speaking" }],
+    "gamificacao": { "pontosBase": 25, "badge": null }
+  }
+]
