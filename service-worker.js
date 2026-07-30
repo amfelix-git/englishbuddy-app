@@ -52,6 +52,7 @@ const FICHEIROS_PRECACHE = [
   './content/especialista/sessoes-31-40.json',
   './content/especialista/sessoes-41-50.json',
   './content/especialista/sessoes-51-60.json',
+  './content/especialista/sessoes-61-70.json',
   'https://unpkg.com/dexie@4.0.8/dist/dexie.min.js'
 ];
 

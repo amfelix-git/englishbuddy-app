@@ -1,0 +1,249 @@
+[
+  {
+    "id": "especialista-61",
+    "nivel": "especialista",
+    "titulo": "Orações de Particípio (Participle Clauses)",
+    "objetivos": ["Usar orações reduzidas com particípio para condensar informação em registo formal"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Orações de particípio condensam duas orações numa só, usando -ing (particípio presente, ação simultânea/causa) ou -ed (particípio passado, sentido passivo) em vez de um conector completo — muito comum em escrita formal avançada.",
+        "exemplos": ["Having finished the report, she left the office. (= After she had finished...)", "Being aware of the risks, we proceeded cautiously. (= Because we were aware...)", "Written in 1990, the novel remains relevant today. (= The novel, which was written in 1990,...)"],
+        "erroComum": { "errado": "Having finish the report, she left the office.", "correto": "Having finished the report, she left the office.", "descricaoPT": "'Having' + particípio passado (não a forma base) exprime uma ação já concluída antes da principal — um erro comum é esquecer o particípio depois de 'having'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ the report, she left the office. (depois de ter terminado)", "opcoes": ["Having finished", "Having finish", "Finish"], "correta": 0, "explicacao": "'Having' + particípio passado: ação já concluída." },
+      { "tipo": "escolha_multipla", "pergunta": "'Written in 1990, the novel remains relevant.' is equivalent to:", "opcoes": ["The novel, which was written in 1990, remains relevant.", "The novel wrote in 1990 remains relevant.", "The novel writes in 1990 and remains relevant."], "correta": 0, "explicacao": "Particípio passado com sentido passivo = oração relativa reduzida." },
+      { "tipo": "preenchimento_espaco", "frase": "___ aware of the risks, we proceeded cautiously. (Being)", "resposta": "Being", "explicacao": "'Being' + adjetivo condensa uma oração de causa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tendo terminado o relatório, ela saiu do escritório.", "destino": "Having finished the report, she left the office." },
+      { "tipo": "ditado", "textoParaOuvir": "Being aware of the risks, we proceeded cautiously.", "respostaEsperada": ["Being aware of the risks, we proceeded cautiously."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-oracoesparticipio", "tipo": "gramatica", "pergunta": "O que exprime 'having' + particípio passado no início de uma frase?", "resposta": "uma ação já concluída antes da ação principal" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-62",
+    "nivel": "especialista",
+    "titulo": "Elipse e Substituição em Escrita Avançada",
+    "objetivos": ["Evitar repetição usando elipse e substituição (so do I, neither did she, do so)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Para evitar repetição em inglês avançado, usam-se estruturas de elipse e substituição: 'so do I' (concordância afirmativa), 'neither did she' (concordância negativa), e 'do so' para substituir um verbo já mencionado.",
+        "exemplos": ["I love this book. — So do I.", "She hasn't finished yet. — Neither have I.", "If you want to leave early, feel free to do so."],
+        "erroComum": { "errado": "I love this book. — So I do.", "correto": "I love this book. — So do I.", "descricaoPT": "Em 'so do I' / 'neither did she', o auxiliar vem antes do sujeito (como numa pergunta) — inverter a ordem é um erro comum." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'I love this book.' — '___.' (concordância afirmativa)", "opcoes": ["So do I.", "So I do.", "I do so."], "correta": 0, "explicacao": "'So do I' — auxiliar antes do sujeito." },
+      { "tipo": "escolha_multipla", "pergunta": "'She hasn't finished yet.' — '___.' (concordância negativa)", "opcoes": ["Neither have I.", "I haven't neither.", "So haven't I."], "correta": 0, "explicacao": "'Neither have I' concorda com uma afirmação negativa." },
+      { "tipo": "preenchimento_espaco", "frase": "If you want to leave early, feel free to ___. (fazê-lo)", "resposta": "do so", "explicacao": "'Do so' substitui o verbo já mencionado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela ainda não terminou. — Eu também não.", "destino": "She hasn't finished yet. — Neither have I." },
+      { "tipo": "ditado", "textoParaOuvir": "I love this book. So do I.", "respostaEsperada": ["I love this book. So do I."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-elipsesubstituicao", "tipo": "gramatica", "pergunta": "Qual é a ordem correta em 'so do I'?", "resposta": "auxiliar antes do sujeito (como numa pergunta)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-63",
+    "nivel": "especialista",
+    "titulo": "Quantificadores e Determinantes Avançados",
+    "objetivos": ["Usar quantificadores formais como 'a number of', 'the majority of', 'a handful of'"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Em registo formal, usam-se quantificadores mais precisos do que 'a lot of' ou 'many': 'a number of' (vários), 'the majority of' (a maioria), 'a handful of' (um punhado, poucos), 'the vast majority of' (a grande maioria).",
+        "exemplos": ["A number of employees raised concerns about the policy.", "The vast majority of respondents supported the change.", "Only a handful of candidates met all the requirements."],
+        "erroComum": { "errado": "Usar sempre 'a lot of' ou 'many' em registo formal.", "correto": "Preferir 'a number of', 'the majority of' em textos formais — mais precisos e elegantes.", "descricaoPT": "'A lot of' não é incorreto, mas soa mais informal do que os quantificadores formais equivalentes." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the more formal way to say 'most'?", "opcoes": ["a lot of", "the majority of", "loads of"], "correta": 1, "explicacao": "'The majority of' é o equivalente formal de 'most'." },
+      { "tipo": "escolha_multipla", "pergunta": "'A handful of candidates' means:", "opcoes": ["a very large number", "only a few", "exactly five"], "correta": 1, "explicacao": "'A handful of' = poucos, um número pequeno." },
+      { "tipo": "preenchimento_espaco", "frase": "___ employees raised concerns about the policy. (vários, formal)", "resposta": "A number of", "explicacao": "'A number of' = vários, em registo formal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A grande maioria dos inquiridos apoiou a mudança.", "destino": "The vast majority of respondents supported the change." },
+      { "tipo": "ditado", "textoParaOuvir": "Only a handful of candidates met all the requirements.", "respostaEsperada": ["Only a handful of candidates met all the requirements."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-quantificadoresavancados", "tipo": "gramatica", "pergunta": "O que significa 'a handful of' em registo formal?", "resposta": "poucos, um número pequeno" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-64",
+    "nivel": "especialista",
+    "titulo": "Estruturas Comparativas Avançadas",
+    "objetivos": ["Usar 'the more... the more' e 'no sooner... than' corretamente"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'The + comparativo..., the + comparativo...' exprime proporcionalidade; 'no sooner... than' (com inversão, como 'never') exprime uma sequência imediata de eventos.",
+        "exemplos": ["The more you practise, the more confident you become.", "No sooner had she arrived than the meeting started.", "The harder we worked, the better the results were."],
+        "erroComum": { "errado": "No sooner she had arrived than the meeting started.", "correto": "No sooner had she arrived than the meeting started.", "descricaoPT": "'No sooner' no início da frase pede inversão do sujeito e do auxiliar, tal como 'never' — é a mesma família de estruturas enfáticas já praticadas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The more you practise, ___ you become.", "opcoes": ["the more confident", "more confident", "the confident more"], "correta": 0, "explicacao": "'The + comparativo' repete-se em ambas as orações." },
+      { "tipo": "escolha_multipla", "pergunta": "No sooner ___ than the meeting started.", "opcoes": ["she had arrived", "had she arrived", "she arrived"], "correta": 1, "explicacao": "'No sooner' pede inversão: had + sujeito." },
+      { "tipo": "preenchimento_espaco", "frase": "The harder we worked, ___ the results were. (melhor)", "resposta": "the better", "explicacao": "'The + comparativo' na segunda oração." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quanto mais praticas, mais confiante te tornas.", "destino": "The more you practise, the more confident you become." },
+      { "tipo": "ditado", "textoParaOuvir": "No sooner had she arrived than the meeting started.", "respostaEsperada": ["No sooner had she arrived than the meeting started."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-comparativasavancadas", "tipo": "gramatica", "pergunta": "Que estrutura pede inversão, tal como 'never': 'no sooner' ou 'the more'?", "resposta": "no sooner" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-65",
+    "nivel": "especialista",
+    "titulo": "Sinónimos e Conotação",
+    "objetivos": ["Distinguir a conotação positiva, negativa ou neutra de sinónimos próximos"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Muitos sinónimos partilham o significado central mas têm conotações diferentes: 'slim' (positivo/elogioso), 'thin' (neutro), 'skinny' (negativo/informal) — todos significam 'magro', mas soam muito diferente.",
+        "exemplos": ["She has a slim figure. (elogioso)", "He is quite thin. (neutro)", "He looks skinny and unwell. (negativo)", "'Curious' (positivo) vs. 'nosy' (negativo) — ambos sobre querer saber coisas dos outros."],
+        "erroComum": { "errado": "Usar 'skinny' num elogio, pensando que é neutro.", "correto": "Escolher a palavra certa consoante a conotação pretendida — 'slim' para elogiar, não 'skinny'.", "descricaoPT": "Este é um erro que pode soar ofensivo sem intenção — a conotação das palavras não é sempre óbvia a partir do significado central." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which word has a positive connotation for 'thin'?", "opcoes": ["skinny", "slim", "scrawny"], "correta": 1, "explicacao": "'Slim' tem conotação positiva/elogiosa." },
+      { "tipo": "escolha_multipla", "pergunta": "'Nosy' (querer saber da vida dos outros) has a:", "opcoes": ["positive connotation", "negative connotation", "neutral connotation"], "correta": 1, "explicacao": "'Nosy' tem conotação negativa, ao contrário de 'curious'." },
+      { "tipo": "preenchimento_espaco", "frase": "She has a ___ figure. (elogioso, magra)", "resposta": "slim", "explicacao": "'Slim' é o elogio adequado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele parece magro e doente. (conotação negativa)", "destino": "He looks skinny and unwell." },
+      { "tipo": "ditado", "textoParaOuvir": "She has a slim figure, unlike her skinny, unwell-looking brother.", "respostaEsperada": ["She has a slim figure, unlike her skinny, unwell-looking brother."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-sinonimosconotacao", "tipo": "gramatica", "pergunta": "Qual a diferença de conotação entre 'slim' e 'skinny'?", "resposta": "slim = positivo/elogioso; skinny = negativo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-66",
+    "nivel": "especialista",
+    "titulo": "Exercício de Mudança de Registo",
+    "objetivos": ["Reescrever frases informais em registo formal e vice-versa"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma competência avançada essencial é saber reescrever a mesma ideia em diferentes registos — combina tudo o que praticámos: nominalização, vocabulário formal, phrasal verbs vs. equivalentes formais.",
+        "exemplos": ["Informal: 'We need to sort this out ASAP.' → Formal: 'We need to resolve this matter as soon as possible.'", "Informal: 'The boss was pretty annoyed about it.' → Formal: 'The manager expressed considerable dissatisfaction.'", "Formal → Informal também é uma competência útil, para não soar sempre rígido."],
+        "erroComum": { "errado": "Misturar vocabulário informal e formal na mesma frase ('We need to resolve this ASAP').", "correto": "Manter a consistência de registo em toda a frase/texto.", "descricaoPT": "A mistura de registos é um erro subtil mas comum mesmo em falantes avançados — vale a pena rever a frase toda antes de a considerar terminada." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the fully formal version of 'We need to sort this out ASAP'?", "opcoes": ["We need to resolve this matter as soon as possible.", "We need to resolve this ASAP.", "We need to sort this matter out."], "correta": 0, "explicacao": "Consistência total de registo formal." },
+      { "tipo": "preenchimento_espaco", "frase": "The manager expressed considerable ___. (informal: 'was pretty annoyed')", "resposta": "dissatisfaction", "explicacao": "Nominalização formal de 'annoyed'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Precisamos de resolver este assunto o mais depressa possível. (formal)", "destino": "We need to resolve this matter as soon as possible." },
+      { "tipo": "escrita_livre", "instrucao": "Reescreve esta frase informal em registo totalmente formal: 'The boss was pretty annoyed we messed up the schedule.'", "palavrasChaveEsperadas": ["dissatisfaction", "schedule"], "respostaModelo": "The manager expressed considerable dissatisfaction regarding the disruption to the schedule." },
+      { "tipo": "ditado", "textoParaOuvir": "The manager expressed considerable dissatisfaction regarding the disruption to the schedule.", "respostaEsperada": ["The manager expressed considerable dissatisfaction regarding the disruption to the schedule."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-mudancaregisto", "tipo": "gramatica", "pergunta": "Que erro subtil é comum ao mudar de registo informal para formal?", "resposta": "misturar vocabulário informal e formal na mesma frase" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-67",
+    "nivel": "especialista",
+    "titulo": "Situação: Reunião de Comunidade/Condomínio",
+    "objetivos": ["Participar numa reunião de comunidade local com propostas e votações"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "reuniaocomunidade",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Reuniões de comunidade/condomínio usam linguagem de proposta, votação e procedimento: 'I'd like to propose that...', 'Can we put this to a vote?', 'I second that motion.'",
+        "exemplos": ["I'd like to propose that we increase the maintenance budget.", "Can we put this to a vote?", "I second that motion — I fully agree."],
+        "erroComum": { "errado": "Fazer uma proposta sem estrutura formal ('I think we should just...').", "correto": "Usar a fórmula 'I'd like to propose that...' torna a proposta mais clara e formal para efeitos de ata/registo.", "descricaoPT": "Este vocabulário de procedimento (propor, secundar, votar) é útil em qualquer contexto de reunião formal, não só condomínios." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Does anyone have a proposal for today's meeting?", "opcoes": [
+            { "texto": "I'd like to propose that we increase the maintenance budget for next year.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "Thank you. Does anyone second that motion?", "opcoes": [
+            { "texto": "I second that motion — I fully agree it's necessary.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'I second that motion' means:", "opcoes": ["I disagree with the proposal", "I formally support the proposal", "I want to change the proposal"], "correta": 1, "explicacao": "'Second a motion' = apoiar formalmente uma proposta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Podemos submeter isto a votação?", "destino": "Can we put this to a vote?" },
+      { "tipo": "ditado", "textoParaOuvir": "I'd like to propose that we increase the maintenance budget.", "respostaEsperada": ["I'd like to propose that we increase the maintenance budget."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-reuniaocomunidade", "tipo": "situacao", "pergunta": "O que significa 'to second a motion' numa reunião?", "resposta": "apoiar formalmente uma proposta" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-68",
+    "nivel": "especialista",
+    "titulo": "Situação: Mediação de Conflitos",
+    "objetivos": ["Usar linguagem neutra e conciliadora para mediar um desacordo"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "mediacaoconflitos",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mediar um conflito exige linguagem neutra que reconhece ambos os lados sem tomar partido: 'I understand both sides have valid points.', 'Let's find some common ground.', 'What would it take for both of you to feel this is fair?'",
+        "exemplos": ["I understand both sides have valid points here.", "Let's try to find some common ground.", "What would it take for both of you to feel this is a fair outcome?"],
+        "erroComum": { "errado": "Tomar claramente o lado de uma das partes durante a mediação.", "correto": "Manter linguagem neutra que reconhece ambos os pontos de vista, mesmo que se tenha uma opinião pessoal.", "descricaoPT": "A neutralidade linguística (não só o conteúdo, mas a escolha de palavras) é essencial num papel de mediação — evita frases que soem a tomar partido." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "They just won't listen to my side of the story!", "opcoes": [
+            { "texto": "I understand both sides have valid points here. Let's try to find some common ground.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "I suppose that's fair. What do you suggest?", "opcoes": [
+            { "texto": "What would it take for both of you to feel this is a fair outcome?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A good mediator's language should be:", "opcoes": ["clearly taking one side", "neutral, acknowledging both sides", "avoiding the topic entirely"], "correta": 1, "explicacao": "Linguagem neutra é essencial na mediação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos tentar encontrar um ponto comum.", "destino": "Let's try to find some common ground." },
+      { "tipo": "ditado", "textoParaOuvir": "I understand both sides have valid points here.", "respostaEsperada": ["I understand both sides have valid points here."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-mediacaoconflitos", "tipo": "situacao", "pergunta": "Que tipo de linguagem é essencial num papel de mediação de conflitos?", "resposta": "linguagem neutra, que reconhece ambos os lados sem tomar partido" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-69",
+    "nivel": "especialista",
+    "titulo": "C2 Writing Simulado Completo: Ensaio Alargado",
+    "objetivos": ["Escrever um ensaio de síntese crítica mais completo, no formato do exame real"],
+    "duracaoEstimadaMin": 13,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos praticar um ensaio de síntese crítica mais completo (~5-6 frases, aproximando-se do comprimento real do exame), combinando todas as competências de Writing praticadas: nominalização, conectores avançados, contra-argumentação, e conclusão ponderada.",
+        "exemplos": ["Introdução: apresentar o tema e as duas perspetivas.", "Desenvolvimento: sintetizar cada texto com um conector de contraste.", "Conclusão: uma posição pessoal fundamentada com 'on balance'."],
+        "erroComum": { "errado": "Escrever um ensaio longo mas desorganizado, sem uma estrutura clara de parágrafos.", "correto": "Seguir a estrutura de 3 partes (introdução, desenvolvimento, conclusão), mesmo em textos mais longos.", "descricaoPT": "O comprimento por si só não melhora a nota — a estrutura clara é o que realmente distingue um ensaio C2 de qualidade." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A well-structured critical synthesis essay should have:", "opcoes": ["random paragraphs in any order", "a clear introduction, development, and conclusion", "only one very long paragraph"], "correta": 1, "explicacao": "Estrutura clara de 3 partes é essencial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ambos os textos apresentam argumentos válidos, mas nenhum considera todas as implicações a longo prazo.", "destino": "Both texts present valid arguments, but neither considers all the long-term implications." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um ensaio curto (5-6 frases) sobre um tema à tua escolha: introdução com o tema, síntese das duas perspetivas usando 'whereas', e conclusão com 'on balance'.", "palavrasChaveEsperadas": ["whereas", "on balance"], "respostaModelo": "The debate around social media's impact on society remains divisive. Text A highlights its power to connect people worldwide, whereas Text B raises concerns about mental health and misinformation. Both texts present valid arguments, but neither fully addresses the role of regulation. On balance, mindful and regulated use appears to be the most reasonable path forward." },
+      { "tipo": "ditado", "textoParaOuvir": "Both texts present valid arguments, but neither considers all the long-term implications.", "respostaEsperada": ["Both texts present valid arguments, but neither considers all the long-term implications."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2writing-ensaioalargado", "tipo": "exame", "pergunta": "O que distingue mais um ensaio C2 de qualidade: o comprimento ou a estrutura?", "resposta": "a estrutura clara (introdução, desenvolvimento, conclusão)" }],
+    "gamificacao": { "pontosBase": 14, "badge": null }
+  },
+  {
+    "id": "especialista-70",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Marco 70/115 — Coesão e Ênfase",
+    "objetivos": ["Rever de forma integrada as estruturas de coesão e ênfase praticadas nas últimas 20 sessões"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": "revisaomarco70",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Marco dos 70/115: vamos rever as estruturas de coesão e ênfase mais recentes — orações de particípio, elipse, comparativos avançados, e mudança de registo — combinando-as numa reflexão final.",
+        "exemplos": ["Having practised consistently, I've grown much more confident.", "The more I learn, the more I realise there is to learn.", "So do most learners who stay consistent."],
+        "erroComum": { "errado": "Ver estas estruturas como 'extras' opcionais, em vez de ferramentas realmente úteis para soar mais natural.", "correto": "Estas estruturas (orações de particípio, elipse, comparativos duplos) são usadas constantemente por falantes nativos avançados — vale a pena praticá-las ativamente.", "descricaoPT": "Nesta fase do percurso, o objetivo já não é só 'ser compreendido', mas soar tão natural quanto possível — estas estruturas são parte disso." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence correctly uses a participle clause?", "opcoes": ["Having practise consistently, I feel confident.", "Having practised consistently, I feel confident.", "Have practised consistently, I feel confident."], "correta": 1, "explicacao": "'Having' + particípio passado." },
+      { "tipo": "preenchimento_espaco", "frase": "The more I learn, ___ I realise there is to learn. (mais)", "resposta": "the more", "explicacao": "'The + comparativo' repetido." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Assim fazem a maioria dos aprendizes que se mantêm consistentes.", "destino": "So do most learners who stay consistent." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre a tua jornada de aprendizagem até agora, usando pelo menos uma oração de particípio ('Having...') e uma estrutura comparativa dupla ('the more... the more...').", "palavrasChaveEsperadas": ["having", "the more"], "respostaModelo": "Having practised consistently over these 70 sessions, I feel much more confident. The more I learn, the more I realise there is still to explore." },
+      { "tipo": "ditado", "textoParaOuvir": "Having practised consistently, I feel much more confident.", "respostaEsperada": ["Having practised consistently, I feel much more confident."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-revisaomarco70-integradora", "tipo": "situacao", "pergunta": "Porque vale a pena praticar orações de particípio e elipse, mesmo sendo 'opcionais' gramaticalmente?", "resposta": "porque são usadas constantemente por falantes nativos avançados e ajudam a soar mais natural" }],
+    "gamificacao": { "pontosBase": 18, "badge": null }
+  }
+]
