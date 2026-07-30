@@ -1,0 +1,261 @@
+[
+  {
+    "id": "especialista-101",
+    "nivel": "especialista",
+    "titulo": "Revisão em Espiral: Estruturas de Ênfase",
+    "objetivos": ["Rever de forma integrada inversão, cleft sentences e ênfase com do"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão das três formas principais de dar ênfase em inglês avançado: inversão (Never have I...), cleft sentences (It was... who/that...), e ênfase com do (I do think...).",
+        "exemplos": ["Never have I felt so proud. (inversão)", "It was her dedication that impressed me most. (cleft sentence)", "I do believe this is the right path. (ênfase com do)"],
+        "erroComum": { "errado": "Misturar as três estruturas na mesma frase de forma incorreta ou redundante.", "correto": "Escolher a estrutura mais adequada ao que se quer enfatizar — cada uma tem o seu uso específico.", "descricaoPT": "Esta revisão combina três sessões distintas do início do nível — é normal precisar de rever, mesmo depois de 100 sessões." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which structure uses subject-auxiliary inversion?", "opcoes": ["It was her dedication that impressed me.", "Never have I felt so proud.", "I do believe this is right."], "correta": 1, "explicacao": "Inversão: Never have I..." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a cleft sentence?", "opcoes": ["It was her dedication that impressed me most.", "I do think this is right.", "Rarely does she complain."], "correta": 0, "explicacao": "'It was... that...' é uma cleft sentence." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ believe this is the right path. (ênfase)", "resposta": "do", "explicacao": "Ênfase com 'do'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Foi a sua dedicação que mais me impressionou.", "destino": "It was her dedication that impressed me most." },
+      { "tipo": "ditado", "textoParaOuvir": "Never have I felt so proud.", "respostaEsperada": ["Never have I felt so proud."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-revisaoenfase101", "tipo": "gramatica", "pergunta": "Quais são as três formas principais de ênfase revistas nesta sessão?", "resposta": "inversão, cleft sentences, ênfase com do" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-102",
+    "nivel": "especialista",
+    "titulo": "Revisão em Espiral: Condicionais e Subjuntivo",
+    "objetivos": ["Rever de forma integrada condicionais mistos, formais e subjuntivo"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão de condicionais avançados: mistos (passado→presente), formais invertidos (had it not been for), e subjuntivo formal (it is essential that... be).",
+        "exemplos": ["If I had studied harder, I would be in a better position now. (misto)", "Had it not been for her help, we would have failed. (formal invertido)", "It is essential that everyone be informed. (subjuntivo formal)"],
+        "erroComum": { "errado": "Confundir quando usar 'would be' vs 'would have been' num condicional misto.", "correto": "Resultado no presente → 'would be'; resultado no passado → 'would have been'.", "descricaoPT": "Vale a pena rever este ponto especificamente — é um dos mais subtis e mais testados no exame C2." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If I had studied harder, I ___ in a better position now.", "opcoes": ["would have been", "would be", "will be"], "correta": 1, "explicacao": "Resultado no presente → would be." },
+      { "tipo": "escolha_multipla", "pergunta": "___ her help, we would have failed. (formal invertido)", "opcoes": ["If it had not been for", "Had it not been for", "It had not been for"], "correta": 1, "explicacao": "Forma invertida formal." },
+      { "tipo": "preenchimento_espaco", "frase": "It is essential that everyone ___ informed. (subjuntivo)", "resposta": "be", "explicacao": "Subjuntivo formal: forma base." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se não fosse a sua ajuda, teríamos falhado.", "destino": "Had it not been for her help, we would have failed." },
+      { "tipo": "ditado", "textoParaOuvir": "If I had studied harder, I would be in a better position now.", "respostaEsperada": ["If I had studied harder, I would be in a better position now."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-revisaocondicionais102", "tipo": "gramatica", "pergunta": "Num condicional misto passado→presente, que forma tem a oração principal?", "resposta": "would + infinitivo (não would have + particípio)" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-103",
+    "nivel": "especialista",
+    "titulo": "Vocabulário sobre Saúde Mental e Bem-Estar",
+    "objetivos": ["Usar vocabulário avançado e sensível sobre saúde mental"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre saúde mental exige precisão e sensibilidade: 'burnout' (esgotamento), 'to cope with' (lidar com), 'to seek support' (procurar apoio), 'well-being' (bem-estar).",
+        "exemplos": ["Many professionals experience burnout after prolonged stress.", "It's important to seek support when coping becomes difficult.", "Prioritising well-being is not a luxury, but a necessity."],
+        "erroComum": { "errado": "Usar linguagem informal ou minimizadora para temas de saúde mental ('just relax', 'it's not a big deal').", "correto": "Usar linguagem respeitosa e precisa: 'seek support', 'cope with', 'well-being'.", "descricaoPT": "A sensibilidade no vocabulário é especialmente importante neste tema — evita minimizar ou trivializar experiências reais de outra pessoa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Burnout' refers to:", "opcoes": ["a type of physical injury", "exhaustion from prolonged stress", "a sudden illness"], "correta": 1, "explicacao": "'Burnout' = esgotamento por stress prolongado." },
+      { "tipo": "escolha_multipla", "pergunta": "'To seek support' means to:", "opcoes": ["avoid asking for help", "actively look for help/assistance", "give help to others"], "correta": 1, "explicacao": "'Seek support' = procurar ativamente apoio." },
+      { "tipo": "preenchimento_espaco", "frase": "Prioritising ___ is not a luxury, but a necessity. (bem-estar)", "resposta": "well-being", "explicacao": "'Well-being' = bem-estar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É importante procurar apoio quando lidar com algo se torna difícil.", "destino": "It's important to seek support when coping becomes difficult." },
+      { "tipo": "ditado", "textoParaOuvir": "Many professionals experience burnout after prolonged stress.", "respostaEsperada": ["Many professionals experience burnout after prolonged stress."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-vocabsaudemental", "tipo": "gramatica", "pergunta": "O que significa 'burnout'?", "resposta": "esgotamento causado por stress prolongado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-104",
+    "nivel": "especialista",
+    "titulo": "Situação: Apoio Emocional a um Amigo",
+    "objetivos": ["Oferecer apoio emocional genuíno usando linguagem empática"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "apoioemocional",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Apoiar um amigo emocionalmente combina escuta ativa e linguagem empática: 'That sounds really tough', 'I'm here for you', 'It makes complete sense that you'd feel that way.'",
+        "exemplos": ["That sounds really tough — I'm sorry you're going through this.", "I'm here for you, whatever you need.", "It makes complete sense that you'd feel overwhelmed."],
+        "erroComum": { "errado": "Minimizar os sentimentos da outra pessoa ('It's not that bad', 'Just don't think about it').", "correto": "Validar os sentimentos primeiro: 'It makes sense that you'd feel that way', antes de qualquer sugestão.", "descricaoPT": "A validação antes da solução é um princípio importante de apoio emocional — mesmo com boas intenções, minimizar pode fazer a pessoa sentir-se pior." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "I've just been feeling really overwhelmed with everything lately.", "opcoes": [
+            { "texto": "That sounds really tough. It makes complete sense that you'd feel that way.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "Thanks, that means a lot.", "opcoes": [
+            { "texto": "Of course — I'm here for you, whatever you need.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What should come before offering solutions when supporting someone emotionally?", "opcoes": ["giving advice immediately", "validating their feelings first", "changing the subject"], "correta": 1, "explicacao": "Validar os sentimentos primeiro é essencial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Isso soa mesmo difícil — lamento que estejas a passar por isto.", "destino": "That sounds really tough — I'm sorry you're going through this." },
+      { "tipo": "ditado", "textoParaOuvir": "I'm here for you, whatever you need.", "respostaEsperada": ["I'm here for you, whatever you need."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-apoioemocional", "tipo": "situacao", "pergunta": "Que princípio é importante ao apoiar alguém emocionalmente, antes de dar conselhos?", "resposta": "validar os sentimentos da pessoa primeiro" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-105",
+    "nivel": "especialista",
+    "titulo": "C2 Writing Simulado: Ensaio Completo Cronometrado",
+    "objetivos": ["Escrever um ensaio completo em condições próximas do exame real"],
+    "duracaoEstimadaMin": 14,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos simular a tarefa completa de Writing Parte 1 do C2 Proficiency: ler duas perspetivas (resumidas aqui) e escrever um ensaio de síntese crítica completo, combinando tudo o que já foi praticado.",
+        "exemplos": ["Perspetiva A: A tecnologia melhora a produtividade mas reduz a interação humana.", "Perspetiva B: A tecnologia é uma ferramenta neutra; o problema está no uso, não na ferramenta.", "Um bom ensaio sintetiza, compara com 'whereas'/'in contrast to', e conclui com 'on balance'."],
+        "erroComum": { "errado": "Escrever apenas a tua opinião pessoal, sem sintetizar as duas perspetivas dadas.", "correto": "O ensaio deve sintetizar E avaliar ambas as perspetivas antes de chegar a uma conclusão própria.", "descricaoPT": "Esta é a tarefa mais distintiva e mais importante do exame C2 Proficiency — vale a pena praticá-la de forma completa, não só em fragmentos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A complete Part 1 essay should:", "opcoes": ["only state personal opinion", "synthesise and evaluate both given perspectives before concluding", "summarise each perspective without any evaluation"], "correta": 1, "explicacao": "Deve sintetizar E avaliar, não apenas resumir ou opinar isoladamente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A tecnologia é, poder-se-ia argumentar, uma ferramenta neutra; o problema está no uso, não na ferramenta em si.", "destino": "Technology is, it could be argued, a neutral tool; the problem lies in its use, not the tool itself." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um ensaio completo (6-8 frases) sintetizando as duas perspetivas sobre tecnologia e produtividade/interação humana, usando 'whereas', hedging, e uma conclusão com 'on balance'.", "palavrasChaveEsperadas": ["whereas", "on balance", "could be argued"], "respostaModelo": "Technology's impact on society remains a subject of debate. Perspective A highlights productivity gains, whereas Perspective B emphasises reduced human interaction. It could be argued that technology itself is neutral; the issue lies in how it is used. Both viewpoints raise valid concerns, but neither fully accounts for individual differences in usage. On balance, mindful, intentional use appears to be the most balanced path forward." },
+      { "tipo": "ditado", "textoParaOuvir": "Both viewpoints raise valid concerns, but neither fully accounts for individual differences.", "respostaEsperada": ["Both viewpoints raise valid concerns, but neither fully accounts for individual differences."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2writing-ensaiocompleto105", "tipo": "exame", "pergunta": "O que distingue um ensaio de síntese crítica completo de uma simples opinião pessoal?", "resposta": "sintetizar e avaliar ambas as perspetivas dadas antes de concluir" }],
+    "gamificacao": { "pontosBase": 16, "badge": null }
+  },
+  {
+    "id": "especialista-106",
+    "nivel": "especialista",
+    "titulo": "C2 Speaking Simulado: Entrevista Completa",
+    "objetivos": ["Simular a entrevista completa das 3 partes do Speaking com fluidez"],
+    "duracaoEstimadaMin": 14,
+    "temaIntegrador": "speakingentrevistacompleta",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos simular a experiência completa do Speaking: entrevista pessoal, discussão colaborativa, e long turn com discussão final — a prática mais próxima possível do exame real dentro desta app.",
+        "exemplos": ["Parte 1: 'Tell me about a skill you'd like to develop.'", "Parte 2: 'I'd lean towards this option, though I see the merit in the other too.'", "Parte 3: 'I'd like to discuss... On balance, I believe...' seguido de perguntas de aprofundamento."],
+        "erroComum": { "errado": "Tratar as 3 partes como desconexas, sem manter um nível de registo e fluência consistente ao longo de toda a entrevista.", "correto": "Manter consistência de registo e energia ao longo das 3 partes, tal como seria avaliado no exame real.", "descricaoPT": "A consistência ao longo de toda a entrevista (não só no início) é um dos critérios avaliados — o cansaço ou a quebra de foco a meio custam pontos." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Part 1: Tell me about a skill you'd like to develop.", "opcoes": [
+            { "texto": "I'd love to develop my public speaking skills — it's something I've always found challenging.", "proximoNo": "parte2" }
+          ]},
+          { "id": "parte2", "interlocutorFala": "Part 2: Which of these two approaches to learning a skill do you think is more effective?", "opcoes": [
+            { "texto": "I'd lean towards consistent daily practice, though I see the merit in intensive courses too.", "proximoNo": "parte3" }
+          ]},
+          { "id": "parte3", "interlocutorFala": "Part 3: Please discuss the role of motivation in skill development for two minutes.", "opcoes": [
+            { "texto": "It could be argued that motivation matters more than talent. Never have I seen someone succeed without genuine commitment. On balance, I believe consistency, driven by motivation, is the key factor.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What is important to maintain throughout all 3 parts of the Speaking test?", "opcoes": ["only in Part 1", "consistent register and fluency throughout", "silence during Part 3"], "correta": 1, "explicacao": "Consistência ao longo de toda a entrevista é avaliada." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Inclinar-me-ia para a prática diária consistente, embora reconheça o mérito dos cursos intensivos também.", "destino": "I'd lean towards consistent daily practice, though I see the merit in intensive courses too." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, I believe consistency, driven by motivation, is the key factor.", "respostaEsperada": ["On balance, I believe consistency, driven by motivation, is the key factor."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2speaking-entrevistacompleta106", "tipo": "exame", "pergunta": "Que critério é avaliado ao longo de toda a entrevista de Speaking, não só no início?", "resposta": "consistência de registo formal e fluência" }],
+    "gamificacao": { "pontosBase": 16, "badge": null }
+  },
+  {
+    "id": "especialista-107",
+    "nivel": "especialista",
+    "titulo": "Vocabulário sobre Política e Governança",
+    "objetivos": ["Usar vocabulário avançado sobre política e governança de forma neutra"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário político/governança avançado e neutro: 'policy' (política/medida), 'accountability' (responsabilização/prestação de contas), 'legislation' (legislação), 'constituents' (eleitores/representados).",
+        "exemplos": ["The new policy aims to reduce bureaucracy.", "Accountability is essential for public trust in institutions.", "The legislation was passed after months of debate."],
+        "erroComum": { "errado": "Confundir 'policy' (medida/política específica) com 'politics' (o campo geral da política).", "correto": "'Policy' = uma medida/diretriz específica; 'politics' = o campo geral de atividade política.", "descricaoPT": "Esta confusão é comum porque em português 'política' cobre ambos os sentidos — em inglês são palavras distintas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Policy' refers to:", "opcoes": ["the general field of politics", "a specific measure or guideline", "a politician's personal opinion"], "correta": 1, "explicacao": "'Policy' = uma medida/diretriz específica." },
+      { "tipo": "escolha_multipla", "pergunta": "'Accountability' means:", "opcoes": ["avoiding responsibility", "being answerable for one's actions/decisions", "having power over others"], "correta": 1, "explicacao": "'Accountability' = responsabilização, prestação de contas." },
+      { "tipo": "preenchimento_espaco", "frase": "The ___ was passed after months of debate. (legislação)", "resposta": "legislation", "explicacao": "'Legislation' = legislação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A responsabilização é essencial para a confiança pública nas instituições.", "destino": "Accountability is essential for public trust in institutions." },
+      { "tipo": "ditado", "textoParaOuvir": "The new policy aims to reduce bureaucracy.", "respostaEsperada": ["The new policy aims to reduce bureaucracy."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-vocabpoliticagovernanca", "tipo": "gramatica", "pergunta": "Qual é a diferença entre 'policy' e 'politics'?", "resposta": "policy = medida/diretriz específica; politics = o campo geral da política" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-108",
+    "nivel": "especialista",
+    "titulo": "Situação: Discussão Política Civilizada",
+    "objetivos": ["Discutir temas políticos com respeito, mesmo em desacordo"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "discussaopolitica",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Discutir política de forma civilizada usa linguagem que respeita o desacordo: 'I understand your perspective, though I see it differently', 'We may have to agree to disagree on this', 'That's a fair point, but...'",
+        "exemplos": ["I understand your perspective, though I see it differently.", "We may have to agree to disagree on this one.", "That's a fair point, but I'd weigh the evidence differently."],
+        "erroComum": { "errado": "Descartar a opinião da outra pessoa sem reconhecimento ('That's just wrong').", "correto": "Reconhecer a validade da perspetiva antes de discordar: 'That's a fair point, but...'", "descricaoPT": "Esta é a aplicação mais avançada do hedging e da linguagem diplomática já praticados — especialmente importante em temas sensíveis." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "I really don't agree with that policy at all.", "opcoes": [
+            { "texto": "I understand your perspective, though I see it a bit differently.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "Fair enough. I suppose we won't agree on this.", "opcoes": [
+            { "texto": "That's okay — we may have to agree to disagree on this one.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase respectfully acknowledges disagreement?", "opcoes": ["That's just wrong.", "We may have to agree to disagree.", "You clearly don't understand."], "correta": 1, "explicacao": "'Agree to disagree' reconhece o desacordo com respeito." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Esse é um ponto justo, mas eu ponderaria as evidências de forma diferente.", "destino": "That's a fair point, but I'd weigh the evidence differently." },
+      { "tipo": "ditado", "textoParaOuvir": "We may have to agree to disagree on this one.", "respostaEsperada": ["We may have to agree to disagree on this one."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-discussaopolitica", "tipo": "situacao", "pergunta": "Que expressão reconhece um desacordo de forma respeitosa e civilizada?", "resposta": "We may have to agree to disagree" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-109",
+    "nivel": "especialista",
+    "titulo": "C2 Reading Simulado: Mini-Combinação das 7 Partes",
+    "objetivos": ["Praticar uma amostra combinada de todas as 7 partes do Reading & Use of English"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos combinar uma amostra pequena de cada uma das 7 partes do Reading & Use of English, revendo as estratégias específicas de cada uma antes da fase final de graduação.",
+        "exemplos": ["Partes 1-4 (Use of English): colocações, gramática, formação de palavras, transformação.", "Partes 5-7 (Reading): inferência/atitude, gapped text, localização de informação.", "Cada parte pede uma estratégia diferente — a flexibilidade é a chave."],
+        "erroComum": { "errado": "Aplicar a mesma velocidade e estratégia a todas as 7 partes por igual.", "correto": "Ajustar o ritmo e a estratégia consoante a parte: mais rápido nas Partes 1-4, mais cuidadoso nas Partes 5-6.", "descricaoPT": "A gestão de tempo entre as 7 partes é uma competência prática tão importante quanto o conhecimento da língua em si." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ a strong impression on everyone. (colocação, Parte 1)", "opcoes": ["made", "did", "took"], "correta": 0, "explicacao": "'Make an impression' — colocação testada na Parte 1." },
+      { "tipo": "preenchimento_espaco", "frase": "Not only ___ she arrive late, but she forgot the documents too. (Parte 2/4, inversão)", "resposta": "did", "explicacao": "Inversão testada nas Partes 2 e 4." },
+      { "tipo": "preenchimento_espaco", "frase": "His sudden ___ worried everyone. (APPEAR, Parte 3, formação de palavras)", "resposta": "disappearance", "explicacao": "Formação de palavras: APPEAR → disappearance." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ajusta o ritmo e a estratégia consoante a parte do exame.", "destino": "Adjust your pace and strategy depending on the part of the exam." },
+      { "tipo": "ditado", "textoParaOuvir": "Adjust your pace and strategy depending on the part of the exam.", "respostaEsperada": ["Adjust your pace and strategy depending on the part of the exam."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-minicombinacao109", "tipo": "exame", "pergunta": "Porque é importante ajustar o ritmo consoante a parte do Reading & Use of English?", "resposta": "cada parte exige estratégia e velocidade diferentes; usar sempre o mesmo ritmo é ineficiente" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-110",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Marco 110/115 — Reta Final",
+    "objetivos": ["Consolidar as competências mais avançadas antes das últimas 5 sessões"],
+    "duracaoEstimadaMin": 13,
+    "temaIntegrador": "revisaomarco110",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Marco dos 110/115 — a reta final! Restam apenas 5 sessões até à graduação completa. Vamos consolidar as competências mais transversais: hedging, contraste, ênfase e registo formal consistente.",
+        "exemplos": ["It could be argued that this journey has been transformative.", "Never have I learned so much about a language in such depth.", "On balance, this has been a challenging but rewarding path."],
+        "erroComum": { "errado": "Abrandar o ritmo perto do fim, achando que já não há mais para aprender.", "correto": "As últimas sessões (incluindo o exame simulado completo e a graduação) são tão importantes como as primeiras.", "descricaoPT": "A motivação nesta fase final é crucial — as competências mais avançadas muitas vezes consolidam-se exatamente nestas últimas sessões." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence combines hedging and inversion?", "opcoes": ["This journey was good.", "It could be argued that never have I faced such a challenge.", "I liked learning English."], "correta": 1, "explicacao": "Combina 'it could be argued' (hedging) com inversão ('never have I')." },
+      { "tipo": "preenchimento_espaco", "frase": "___, this has been a challenging but rewarding path. (ponderando tudo)", "resposta": "On balance", "explicacao": "'On balance' = ponderando tudo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Nunca aprendi tanto sobre uma língua com tanta profundidade.", "destino": "Never have I learned so much about a language in such depth." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 3-4 frases sobre a tua jornada de aprendizagem até agora (110 sessões!), combinando pelo menos duas estruturas avançadas diferentes praticadas ao longo do Nível Especialista.", "palavrasChaveEsperadas": ["never", "on balance", "could be argued"], "respostaModelo": "Never have I learned so much about a language in such depth. It could be argued that consistency was the key factor throughout this journey. On balance, this has been a challenging but deeply rewarding path." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, this has been a challenging but rewarding path.", "respostaEsperada": ["On balance, this has been a challenging but rewarding path."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-revisaomarco110-integradora", "tipo": "situacao", "pergunta": "Quantas sessões faltam para a graduação completa, a partir da sessão 110?", "resposta": "5 sessões (até à 115)" }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
