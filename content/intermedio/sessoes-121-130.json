@@ -1,0 +1,260 @@
+[
+  {
+    "id": "intermedio-121",
+    "nivel": "intermedio",
+    "titulo": "In Order To / So That",
+    "objetivos": ["Exprimir finalidade com 'in order to' e 'so that'"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'In order to' + infinitivo e 'so that' + oração exprimem finalidade. 'So that' é seguido de sujeito + verbo (frequentemente can/could/would).",
+        "exemplos": ["I study every day in order to improve my English.", "She left early so that she wouldn't miss the train.", "I saved money in order to buy a car."],
+        "erroComum": { "errado": "I study so that improve my English.", "correto": "I study so that I can improve my English. / I study in order to improve my English.", "descricaoPT": "Depois de 'so that' precisa sempre de sujeito e verbo completos — não se pode usar diretamente o infinitivo como depois de 'in order to'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I study every day ___ improve my English.", "opcoes": ["so that", "in order to", "so"], "correta": 1, "explicacao": "'In order to' + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "She left early ___ she wouldn't miss the train.", "opcoes": ["in order to", "so that", "so as to"], "correta": 1, "explicacao": "'So that' + sujeito + verbo." },
+      { "tipo": "preenchimento_espaco", "frase": "I saved money ___ buy a car.", "resposta": "in order to", "explicacao": "'In order to' + infinitivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele acordou cedo para não chegar atrasado.", "destino": "He woke up early so that he wouldn't be late." },
+      { "tipo": "ditado", "textoParaOuvir": "I study every day in order to improve my English.", "respostaEsperada": ["I study every day in order to improve my English."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-inorderto-sothat", "tipo": "gramatica", "pergunta": "Que estrutura segue 'so that'?", "resposta": "sujeito + verbo (frequentemente can/could/would)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-122",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Tendências e Gráficos",
+    "objetivos": ["Descrever tendências com vocabulário apropriado"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário para descrever tendências em gráficos: to increase, to decrease, to remain stable, a sharp rise, a slight drop.",
+        "exemplos": ["Sales increased significantly last year.", "The numbers remained stable throughout the month.", "There was a sharp rise in prices."],
+        "erroComum": { "errado": "The numbers go up and go down.", "correto": "The numbers fluctuated.", "descricaoPT": "Em contexto de relatório, usa-se vocabulário mais específico (increase, decrease, fluctuate) em vez de 'go up/go down'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes a big increase?", "opcoes": ["A sharp rise", "A slight drop", "A stable trend"], "correta": 0, "explicacao": "'A sharp rise' = uma subida acentuada." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is more appropriate for a report?", "opcoes": ["The numbers go up and down.", "The numbers fluctuated.", "The numbers do stuff."], "correta": 1, "explicacao": "'Fluctuated' é mais formal e apropriado." },
+      { "tipo": "preenchimento_espaco", "frase": "Sales ___ significantly last year.", "resposta": "increased", "explicacao": "'Increased' = aumentaram." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os números mantiveram-se estáveis durante o mês.", "destino": "The numbers remained stable throughout the month." },
+      { "tipo": "ditado", "textoParaOuvir": "There was a sharp rise in prices.", "respostaEsperada": ["There was a sharp rise in prices."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-tendencias-graficos", "tipo": "vocabulario", "pergunta": "Que palavra descreve uma tendência que não muda?", "resposta": "remain stable" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-123",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Descrever um Gráfico/Relatório",
+    "objetivos": ["Estruturar a descrição de um gráfico com visão geral seguida de detalhes"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Ao descrever um gráfico/relatório: começa com uma visão geral, depois destaca os dados mais importantes, usando vocabulário de tendências.",
+        "exemplos": ["The graph shows the change in sales over five years.", "Overall, there was a clear upward trend.", "The most significant increase occurred in 2022."],
+        "erroComum": { "errado": "Descrever cada ponto de dados individualmente sem dar uma visão geral primeiro.", "correto": "Começa sempre com uma frase geral (overall trend) antes de entrares em detalhes específicos.", "descricaoPT": "Esta estrutura (geral → específico) é a mais eficaz e clara para relatórios." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase gives a general overview?", "opcoes": ["Overall, there was a clear upward trend.", "In 2022, sales were 500.", "The graph has numbers."], "correta": 0, "explicacao": "Visão geral com 'Overall'." },
+      { "tipo": "escolha_multipla", "pergunta": "What should come first when describing a graph?", "opcoes": ["Specific numbers", "A general overview", "A conclusion"], "correta": 1, "explicacao": "Visão geral primeiro." },
+      { "tipo": "preenchimento_espaco", "frase": "The graph ___ the change in sales over five years.", "resposta": "shows", "explicacao": "'Shows' = mostra." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase geral (overview) a introduzir a descrição de um gráfico de vendas.", "palavrasChaveEsperadas": ["overall", "shows", "trend"], "respostaModelo": "Overall, the graph shows a clear upward trend in sales over the five-year period." },
+      { "tipo": "ditado", "textoParaOuvir": "The most significant increase occurred in 2022.", "respostaEsperada": ["The most significant increase occurred in 2022."] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-descrevergrafico", "tipo": "situacao", "pergunta": "Como se deve estruturar a descrição de um gráfico?", "resposta": "visão geral primeiro, depois os detalhes específicos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-124",
+    "nivel": "intermedio",
+    "titulo": "Situação: Entrevista de Emprego (Perguntas Comportamentais)",
+    "objetivos": ["Responder a perguntas comportamentais com exemplos concretos"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "entrevistacomportamental",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Perguntas comportamentais pedem exemplos concretos: 'Tell me about a time when...'. Estrutura útil: situação, ação, resultado.",
+        "exemplos": ["Tell me about a time when you solved a difficult problem.", "In my previous job, I dealt with a difficult client by staying calm and listening carefully.", "As a result, we found a solution that worked for everyone."],
+        "erroComum": { "errado": "Responder de forma vaga sem um exemplo concreto.", "correto": "Dá sempre um exemplo específico (situação real), não uma resposta genérica.", "descricaoPT": "Perguntas comportamentais avaliam experiência real — respostas vagas não convencem entrevistadores." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Tell me about a time when you had to solve a difficult problem.", "opcoes": [
+            { "texto": "In my previous job, I dealt with a difficult client by staying calm and listening carefully.", "proximoNo": "resultado" }
+          ]},
+          { "id": "resultado", "interlocutorFala": "That's great, what was the outcome?", "opcoes": [
+            { "texto": "As a result, we found a solution that worked for everyone.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What should a good answer to a behavioural question include?", "opcoes": ["A vague general statement", "A specific real example", "A one-word answer"], "correta": 1, "explicacao": "Exemplo concreto e real." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Como resultado, encontrámos uma solução.", "destino": "As a result, we found a solution." },
+      { "tipo": "ditado", "textoParaOuvir": "In my previous job, I dealt with a difficult client.", "respostaEsperada": ["In my previous job, I dealt with a difficult client."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-entrevistacomportamental-integradora", "tipo": "situacao", "pergunta": "Que estrutura ajuda a responder a perguntas comportamentais numa entrevista?", "resposta": "situação, ação, resultado (com um exemplo real e concreto)" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-125",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Carry Out, Draw Up, Follow Through",
+    "objetivos": ["Usar phrasal verbs profissionais adicionais"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs profissionais: carry out (realizar/executar), draw up (elaborar/redigir um documento), follow through (concretizar/levar até ao fim).",
+        "exemplos": ["We need to carry out more research.", "The lawyer will draw up the contract.", "It's important to follow through on your promises."],
+        "erroComum": { "errado": "We need to do more research (menos formal do que carry out).", "correto": "We need to carry out more research.", "descricaoPT": "'Carry out' é mais formal e específico do que 'do', muito usado em contexto profissional/académico." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "We need to ___ more research.", "opcoes": ["carry out", "carry on", "carry off"], "correta": 0, "explicacao": "'Carry out' = realizar." },
+      { "tipo": "escolha_multipla", "pergunta": "The lawyer will ___ the contract.", "opcoes": ["draw up", "draw out", "draw on"], "correta": 0, "explicacao": "'Draw up' = elaborar/redigir." },
+      { "tipo": "preenchimento_espaco", "frase": "It's important to ___ on your promises.", "resposta": "follow through", "explicacao": "'Follow through' = concretizar." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O advogado vai elaborar o contrato.", "destino": "The lawyer will draw up the contract." },
+      { "tipo": "ditado", "textoParaOuvir": "We need to carry out more research.", "respostaEsperada": ["We need to carry out more research."] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-carryout-drawup-followthrough", "tipo": "vocabulario", "pergunta": "O que significa 'draw up' num contexto profissional?", "resposta": "elaborar/redigir um documento" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-126",
+    "nivel": "intermedio",
+    "titulo": "Mais Idiomas: Mudança e Progresso",
+    "objetivos": ["Reconhecer idiomas sobre mudança e progresso"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Idiomas sobre mudança e progresso: turn the corner (ultrapassar uma fase difícil), a step in the right direction (um passo na direção certa).",
+        "exemplos": ["I think we've finally turned the corner.", "This new policy is a step in the right direction.", "Things are slowly getting better."],
+        "erroComum": { "errado": "Traduzir 'turn the corner' literalmente.", "correto": "Significa ultrapassar uma fase difícil e começar a melhorar.", "descricaoPT": "Idioma muito usado para descrever recuperação, seja económica, de saúde, ou pessoal." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Turn the corner' means...", "opcoes": ["To literally turn", "To start improving after a difficult period", "To get lost"], "correta": 1, "explicacao": "Começar a melhorar." },
+      { "tipo": "escolha_multipla", "pergunta": "'A step in the right direction' means...", "opcoes": ["A physical step", "Progress towards a good outcome", "A mistake"], "correta": 1, "explicacao": "Progresso positivo." },
+      { "tipo": "preenchimento_espaco", "frase": "I think we've finally turned the ___.", "resposta": "corner", "explicacao": "'Turn the corner.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Esta nova política é um passo na direção certa.", "destino": "This new policy is a step in the right direction." },
+      { "tipo": "ditado", "textoParaOuvir": "I think we've finally turned the corner.", "respostaEsperada": ["I think we've finally turned the corner."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-mudanca-progresso", "tipo": "vocabulario", "pergunta": "O que significa 'turn the corner'?", "resposta": "ultrapassar uma fase difícil e começar a melhorar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-127",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Questões Globais e Ambiente",
+    "objetivos": ["Aprofundar vocabulário sobre questões globais e ambiente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário mais aprofundado sobre questões globais: sustainable development, global warming, to tackle an issue.",
+        "exemplos": ["We need sustainable development policies.", "Global warming affects the whole planet.", "Governments must tackle this issue urgently."],
+        "erroComum": { "errado": "Governments must fight this issue.", "correto": "Governments must tackle this issue.", "descricaoPT": "'Tackle an issue' é a collocation idiomática para 'enfrentar/lidar com um problema', mais natural do que 'fight'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["Fight this issue", "Tackle this issue", "Battle this issue"], "correta": 1, "explicacao": "'Tackle an issue' é a collocation correta." },
+      { "tipo": "escolha_multipla", "pergunta": "What does 'sustainable' mean?", "opcoes": ["Temporary", "Able to continue without harming the environment", "Very expensive"], "correta": 1, "explicacao": "'Sustainable' = sustentável." },
+      { "tipo": "preenchimento_espaco", "frase": "___ affects the whole planet.", "resposta": "Global warming", "explicacao": "'Global warming' = aquecimento global." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Precisamos de políticas de desenvolvimento sustentável.", "destino": "We need sustainable development policies." },
+      { "tipo": "ditado", "textoParaOuvir": "Governments must tackle this issue urgently.", "respostaEsperada": ["Governments must tackle this issue urgently."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-questoesglobais-ambiente", "tipo": "vocabulario", "pergunta": "Que verbo se usa com 'an issue' para dizer 'enfrentar/lidar com'?", "resposta": "tackle (tackle an issue)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-128",
+    "nivel": "intermedio",
+    "titulo": "Situação: Voluntariado",
+    "objetivos": ["Candidatar-se e falar sobre voluntariado"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": "voluntariado",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para te candidatares e falares sobre voluntariado.",
+        "exemplos": ["I'd like to volunteer for this cause.", "What does the role involve?", "I'm available on weekends."],
+        "erroComum": { "errado": "I want work for free.", "correto": "I'd like to volunteer for this cause.", "descricaoPT": "'Volunteer' é o termo específico e apropriado, mais claro do que 'work for free'." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi! Are you interested in volunteering with us?", "opcoes": [
+            { "texto": "Yes, I'd like to volunteer for this cause.", "proximoNo": "disponibilidade" }
+          ]},
+          { "id": "disponibilidade", "interlocutorFala": "Great! What does your availability look like?", "opcoes": [
+            { "texto": "I'm available on weekends.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I want work for free.", "I'd like to volunteer.", "I do free job."], "correta": 1, "explicacao": "'I'd like to volunteer' é o termo correto." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Em que consiste a função?", "destino": "What does the role involve?" },
+      { "tipo": "ditado", "textoParaOuvir": "I'm available on weekends.", "respostaEsperada": ["I'm available on weekends."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-voluntariado-integradora", "tipo": "situacao", "pergunta": "Como se diz 'candidatar-se para ser voluntário' em inglês?", "resposta": "I'd like to volunteer for this cause." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-129",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Finalidade e Vocabulário de Tendências",
+    "objetivos": ["Rever in order to/so that e vocabulário de tendências"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada: in order to/so that (finalidade), vocabulário de tendências (increase/decrease), e phrasal verbs profissionais recentes.",
+        "exemplos": ["I exercise in order to stay healthy.", "Sales increased sharply last quarter.", "We need to carry out a review."],
+        "erroComum": { "errado": "Misturar as estruturas sem rever cada uma isoladamente.", "correto": "Revê cada ponto com calma antes de os combinares.", "descricaoPT": "Esta sessão consolida pontos recentes importantes." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I exercise ___ stay healthy.", "opcoes": ["so that", "in order to", "so"], "correta": 1, "explicacao": "'In order to' + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "Sales ___ sharply last quarter.", "opcoes": ["increased", "decreased", "remained"], "correta": 0, "explicacao": "Contexto de aumento: increased." },
+      { "tipo": "escolha_multipla", "pergunta": "We need to ___ a review.", "opcoes": ["carry out", "carry on", "carry off"], "correta": 0, "explicacao": "'Carry out' = realizar." },
+      { "tipo": "preenchimento_espaco", "frase": "She saved money ___ travel.", "resposta": "in order to", "explicacao": "'In order to' + infinitivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "As vendas mantiveram-se estáveis.", "destino": "Sales remained stable." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-inorderto-tendencias", "tipo": "gramatica", "pergunta": "Que pontos foram revistos nesta sessão?", "resposta": "in order to/so that, vocabulário de tendências, phrasal verbs profissionais" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-130",
+    "nivel": "intermedio",
+    "titulo": "Marco: Apresentação de Projeto",
+    "objetivos": ["Combinar vocabulário de tendências, finalidade e linguagem profissional numa apresentação"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "apresentacaoprojeto",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 130 do Intermédio! Vamos combinar vocabulário de tendências, finalidade (in order to) e linguagem profissional numa apresentação de projeto.",
+        "exemplos": ["The purpose of this project is to improve efficiency.", "As you can see, sales increased significantly.", "In order to achieve this, we carried out extensive research."],
+        "erroComum": { "errado": "Apresentar dados sem explicar o objetivo do projeto.", "correto": "Começa sempre por explicar o propósito antes de apresentares os dados.", "descricaoPT": "Uma boa apresentação profissional segue sempre: propósito → método → resultados." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Could you present your project results?", "opcoes": [
+            { "texto": "Of course. The purpose of this project was to improve efficiency.", "proximoNo": "dados" }
+          ]},
+          { "id": "dados", "interlocutorFala": "Interesting, what did you find?", "opcoes": [
+            { "texto": "As you can see, sales increased significantly after the changes.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase introduces the purpose of a project?", "opcoes": ["The purpose of this project is to...", "I don't know why we did this.", "Random stuff happened."], "correta": 0, "explicacao": "Introdução clara do propósito." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Para conseguirmos isto, fizemos uma pesquisa extensa.", "destino": "In order to achieve this, we carried out extensive research." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases a apresentares os resultados de um projeto, combinando finalidade e uma tendência.", "palavrasChaveEsperadas": ["purpose", "in order to", "increased"], "respostaModelo": "The purpose of this project was to increase customer satisfaction. In order to achieve this, we carried out a full review, and satisfaction increased by 20%." },
+      { "tipo": "ditado", "textoParaOuvir": "The purpose of this project is to improve efficiency.", "respostaEsperada": ["The purpose of this project is to improve efficiency."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-apresentacaoprojeto-marco130", "tipo": "situacao", "pergunta": "Que estrutura segue uma boa apresentação profissional?", "resposta": "propósito → método (in order to) → resultados (tendências)" }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
