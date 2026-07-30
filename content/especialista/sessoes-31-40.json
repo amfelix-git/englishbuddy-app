@@ -1,0 +1,241 @@
+[
+  {
+    "id": "especialista-31",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 5 (Leitura Detalhada)",
+    "objetivos": ["Responder a perguntas de inferência e atitude do autor sobre um texto longo"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 5, um texto longo é seguido de 6 perguntas de escolha múltipla que testam compreensão detalhada, inferência e a atitude/opinião do autor — não apenas factos explícitos no texto.",
+        "exemplos": ["'What does the writer imply about...?' exige ler nas entrelinhas, não copiar uma frase.", "'How does the writer feel about X?' pede a atitude do autor, muitas vezes expressa por escolha de vocabulário subtil.", "As opções erradas costumam ser 'quase certas', mas com um detalhe que contradiz o texto."],
+        "erroComum": { "errado": "Escolher a opção que contém palavras iguais às do texto, sem verificar o significado completo.", "correto": "As opções distratoras usam frequentemente as mesmas palavras do texto mas mudam o sentido — ler a opção toda com atenção.", "descricaoPT": "Este é o erro mais comum neste tipo de exercício: confiar em 'reconhecer palavras' em vez de confirmar o significado exato da opção." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What kind of questions does Reading Part 5 mainly test?", "opcoes": ["only explicit facts stated in the text", "inference and the writer's attitude", "vocabulary definitions only"], "correta": 1, "explicacao": "Testa inferência e atitude do autor, não só factos explícitos." },
+      { "tipo": "escolha_multipla", "pergunta": "Why are distractor options often tricky in Part 5?", "opcoes": ["they use completely unrelated vocabulary", "they reuse words from the text but change the meaning", "they are always grammatically incorrect"], "correta": 1, "explicacao": "Reutilizam palavras do texto mas alteram o sentido." },
+      { "tipo": "preenchimento_espaco", "frase": "Questions about the writer's ___ ask how they feel about the topic, not just what they said.", "resposta": "attitude", "explicacao": "'Attitude' = atitude/opinião do autor." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "As opções erradas usam frequentemente as mesmas palavras do texto, mas mudam o significado.", "destino": "The wrong options often reuse the same words from the text, but change the meaning." },
+      { "tipo": "ditado", "textoParaOuvir": "Read the whole option carefully, not just the words you recognise.", "respostaEsperada": ["Read the whole option carefully, not just the words you recognise."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte5", "tipo": "exame", "pergunta": "Que tipo de compreensão é mais testado na Parte 5 do Reading (C2)?", "resposta": "inferência e atitude do autor, não só factos explícitos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-32",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 6 (Gapped Text)",
+    "objetivos": ["Reconstituir um texto com parágrafos em falta, usando pistas de coesão"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 6, faltam 7 parágrafos num texto e tens de os reordenar. A chave é procurar pistas de coesão: pronomes que remetem para algo do parágrafo anterior, conectores (however, this, such), e continuidade lógica de ideias.",
+        "exemplos": ["Se um parágrafo começa com 'This approach, however, has drawbacks', 'this approach' remete para uma ideia específica do parágrafo anterior.", "Pronomes como 'it', 'they', 'this' são pistas fortes de ligação entre parágrafos.", "Verificar sempre a lógica global no final — a sequência tem de fazer sentido lida do início ao fim."],
+        "erroComum": { "errado": "Ler os parágrafos isoladamente, sem procurar as pistas de ligação entre eles.", "correto": "Procurar ativamente pronomes e conectores que revelem a que parágrafo anterior um novo parágrafo se refere.", "descricaoPT": "Este exercício testa diretamente a coesão textual avançada que já praticámos — 'however', 'this', 'such' são as pistas mais reveladoras." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What is the main strategy for Reading Part 6 (gapped text)?", "opcoes": ["memorising the whole text before starting", "looking for cohesion clues like pronouns and connectors", "guessing based on paragraph length"], "correta": 1, "explicacao": "Pistas de coesão (pronomes, conectores) são a chave." },
+      { "tipo": "escolha_multipla", "pergunta": "'This approach, however, has drawbacks' — what does 'this approach' refer to?", "opcoes": ["a new idea introduced in this sentence", "a specific idea from the previous paragraph", "nothing in particular"], "correta": 1, "explicacao": "Remete para algo específico já mencionado antes." },
+      { "tipo": "preenchimento_espaco", "frase": "Pronouns like 'it' and 'they' are strong clues of ___ between paragraphs.", "resposta": "cohesion", "explicacao": "Coesão = ligação lógica entre parágrafos." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Verifica sempre a lógica global da sequência no final.", "destino": "Always check the overall logic of the sequence at the end." },
+      { "tipo": "ditado", "textoParaOuvir": "Look for pronouns and connectors that reveal the link between paragraphs.", "respostaEsperada": ["Look for pronouns and connectors that reveal the link between paragraphs."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte6", "tipo": "exame", "pergunta": "Que tipo de pistas ajudam mais na Parte 6 (gapped text)?", "resposta": "pronomes e conectores que revelam ligação com o parágrafo anterior" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-33",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 7 (Multiple Matching)",
+    "objetivos": ["Localizar informação específica num texto longo dividido em secções"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 7, um texto longo está dividido em secções (ou há vários textos curtos relacionados), e tens de encontrar em qual secção aparece cada informação pedida. É um exercício de localização rápida, não de compreensão profunda.",
+        "exemplos": ["'Which section mentions a change of opinion?' — procura sinais de mudança (initially.../later...).", "Ler primeiro as perguntas, depois escanear o texto à procura das palavras-chave e das suas paráfrases.", "As respostas raramente usam as mesmas palavras da pergunta — procura sinónimos e paráfrases."],
+        "erroComum": { "errado": "Ler o texto todo em detalhe antes de olhar para as perguntas.", "correto": "Ler as perguntas primeiro, depois escanear o texto à procura de paráfrases das ideias-chave.", "descricaoPT": "A gestão do tempo é decisiva nesta parte — ler tudo em detalhe primeiro é a forma mais comum de ficar sem tempo no exame." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What is the best strategy for Reading Part 7 (multiple matching)?", "opcoes": ["read the whole text in detail first", "read the questions first, then scan for paraphrases", "answer questions in the order they appear in the text"], "correta": 1, "explicacao": "Ler as perguntas primeiro e depois escanear é mais eficiente." },
+      { "tipo": "escolha_multipla", "pergunta": "Answers in Part 7 usually:", "opcoes": ["use the exact same words as the question", "use synonyms and paraphrases of the question", "appear in the same order as the questions"], "correta": 1, "explicacao": "Costumam usar sinónimos/paráfrases, não as mesmas palavras." },
+      { "tipo": "preenchimento_espaco", "frase": "Reading Part 7 tests quick information ___, not deep comprehension.", "resposta": "location", "explicacao": "Localização rápida de informação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Procura sinónimos e paráfrases, não as mesmas palavras da pergunta.", "destino": "Look for synonyms and paraphrases, not the same words as the question." },
+      { "tipo": "ditado", "textoParaOuvir": "Read the questions first, then scan the text for paraphrases.", "respostaEsperada": ["Read the questions first, then scan the text for paraphrases."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte7", "tipo": "exame", "pergunta": "Qual é a melhor estratégia de gestão de tempo na Parte 7 do Reading?", "resposta": "ler as perguntas primeiro, depois escanear o texto à procura de paráfrases" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-34",
+    "nivel": "especialista",
+    "titulo": "Revisão em Espiral: Tempos Verbais e Voz Passiva Causativa",
+    "objetivos": ["Rever tempos verbais avançados e a construção causativa (have/get something done)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A construção causativa 'have/get something done' descreve algo feito por outra pessoa a nosso pedido — muito usada em registo avançado e frequentemente confundida com a voz passiva simples.",
+        "exemplos": ["I had my hair cut yesterday. (alguém cortou o meu cabelo, a meu pedido)", "We're getting the house painted next week.", "She had her proposal reviewed by an expert before submitting it."],
+        "erroComum": { "errado": "I cut my hair yesterday. (quando na verdade foi outra pessoa que cortou)", "correto": "I had my hair cut yesterday.", "descricaoPT": "Em português dizemos simplesmente 'cortei o cabelo', mesmo quando foi o cabeleireiro que cortou — em inglês, a construção causativa marca claramente que a ação foi feita por outra pessoa." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence means someone else cut your hair?", "opcoes": ["I cut my hair yesterday.", "I had my hair cut yesterday.", "I was cutting my hair yesterday."], "correta": 1, "explicacao": "'Had my hair cut' = construção causativa." },
+      { "tipo": "escolha_multipla", "pergunta": "We're ___ the house painted next week. (mandar pintar)", "opcoes": ["having", "getting", "both are correct"], "correta": 2, "explicacao": "'Have' e 'get' são ambos usados na construção causativa." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ her proposal reviewed by an expert before submitting it. (had, causativo)", "resposta": "had", "explicacao": "Construção causativa: had + objeto + particípio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos mandar pintar a casa na próxima semana.", "destino": "We're getting the house painted next week." },
+      { "tipo": "ditado", "textoParaOuvir": "She had her proposal reviewed by an expert before submitting it.", "respostaEsperada": ["She had her proposal reviewed by an expert before submitting it."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-passivacausativa", "tipo": "gramatica", "pergunta": "O que significa a construção causativa 'have something done'?", "resposta": "algo feito por outra pessoa a nosso pedido (ex.: had my hair cut)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-35",
+    "nivel": "especialista",
+    "titulo": "Modais de Especulação e Dedução no Passado",
+    "objetivos": ["Usar must have/might have/can't have para especular sobre o passado"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Modais + have + particípio exprimem dedução sobre o passado: must have (certeza de que aconteceu), might/could have (possibilidade), can't/couldn't have (certeza de que não aconteceu).",
+        "exemplos": ["She must have left already — her coat is gone. (dedução forte)", "He might have missed the train. (possibilidade)", "They can't have arrived yet — it's too early. (certeza negativa)"],
+        "erroComum": { "errado": "She must left already.", "correto": "She must have left already.", "descricaoPT": "Depois de modais de dedução passada, é obrigatório o 'have' + particípio — omiti-lo é um erro muito comum por influência da estrutura mais simples do português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She ___ already — her coat is gone. (dedução forte, certeza)", "opcoes": ["must have left", "must leave", "must left"], "correta": 0, "explicacao": "Dedução forte sobre o passado: must have + particípio." },
+      { "tipo": "escolha_multipla", "pergunta": "They ___ arrived yet — it's too early. (certeza de que não)", "opcoes": ["might not have", "can't have", "mustn't have"], "correta": 1, "explicacao": "'Can't have' = certeza de que algo não aconteceu." },
+      { "tipo": "preenchimento_espaco", "frase": "He ___ missed the train. (possibilidade)", "resposta": "might have", "explicacao": "Possibilidade sobre o passado: might have." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela deve ter saído já — o casaco dela desapareceu.", "destino": "She must have left already — her coat is gone." },
+      { "tipo": "ditado", "textoParaOuvir": "They can't have arrived yet, it's too early.", "respostaEsperada": ["They can't have arrived yet, it's too early."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-modaisdeducaopassado", "tipo": "gramatica", "pergunta": "Que estrutura se usa depois de 'must/might/can't' para falar do passado?", "resposta": "have + particípio passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-36",
+    "nivel": "especialista",
+    "titulo": "Situação: Negociação Profissional Avançada",
+    "objetivos": ["Usar linguagem diplomática para negociar numa situação profissional"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "negociacaoprofissional",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Negociações profissionais em inglês avançado usam linguagem diplomática e indireta para propor, ceder e recusar sem soar agressivo: 'I hear what you're saying, but...', 'Would you be open to...?', 'That might be difficult, given...'.",
+        "exemplos": ["Would you be open to reconsidering the timeline?", "I hear what you're saying, but our budget is fairly tight this quarter.", "That might be difficult, given the current constraints."],
+        "erroComum": { "errado": "No, that's not possible.", "correto": "That might be difficult, given the current constraints.", "descricaoPT": "Uma recusa direta soa agressiva em contexto profissional inglês — a suavização com 'might', 'given that', 'I hear you' é uma marca de fluência avançada, não de fraqueza." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "We'd like to move the deadline forward by two weeks. Would that work for you?", "opcoes": [
+            { "texto": "That might be difficult, given our current workload. Would you be open to a one-week extension instead?", "proximoNo": "resposta" }
+          ]},
+          { "id": "resposta", "interlocutorFala": "I hear what you're saying. Let's go with one week, then.", "opcoes": [
+            { "texto": "That sounds fair. I appreciate your flexibility.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase softens a refusal diplomatically?", "opcoes": ["No, that's impossible.", "That might be difficult, given...", "Absolutely not."], "correta": 1, "explicacao": "'That might be difficult, given...' suaviza a recusa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Estarias aberto a reconsiderar o calendário?", "destino": "Would you be open to reconsidering the timeline?" },
+      { "tipo": "ditado", "textoParaOuvir": "I hear what you're saying, but our budget is fairly tight this quarter.", "respostaEsperada": ["I hear what you're saying, but our budget is fairly tight this quarter."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-negociacaoprofissional", "tipo": "situacao", "pergunta": "Porque é preferível suavizar uma recusa em contexto profissional inglês?", "resposta": "uma recusa direta soa agressiva; a suavização é sinal de fluência, não de fraqueza" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-37",
+    "nivel": "especialista",
+    "titulo": "Situação: Apresentação Formal (Public Speaking)",
+    "objetivos": ["Usar linguagem de sinalização (signposting) para estruturar uma apresentação"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Apresentações formais usam 'signposting' — frases que orientam o público sobre a estrutura: introduzir, transitar entre pontos, e concluir. Isto torna a apresentação mais fácil de seguir.",
+        "exemplos": ["Today, I'll be covering three main points. Let's start with the first one.", "Moving on to my second point...", "To sum up, let's revisit the key takeaways."],
+        "erroComum": { "errado": "Saltar de ideia em ideia sem sinalizar transições, deixando o público perdido.", "correto": "Usar sinalizadores claros de transição ('moving on', 'to sum up') em cada mudança de tópico.", "descricaoPT": "Este é um dos critérios mais valorizados em apresentações formais — não é o conteúdo em si, mas a clareza da estrutura sinalizada." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase signals a transition to a new point?", "opcoes": ["Moving on to my second point...", "As I said before...", "In my opinion..."], "correta": 0, "explicacao": "'Moving on to...' sinaliza transição." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase is typical for concluding a presentation?", "opcoes": ["Let's start with...", "To sum up, let's revisit the key takeaways.", "Firstly, I'd like to mention..."], "correta": 1, "explicacao": "'To sum up' sinaliza conclusão." },
+      { "tipo": "preenchimento_espaco", "frase": "Today, I'll be ___ three main points. (a cobrir)", "resposta": "covering", "explicacao": "'Covering' = a abordar/cobrir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Passando ao meu segundo ponto...", "destino": "Moving on to my second point..." },
+      { "tipo": "ditado", "textoParaOuvir": "To sum up, let's revisit the key takeaways.", "respostaEsperada": ["To sum up, let's revisit the key takeaways."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-apresentacaoformal", "tipo": "situacao", "pergunta": "O que é 'signposting' numa apresentação?", "resposta": "linguagem que sinaliza a estrutura: introdução, transições, conclusão" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-38",
+    "nivel": "especialista",
+    "titulo": "Colocações e Idiomas do Mundo do Trabalho",
+    "objetivos": ["Usar colocações e idiomas típicos de contexto profissional"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O inglês profissional tem colocações e idiomas próprios: touch base (contactar rapidamente), think outside the box (pensar de forma criativa), on the same page (alinhados), circle back (voltar a um assunto mais tarde).",
+        "exemplos": ["Let's touch base tomorrow to finalise the details.", "We need to think outside the box on this one.", "Let's circle back to this point after the break."],
+        "erroComum": { "errado": "Traduzir estas expressões literalmente palavra a palavra.", "correto": "São expressões idiomáticas fixas — têm de ser aprendidas como unidades, não traduzidas literalmente.", "descricaoPT": "'Touch base' traduzido literalmente ('tocar a base') não faz sentido nenhum em português — é preciso aprender o significado completo da expressão." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Let's touch base tomorrow' means:", "opcoes": ["let's meet physically at a base", "let's make brief contact tomorrow", "let's cancel tomorrow's plans"], "correta": 1, "explicacao": "'Touch base' = fazer um contacto breve." },
+      { "tipo": "escolha_multipla", "pergunta": "'Let's circle back to this later' means:", "opcoes": ["let's forget about this", "let's return to this topic later", "let's walk in a circle"], "correta": 1, "explicacao": "'Circle back' = voltar a um assunto mais tarde." },
+      { "tipo": "preenchimento_espaco", "frase": "We need to think outside the ___ on this one. (criativamente)", "resposta": "box", "explicacao": "'Think outside the box' = pensar de forma criativa." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Vamos voltar a este ponto depois do intervalo.", "destino": "Let's circle back to this point after the break." },
+      { "tipo": "ditado", "textoParaOuvir": "Let's touch base tomorrow to finalise the details.", "respostaEsperada": ["Let's touch base tomorrow to finalise the details."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-idiomasmundotrabalho", "tipo": "gramatica", "pergunta": "O que significa 'touch base' em contexto profissional?", "resposta": "fazer um contacto breve/rápido" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-39",
+    "nivel": "especialista",
+    "titulo": "Redação de Email Profissional Avançado",
+    "objetivos": ["Escrever um email profissional com tom diplomático e estrutura clara"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Um email profissional avançado combina registo formal, tom diplomático (mesmo quando a mensagem é delicada) e estrutura clara: saudação, contexto breve, pedido/informação, fecho cortês.",
+        "exemplos": ["I hope this email finds you well. I'm writing to follow up on our previous conversation regarding...", "I would be grateful if you could confirm...", "Please let me know if you have any questions — I'd be happy to discuss further."],
+        "erroComum": { "errado": "Ir diretamente ao pedido sem contexto nem cortesia, mesmo em situações delicadas.", "correto": "Contextualizar brevemente antes do pedido, e fechar com uma nota de abertura para diálogo.", "descricaoPT": "Isto aplica todo o registo formal e a linguagem diplomática já praticados — o email profissional é, na prática, uma síntese de várias sessões anteriores." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which opening is appropriate for a professional follow-up email?", "opcoes": ["Hey, what's up with this?", "I'm writing to follow up on our previous conversation regarding...", "You never replied to me!"], "correta": 1, "explicacao": "Tom formal e cortês, com contexto claro." },
+      { "tipo": "preenchimento_espaco", "frase": "I would be ___ if you could confirm the details. (grato)", "resposta": "grateful", "explicacao": "'I would be grateful if...' é uma fórmula formal de pedido." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Por favor, avisa-me se tiveres alguma dúvida — terei todo o gosto em falar mais sobre isto.", "destino": "Please let me know if you have any questions — I'd be happy to discuss further." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve as primeiras 3-4 frases de um email profissional a pedir a extensão de um prazo, usando um tom diplomático.", "palavrasChaveEsperadas": ["grateful", "writing"], "respostaModelo": "I hope this email finds you well. I'm writing to ask whether it would be possible to extend the deadline by a few days. I would be grateful if you could let me know if this is feasible." },
+      { "tipo": "ditado", "textoParaOuvir": "I hope this email finds you well.", "respostaEsperada": ["I hope this email finds you well."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-emailprofissional", "tipo": "situacao", "pergunta": "Que estrutura típica tem um email profissional formal?", "resposta": "saudação, contexto breve, pedido/informação, fecho cortês" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-40",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Simulado de Writing (Síntese + Escolha)",
+    "objetivos": ["Combinar a síntese crítica e um formato à escolha num simulado curto"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": "simuladowriting",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos simular as duas tarefas de Writing do C2 Proficiency numa sessão só: uma mini-síntese crítica (Parte 1) e um email profissional curto (Parte 2), aplicando tudo o que praticámos — registo formal, colocações, conectores avançados, linguagem diplomática.",
+        "exemplos": ["Síntese: 'Text A highlights efficiency gains, whereas Text B raises concerns about employee wellbeing. On balance...'", "Email: 'I would be grateful if you could confirm the revised timeline.'", "Ambas as tarefas partilham o mesmo registo formal consistente."],
+        "erroComum": { "errado": "Misturar registos diferentes entre as duas tarefas (uma muito formal, outra coloquial).", "correto": "Manter o mesmo nível de registo formal em ambas as tarefas do simulado.", "descricaoPT": "A consistência de registo entre tarefas é avaliada como parte da competência geral de escrita no exame." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In this mock writing session, what should stay consistent between both tasks?", "opcoes": ["the topic", "the level of formal register", "the word count"], "correta": 1, "explicacao": "O registo formal deve manter-se consistente entre as duas tarefas." },
+      { "tipo": "escrita_livre", "instrucao": "Tarefa 1 (síntese, 2-3 frases): imagina dois textos com opiniões opostas sobre um tema à tua escolha; sintetiza-os com 'whereas' e conclui com 'on balance'.", "palavrasChaveEsperadas": ["whereas", "on balance"], "respostaModelo": "Text A highlights the benefits of remote work, whereas Text B raises concerns about isolation. On balance, a hybrid model seems to balance both perspectives." },
+      { "tipo": "escrita_livre", "instrucao": "Tarefa 2 (email, 2-3 frases): escreve o início de um email profissional formal a pedir uma confirmação, usando 'I would be grateful if'.", "palavrasChaveEsperadas": ["grateful"], "respostaModelo": "I hope this email finds you well. I would be grateful if you could confirm the revised timeline at your earliest convenience." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ponderando tudo, um modelo híbrido parece equilibrar as duas perspetivas.", "destino": "On balance, a hybrid model seems to balance both perspectives." },
+      { "tipo": "ditado", "textoParaOuvir": "I would be grateful if you could confirm the revised timeline.", "respostaEsperada": ["I would be grateful if you could confirm the revised timeline."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-simuladowriting-integradora", "tipo": "situacao", "pergunta": "Que critério de escrita é avaliado entre as duas tarefas de Writing do C2 Proficiency?", "resposta": "consistência do registo formal entre as duas tarefas" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
