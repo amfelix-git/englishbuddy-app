@@ -1,0 +1,250 @@
+[
+  {
+    "id": "especialista-41",
+    "nivel": "especialista",
+    "titulo": "Verbos + Gerúndio vs. Infinitivo com Mudança de Significado",
+    "objetivos": ["Distinguir o significado de verbos que mudam de sentido consoante usam gerúndio ou infinitivo"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Alguns verbos (stop, remember, regret, try, forget) mudam de significado consoante são seguidos de gerúndio ou infinitivo — uma das áreas mais avançadas e traiçoeiras da gramática inglesa.",
+        "exemplos": ["I stopped smoking. (deixei de fumar) vs. I stopped to smoke. (parei para fumar)", "I remember locking the door. (lembro-me de ter trancado) vs. Remember to lock the door. (não te esqueças de trancar)", "I regret to inform you that... (lamento informar, formal) vs. I regret telling him the secret. (arrependo-me de ter contado)"],
+        "erroComum": { "errado": "Usar sempre a mesma forma (gerúndio ou infinitivo) sem considerar a mudança de significado.", "correto": "Verificar sempre o significado pretendido — 'stop doing' (deixar de fazer) é muito diferente de 'stop to do' (parar para fazer outra coisa).", "descricaoPT": "Este é um dos pontos mais avançados e mais avaliados em exames C2 — a distinção não existe de forma tão sistemática em português." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'I stopped smoking' means:", "opcoes": ["I paused in order to smoke", "I quit smoking altogether", "I smoked while stopped"], "correta": 1, "explicacao": "'Stop doing' = deixar de fazer algo." },
+      { "tipo": "escolha_multipla", "pergunta": "'Remember to lock the door' means:", "opcoes": ["a memory of a past action", "a reminder for a future action", "a regret about the past"], "correta": 1, "explicacao": "'Remember to do' = lembrete para o futuro." },
+      { "tipo": "preenchimento_espaco", "frase": "I regret ___ you that your application was unsuccessful. (formal, lamentar informar)", "resposta": "to inform", "explicacao": "'Regret to inform' = fórmula formal para más notícias." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Lembro-me de ter trancado a porta ontem.", "destino": "I remember locking the door yesterday." },
+      { "tipo": "ditado", "textoParaOuvir": "I stopped smoking, but I stopped to smoke a cigarette before the meeting.", "respostaEsperada": ["I stopped smoking, but I stopped to smoke a cigarette before the meeting."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-verbosgerundinfinitivo", "tipo": "gramatica", "pergunta": "Qual a diferença entre 'stop smoking' e 'stop to smoke'?", "resposta": "stop smoking = deixar de fumar; stop to smoke = parar (outra atividade) para fumar" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-42",
+    "nivel": "especialista",
+    "titulo": "Discurso Indireto Avançado",
+    "objetivos": ["Relatar perguntas, pedidos e modais no discurso indireto formal"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "No discurso indireto avançado, perguntas tornam-se orações afirmativas (sem inversão), pedidos usam 'to' + infinitivo, e modais mudam: will→would, can→could, must→had to (obrigação externa) ou manteve-se 'must' (obrigação pessoal forte).",
+        "exemplos": ["'Where do you live?' → She asked where I lived. (sem inversão, sem 'do')", "'Please close the door.' → He asked me to close the door.", "'You must finish this today.' → She said I had to finish it that day."],
+        "erroComum": { "errado": "She asked where did I live.", "correto": "She asked where I lived.", "descricaoPT": "No discurso indireto de perguntas, a ordem volta a ser normal (sujeito antes do verbo) e não se usa 'do/does/did' — um erro muito comum por manter a estrutura de pergunta direta." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Where do you live?' in reported speech:", "opcoes": ["She asked where did I live.", "She asked where I lived.", "She asked where I live?"], "correta": 1, "explicacao": "Sem inversão nem 'did' no discurso indireto." },
+      { "tipo": "escolha_multipla", "pergunta": "'Please close the door.' in reported speech:", "opcoes": ["He said close the door.", "He asked me to close the door.", "He asked that I close the door please."], "correta": 1, "explicacao": "Pedidos → ask + objeto + to + infinitivo." },
+      { "tipo": "preenchimento_espaco", "frase": "'You must finish this today.' → She said I ___ finish it that day. (obrigação externa relatada)", "resposta": "had to", "explicacao": "'Must' → 'had to' no discurso indireto (obrigação relatada)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele pediu-me para fechar a porta.", "destino": "He asked me to close the door." },
+      { "tipo": "ditado", "textoParaOuvir": "She asked where I lived and asked me to close the door.", "respostaEsperada": ["She asked where I lived and asked me to close the door."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-discursoindiretoavancado", "tipo": "gramatica", "pergunta": "Como se relata uma pergunta no discurso indireto (ordem das palavras)?", "resposta": "ordem normal, sem inversão nem do/does/did" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-43",
+    "nivel": "especialista",
+    "titulo": "Orações Concessivas Avançadas",
+    "objetivos": ["Usar despite/in spite of + gerúndio, even though vs. even if, e whilst/while para contraste"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Despite'/'in spite of' são seguidos de gerúndio ou substantivo (não de oração completa); 'even though' introduz um facto real, 'even if' introduz uma hipótese; 'whilst'/'while' também podem exprimir contraste, não só simultaneidade.",
+        "exemplos": ["Despite working hard, she didn't get the promotion. (gerúndio)", "Even though it was raining, we went for a walk. (facto real)", "Even if it rains, we'll go for a walk. (hipótese)", "Whilst I understand your point, I disagree."],
+        "erroComum": { "errado": "Despite she worked hard, she didn't get the promotion.", "correto": "Despite working hard, she didn't get the promotion.", "descricaoPT": "'Despite'/'in spite of' nunca são seguidos diretamente de oração com sujeito+verbo — precisam de gerúndio ou substantivo. Para uma oração completa, usa-se 'although' ou 'even though'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ working hard, she didn't get the promotion.", "opcoes": ["Although", "Despite", "Even if"], "correta": 1, "explicacao": "'Despite' + gerúndio." },
+      { "tipo": "escolha_multipla", "pergunta": "Which introduces a hypothesis, not a real fact?", "opcoes": ["Even though", "Even if", "Whilst"], "correta": 1, "explicacao": "'Even if' introduz uma hipótese." },
+      { "tipo": "preenchimento_espaco", "frase": "___ I understand your point, I disagree. (contraste, mais formal que 'while')", "resposta": "Whilst", "explicacao": "'Whilst' pode exprimir contraste em registo formal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Apesar de trabalhar muito, ela não conseguiu a promoção.", "destino": "Despite working hard, she didn't get the promotion." },
+      { "tipo": "ditado", "textoParaOuvir": "Even though it was raining, we went for a walk.", "respostaEsperada": ["Even though it was raining, we went for a walk."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-concessivasavancadas", "tipo": "gramatica", "pergunta": "Que estrutura segue 'despite'/'in spite of'?", "resposta": "gerúndio ou substantivo, nunca oração completa com sujeito+verbo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-44",
+    "nivel": "especialista",
+    "titulo": "Ênfase com 'What' e 'The Thing Is'",
+    "objetivos": ["Usar variações de cleft sentences para dar ênfase adicional"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Além de 'It was... that', há outras formas de dar ênfase: 'What + oração + is/was...' e 'The thing is...' para introduzir o ponto principal de forma enfática.",
+        "exemplos": ["What surprised me most was his honesty.", "What we need to do is act quickly.", "The thing is, we simply don't have the budget."],
+        "erroComum": { "errado": "His honesty surprised me most, what.", "correto": "What surprised me most was his honesty.", "descricaoPT": "A oração com 'what' vem sempre no início, seguida do verbo 'is/was' — é uma estrutura fixa, não pode ser reordenada livremente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "___ surprised me most was his honesty.", "opcoes": ["What", "That", "Which"], "correta": 0, "explicacao": "'What' inicia esta estrutura enfática." },
+      { "tipo": "escolha_multipla", "pergunta": "'The thing is, we don't have the budget' introduces:", "opcoes": ["a minor detail", "the main point, often a problem", "a random fact"], "correta": 1, "explicacao": "'The thing is' introduz o ponto principal, muitas vezes um problema." },
+      { "tipo": "preenchimento_espaco", "frase": "___ we need to do is act quickly.", "resposta": "What", "explicacao": "'What we need to do is...' = estrutura enfática." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O que precisamos de fazer é agir rapidamente.", "destino": "What we need to do is act quickly." },
+      { "tipo": "ditado", "textoParaOuvir": "What surprised me most was his honesty.", "respostaEsperada": ["What surprised me most was his honesty."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-enfasewhatthethingis", "tipo": "gramatica", "pergunta": "Como se constrói uma frase enfática com 'what'?", "resposta": "What + oração + is/was + resto da informação" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-45",
+    "nivel": "especialista",
+    "titulo": "Eufemismos e Linguagem Indireta",
+    "objetivos": ["Suavizar más notícias e temas delicados com linguagem indireta"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Falantes avançados usam eufemismos e linguagem indireta para suavizar más notícias ou temas delicados: 'let go' (despedir), 'pass away' (morrer), 'between jobs' (desempregado), 'downsizing' (despedimentos em massa).",
+        "exemplos": ["Unfortunately, we had to let some staff go. (em vez de 'fire/sack')", "I'm sorry to hear that your grandmother passed away.", "The company is going through a period of downsizing."],
+        "erroComum": { "errado": "Usar sempre a palavra mais direta ('fired', 'died') em contextos que pedem sensibilidade.", "correto": "Escolher a versão eufemística em contextos delicados ou profissionais — é uma marca de tato e nível avançado.", "descricaoPT": "Em português também há eufemismos semelhantes ('falecer' em vez de 'morrer'), mas os equivalentes em inglês têm de ser aprendidos especificamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the more sensitive way to say someone died?", "opcoes": ["He died.", "He passed away.", "He's dead now."], "correta": 1, "explicacao": "'Passed away' é o eufemismo comum para 'died'." },
+      { "tipo": "escolha_multipla", "pergunta": "'We had to let some staff go' means:", "opcoes": ["we gave staff a holiday", "we had to fire some employees", "we hired new staff"], "correta": 1, "explicacao": "'Let go' = despedir (eufemismo)." },
+      { "tipo": "preenchimento_espaco", "frase": "The company is going through a period of ___. (despedimentos em massa)", "resposta": "downsizing", "explicacao": "'Downsizing' = redução de pessoal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Lamento saber que a tua avó faleceu.", "destino": "I'm sorry to hear that your grandmother passed away." },
+      { "tipo": "ditado", "textoParaOuvir": "Unfortunately, we had to let some staff go.", "respostaEsperada": ["Unfortunately, we had to let some staff go."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-eufemismos", "tipo": "gramatica", "pergunta": "Que eufemismo comum se usa em inglês para 'morrer'?", "resposta": "pass away" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-46",
+    "nivel": "especialista",
+    "titulo": "Pontuação Avançada em Escrita Formal",
+    "objetivos": ["Usar ponto e vírgula, dois pontos e travessão corretamente em escrita formal"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Em escrita formal avançada: o ponto e vírgula (;) liga duas orações completas relacionadas sem conjunção; os dois pontos (:) introduzem uma explicação, lista ou exemplo; o travessão (—) marca uma pausa forte ou adiciona informação extra.",
+        "exemplos": ["The plan is ambitious; nonetheless, it is achievable.", "There is one clear priority: reducing costs.", "The results were surprising — far better than expected."],
+        "erroComum": { "errado": "Usar vírgula para ligar duas orações completas independentes (comma splice): 'The plan is ambitious, it is achievable.'", "correto": "Usar ponto e vírgula ou um conector: 'The plan is ambitious; it is achievable.'", "descricaoPT": "O 'comma splice' (ligar duas frases completas só com vírgula) é um erro comum e penalizado em escrita formal avançada — usa ponto e vírgula, ponto final, ou um conector." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What punctuation correctly links two related complete sentences without a conjunction?", "opcoes": ["a comma", "a semicolon", "an exclamation mark"], "correta": 1, "explicacao": "O ponto e vírgula liga duas orações completas relacionadas." },
+      { "tipo": "escolha_multipla", "pergunta": "Colons (:) are typically used to introduce:", "opcoes": ["a random pause", "an explanation, list, or example", "the end of a sentence"], "correta": 1, "explicacao": "Dois pontos introduzem explicação/lista/exemplo." },
+      { "tipo": "preenchimento_espaco", "frase": "There is one clear priority___ reducing costs. (dois pontos)", "resposta": ":", "explicacao": "Dois pontos antes de uma explicação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O plano é ambicioso; ainda assim, é exequível.", "destino": "The plan is ambitious; it is achievable." },
+      { "tipo": "ditado", "textoParaOuvir": "There is one clear priority: reducing costs.", "respostaEsperada": ["There is one clear priority: reducing costs."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-pontuacaoavancada", "tipo": "gramatica", "pergunta": "O que é um 'comma splice' e porque se evita em escrita formal?", "resposta": "ligar duas orações completas só com vírgula — considerado erro em escrita formal, deve usar-se ponto e vírgula ou conector" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-47",
+    "nivel": "especialista",
+    "titulo": "Situação: Entrevista de Emprego Avançada",
+    "objetivos": ["Responder a perguntas de entrevista de emprego com vocabulário e estruturas avançadas"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "entrevistaemprego",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Entrevistas de emprego em inglês avançado pedem respostas estruturadas (muitas vezes com o método STAR: Situation, Task, Action, Result) e vocabulário que evidencia competências sem soar arrogante.",
+        "exemplos": ["I was tasked with leading a small team under a tight deadline.", "I take great pride in my ability to stay calm under pressure.", "One of my key strengths is adapting quickly to change."],
+        "erroComum": { "errado": "Dar respostas vagas sem exemplos concretos ('I'm good at teamwork').", "correto": "Estruturar a resposta com um exemplo concreto: situação, ação tomada, resultado.", "descricaoPT": "Isto aplica diretamente o registo académico/profissional já praticado — respostas vagas soam menos convincentes do que exemplos estruturados." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Can you tell me about a time you overcame a challenge at work?", "opcoes": [
+            { "texto": "I was tasked with leading a small team under a tight deadline, and by delegating clearly, we delivered on time.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "That's impressive. What would you say is your key strength?", "opcoes": [
+            { "texto": "I take great pride in my ability to stay calm under pressure and adapt quickly to change.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What does the STAR method stand for in interview answers?", "opcoes": ["Situation, Task, Action, Result", "Strengths, Talent, Ability, Result", "Skills, Time, Action, Review"], "correta": 0, "explicacao": "STAR = Situation, Task, Action, Result." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tenho muito orgulho na minha capacidade de manter a calma sob pressão.", "destino": "I take great pride in my ability to stay calm under pressure." },
+      { "tipo": "ditado", "textoParaOuvir": "One of my key strengths is adapting quickly to change.", "respostaEsperada": ["One of my key strengths is adapting quickly to change."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-entrevistaemprego", "tipo": "situacao", "pergunta": "O que é o método STAR para responder a perguntas de entrevista?", "resposta": "Situation, Task, Action, Result — estrutura para dar exemplos concretos" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-48",
+    "nivel": "especialista",
+    "titulo": "Situação: Debate sobre Ética Tecnológica",
+    "objetivos": ["Debater um tema social atual usando argumentação estruturada e vocabulário preciso"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "debateeticatecnologica",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Debates sobre temas éticos (como inteligência artificial) combinam argumentação estruturada, vocabulário preciso, e reconhecimento de múltiplas perspetivas — uma síntese de tudo o que já praticámos.",
+        "exemplos": ["Proponents argue that AI increases efficiency, whereas critics warn of job displacement.", "It is essential that regulation keeps pace with innovation.", "On balance, the potential benefits justify cautious adoption."],
+        "erroComum": { "errado": "Apresentar só um lado do debate, ignorando contra-argumentos válidos.", "correto": "Reconhecer as duas perspetivas antes de chegar a uma conclusão fundamentada.", "descricaoPT": "Isto aplica diretamente a estrutura de ensaio argumentativo já praticada — um debate oral bem estruturado segue a mesma lógica de um ensaio escrito." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Do you think AI development should be regulated more strictly?", "opcoes": [
+            { "texto": "Proponents argue that AI increases efficiency, whereas critics warn of job displacement. It is essential that regulation keeps pace with innovation.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "So where do you stand, on balance?", "opcoes": [
+            { "texto": "On balance, I believe the potential benefits justify cautious, well-regulated adoption.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A strong debate contribution should:", "opcoes": ["ignore opposing views entirely", "acknowledge both perspectives before concluding", "avoid taking a position"], "correta": 1, "explicacao": "Reconhecer ambas as perspetivas fortalece o argumento." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É essencial que a regulação acompanhe o ritmo da inovação.", "destino": "It is essential that regulation keeps pace with innovation." },
+      { "tipo": "ditado", "textoParaOuvir": "Proponents argue that AI increases efficiency, whereas critics warn of job displacement.", "respostaEsperada": ["Proponents argue that AI increases efficiency, whereas critics warn of job displacement."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-debateeticatecnologica", "tipo": "situacao", "pergunta": "Que estrutura torna um argumento de debate mais forte?", "resposta": "reconhecer ambas as perspetivas antes de concluir, tal como num ensaio argumentativo" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-49",
+    "nivel": "especialista",
+    "titulo": "C2 Simulado Combinado: Use of English Rápido",
+    "objetivos": ["Praticar um simulado rápido combinando várias partes do Use of English"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos combinar num simulado rápido os quatro tipos de exercício do Use of English (colocações, gramática, formação de palavras, transformação com palavra-chave) para consolidar tudo o que já foi praticado.",
+        "exemplos": ["Colocação: 'make a decision', não 'do a decision'.", "Gramática: 'Not only did she arrive late...' (inversão).", "Transformação: 'Never have I seen...' a partir de 'I have never seen...'."],
+        "erroComum": { "errado": "Tentar responder muito rápido sem verificar a colocação ou estrutura completa.", "correto": "Mesmo num simulado rápido, vale a pena confirmar mentalmente a estrutura antes de responder.", "descricaoPT": "A precisão continua a valer mais do que a velocidade, mesmo em exercícios de revisão rápida." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is the correct collocation?", "opcoes": ["do a decision", "make a decision", "take a decision (informal)"], "correta": 1, "explicacao": "'Make a decision' é a colocação correta e mais comum." },
+      { "tipo": "preenchimento_espaco", "frase": "Not only ___ she arrive late, but she also forgot the documents.", "resposta": "did", "explicacao": "Inversão após 'not only'." },
+      { "tipo": "preenchimento_espaco", "frase": "His sudden ___ worried everyone. (APPEAR)", "resposta": "disappearance", "explicacao": "Formação de palavra: APPEAR → disappearance." },
+      { "tipo": "preenchimento_espaco", "frase": "I have never seen such a beautiful sunset. (NEVER) → ___ such a beautiful sunset.", "resposta": "Never have I seen", "explicacao": "Transformação com palavra-chave: inversão." },
+      { "tipo": "ditado", "textoParaOuvir": "Never have I seen such a beautiful sunset, and not only did she arrive late.", "respostaEsperada": ["Never have I seen such a beautiful sunset, and not only did she arrive late."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2useofenglish-simuladorapido", "tipo": "exame", "pergunta": "Que 4 tipos de exercício compõem tipicamente um simulado de Use of English?", "resposta": "colocações, gramática (open cloze), formação de palavras, transformação com palavra-chave" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-50",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Revisão em Espiral (Marco 50/115)",
+    "objetivos": ["Rever de forma integrada os pontos gramaticais mais distintivos praticados até aqui"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": "revisaomarco50",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegámos a metade do caminho do Nível Especialista! Vamos rever, num só exercício, os pontos mais distintivos das primeiras 50 sessões: inversão, subjuntivo, condicionais mistos, nominalização, colocações e coesão avançada.",
+        "exemplos": ["Never have I seen such dedication. (inversão)", "It is essential that she be informed. (subjuntivo formal)", "Had it not been for your support, we would have failed. (condicional formal)"],
+        "erroComum": { "errado": "Pensar que dominar cada estrutura isoladamente é suficiente, sem as conseguir combinar naturalmente na fala/escrita.", "correto": "O verdadeiro domínio C1-C2 mostra-se ao combinar várias estruturas na mesma frase ou parágrafo, com naturalidade.", "descricaoPT": "Esta sessão de marco serve precisamente para praticar essa combinação natural, que é o que distingue um C2 de um B2 forte." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence correctly combines inversion AND formal register?", "opcoes": ["Never I have seen such dedication.", "Never have I seen such dedication.", "I never have seen such dedication."], "correta": 1, "explicacao": "Inversão correta: 'Never have I seen...'" },
+      { "tipo": "preenchimento_espaco", "frase": "It is essential that she ___ informed immediately. (subjuntivo formal)", "resposta": "be", "explicacao": "Subjuntivo formal: forma base do verbo." },
+      { "tipo": "preenchimento_espaco", "frase": "___ your support, we would have failed. (condicional formal invertido)", "resposta": "Had it not been for", "explicacao": "Condicional formal invertido." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ponderando tudo, o progresso até agora tem sido notável.", "destino": "On balance, the progress so far has been remarkable." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre o teu progresso a aprender inglês, usando pelo menos uma estrutura de inversão ou subjuntivo formal.", "palavrasChaveEsperadas": ["never", "essential", "had it not"], "respostaModelo": "Never have I learned so much in such a short time. It is essential that I keep practising daily. Had it not been for consistent effort, this progress wouldn't have been possible." }
+    ],
+    "srsItens": [{ "id": "sit-especialista-revisaomarco50-integradora", "tipo": "situacao", "pergunta": "O que distingue um domínio C2 de um B2 forte, segundo esta revisão?", "resposta": "a capacidade de combinar várias estruturas avançadas naturalmente na mesma frase/parágrafo" }],
+    "gamificacao": { "pontosBase": 18, "badge": null }
+  }
+]
