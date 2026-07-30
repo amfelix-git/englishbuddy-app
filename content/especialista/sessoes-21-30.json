@@ -1,0 +1,255 @@
+[
+  {
+    "id": "especialista-21",
+    "nivel": "especialista",
+    "titulo": "Cambridge C2 Proficiency: Visão Geral do Exame",
+    "objetivos": ["Conhecer a estrutura do exame C2 Proficiency e o que esperar de cada parte"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O exame C2 Proficiency tem 4 partes: Reading & Use of English (40%, 7 partes), Writing (20%, 2 tarefas: ensaio obrigatório + escolha entre 3 formatos), Listening (20%, 4 partes) e Speaking (20%, 3 partes, em pares com outro candidato). É o nível mais elevado da Cambridge — exige precisão, variedade e naturalidade quase de nativo.",
+        "exemplos": ["Reading & Use of English: 7 partes, ~90 minutos, textos longos e vocabulário muito preciso.", "Writing Parte 1 (obrigatória): sintetizar criticamente 2 textos curtos num ensaio de ~240-280 palavras.", "Speaking: 16 minutos, em pares, com entrevistador e avaliador."],
+        "erroComum": { "errado": "Pensar que o C2 Proficiency é só 'mais do mesmo' do B2 First, com textos mais longos.", "correto": "O C2 exige registo muito mais preciso, síntese crítica de ideias, e domínio de nuances (as que temos vindo a praticar: inversão, subjuntivo, colocações, coesão avançada).", "descricaoPT": "A diferença chave para quem já fez o B2 First não é só 'mais difícil', é qualitativamente diferente — sobretudo na Parte 1 da Writing, que exige pensamento crítico sobre textos-fonte." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How many parts does the Reading & Use of English paper have?", "opcoes": ["4", "7", "5"], "correta": 1, "explicacao": "7 partes na Reading & Use of English do C2 Proficiency." },
+      { "tipo": "escolha_multipla", "pergunta": "What is Writing Part 1 in the C2 Proficiency exam?", "opcoes": ["a free choice essay", "a compulsory essay synthesising 2 texts", "a formal letter"], "correta": 1, "explicacao": "Parte 1 é obrigatória: síntese crítica de 2 textos." },
+      { "tipo": "preenchimento_espaco", "frase": "The Speaking test is done in ___ (pares), with an interlocutor and an assessor.", "resposta": "pairs", "explicacao": "O Speaking é feito em pares." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O exame exige precisão e variedade quase de um falante nativo.", "destino": "The exam requires near-native precision and range." },
+      { "tipo": "ditado", "textoParaOuvir": "The exam has four parts: Reading, Writing, Listening and Speaking.", "respostaEsperada": ["The exam has four parts: Reading, Writing, Listening and Speaking."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2proficiency-visaogeral", "tipo": "exame", "pergunta": "Quantas partes tem o Reading & Use of English no C2 Proficiency?", "resposta": "7 partes" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-22",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 1 (Multiple-Choice Cloze)",
+    "objetivos": ["Praticar a Parte 1 do Reading & Use of English: escolha múltipla de vocabulário preciso"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 1, um texto tem 8 espaços; para cada um há 4 opções muito parecidas (sinónimos próximos, colocações, phrasal verbs). A estratégia é pensar em colocações e nuances de significado, não só em 'palavras que existem'.",
+        "exemplos": ["The company's rapid ___ (A) growth (B) increase (C) rise (D) expansion took everyone by surprise. → 'growth' colloca-se naturalmente com 'rapid'.", "She has a deep ___ (A) knowledge (B) awareness (C) understanding (D) sense of the subject. → 'understanding' é a colocação mais natural aqui.", "He ___ (A) made (B) did (C) took (D) had a strong impression on the panel. → 'made an impression' é a colocação fixa correta."],
+        "erroComum": { "errado": "Escolher a opção que 'parece certa' isoladamente, sem pensar na colocação com as palavras à volta.", "correto": "Testar mentalmente cada opção na colocação completa — muitas vezes só uma soa natural, mesmo que as outras sejam sinónimos válidos noutro contexto.", "descricaoPT": "Este é o tipo de exercício mais treinado pelas colocações que já praticámos — 'make an impression', não 'do/take/have an impression'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The company's rapid ___ took everyone by surprise.", "opcoes": ["increase", "growth", "rise"], "correta": 1, "explicacao": "'Rapid growth' é a colocação mais natural." },
+      { "tipo": "escolha_multipla", "pergunta": "He ___ a strong impression on the panel.", "opcoes": ["made", "did", "took"], "correta": 0, "explicacao": "'Make an impression' é a colocação fixa." },
+      { "tipo": "escolha_multipla", "pergunta": "She has a deep ___ of the subject.", "opcoes": ["awareness", "understanding", "sense"], "correta": 1, "explicacao": "'Deep understanding' colloca-se melhor do que as outras opções aqui." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele causou uma forte impressão no painel de avaliadores.", "destino": "He made a strong impression on the panel." },
+      { "tipo": "ditado", "textoParaOuvir": "The company's rapid growth took everyone by surprise.", "respostaEsperada": ["The company's rapid growth took everyone by surprise."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte1", "tipo": "exame", "pergunta": "Que estratégia ajuda mais na Parte 1 do Reading & Use of English (multiple-choice cloze)?", "resposta": "pensar em colocações naturais, não só em sinónimos isolados" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-23",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 2 (Open Cloze)",
+    "objetivos": ["Praticar a Parte 2: preencher espaços sem opções, com palavras gramaticais"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2, não há opções — tens de saber a palavra gramatical exata (preposições, conectores, pronomes, artigos, auxiliares). Exige domínio muito sólido da gramática que temos vindo a praticar.",
+        "exemplos": ["Not only ___ she arrive late, but she also forgot the documents. (did)", "___ it not been for his help, we would have failed. (Had)", "The report, ___ was published last week, caused controversy. (which)"],
+        "erroComum": { "errado": "Deixar o espaço em branco quando não se tem a certeza absoluta.", "correto": "Arriscar a palavra mais provável com base na estrutura gramatical — muitas vezes há pistas claras (inversão, orações relativas).", "descricaoPT": "Este exercício recompensa diretamente o que praticámos nas sessões de inversão e condicionais formais — reconhecer a estrutura dá a palavra que falta." }
+      },
+      { "tipo": "preenchimento_espaco", "frase": "Not only ___ she arrive late, but she also forgot the documents.", "resposta": "did", "explicacao": "Inversão após 'not only'." },
+      { "tipo": "preenchimento_espaco", "frase": "___ it not been for his help, we would have failed.", "resposta": "Had", "explicacao": "Condicional invertido formal." },
+      { "tipo": "preenchimento_espaco", "frase": "The report, ___ was published last week, caused controversy.", "resposta": "which", "explicacao": "Oração relativa não restritiva." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O relatório, que foi publicado a semana passada, causou controvérsia.", "destino": "The report, which was published last week, caused controversy." },
+      { "tipo": "ditado", "textoParaOuvir": "Had it not been for his help, we would have failed.", "respostaEsperada": ["Had it not been for his help, we would have failed."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte2", "tipo": "exame", "pergunta": "Que tipo de palavras costuma faltar na Parte 2 do Reading & Use of English (open cloze)?", "resposta": "palavras gramaticais: preposições, conectores, pronomes, artigos, auxiliares" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-24",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 3 (Word Formation)",
+    "objetivos": ["Formar a palavra correta a partir de uma palavra-base, incluindo prefixos negativos avançados"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 3, tens uma palavra-base (ex.: APPEAR) e tens de a transformar para caber na frase, muitas vezes com prefixos negativos menos comuns (dis-, mis-, il-, ir-, un-) ou sufixos precisos (-ness, -ity, -ation).",
+        "exemplos": ["His sudden ___ (APPEAR) worried everyone. → disappearance", "The decision was completely ___ (RESPONSIBLE). → irresponsible", "Her ___ (GENEROUS) surprised the whole team. → generosity"],
+        "erroComum": { "errado": "Usar sempre 'un-' como prefixo negativo por defeito.", "correto": "O prefixo negativo certo depende da palavra: irresponsible, illegal, disappear, misunderstand — não há uma regra única.", "descricaoPT": "Estes prefixos têm de ser memorizados palavra a palavra — não há um padrão totalmente previsível, ao contrário do que a intuição do português sugere." }
+      },
+      { "tipo": "preenchimento_espaco", "frase": "His sudden ___ worried everyone. (APPEAR)", "resposta": "disappearance", "explicacao": "APPEAR → disappearance (prefixo dis- + sufixo -ance)." },
+      { "tipo": "preenchimento_espaco", "frase": "The decision was completely ___. (RESPONSIBLE)", "resposta": "irresponsible", "explicacao": "RESPONSIBLE → irresponsible (prefixo ir-)." },
+      { "tipo": "preenchimento_espaco", "frase": "Her ___ surprised the whole team. (GENEROUS)", "resposta": "generosity", "explicacao": "GENEROUS → generosity (sufixo -ity)." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A decisão foi completamente irresponsável.", "destino": "The decision was completely irresponsible." },
+      { "tipo": "ditado", "textoParaOuvir": "His sudden disappearance worried everyone.", "respostaEsperada": ["His sudden disappearance worried everyone."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte3", "tipo": "exame", "pergunta": "Os prefixos negativos em inglês (un-, in-, ir-, il-, dis-) seguem uma regra única e previsível?", "resposta": "não, dependem da palavra específica e têm de ser memorizados" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-25",
+    "nivel": "especialista",
+    "titulo": "C2 Reading & Use of English — Parte 4 (Key Word Transformation)",
+    "objetivos": ["Reescrever frases usando uma palavra-chave, aplicando estruturas C1-C2 já praticadas"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 4, tens de reescrever uma frase usando uma palavra dada, mantendo o significado. É onde as estruturas avançadas que praticámos (inversão, subjuntivo, condicionais mistos) aparecem mais — vale a pena rever as sessões anteriores.",
+        "exemplos": ["I have never seen such a beautiful sunset. (NEVER) → Never have I seen such a beautiful sunset.", "It's essential for him to attend. (BE) → It is essential that he be present.", "If it hadn't been for your help, I would have failed. (NOT) → Had it not been for your help, I would have failed."],
+        "erroComum": { "errado": "Manter a ordem normal das palavras ao usar 'NEVER' ou 'NOT' como palavra-chave no início da frase.", "correto": "Estas transformações quase sempre pedem inversão do sujeito e do auxiliar — é o padrão mais testado nesta parte.", "descricaoPT": "Esta parte do exame é essencialmente um teste às estruturas de inversão, subjuntivo e condicionais avançadas — as sessões anteriores foram uma preparação direta para isto." }
+      },
+      { "tipo": "preenchimento_espaco", "frase": "I have never seen such a beautiful sunset. (NEVER) → ___ such a beautiful sunset.", "resposta": "Never have I seen", "explicacao": "Inversão com 'never' no início." },
+      { "tipo": "preenchimento_espaco", "frase": "It's essential for him to attend. (BE) → It is essential that he ___.", "resposta": "be present", "explicacao": "Subjuntivo formal." },
+      { "tipo": "preenchimento_espaco", "frase": "If it hadn't been for your help, I would have failed. (NOT) → ___ your help, I would have failed.", "resposta": "Had it not been for", "explicacao": "Condicional formal invertido." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Nunca vi um pôr do sol tão bonito.", "destino": "Never have I seen such a beautiful sunset." },
+      { "tipo": "ditado", "textoParaOuvir": "It is essential that he be present at the meeting.", "respostaEsperada": ["It is essential that he be present at the meeting."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-parte4", "tipo": "exame", "pergunta": "Que estruturas gramaticais são mais testadas na Parte 4 (key word transformation)?", "resposta": "inversão, subjuntivo formal, condicionais mistos/formais" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-26",
+    "nivel": "especialista",
+    "titulo": "C2 Writing — Parte 1: Síntese Crítica de Dois Textos",
+    "objetivos": ["Escrever um ensaio que sintetiza criticamente duas fontes de texto"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A Parte 1 da Writing é obrigatória: lês 2 textos curtos com pontos de vista diferentes sobre um tema, e escreves um ensaio (~240-280 palavras) que sintetiza as ideias principais e as avalia criticamente — não é só resumir, é comentar e comparar.",
+        "exemplos": ["Text A argues that remote work boosts productivity, while Text B highlights its impact on team cohesion.", "Both texts raise valid concerns, but Text A's evidence is more robust.", "On balance, a hybrid approach seems to address the concerns raised in both texts."],
+        "erroComum": { "errado": "Resumir cada texto separadamente sem os relacionar nem avaliar criticamente.", "correto": "Sintetizar as ideias dos dois textos, compará-las, e chegar a uma conclusão própria fundamentada.", "descricaoPT": "Este é o erro mais comum e mais penalizado nesta tarefa — o exame não pede um resumo, pede uma síntese crítica com opinião fundamentada, usando o vocabulário e os conectores já praticados (nonetheless, whereas, on balance)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What does Writing Part 1 require, above all?", "opcoes": ["summarising each text separately", "critically synthesising and evaluating both texts", "copying key sentences from both texts"], "correta": 1, "explicacao": "Síntese crítica, não resumo separado." },
+      { "tipo": "preenchimento_espaco", "frase": "Text A argues X, ___ Text B highlights Y. (contraste)", "resposta": "whereas", "explicacao": "Conector de contraste para comparar os dois textos." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ponderando tudo, uma abordagem híbrida parece responder às preocupações levantadas nos dois textos.", "destino": "On balance, a hybrid approach seems to address the concerns raised in both texts." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 3-4 frases de síntese crítica sobre um tema à tua escolha, imaginando dois pontos de vista opostos (usa 'whereas' para os comparar e 'on balance' para concluir).", "palavrasChaveEsperadas": ["whereas", "on balance"], "respostaModelo": "Some argue that social media connects people, whereas others highlight its impact on mental health. Both views have merit. On balance, mindful use seems to be the key to balancing the benefits and risks." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, a hybrid approach seems to address the concerns raised in both texts.", "respostaEsperada": ["On balance, a hybrid approach seems to address the concerns raised in both texts."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2writing-parte1", "tipo": "exame", "pergunta": "Qual é o erro mais comum na Writing Parte 1 do C2 Proficiency?", "resposta": "resumir os dois textos separadamente em vez de os sintetizar e avaliar criticamente" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-27",
+    "nivel": "especialista",
+    "titulo": "C2 Writing — Parte 2: Escolha de Formato",
+    "objetivos": ["Conhecer os formatos possíveis da Parte 2 da Writing (carta, artigo, relatório, resenha)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2, escolhes uma de várias opções: carta/email formal, artigo, relatório ou resenha (review), cada um com convenções próprias de estrutura e registo.",
+        "exemplos": ["Report: usa cabeçalhos, é objetivo e estruturado em secções (Introduction, Findings, Recommendations).", "Review: mistura opinião pessoal com descrição, tom mais pessoal do que um relatório.", "Formal letter/email: saudação e despedida formais, sem contrações (não 'don't', mas 'do not')."],
+        "erroComum": { "errado": "Escrever um relatório com tom pessoal e contrações, como se fosse uma review.", "correto": "Cada formato tem convenções próprias — um relatório é objetivo e estruturado, uma review é mais pessoal e avaliativa.", "descricaoPT": "Escolher o formato certo para as tuas forças é tão importante como escrever bem — se preferes estrutura clara, escolhe relatório; se preferes opinião pessoal, escolhe review." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which format typically uses headings and sections like 'Findings' and 'Recommendations'?", "opcoes": ["a report", "a review", "a formal letter"], "correta": 0, "explicacao": "Relatórios usam cabeçalhos e secções estruturadas." },
+      { "tipo": "escolha_multipla", "pergunta": "A formal letter should generally avoid:", "opcoes": ["clear paragraphs", "contractions (don't, can't)", "a formal greeting"], "correta": 1, "explicacao": "Cartas formais evitam contrações." },
+      { "tipo": "preenchimento_espaco", "frase": "A ___ mixes personal opinion with description, in a more personal tone than a report.", "resposta": "review", "explicacao": "A review é mais pessoal do que um relatório." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Um relatório é objetivo e estruturado em secções.", "destino": "A report is objective and structured in sections." },
+      { "tipo": "ditado", "textoParaOuvir": "A report is objective and structured, whereas a review is more personal.", "respostaEsperada": ["A report is objective and structured, whereas a review is more personal."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2writing-parte2", "tipo": "exame", "pergunta": "Que formatos são normalmente opções na Writing Parte 2 do C2 Proficiency?", "resposta": "carta/email formal, artigo, relatório, resenha (review)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-28",
+    "nivel": "especialista",
+    "titulo": "C2 Listening — Estratégias Avançadas",
+    "objetivos": ["Aplicar estratégias para as 4 partes do Listening do C2 Proficiency"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O Listening do C2 tem 4 partes: multiple choice sobre extratos curtos, sentence completion sobre uma palestra, multiple choice sobre uma entrevista longa, e multiple matching com 5 falantes curtos sobre o mesmo tema. A chave é ler as perguntas antes de ouvir, e não travar num detalhe perdido.",
+        "exemplos": ["Parte 1: 3 extratos não relacionados, 2 perguntas cada.", "Parte 4: 5 falantes curtos, 2 tarefas em simultâneo (ex.: identificar a opinião de cada um E o que têm em comum).", "Se perderes uma resposta, segue em frente — o áudio não para."],
+        "erroComum": { "errado": "Ficar preso a tentar recordar uma resposta perdida, perdendo o resto do áudio.", "correto": "Seguir em frente e voltar a essa resposta no final, se sobrar tempo — nunca parar de ouvir.", "descricaoPT": "Este é um erro de estratégia de exame, não de inglês — mas é dos que mais prejudica a pontuação final, porque uma pergunta perdida não deveria custar as seguintes." }
+      },
+      {
+        "tipo": "explicacao",
+        "regra": "Nota importante e honesta: o motor de voz deste telemóvel (Web Speech API) só oferece sotaques de Inglaterra, Estados Unidos e Austrália — não há sotaque irlandês disponível, embora o exame real possa incluir falantes de outras variantes do inglês (irlandês, escocês, etc.). Os áudios desta app treinam estratégia e compreensão geral, não simulam toda a variedade de sotaques do exame real.",
+        "exemplos": ["Sotaques disponíveis nesta app: Inglaterra (en-GB), Estados Unidos (en-US), Austrália (en-AU).", "Sotaques que podem surgir no exame real e não estão disponíveis aqui: irlandês, escocês, sul-africano, entre outros.", "Recomendação: complementa esta app com vídeos ou podcasts com sotaques variados antes do exame real."]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 4 (multiple matching), what should you do while listening?", "opcoes": ["focus only on one task at a time, ignoring the other", "try to handle both tasks in parallel", "wait until the end to start answering"], "correta": 1, "explicacao": "A Parte 4 exige lidar com duas tarefas em simultâneo." },
+      { "tipo": "escolha_multipla", "pergunta": "If you miss an answer while listening, you should:", "opcoes": ["stop and try to recall it", "move on and come back later if there's time", "guess immediately and stop listening"], "correta": 1, "explicacao": "Nunca parar de ouvir — seguir em frente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se perderes uma resposta, segue em frente.", "destino": "If you miss an answer, move on." },
+      { "tipo": "ditado", "textoParaOuvir": "Read the questions before you listen, and never stop to recall a missed answer.", "respostaEsperada": ["Read the questions before you listen, and never stop to recall a missed answer."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2listening-estrategias", "tipo": "exame", "pergunta": "Que sotaques faltam nesta app relativamente ao que pode aparecer no exame real?", "resposta": "sotaque irlandês (e outras variantes), só há Inglaterra/EUA/Austrália disponíveis" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-29",
+    "nivel": "especialista",
+    "titulo": "C2 Speaking — Partes 1 e 2",
+    "objetivos": ["Praticar a entrevista inicial e a discussão colaborativa do Speaking"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O Speaking tem 3 partes: Parte 1 é uma entrevista curta sobre ti; Parte 2 é uma discussão colaborativa com o outro candidato, a partir de imagens ou tópicos, onde tens de argumentar, concordar/discordar educadamente, e chegar a uma decisão conjunta.",
+        "exemplos": ["Parte 1: 'What aspects of your work/studies do you find most rewarding?'", "Parte 2: 'I see your point, but I'd argue that...' (discordar educadamente)", "Parte 2: 'Shall we agree that this option works best for both reasons?' (fechar a discussão)"],
+        "erroComum": { "errado": "Concordar sempre com o outro candidato para evitar conflito.", "correto": "Mostrar capacidade de argumentar e discordar educadamente é parte do que é avaliado — usa 'I see your point, but...'", "descricaoPT": "O avaliador quer ver-te negociar e defender uma posição, não apenas concordar — isso está diretamente ligado ao que praticámos nas sessões de subjuntivo, ênfase e debate formal." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Let's look at these options together. Which do you think works best, and why?", "opcoes": [
+            { "texto": "I'd say the first option, mainly because it's more sustainable in the long run.", "proximoNo": "discordancia" }
+          ]},
+          { "id": "discordancia", "interlocutorFala": "I see your point, but I'd argue the second option is more cost-effective.", "opcoes": [
+            { "texto": "That's fair. Shall we agree that a combination of both works best?", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase politely disagrees while acknowledging the other person?", "opcoes": ["You're wrong about that.", "I see your point, but I'd argue...", "No, that's not right."], "correta": 1, "explicacao": "'I see your point, but...' discorda educadamente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Compreendo o teu ponto de vista, mas defenderia que a segunda opção é mais económica.", "destino": "I see your point, but I'd argue the second option is more cost-effective." },
+      { "tipo": "ditado", "textoParaOuvir": "Shall we agree that a combination of both works best?", "respostaEsperada": ["Shall we agree that a combination of both works best?"] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2speaking-parte1e2", "tipo": "exame", "pergunta": "O que é avaliado na Parte 2 do Speaking, além da fluência?", "resposta": "capacidade de negociar, argumentar e discordar educadamente" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-30",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Simulado de C2 Speaking (Long Turn + Discussão)",
+    "objetivos": ["Simular a Parte 3 do Speaking: long turn individual seguido de discussão"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": "simuladospeaking",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A Parte 3 do Speaking é um 'long turn' individual (falas sozinho durante ~2 minutos sobre um tópico), seguido de uma discussão mais aprofundada com o entrevistador. Vamos combinar tudo o que praticámos: inversão/ênfase, subjuntivo, colocações, conectores avançados e argumentação.",
+        "exemplos": ["Long turn: 'I'd like to talk about the impact of technology on education. Never have I seen such rapid change in how we learn...'", "Discussão: 'It is essential that we consider both the benefits and the risks.'", "Conclusão: 'On balance, I believe the advantages outweigh the concerns.'"],
+        "erroComum": { "errado": "Falar de forma desorganizada, sem estrutura clara (introdução, pontos principais, conclusão).", "correto": "Estruturar o long turn como um mini-ensaio falado: introdução, 2-3 pontos, conclusão com 'on balance'.", "descricaoPT": "A estrutura clara é tão importante como o vocabulário — um long turn bem organizado soa muito mais fluente, mesmo com o mesmo nível de vocabulário." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Please talk for about two minutes about the impact of technology on education.", "opcoes": [
+            { "texto": "I'd like to talk about the impact of technology on education. Never have I seen such rapid change in how we learn. On balance, I believe the advantages outweigh the concerns.", "proximoNo": "discussao" }
+          ]},
+          { "id": "discussao", "interlocutorFala": "Interesting. Do you think this change is entirely positive?", "opcoes": [
+            { "texto": "Not entirely — it is essential that we consider both the benefits and the risks.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "How should a well-structured long turn typically end?", "opcoes": ["abruptly, without a conclusion", "with a balanced conclusion, e.g. 'on balance...'", "by asking the interlocutor a question"], "correta": 1, "explicacao": "Uma conclusão ponderada fecha bem o long turn." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Nunca vi uma mudança tão rápida na forma como aprendemos.", "destino": "Never have I seen such rapid change in how we learn." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve o esboço de um long turn (4-5 frases) sobre um tema à tua escolha, com introdução, 2 pontos e uma conclusão com 'on balance'.", "palavrasChaveEsperadas": ["on balance", "never"], "respostaModelo": "I'd like to talk about the impact of remote work. Never have I seen such a shift in how we work. It offers flexibility, but it also challenges team cohesion. On balance, I believe the benefits outweigh the drawbacks." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, I believe the advantages outweigh the concerns.", "respostaEsperada": ["On balance, I believe the advantages outweigh the concerns."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-simuladospeaking-integradora", "tipo": "situacao", "pergunta": "Como se deve estruturar um 'long turn' na Parte 3 do C2 Speaking?", "resposta": "como um mini-ensaio falado: introdução, 2-3 pontos, conclusão ponderada" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  }
+]
