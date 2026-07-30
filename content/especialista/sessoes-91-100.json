@@ -1,0 +1,250 @@
+[
+  {
+    "id": "especialista-91",
+    "nivel": "especialista",
+    "titulo": "Voz Passiva com Modais",
+    "objetivos": ["Usar a voz passiva combinada com modais (should be done, must be completed)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "A voz passiva combina-se frequentemente com modais em registo formal/instrucional: modal + be + particípio passado. Muito comum em relatórios, instruções e políticas.",
+        "exemplos": ["This report should be submitted by Friday.", "All applications must be reviewed within 48 hours.", "The issue could be resolved with additional resources."],
+        "erroComum": { "errado": "This report should submitted by Friday.", "correto": "This report should be submitted by Friday.", "descricaoPT": "Depois do modal, é obrigatório o 'be' antes do particípio passado — omiti-lo é um erro comum, especialmente sob pressão de tempo a falar." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "This report ___ submitted by Friday.", "opcoes": ["should be", "should", "should being"], "correta": 0, "explicacao": "Modal + be + particípio passado." },
+      { "tipo": "escolha_multipla", "pergunta": "All applications must ___ within 48 hours.", "opcoes": ["review", "be reviewed", "reviewing"], "correta": 1, "explicacao": "'Must be reviewed' — voz passiva com modal." },
+      { "tipo": "preenchimento_espaco", "frase": "The issue could ___ with additional resources. (ser resolvido)", "resposta": "be resolved", "explicacao": "'Could be resolved' — modal + be + particípio." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Todas as candidaturas devem ser revistas no prazo de 48 horas.", "destino": "All applications must be reviewed within 48 hours." },
+      { "tipo": "ditado", "textoParaOuvir": "This report should be submitted by Friday.", "respostaEsperada": ["This report should be submitted by Friday."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-passivacommodais", "tipo": "gramatica", "pergunta": "Qual é a estrutura da voz passiva com modais?", "resposta": "modal + be + particípio passado" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-92",
+    "nivel": "especialista",
+    "titulo": "Estruturas de Resultado e Consequência",
+    "objetivos": ["Usar so...that e such...that para exprimir resultado"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'So' + adjetivo/advérbio + 'that' e 'such' + (a/an) + substantivo + 'that' exprimem uma consequência forte — 'so' modifica adjetivos/advérbios, 'such' modifica substantivos.",
+        "exemplos": ["The meeting was so long that people started leaving.", "It was such a long meeting that people started leaving.", "She spoke so clearly that everyone understood immediately."],
+        "erroComum": { "errado": "It was so long meeting that people started leaving.", "correto": "It was such a long meeting that people started leaving.", "descricaoPT": "'So' não pode vir diretamente antes de um substantivo — para isso usa-se 'such (a/an)'. Este é um erro estrutural comum mesmo em níveis avançados." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "It was ___ long meeting that people started leaving.", "opcoes": ["so", "such a", "such"], "correta": 1, "explicacao": "'Such a' + substantivo." },
+      { "tipo": "escolha_multipla", "pergunta": "The meeting was ___ long that people started leaving.", "opcoes": ["such", "so", "such a"], "correta": 1, "explicacao": "'So' + adjetivo." },
+      { "tipo": "preenchimento_espaco", "frase": "She spoke ___ clearly that everyone understood. (tão)", "resposta": "so", "explicacao": "'So' + advérbio + that." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Foi uma reunião tão longa que as pessoas começaram a sair.", "destino": "It was such a long meeting that people started leaving." },
+      { "tipo": "ditado", "textoParaOuvir": "She spoke so clearly that everyone understood immediately.", "respostaEsperada": ["She spoke so clearly that everyone understood immediately."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-resultadoconsequencia", "tipo": "gramatica", "pergunta": "Quando se usa 'so' e quando se usa 'such' antes de 'that'?", "resposta": "so + adjetivo/advérbio; such (a/an) + substantivo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-93",
+    "nivel": "especialista",
+    "titulo": "Vocabulário sobre Tecnologia e Inovação Avançado",
+    "objetivos": ["Usar vocabulário avançado sobre tecnologia e inovação"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário avançado de tecnologia: 'disruptive innovation' (inovação disruptiva), 'to streamline' (simplificar/otimizar), 'scalable' (escalável), 'to leverage' (tirar partido de/alavancar).",
+        "exemplos": ["This is a clear example of disruptive innovation in the industry.", "The new system streamlines the entire process.", "The solution needs to be scalable as the company grows.", "We should leverage existing technology rather than build from scratch."],
+        "erroComum": { "errado": "Usar 'use' para tudo, ignorando nuances como 'leverage' (tirar partido estratégico).", "correto": "'Leverage' implica um uso estratégico e vantajoso, diferente de simplesmente 'use'.", "descricaoPT": "Este vocabulário é extremamente comum em contexto de startups e tecnologia — vale a pena reconhecê-lo mesmo fora desse setor específico." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'To leverage existing technology' means to:", "opcoes": ["ignore it", "use it strategically to gain an advantage", "destroy it"], "correta": 1, "explicacao": "'Leverage' = tirar partido estratégico de algo." },
+      { "tipo": "escolha_multipla", "pergunta": "A 'scalable' solution is one that:", "opcoes": ["only works for a small number of users", "can grow effectively as demand increases", "is very expensive"], "correta": 1, "explicacao": "'Scalable' = capaz de crescer eficazmente." },
+      { "tipo": "preenchimento_espaco", "frase": "The new system ___ the entire process. (simplifica/otimiza)", "resposta": "streamlines", "explicacao": "'Streamline' = simplificar/otimizar um processo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Devíamos tirar partido da tecnologia existente em vez de construir de raiz.", "destino": "We should leverage existing technology rather than build from scratch." },
+      { "tipo": "ditado", "textoParaOuvir": "This is a clear example of disruptive innovation in the industry.", "respostaEsperada": ["This is a clear example of disruptive innovation in the industry."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-vocabtecnologiainovacao", "tipo": "gramatica", "pergunta": "O que significa 'to leverage' algo?", "resposta": "usar estrategicamente para obter uma vantagem" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-94",
+    "nivel": "especialista",
+    "titulo": "Situação: Discussão Aprofundada sobre Ética da IA",
+    "objetivos": ["Discutir implicações éticas da IA combinando vocabulário técnico e hedging"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "eticaia",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Discussões aprofundadas sobre ética tecnológica combinam vocabulário técnico, hedging académico e reconhecimento de múltiplas perspetivas — uma síntese completa das competências mais avançadas praticadas.",
+        "exemplos": ["It could be argued that AI systems, if not carefully regulated, risk perpetuating existing biases.", "Proponents contend that the benefits, in terms of efficiency, are substantial.", "On balance, a cautious, well-regulated approach seems the most responsible path forward."],
+        "erroComum": { "errado": "Discutir o tema sem vocabulário técnico específico, usando apenas termos genéricos como 'good' ou 'bad'.", "correto": "Usar vocabulário preciso (bias, regulation, accountability) combinado com hedging e estrutura argumentativa.", "descricaoPT": "Esta sessão combina praticamente tudo o que já foi praticado — é um bom teste da capacidade de argumentar de forma verdadeiramente avançada." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "What concerns you most about the growing use of AI?", "opcoes": [
+            { "texto": "It could be argued that AI systems, if not carefully regulated, risk perpetuating existing biases.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "But surely there are significant benefits too?", "opcoes": [
+            { "texto": "Absolutely — proponents contend that the efficiency gains are substantial. On balance, a cautious, well-regulated approach seems best.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A high-level discussion on AI ethics should combine:", "opcoes": ["only personal feelings", "technical vocabulary, hedging, and multiple perspectives", "simple yes/no answers"], "correta": 1, "explicacao": "A combinação de vocabulário técnico, hedging e perspetivas múltiplas é essencial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os defensores argumentam que os ganhos de eficiência são substanciais.", "destino": "Proponents contend that the efficiency gains are substantial." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, a cautious, well-regulated approach seems the most responsible path forward.", "respostaEsperada": ["On balance, a cautious, well-regulated approach seems the most responsible path forward."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-eticaia", "tipo": "situacao", "pergunta": "Que competências se combinam numa discussão avançada sobre ética tecnológica?", "resposta": "vocabulário técnico preciso, hedging académico, e reconhecimento de múltiplas perspetivas" }],
+    "gamificacao": { "pontosBase": 14, "badge": null }
+  },
+  {
+    "id": "especialista-95",
+    "nivel": "especialista",
+    "titulo": "Situação: Networking Profissional",
+    "objetivos": ["Iniciar e manter conversas de networking profissional em inglês"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "networkingprofissional",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Networking profissional usa fórmulas específicas para iniciar conversa, trocar contactos, e manter o relacionamento: 'What brings you to this event?', 'I'd love to stay in touch', 'Let's connect on LinkedIn.'",
+        "exemplos": ["What brings you to this event?", "It was great talking to you — I'd love to stay in touch.", "Let's connect on LinkedIn so we can follow up."],
+        "erroComum": { "errado": "Terminar uma conversa de networking sem propor um próximo passo concreto.", "correto": "Propor sempre um próximo passo claro: 'let's connect', 'I'll send you an email'.", "descricaoPT": "Um erro comum é ter uma boa conversa mas não a converter numa ligação duradoura — o passo final é tão importante quanto a conversa em si." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Hi, I don't think we've met. What brings you to this event?", "opcoes": [
+            { "texto": "I'm here to learn more about industry trends. What about you?", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "Same here! It was great talking to you.", "opcoes": [
+            { "texto": "Likewise — I'd love to stay in touch. Let's connect on LinkedIn.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A good way to end a networking conversation is:", "opcoes": ["just walking away", "proposing a concrete next step, like connecting on LinkedIn", "avoiding saying goodbye"], "correta": 1, "explicacao": "Propor um próximo passo concreto mantém a ligação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O que te traz a este evento?", "destino": "What brings you to this event?" },
+      { "tipo": "ditado", "textoParaOuvir": "It was great talking to you — I'd love to stay in touch.", "respostaEsperada": ["It was great talking to you — I'd love to stay in touch."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-networkingprofissional", "tipo": "situacao", "pergunta": "Que erro comum se deve evitar ao terminar uma conversa de networking?", "resposta": "não propor um próximo passo concreto (ex.: conectar no LinkedIn)" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-96",
+    "nivel": "especialista",
+    "titulo": "Colocações com 'Make' e 'Do' Avançadas",
+    "objetivos": ["Dominar colocações avançadas menos óbvias com make e do"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Além das colocações básicas com 'make'/'do', há combinações menos óbvias e mais avançadas: 'make amends' (reparar um erro/desculpar-se), 'do justice to' (fazer jus a), 'make headway' (progredir).",
+        "exemplos": ["He tried to make amends for his mistake.", "The photo doesn't do justice to how beautiful the place is.", "We're finally making headway on this project."],
+        "erroComum": { "errado": "The photo doesn't make justice to the place.", "correto": "The photo doesn't do justice to the place.", "descricaoPT": "Estas colocações menos comuns não seguem um padrão previsível entre make/do — têm de ser memorizadas individualmente, tal como as mais básicas já praticadas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "He tried to ___ amends for his mistake.", "opcoes": ["do", "make", "have"], "correta": 1, "explicacao": "'Make amends' = reparar um erro/desculpar-se." },
+      { "tipo": "escolha_multipla", "pergunta": "The photo doesn't ___ justice to the place.", "opcoes": ["make", "do", "give"], "correta": 1, "explicacao": "'Do justice to' = fazer jus a." },
+      { "tipo": "preenchimento_espaco", "frase": "We're finally ___ headway on this project. (progredindo)", "resposta": "making", "explicacao": "'Make headway' = progredir." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele tentou reparar o seu erro.", "destino": "He tried to make amends for his mistake." },
+      { "tipo": "ditado", "textoParaOuvir": "We're finally making headway on this project.", "respostaEsperada": ["We're finally making headway on this project."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-colocacoesmakedoAvancadas", "tipo": "gramatica", "pergunta": "O que significa 'make amends'?", "resposta": "reparar um erro, desculpar-se de forma concreta" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-97",
+    "nivel": "especialista",
+    "titulo": "C2 Reading Simulado: Vocabulário em Contexto",
+    "objetivos": ["Inferir o significado de palavras avançadas a partir do contexto"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma competência essencial no C2 é inferir o significado de palavras desconhecidas a partir do contexto, sem precisar de dicionário — útil tanto no exame como na vida real.",
+        "exemplos": ["'The company's profits were meagre this quarter.' — o contexto (resultados fracos) sugere que 'meagre' significa 'escasso/insuficiente'.", "'Her explanation was rather convoluted.' — o contexto sugere 'complicado/confuso'.", "Procurar pistas: palavras à volta, tom geral da frase, e conhecimento do tema."],
+        "erroComum": { "errado": "Parar a leitura para procurar todas as palavras desconhecidas num dicionário.", "correto": "Tentar primeiro inferir pelo contexto — poupa tempo e é uma competência avaliada no exame.", "descricaoPT": "No exame não há dicionário disponível — esta competência de inferência é diretamente testada e muito valiosa na vida real também." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'The company's profits were meagre this quarter.' — 'meagre' likely means:", "opcoes": ["very large", "small/insufficient", "stable"], "correta": 1, "explicacao": "O contexto (resultados fracos) sugere 'escasso'." },
+      { "tipo": "escolha_multipla", "pergunta": "'Her explanation was rather convoluted.' — 'convoluted' likely means:", "opcoes": ["clear and simple", "complicated/confusing", "very short"], "correta": 1, "explicacao": "O contexto sugere 'complicado/confuso'." },
+      { "tipo": "preenchimento_espaco", "frase": "Try to infer meaning from ___ rather than stopping at every unknown word.", "resposta": "context", "explicacao": "Inferir pelo contexto é a estratégia recomendada." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os lucros da empresa foram escassos este trimestre.", "destino": "The company's profits were meagre this quarter." },
+      { "tipo": "ditado", "textoParaOuvir": "Her explanation was rather convoluted.", "respostaEsperada": ["Her explanation was rather convoluted."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-vocabcontexto", "tipo": "exame", "pergunta": "Porque é importante inferir vocabulário pelo contexto no exame C2?", "resposta": "não há dicionário disponível e é uma competência diretamente avaliada" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-98",
+    "nivel": "especialista",
+    "titulo": "C2 Listening Simulado: Entrevista Longa",
+    "objetivos": ["Praticar a compreensão de uma entrevista longa (Parte 3 do Listening)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 3, ouves uma entrevista mais longa (geralmente com um especialista) e respondes a perguntas de escolha múltipla sobre opiniões, atitudes e detalhes específicos.",
+        "exemplos": ["Prestar atenção a mudanças de opinião do entrevistado ao longo da entrevista.", "As opções incorretas costumam corresponder a algo dito mas depois contradito ou matizado.", "A pergunta pode testar a opinião final, não a primeira impressão dada."],
+        "erroComum": { "errado": "Responder com base na primeira coisa que o entrevistado diz, sem ouvir se a opinião muda depois.", "correto": "Acompanhar a entrevista até ao fim — a opinião final pode ser diferente da inicial.", "descricaoPT": "Entrevistados frequentemente qualificam ou revêm as suas próprias afirmações ao longo da entrevista — isto é deliberadamente testado nesta parte." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 3, why is it risky to answer based only on the interviewee's first statement?", "opcoes": ["the first statement is always wrong", "their opinion may be qualified or changed later in the interview", "questions never relate to the first statement"], "correta": 1, "explicacao": "A opinião pode ser matizada ou mudar ao longo da entrevista." },
+      { "tipo": "escolha_multipla", "pergunta": "Wrong options in Part 3 often correspond to:", "opcoes": ["something said but later contradicted or qualified", "completely unrelated topics", "the correct answer, reworded"], "correta": 0, "explicacao": "Distratores costumam ser algo dito mas depois contradito." },
+      { "tipo": "preenchimento_espaco", "frase": "Listen to the interview until the ___, as opinions can change.", "resposta": "end", "explicacao": "Acompanhar até ao fim é essencial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A opinião final pode ser diferente da impressão inicial dada.", "destino": "The final opinion may be different from the initial impression given." },
+      { "tipo": "ditado", "textoParaOuvir": "Listen to the whole interview, as opinions can be qualified or changed later on.", "respostaEsperada": ["Listen to the whole interview, as opinions can be qualified or changed later on."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2listening-parte3simulado", "tipo": "exame", "pergunta": "Que estratégia é essencial na Parte 3 do Listening (entrevista longa)?", "resposta": "acompanhar até ao fim, pois a opinião do entrevistado pode mudar ou ser matizada" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-99",
+    "nivel": "especialista",
+    "titulo": "Frases de Transição para Discursos Longos",
+    "objetivos": ["Usar frases de transição avançadas para estruturar discursos longos"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Discursos e apresentações longas usam frases de transição além do básico 'moving on': 'That brings me to my next point', 'Building on what I just said', 'Turning now to a related issue'.",
+        "exemplos": ["That brings me to my next point: the financial implications.", "Building on what I just said, let's consider the long-term effects.", "Turning now to a related issue, I'd like to discuss regulation."],
+        "erroComum": { "errado": "Usar sempre 'and now' ou 'next' de forma repetitiva.", "correto": "Variar as transições consoante a relação lógica: 'building on', 'turning to', 'that brings me to'.", "descricaoPT": "Transições variadas e precisas são um sinal claro de fluência avançada em discursos longos, tal como em textos escritos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which transition signals building on a previous point?", "opcoes": ["Turning now to...", "Building on what I just said...", "In conclusion..."], "correta": 1, "explicacao": "'Building on what I just said' constrói sobre o ponto anterior." },
+      { "tipo": "escolha_multipla", "pergunta": "Which transition signals moving to a related but different topic?", "opcoes": ["Building on that...", "Turning now to a related issue...", "As I mentioned..."], "correta": 1, "explicacao": "'Turning to' introduz um tópico relacionado mas diferente." },
+      { "tipo": "preenchimento_espaco", "frase": "That ___ me to my next point: the financial implications. (leva-me)", "resposta": "brings", "explicacao": "'That brings me to my next point' = isso leva-me ao próximo ponto." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Passando agora a uma questão relacionada, gostaria de discutir a regulação.", "destino": "Turning now to a related issue, I'd like to discuss regulation." },
+      { "tipo": "ditado", "textoParaOuvir": "That brings me to my next point: the financial implications.", "respostaEsperada": ["That brings me to my next point: the financial implications."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-transicoesdiscursoslongos", "tipo": "gramatica", "pergunta": "Que expressão introduz um tópico relacionado mas diferente num discurso?", "resposta": "Turning now to..." }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-100",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Marco 100/115",
+    "objetivos": ["Rever de forma integrada voz passiva com modais, vocabulário de inovação e transições"],
+    "duracaoEstimadaMin": 13,
+    "temaIntegrador": "revisaomarco100",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Marco dos 100/115 — só faltam 15 sessões! Vamos combinar voz passiva com modais, vocabulário de inovação/tecnologia, e frases de transição, num discurso simulado sobre um tema atual.",
+        "exemplos": ["This issue must be addressed with urgency. (passiva com modal)", "We should leverage existing technology rather than reinvent it. (vocabulário de inovação)", "That brings me to my final point. (transição)"],
+        "erroComum": { "errado": "Ver este marco como só mais uma sessão de revisão, sem reconhecer o progresso já feito.", "correto": "100 sessões representam um domínio muito sólido de estruturas C1-C2 — vale a pena reconhecer o percurso percorrido.", "descricaoPT": "A motivação e a consciência do progresso são importantes numa jornada longa como esta — faltam poucas sessões para a conclusão total da app." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'This issue must be addressed with urgency' uses:", "opcoes": ["active voice with a modal", "passive voice with a modal", "the subjunctive"], "correta": 1, "explicacao": "'Must be addressed' = voz passiva com modal." },
+      { "tipo": "preenchimento_espaco", "frase": "That ___ me to my final point. (leva-me)", "resposta": "brings", "explicacao": "Transição: 'that brings me to...'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Devíamos tirar partido da tecnologia existente em vez de a reinventar.", "destino": "We should leverage existing technology rather than reinvent it." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre um tema tecnológico ou profissional à tua escolha, combinando voz passiva com modal, vocabulário de inovação, e uma frase de transição.", "palavrasChaveEsperadas": ["must be", "leverage", "brings me"], "respostaModelo": "This challenge must be addressed carefully. We should leverage existing solutions rather than starting from scratch. That brings me to my main recommendation: gradual, well-tested implementation." },
+      { "tipo": "ditado", "textoParaOuvir": "This issue must be addressed with urgency.", "respostaEsperada": ["This issue must be addressed with urgency."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-revisaomarco100-integradora", "tipo": "situacao", "pergunta": "Quantas sessões faltam para completar o Nível Especialista, a partir da sessão 100?", "resposta": "15 sessões (até à 115, a graduação final)" }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
