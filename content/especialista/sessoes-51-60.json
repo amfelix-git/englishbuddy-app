@@ -1,0 +1,269 @@
+[
+  {
+    "id": "especialista-51",
+    "nivel": "especialista",
+    "titulo": "Registo Jornalístico e Headlines",
+    "objetivos": ["Compreender a linguagem condensada de manchetes jornalísticas em inglês"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Manchetes de notícias em inglês omitem artigos e verbos auxiliares, usam o presente simples para factos passados recentes, e o infinitivo para o futuro — uma linguagem muito condensada e distinta do inglês falado.",
+        "exemplos": ["'PM Resigns Amid Scandal' (= The Prime Minister has resigned...)", "'Talks to Resume Next Week' (= Talks will resume...)", "'Economy Grows 2% in Q3' (presente simples para um facto passado recente)"],
+        "erroComum": { "errado": "Interpretar o presente simples numa manchete como referindo-se ao presente contínuo.", "correto": "Nas manchetes, o presente simples normalmente refere-se a algo que já aconteceu recentemente.", "descricaoPT": "Esta convenção não existe em português da mesma forma — é preciso reconhecê-la como um código próprio do género jornalístico." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'PM Resigns Amid Scandal' most likely means:", "opcoes": ["the PM will resign soon", "the PM has just resigned", "the PM is currently resigning live"], "correta": 1, "explicacao": "Presente simples em manchetes = evento recente." },
+      { "tipo": "escolha_multipla", "pergunta": "'Talks to Resume Next Week' means:", "opcoes": ["talks resumed last week", "talks will resume next week", "talks never resumed"], "correta": 1, "explicacao": "'To' + infinitivo em manchetes = futuro." },
+      { "tipo": "preenchimento_espaco", "frase": "'Economy ___ 2% in Q3' (grows, presente simples para facto recente)", "resposta": "grows", "explicacao": "Presente simples para eventos recentes em manchetes." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "As negociações vão retomar na próxima semana.", "destino": "Talks to resume next week." },
+      { "tipo": "ditado", "textoParaOuvir": "PM resigns amid scandal; talks to resume next week.", "respostaEsperada": ["PM resigns amid scandal; talks to resume next week."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-registojornalistico", "tipo": "gramatica", "pergunta": "Que tempo verbal se usa tipicamente em manchetes para factos passados recentes?", "resposta": "presente simples" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-52",
+    "nivel": "especialista",
+    "titulo": "Linguagem Legal e Contratual Básica",
+    "objetivos": ["Reconhecer vocabulário legal/contratual comum em documentos formais"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Documentos legais e contratuais usam vocabulário muito formal e específico: 'hereby' (por este meio), 'aforementioned' (acima mencionado), 'shall' (para obrigação, não futuro simples), 'in accordance with' (de acordo com).",
+        "exemplos": ["The parties hereby agree to the terms outlined below.", "The aforementioned document must be signed by both parties.", "The tenant shall pay rent by the 5th of each month."],
+        "erroComum": { "errado": "Interpretar 'shall' num contrato como um simples futuro, como em 'I shall go'.", "correto": "Em contratos, 'shall' exprime obrigação legal forte, equivalente a 'must'.", "descricaoPT": "Não precisas de escrever contratos, mas reconhecer este registo ajuda-te a compreender documentos oficiais em inglês (contratos de arrendamento, termos de serviço, etc.)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In a contract, 'shall' usually expresses:", "opcoes": ["simple future, like 'will'", "strong legal obligation", "a polite suggestion"], "correta": 1, "explicacao": "'Shall' em contratos = obrigação legal forte." },
+      { "tipo": "escolha_multipla", "pergunta": "'Hereby' means:", "opcoes": ["over there", "by this means/action", "in the future"], "correta": 1, "explicacao": "'Hereby' = por este meio/ação." },
+      { "tipo": "preenchimento_espaco", "frase": "The ___ document must be signed by both parties. (acima mencionado)", "resposta": "aforementioned", "explicacao": "'Aforementioned' = acima mencionado." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O inquilino deverá pagar a renda até ao dia 5 de cada mês.", "destino": "The tenant shall pay rent by the 5th of each month." },
+      { "tipo": "ditado", "textoParaOuvir": "The parties hereby agree to the terms outlined below.", "respostaEsperada": ["The parties hereby agree to the terms outlined below."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-linguagemlegal", "tipo": "gramatica", "pergunta": "O que significa 'shall' num documento contratual?", "resposta": "obrigação legal forte, equivalente a 'must'" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-53",
+    "nivel": "especialista",
+    "titulo": "Metáforas e Linguagem Figurativa Avançada",
+    "objetivos": ["Reconhecer e usar metáforas estendidas comuns em inglês avançado"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O inglês avançado usa metáforas estendidas de domínios como viagens, guerra e construção para falar de ideias abstratas: 'navigate a crisis', 'battle against inflation', 'lay the groundwork'.",
+        "exemplos": ["We need to navigate this crisis carefully. (viagem: navegar)", "The company is fighting an uphill battle against competitors. (guerra)", "This report lays the groundwork for future research. (construção)"],
+        "erroComum": { "errado": "Traduzir estas metáforas literalmente palavra a palavra.", "correto": "Reconhecer o domínio metafórico (viagem, guerra, construção) ajuda a compreender o significado sem tradução literal.", "descricaoPT": "Estas metáforas são tão comuns em inglês formal/jornalístico que deixam de ser sentidas como metáforas por falantes nativos — são vocabulário standard." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Navigate this crisis carefully' uses a metaphor from:", "opcoes": ["cooking", "travel/sailing", "sports"], "correta": 1, "explicacao": "'Navigate' vem do domínio da navegação/viagem." },
+      { "tipo": "escolha_multipla", "pergunta": "'Lay the groundwork for future research' means:", "opcoes": ["destroy previous research", "prepare the basis for future work", "criticise past research"], "correta": 1, "explicacao": "'Lay the groundwork' = preparar a base." },
+      { "tipo": "preenchimento_espaco", "frase": "The company is fighting an uphill ___ against competitors. (batalha)", "resposta": "battle", "explicacao": "'Uphill battle' = luta difícil." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Este relatório prepara a base para investigação futura.", "destino": "This report lays the groundwork for future research." },
+      { "tipo": "ditado", "textoParaOuvir": "We need to navigate this crisis carefully.", "respostaEsperada": ["We need to navigate this crisis carefully."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-metaforasavancadas", "tipo": "gramatica", "pergunta": "De que domínio vem a metáfora 'lay the groundwork'?", "resposta": "construção" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-54",
+    "nivel": "especialista",
+    "titulo": "Ironia, Sarcasmo e Humor Subtil",
+    "objetivos": ["Reconhecer marcadores de ironia e sarcasmo em inglês"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "O humor britânico/inglês usa frequentemente understatement (subestimação irónica) e sarcasmo subtil, muitas vezes sem sinais claros — o contexto e o tom são essenciais para perceber a intenção real.",
+        "exemplos": ["'Well, that went well...' (dito depois de um desastre total, ironicamente)", "'Oh, brilliant.' (sarcasmo depois de más notícias)", "'It's not my favourite thing in the world.' (understatement para 'eu odeio isto')"],
+        "erroComum": { "errado": "Interpretar sempre estas frases literalmente, tomando 'brilliant' como um elogio genuíno.", "correto": "Prestar atenção ao contexto e tom — o mesmo elogio pode ser genuíno ou sarcástico consoante a situação.", "descricaoPT": "Esta é uma das áreas mais difíceis para não-nativos, mesmo em C2 — reconhecer que o significado literal e o significado pretendido podem ser opostos." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Oh, brilliant' said right after hearing bad news is likely:", "opcoes": ["a genuine compliment", "sarcasm", "a question"], "correta": 1, "explicacao": "Neste contexto, é sarcasmo, não um elogio genuíno." },
+      { "tipo": "escolha_multipla", "pergunta": "'It's not my favourite thing in the world' is an example of:", "opcoes": ["exaggeration", "understatement", "a direct compliment"], "correta": 1, "explicacao": "Understatement (subestimação) — quer dizer 'eu odeio isto'." },
+      { "tipo": "preenchimento_espaco", "frase": "'Well, that went ___...' said after a disaster (ironicamente, 'bem').", "resposta": "well", "explicacao": "Ironia: dizer 'bem' quando correu muito mal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não é a minha coisa favorita no mundo. (subestimação irónica para 'odeio')", "destino": "It's not my favourite thing in the world." },
+      { "tipo": "ditado", "textoParaOuvir": "Well, that went well, didn't it?", "respostaEsperada": ["Well, that went well, didn't it?"] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-ironiasarcasmo", "tipo": "gramatica", "pergunta": "O que é 'understatement' e porque é difícil de reconhecer?", "resposta": "subestimação irónica; difícil porque o significado literal e o pretendido podem ser opostos" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-55",
+    "nivel": "especialista",
+    "titulo": "Situação: Viagem Internacional Complexa",
+    "objetivos": ["Resolver problemas de viagem (bagagem perdida, alterações de voo) em inglês formal"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "viagemcomplexa",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Situações de viagem complexas exigem vocabulário específico e um tom assertivo mas educado: reportar bagagem perdida, pedir alterações de voo, ou apresentar uma queixa formal.",
+        "exemplos": ["I'd like to report a missing piece of luggage from flight BA123.", "Is there any possibility of rebooking onto an earlier flight?", "I understand delays happen, but I'd appreciate some compensation for the inconvenience."],
+        "erroComum": { "errado": "Ser demasiado direto/agressivo ao apresentar uma queixa ('This is unacceptable, I want my money back now!').", "correto": "Manter um tom assertivo mas educado, mesmo numa queixa: 'I understand, but I'd appreciate...'", "descricaoPT": "O tom diplomático já praticado nas sessões de negociação aplica-se igualmente bem a queixas de viagem — funciona melhor do que a agressividade." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "How can I help you today?", "opcoes": [
+            { "texto": "I'd like to report a missing piece of luggage from flight BA123.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "I'm sorry to hear that. We'll investigate and get back to you within 48 hours.", "opcoes": [
+            { "texto": "I understand delays happen, but I'd appreciate some compensation for the inconvenience.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which tone works best for a travel complaint?", "opcoes": ["aggressive and demanding", "assertive but polite", "passive and apologetic"], "correta": 1, "explicacao": "Assertivo mas educado funciona melhor." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Há alguma possibilidade de remarcar para um voo mais cedo?", "destino": "Is there any possibility of rebooking onto an earlier flight?" },
+      { "tipo": "ditado", "textoParaOuvir": "I'd like to report a missing piece of luggage from flight BA123.", "respostaEsperada": ["I'd like to report a missing piece of luggage from flight BA123."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-viagemcomplexa", "tipo": "situacao", "pergunta": "Que tom funciona melhor ao apresentar uma queixa de viagem em inglês?", "resposta": "assertivo mas educado, não agressivo" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-56",
+    "nivel": "especialista",
+    "titulo": "Situação: Cuidados de Saúde Avançados",
+    "objetivos": ["Descrever sintomas e situações de saúde com precisão em inglês"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "cuidadosdesaude",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Descrever sintomas com precisão em inglês exige vocabulário específico além do básico 'it hurts': dull ache (dor surda), sharp pain (dor aguda), intermittent (intermitente), radiating (que se espalha/irradia).",
+        "exemplos": ["I've had a dull ache in my lower back for about a week.", "The pain is sharp and seems to radiate down my arm.", "It's intermittent — it comes and goes throughout the day."],
+        "erroComum": { "errado": "Usar apenas 'it hurts' para descrever qualquer tipo de dor.", "correto": "Usar vocabulário preciso (dull/sharp/radiating/intermittent) ajuda o profissional de saúde a compreender melhor a situação.", "descricaoPT": "Em contexto médico, a precisão do vocabulário pode fazer diferença real na comunicação — vale a pena memorizar estes termos." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Can you describe the pain for me?", "opcoes": [
+            { "texto": "It's a sharp pain that seems to radiate down my arm, and it's intermittent.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "How long has this been going on?", "opcoes": [
+            { "texto": "I've had this dull ache for about a week now.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Intermittent' pain means it:", "opcoes": ["never stops", "comes and goes", "is always sharp"], "correta": 1, "explicacao": "'Intermittent' = intermitente, vai e vem." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É uma dor aguda que parece irradiar pelo braço abaixo.", "destino": "It's a sharp pain that seems to radiate down my arm." },
+      { "tipo": "ditado", "textoParaOuvir": "I've had a dull ache in my lower back for about a week.", "respostaEsperada": ["I've had a dull ache in my lower back for about a week."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-cuidadosdesaude", "tipo": "situacao", "pergunta": "Que palavra descreve uma dor que 'vai e vem'?", "resposta": "intermittent" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-57",
+    "nivel": "especialista",
+    "titulo": "C2 Listening Simulado: Multiple Matching",
+    "objetivos": ["Praticar a compreensão de múltiplos falantes curtos sobre o mesmo tema (Parte 4)"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 4 (multiple matching), 5 falantes curtos falam sobre o mesmo tema geral, mas com opiniões ou experiências diferentes. Tens de identificar, para cada um, qual afirmação corresponde à sua opinião — muitas vezes há duas tarefas em simultâneo.",
+        "exemplos": ["Speaker 1: 'I found the whole experience quite overwhelming at first.' (opinião: dificuldade inicial)", "Speaker 2: 'Honestly, I took to it straight away.' (opinião: adaptação fácil)", "As opiniões podem ser parecidas mas ter nuances diferentes — atenção aos detalhes."],
+        "erroComum": { "errado": "Decidir a resposta assim que se ouve uma palavra-chave parecida com a pergunta, sem esperar pela frase completa.", "correto": "Ouvir a ideia completa de cada falante antes de decidir — os distratores costumam ter uma palavra parecida mas um sentido diferente.", "descricaoPT": "Este exercício testa detalhadamente a capacidade de distinguir nuances entre opiniões parecidas, uma competência muito valorizada no nível C2." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'I found the whole experience quite overwhelming at first' suggests:", "opcoes": ["it was easy from the start", "it was difficult initially", "it never became difficult"], "correta": 1, "explicacao": "'Overwhelming at first' = difícil inicialmente." },
+      { "tipo": "escolha_multipla", "pergunta": "'I took to it straight away' means:", "opcoes": ["I adapted to it quickly and easily", "I struggled with it for a long time", "I never got used to it"], "correta": 0, "explicacao": "'Take to something' = adaptar-se bem e rapidamente." },
+      { "tipo": "preenchimento_espaco", "frase": "In Part 4, listen for the complete idea, not just a similar ___.", "resposta": "keyword", "explicacao": "Não decidir só por uma palavra-chave parecida." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Adaptei-me a isto imediatamente.", "destino": "I took to it straight away." },
+      { "tipo": "ditado", "textoParaOuvir": "I found the whole experience quite overwhelming at first, but I took to it eventually.", "respostaEsperada": ["I found the whole experience quite overwhelming at first, but I took to it eventually."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2listening-parte4simulado", "tipo": "exame", "pergunta": "Qual é o erro mais comum a evitar na Parte 4 do Listening (multiple matching)?", "resposta": "decidir a resposta por uma palavra parecida, sem esperar pela ideia completa" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-58",
+    "nivel": "especialista",
+    "titulo": "C2 Speaking Simulado Completo",
+    "objetivos": ["Simular as 3 partes do Speaking numa sessão combinada"],
+    "duracaoEstimadaMin": 13,
+    "temaIntegrador": "speakingsimuladocompleto",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos simular as 3 partes do Speaking numa única sessão: entrevista pessoal (Parte 1), discussão colaborativa (Parte 2), e long turn + discussão (Parte 3) — a experiência mais próxima do exame real que já praticámos.",
+        "exemplos": ["Parte 1: 'What do you enjoy most about learning languages?'", "Parte 2: 'I'd say this option, mainly because...' / 'I see your point, but...'", "Parte 3: 'I'd like to talk about... On balance, I believe...'"],
+        "erroComum": { "errado": "Preparar respostas totalmente memorizadas e recitá-las sem adaptação ao que é realmente perguntado.", "correto": "Usar as estruturas praticadas como ferramentas flexíveis, adaptando-as à pergunta real — soa mais natural e é mais bem avaliado.", "descricaoPT": "Respostas demasiado memorizadas soam artificiais aos avaliadores — o objetivo é interiorizar as estruturas, não decorar frases fixas." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Part 1: What do you enjoy most about learning languages?", "opcoes": [
+            { "texto": "What I enjoy most is discovering how differently people express similar ideas across cultures.", "proximoNo": "parte2" }
+          ]},
+          { "id": "parte2", "interlocutorFala": "Part 2: Let's discuss these two options. Which do you prefer?", "opcoes": [
+            { "texto": "I'd say the first one, mainly because it seems more sustainable long-term.", "proximoNo": "parte3" }
+          ]},
+          { "id": "parte3", "interlocutorFala": "Part 3: Please talk for two minutes about a topic of your choice, then we'll discuss it further.", "opcoes": [
+            { "texto": "I'd like to talk about lifelong learning. Never have I seen such easy access to knowledge. On balance, I believe this is one of the great achievements of our time.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Why is it risky to give fully memorised answers in the Speaking test?", "opcoes": ["they are always grammatically wrong", "they can sound unnatural and not answer the actual question", "examiners don't allow prepared language at all"], "correta": 1, "explicacao": "Respostas memorizadas podem soar artificiais e desalinhadas com a pergunta real." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O que mais gosto é de descobrir como pessoas diferentes exprimem ideias semelhantes.", "destino": "What I enjoy most is discovering how different people express similar ideas." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, I believe this is one of the great achievements of our time.", "respostaEsperada": ["On balance, I believe this is one of the great achievements of our time."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2speaking-simuladocompleto", "tipo": "exame", "pergunta": "Porque é arriscado dar respostas totalmente memorizadas no Speaking?", "resposta": "podem soar artificiais e não responder de facto à pergunta colocada" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "especialista-59",
+    "nivel": "especialista",
+    "titulo": "Colocações com Preposições Traiçoeiras",
+    "objetivos": ["Usar corretamente preposições dependentes de adjetivos e verbos avançados"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Muitos adjetivos e verbos avançados têm uma preposição fixa que não corresponde à tradução direta do português: capable of, responsible for, insist on, succeed in, benefit from.",
+        "exemplos": ["She is capable of achieving great things. (não 'capable to')", "He insisted on paying for dinner. (não 'insisted in')", "The company succeeded in reducing costs. (não 'succeeded to')"],
+        "erroComum": { "errado": "He insisted in paying for dinner.", "correto": "He insisted on paying for dinner.", "descricaoPT": "Estas preposições fixas não seguem uma lógica de tradução direta — têm de ser memorizadas caso a caso, tal como as colocações já praticadas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She is capable ___ achieving great things.", "opcoes": ["to", "of", "for"], "correta": 1, "explicacao": "'Capable of' é a preposição fixa correta." },
+      { "tipo": "escolha_multipla", "pergunta": "He insisted ___ paying for dinner.", "opcoes": ["in", "for", "on"], "correta": 2, "explicacao": "'Insist on' é a preposição fixa correta." },
+      { "tipo": "preenchimento_espaco", "frase": "The company succeeded ___ reducing costs significantly.", "resposta": "in", "explicacao": "'Succeed in' é a preposição fixa correta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela é responsável por gerir toda a equipa.", "destino": "She is responsible for managing the whole team." },
+      { "tipo": "ditado", "textoParaOuvir": "She is capable of achieving great things and succeeded in reducing costs.", "respostaEsperada": ["She is capable of achieving great things and succeeded in reducing costs."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-preposicoestraicoeiras", "tipo": "gramatica", "pergunta": "Que preposição segue 'insist' e 'succeed'?", "resposta": "insist on; succeed in" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-60",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Mini-Simulado das 4 Partes do Exame",
+    "objetivos": ["Combinar Reading, Writing, Listening e Speaking numa sessão de revisão geral"],
+    "duracaoEstimadaMin": 14,
+    "temaIntegrador": "minisimuladoexame",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Marco dos 60/115: vamos combinar uma amostra pequena das 4 partes do exame C2 Proficiency (Reading, Writing, Listening, Speaking simulado) para consolidar tudo o que já foi praticado até aqui.",
+        "exemplos": ["Reading: colocações e transformação com palavra-chave.", "Writing: síntese crítica curta com 'whereas' e 'on balance'.", "Speaking: resposta a uma pergunta de discussão, usando linguagem diplomática."],
+        "erroComum": { "errado": "Tratar cada parte do exame como completamente isolada das outras.", "correto": "As competências praticadas (registo formal, coesão, precisão gramatical) são transversais a todas as partes do exame.", "descricaoPT": "Este mini-simulado mostra como as mesmas estruturas (inversão, subjuntivo, colocações, conectores) aparecem repetidamente em todas as 4 partes do exame." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Reading: 'He ___ a strong impression on the panel.' (colocação)", "opcoes": ["made", "did", "took"], "correta": 0, "explicacao": "'Make an impression' é a colocação correta." },
+      { "tipo": "preenchimento_espaco", "frase": "Writing: Critics argue X, ___ others highlight Y. (contraste)", "resposta": "whereas", "explicacao": "'Whereas' marca contraste entre pontos de vista." },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Speaking: Do you think technology has changed education for the better?", "opcoes": [
+            { "texto": "On balance, I believe it has, though it is essential that we address the challenges it brings too.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases resumindo o que aprendeste nas primeiras 60 sessões do Nível Especialista, usando pelo menos um conector avançado (whereas/nonetheless/on balance).", "palavrasChaveEsperadas": ["on balance", "whereas", "nonetheless"], "respostaModelo": "I've learned a wide range of advanced structures, from inversion to formal subjunctive. Some were more challenging than others; nonetheless, on balance, my confidence has grown significantly." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, I believe it has, though it is essential that we address the challenges it brings too.", "respostaEsperada": ["On balance, I believe it has, though it is essential that we address the challenges it brings too."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-minisimuladoexame-integradora", "tipo": "situacao", "pergunta": "Que tipo de competências são transversais às 4 partes do exame C2 Proficiency?", "resposta": "registo formal, coesão textual e precisão gramatical avançada" }],
+    "gamificacao": { "pontosBase": 18, "badge": null }
+  }
+]
