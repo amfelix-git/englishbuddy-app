@@ -1,0 +1,250 @@
+[
+  {
+    "id": "especialista-71",
+    "nivel": "especialista",
+    "titulo": "Linguagem de Hedging Académico",
+    "objetivos": ["Suavizar afirmações com linguagem de hedging típica de registo académico"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Hedging' é a arte de suavizar afirmações para soar menos categórico e mais académico: 'it could be argued that', 'arguably', 'tend to', 'seem to' — em vez de afirmações absolutas.",
+        "exemplos": ["It could be argued that remote work increases productivity.", "This is arguably the most significant change in decades.", "Younger employees tend to prefer flexible schedules."],
+        "erroComum": { "errado": "Remote work increases productivity. (afirmação absoluta e categórica)", "correto": "It could be argued that remote work increases productivity. (suavizado, académico)", "descricaoPT": "Afirmações absolutas soam menos sofisticadas em registo académico — o hedging mostra consciência de que existem exceções e outras perspetivas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence uses academic hedging?", "opcoes": ["Remote work increases productivity.", "It could be argued that remote work increases productivity.", "Remote work definitely increases productivity, no doubt."], "correta": 1, "explicacao": "'It could be argued that' suaviza a afirmação." },
+      { "tipo": "escolha_multipla", "pergunta": "'Younger employees tend to prefer flexible schedules' is:", "opcoes": ["a hedged, general tendency", "an absolute statement about all employees", "a question"], "correta": 0, "explicacao": "'Tend to' suaviza para uma tendência geral, não uma regra absoluta." },
+      { "tipo": "preenchimento_espaco", "frase": "This is ___ the most significant change in decades. (possivelmente, hedging)", "resposta": "arguably", "explicacao": "'Arguably' suaviza uma afirmação forte." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Poder-se-ia argumentar que esta é a melhor abordagem.", "destino": "It could be argued that this is the best approach." },
+      { "tipo": "ditado", "textoParaOuvir": "Younger employees tend to prefer flexible schedules.", "respostaEsperada": ["Younger employees tend to prefer flexible schedules."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-hedgingacademico", "tipo": "gramatica", "pergunta": "O que é 'hedging' em registo académico?", "resposta": "suavizar afirmações para soar menos categórico (it could be argued, arguably, tend to)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-72",
+    "nivel": "especialista",
+    "titulo": "Conectores de Causa e Efeito Avançados",
+    "objetivos": ["Usar owing to, due to, as a result of, thereby com precisão"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Conectores de causa/efeito avançados incluem 'owing to'/'due to' (por causa de, + substantivo), 'as a result of' (como resultado de), e 'thereby' (+ gerúndio, exprimindo consequência).",
+        "exemplos": ["The flight was delayed owing to bad weather.", "As a result of the new policy, costs fell significantly.", "The company automated the process, thereby reducing errors."],
+        "erroComum": { "errado": "The flight was delayed due to it was raining. (seguido de oração completa)", "correto": "The flight was delayed due to the rain. / ...because it was raining.", "descricaoPT": "'Due to'/'owing to' são seguidos de substantivo, não de oração completa — para uma oração completa usa-se 'because' ou 'since'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The flight was delayed ___ bad weather.", "opcoes": ["owing to", "because", "so"], "correta": 0, "explicacao": "'Owing to' + substantivo." },
+      { "tipo": "escolha_multipla", "pergunta": "The company automated the process, ___ reducing errors.", "opcoes": ["thereby", "because", "so that"], "correta": 0, "explicacao": "'Thereby' + gerúndio exprime consequência." },
+      { "tipo": "preenchimento_espaco", "frase": "___ the new policy, costs fell significantly. (como resultado de)", "resposta": "As a result of", "explicacao": "'As a result of' + substantivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "A empresa automatizou o processo, reduzindo assim os erros.", "destino": "The company automated the process, thereby reducing errors." },
+      { "tipo": "ditado", "textoParaOuvir": "The flight was delayed owing to bad weather.", "respostaEsperada": ["The flight was delayed owing to bad weather."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-causaefeitoavancados", "tipo": "gramatica", "pergunta": "O que segue 'owing to'/'due to': substantivo ou oração completa?", "resposta": "substantivo (para oração completa usa-se 'because')" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-73",
+    "nivel": "especialista",
+    "titulo": "Voz Passiva com Verbos de Relato",
+    "objetivos": ["Usar construções passivas com verbos de relato (it is believed that, is thought to)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Para relatar crenças ou informações gerais sem identificar a fonte, usa-se a passiva com verbos de relato: 'it is believed that...', ou a forma alternativa 'is thought to' + infinitivo.",
+        "exemplos": ["It is believed that the ancient site dates back 3,000 years.", "The ancient site is thought to date back 3,000 years.", "It is said that the company will announce layoffs soon."],
+        "erroComum": { "errado": "The site is thought that dates back 3,000 years.", "correto": "The site is thought to date back 3,000 years.", "descricaoPT": "Com 'is thought to'/'is believed to' + sujeito, usa-se infinitivo diretamente a seguir, não 'that' + oração — diferente da estrutura com 'it is believed that'." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The site is thought ___ back 3,000 years.", "opcoes": ["that dates", "to date", "dating"], "correta": 1, "explicacao": "'Is thought to' + infinitivo." },
+      { "tipo": "escolha_multipla", "pergunta": "'It is believed that...' is used to:", "opcoes": ["identify exactly who believes this", "report a general belief without naming the source", "express personal certainty"], "correta": 1, "explicacao": "Relata uma crença geral sem identificar a fonte." },
+      { "tipo": "preenchimento_espaco", "frase": "It is ___ that the company will announce layoffs soon. (diz-se)", "resposta": "said", "explicacao": "'It is said that' = diz-se que." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Acredita-se que o local antigo remonta a 3.000 anos.", "destino": "It is believed that the ancient site dates back 3,000 years." },
+      { "tipo": "ditado", "textoParaOuvir": "The ancient site is thought to date back 3,000 years.", "respostaEsperada": ["The ancient site is thought to date back 3,000 years."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-passivaverbosrelato", "tipo": "gramatica", "pergunta": "O que segue diretamente 'is thought to' / 'is believed to'?", "resposta": "infinitivo (não 'that' + oração)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-74",
+    "nivel": "especialista",
+    "titulo": "Vocabulário de Tendências e Dados",
+    "objetivos": ["Descrever tendências e dados com vocabulário preciso"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Para descrever tendências em dados, usa-se vocabulário específico: 'a surge' (subida acentuada), 'a decline' (declínio), 'a plateau' (estabilização), 'to fluctuate' (flutuar).",
+        "exemplos": ["Sales saw a sharp surge in December.", "There has been a steady decline in membership numbers.", "After the initial growth, figures reached a plateau.", "Prices have fluctuated significantly this year."],
+        "erroComum": { "errado": "Usar só 'go up' e 'go down' repetidamente para descrever qualquer tendência.", "correto": "Variar com 'surge', 'decline', 'plateau', 'fluctuate' consoante o tipo exato de tendência.", "descricaoPT": "Este vocabulário é especialmente útil para a Parte 1 do Reading (colocações) e para descrever gráficos em contexto profissional." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'A plateau' in data means:", "opcoes": ["a sharp increase", "a period of stability after growth", "a sudden drop"], "correta": 1, "explicacao": "'Plateau' = período de estabilização." },
+      { "tipo": "escolha_multipla", "pergunta": "'Prices have fluctuated' means they:", "opcoes": ["stayed exactly the same", "rose and fell irregularly", "only increased"], "correta": 1, "explicacao": "'Fluctuate' = subir e descer irregularmente." },
+      { "tipo": "preenchimento_espaco", "frase": "Sales saw a sharp ___ in December. (subida acentuada)", "resposta": "surge", "explicacao": "'Surge' = subida acentuada e rápida." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Tem havido um declínio constante no número de membros.", "destino": "There has been a steady decline in membership numbers." },
+      { "tipo": "ditado", "textoParaOuvir": "After the initial growth, figures reached a plateau.", "respostaEsperada": ["After the initial growth, figures reached a plateau."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-vocabtendenciasdados", "tipo": "gramatica", "pergunta": "Que palavra descreve uma subida acentuada e rápida nos dados?", "resposta": "a surge" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-75",
+    "nivel": "especialista",
+    "titulo": "Situação: Apresentação de Dados e Gráficos",
+    "objetivos": ["Descrever gráficos e dados numa apresentação profissional"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "apresentacaodados",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Apresentar dados combina o vocabulário de tendências com signposting: 'As you can see from this graph...', 'What's particularly striking is...', 'This trend can be attributed to...'",
+        "exemplos": ["As you can see from this graph, sales surged in Q4.", "What's particularly striking is the sudden plateau in March.", "This trend can be attributed to seasonal demand."],
+        "erroComum": { "errado": "Descrever o gráfico sem orientar o público sobre o que observar ('Look at this. Numbers went up.').", "correto": "Guiar o público explicitamente: 'As you can see...', 'What's striking is...'", "descricaoPT": "Isto combina o vocabulário de tendências com o signposting já praticado nas apresentações formais." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Can you walk us through the sales data for this quarter?", "opcoes": [
+            { "texto": "As you can see from this graph, sales surged in Q4, largely owing to the holiday season.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "What's causing the plateau we see afterwards?", "opcoes": [
+            { "texto": "What's particularly striking is that this trend can be attributed to reduced marketing spend.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase best guides an audience's attention to a graph?", "opcoes": ["Look at this.", "As you can see from this graph...", "Numbers went up."], "correta": 1, "explicacao": "'As you can see from this graph...' orienta explicitamente a atenção." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Esta tendência pode ser atribuída à procura sazonal.", "destino": "This trend can be attributed to seasonal demand." },
+      { "tipo": "ditado", "textoParaOuvir": "As you can see from this graph, sales surged in Q4.", "respostaEsperada": ["As you can see from this graph, sales surged in Q4."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-apresentacaodados", "tipo": "situacao", "pergunta": "Que expressão ajuda a orientar a atenção do público para um gráfico?", "resposta": "As you can see from this graph..." }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-76",
+    "nivel": "especialista",
+    "titulo": "Situação: Dar Feedback Construtivo",
+    "objetivos": ["Dar feedback construtivo de forma diplomática e específica"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "feedbackconstrutivo",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Feedback construtivo combina reconhecimento do positivo, uma sugestão específica de melhoria (não vaga), e um tom encorajador — muitas vezes usando a estrutura 'sandwich' (positivo → melhoria → positivo).",
+        "exemplos": ["Overall, this is a strong piece of work. One area to consider strengthening is the conclusion. That said, the analysis itself is excellent.", "I really liked how you structured this. It might be worth adding more concrete examples.", "This shows real progress — let's build on that next time."],
+        "erroComum": { "errado": "Dar feedback vago sem sugestões concretas ('It's not great, try harder').", "correto": "Ser específico sobre o que melhorar e como: 'One area to consider strengthening is...'", "descricaoPT": "Feedback vago não ajuda a pessoa a melhorar — a especificidade é o que torna o feedback verdadeiramente construtivo." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "What did you think of my presentation?", "opcoes": [
+            { "texto": "Overall, this is a strong piece of work. One area to consider strengthening is the conclusion.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "That's helpful, thank you. Anything else?", "opcoes": [
+            { "texto": "That said, the analysis itself is excellent — well done.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "What makes feedback truly constructive?", "opcoes": ["being vague to avoid hurting feelings", "being specific about what to improve and how", "only pointing out mistakes"], "correta": 1, "explicacao": "A especificidade é essencial para o feedback ser útil." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Talvez valha a pena acrescentar exemplos mais concretos.", "destino": "It might be worth adding more concrete examples." },
+      { "tipo": "ditado", "textoParaOuvir": "One area to consider strengthening is the conclusion.", "respostaEsperada": ["One area to consider strengthening is the conclusion."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-feedbackconstrutivo", "tipo": "situacao", "pergunta": "Qual é a estrutura comum de feedback construtivo em 3 partes?", "resposta": "positivo → sugestão específica de melhoria → positivo (estrutura 'sandwich')" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-77",
+    "nivel": "especialista",
+    "titulo": "Idiomas sobre Tempo e Oportunidade",
+    "objetivos": ["Usar idiomas comuns sobre tempo, dinheiro e oportunidade"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vários idiomas em inglês giram à volta de tempo e oportunidade: 'a window of opportunity' (uma janela de oportunidade), 'time is of the essence' (o tempo é crucial), 'once in a blue moon' (raramente), 'strike while the iron is hot' (aproveitar o momento certo).",
+        "exemplos": ["We have a narrow window of opportunity to act.", "Time is of the essence — we need to decide today.", "We should strike while the iron is hot and launch now."],
+        "erroComum": { "errado": "Traduzir estas expressões literalmente, perdendo o sentido idiomático.", "correto": "Aprender o significado completo da expressão, não palavra a palavra.", "descricaoPT": "Estas expressões são muito usadas em contexto profissional e de negócios — vale a pena reconhecê-las mesmo sem as usar ativamente." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'A window of opportunity' means:", "opcoes": ["a literal window in an office", "a limited period when something can be done", "a permanent chance"], "correta": 1, "explicacao": "'Window of opportunity' = período limitado favorável." },
+      { "tipo": "escolha_multipla", "pergunta": "'Strike while the iron is hot' means:", "opcoes": ["wait patiently", "act now, while conditions are favourable", "avoid taking risks"], "correta": 1, "explicacao": "= aproveitar o momento certo, agir agora." },
+      { "tipo": "preenchimento_espaco", "frase": "Time is of the ___ — we need to decide today. (essencial)", "resposta": "essence", "explicacao": "'Time is of the essence' = o tempo é crucial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Temos uma janela de oportunidade estreita para agir.", "destino": "We have a narrow window of opportunity to act." },
+      { "tipo": "ditado", "textoParaOuvir": "We should strike while the iron is hot and launch now.", "respostaEsperada": ["We should strike while the iron is hot and launch now."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-idiomastempooportunidade", "tipo": "gramatica", "pergunta": "O que significa 'strike while the iron is hot'?", "resposta": "agir agora, enquanto as condições são favoráveis" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-78",
+    "nivel": "especialista",
+    "titulo": "C2 Listening Simulado: Sentence Completion",
+    "objetivos": ["Praticar a Parte 2 do Listening: completar frases com informação exata ouvida"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2 (sentence completion), ouves uma palestra/monólogo mais longo e completas frases com 1-3 palavras exatas do áudio. É essencial escrever exatamente o que se ouve, incluindo a forma gramatical correta.",
+        "exemplos": ["'The research was conducted over a period of...' → 'three years' (não 'three year').", "As respostas seguem a ordem do áudio — não saltam para trás e para a frente.", "Prestar atenção a números, datas e nomes próprios, frequentemente pedidos nesta parte."],
+        "erroComum": { "errado": "Escrever a resposta com a forma gramatical errada (singular/plural, tempo verbal) mesmo ouvindo a palavra certa.", "correto": "Copiar exatamente a forma ouvida, incluindo plurais e concordâncias.", "descricaoPT": "Pequenos erros gramaticais na resposta (mesmo com a palavra certa) podem ser penalizados — a precisão até ao detalhe importa nesta parte." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "In Part 2 (sentence completion), answers typically:", "opcoes": ["appear in random order", "follow the order of the audio", "require full sentences"], "correta": 1, "explicacao": "As respostas seguem a ordem do áudio." },
+      { "tipo": "escolha_multipla", "pergunta": "What matters most when writing the answer?", "opcoes": ["writing exactly what was heard, including grammar form", "paraphrasing in your own words", "writing as much as possible"], "correta": 0, "explicacao": "Copiar exatamente a forma ouvida, incluindo gramática." },
+      { "tipo": "preenchimento_espaco", "frase": "'The research was conducted over a period of ___.' (three years, exatamente como ouvido)", "resposta": "three years", "explicacao": "Copiar exatamente, incluindo o plural." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Presta atenção a números, datas e nomes próprios.", "destino": "Pay attention to numbers, dates and proper names." },
+      { "tipo": "ditado", "textoParaOuvir": "The research was conducted over a period of three years.", "respostaEsperada": ["The research was conducted over a period of three years."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2listening-parte2simulado", "tipo": "exame", "pergunta": "Porque é importante copiar exatamente a forma gramatical ouvida na Parte 2 do Listening?", "resposta": "pequenos erros gramaticais na resposta podem ser penalizados, mesmo com a palavra certa" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-79",
+    "nivel": "especialista",
+    "titulo": "C2 Reading Simulado: Texto Longo com Questões Combinadas",
+    "objetivos": ["Aplicar várias estratégias de leitura combinadas num texto mais longo"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos combinar várias estratégias de leitura já praticadas (colocações, inferência, coesão, localização de informação) num simulado com um texto mais longo, tal como aparece combinado no exame real.",
+        "exemplos": ["Ler as perguntas primeiro para saber o que procurar.", "Prestar atenção às colocações em questões de vocabulário.", "Verificar a atitude do autor em questões de inferência."],
+        "erroComum": { "errado": "Aplicar só uma estratégia (ex.: escanear) para todos os tipos de pergunta.", "correto": "Adaptar a estratégia ao tipo de pergunta: escanear para localização, ler com atenção para inferência.", "descricaoPT": "A flexibilidade estratégica — saber qual técnica usar para cada tipo de pergunta — é uma competência avaliada implicitamente pelo desempenho geral no exame." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "For locating specific information quickly, the best strategy is:", "opcoes": ["reading every word carefully", "scanning for keywords and paraphrases", "reading only the first paragraph"], "correta": 1, "explicacao": "Escanear é mais eficiente para localização de informação." },
+      { "tipo": "escolha_multipla", "pergunta": "For questions about the writer's attitude, the best strategy is:", "opcoes": ["scanning quickly", "reading carefully for tone and word choice", "skipping the question"], "correta": 1, "explicacao": "Inferência de atitude exige leitura atenta, não apenas escaneamento." },
+      { "tipo": "preenchimento_espaco", "frase": "Adapt your reading ___ to the type of question being asked.", "resposta": "strategy", "explicacao": "Flexibilidade estratégica consoante o tipo de pergunta." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Adapta a tua estratégia de leitura ao tipo de pergunta.", "destino": "Adapt your reading strategy to the type of question." },
+      { "tipo": "ditado", "textoParaOuvir": "Adapt your reading strategy to the type of question being asked.", "respostaEsperada": ["Adapt your reading strategy to the type of question being asked."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2reading-textolongosimulado", "tipo": "exame", "pergunta": "Porque é importante adaptar a estratégia de leitura ao tipo de pergunta?", "resposta": "diferentes perguntas (localização vs. inferência) exigem técnicas diferentes de leitura" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-80",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Marco 80/115",
+    "objetivos": ["Rever de forma integrada hedging, causa/efeito, e vocabulário de dados"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": "revisaomarco80",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Marco dos 80/115: vamos combinar hedging académico, conectores de causa/efeito, e vocabulário de tendências/dados — competências muito valorizadas em contextos profissionais e académicos.",
+        "exemplos": ["It could be argued that the surge in remote work is here to stay.", "Owing to changing expectations, companies have adapted their policies.", "This trend can be attributed to a broader shift in priorities."],
+        "erroComum": { "errado": "Ver hedging e vocabulário de dados como tópicos isolados, sem os combinar em contextos reais.", "correto": "Combinar hedging + causa/efeito + vocabulário de tendências é típico de relatórios e artigos de opinião reais.", "descricaoPT": "Esta combinação é exatamente o que se espera num artigo de opinião ou relatório profissional de nível C2." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence best combines hedging and cause/effect language?", "opcoes": ["Remote work is good.", "It could be argued that the surge in remote work is here to stay, owing to changing expectations.", "Remote work happened because of COVID."], "correta": 1, "explicacao": "Combina hedging ('it could be argued') com causa ('owing to')." },
+      { "tipo": "preenchimento_espaco", "frase": "This trend can be ___ to a broader shift in priorities. (atribuída)", "resposta": "attributed", "explicacao": "'Attributed to' = atribuída a." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Poder-se-ia argumentar que esta tendência veio para ficar.", "destino": "It could be argued that this trend is here to stay." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre uma tendência atual (tecnologia, trabalho, sociedade), combinando hedging ('it could be argued'/'arguably') com um conector de causa ('owing to'/'as a result of').", "palavrasChaveEsperadas": ["arguably", "owing to", "could be argued"], "respostaModelo": "It could be argued that remote work is here to stay, owing to the flexibility it offers. This shift is arguably one of the most significant changes in how we work." },
+      { "tipo": "ditado", "textoParaOuvir": "This trend can be attributed to a broader shift in priorities.", "respostaEsperada": ["This trend can be attributed to a broader shift in priorities."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-revisaomarco80-integradora", "tipo": "situacao", "pergunta": "Que combinação de competências é típica de um relatório ou artigo de opinião profissional de nível C2?", "resposta": "hedging académico + conectores de causa/efeito + vocabulário preciso de tendências" }],
+    "gamificacao": { "pontosBase": 18, "badge": null }
+  }
+]
