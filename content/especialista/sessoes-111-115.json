@@ -1,0 +1,125 @@
+[
+  {
+    "id": "especialista-111",
+    "nivel": "especialista",
+    "titulo": "C2 Speaking Simulado Final: Long Turn Avançado",
+    "objetivos": ["Produzir um long turn avançado e bem estruturado sobre um tema abstrato"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Um long turn avançado de nível C2 lida com temas mais abstratos (não apenas descritivos) e mantém estrutura, coesão e precisão gramatical durante ~2 minutos sem hesitação excessiva.",
+        "exemplos": ["I'd like to discuss whether progress always equates to improvement.", "On the one hand, technological progress has undeniable benefits; on the other, it raises new dilemmas.", "On balance, I'd argue that progress is only meaningful when guided by clear values."],
+        "erroComum": { "errado": "Falar apenas de factos concretos, evitando temas abstratos por serem mais difíceis.", "correto": "Praticar temas abstratos ativamente — são frequentes no exame C2 e mostram maturidade de pensamento.", "descricaoPT": "Temas abstratos (progresso, justiça, sucesso) são mais exigentes do que temas concretos (viagens, trabalho), mas surgem com frequência no nível C2." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'On the one hand..., on the other...' is used to:", "opcoes": ["introduce two contrasting points", "conclude an argument", "ask a question"], "correta": 0, "explicacao": "Introduz dois pontos contrastantes." },
+      { "tipo": "preenchimento_espaco", "frase": "___ balance, I'd argue that progress is only meaningful when guided by clear values.", "resposta": "On", "explicacao": "'On balance' introduz a conclusão ponderada." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Gostaria de discutir se o progresso equivale sempre a melhoria.", "destino": "I'd like to discuss whether progress always equates to improvement." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve o esboço de um long turn (4-5 frases) sobre um tema abstrato à tua escolha (sucesso, felicidade, progresso...), usando 'on the one hand... on the other...' e uma conclusão com 'on balance'.", "palavrasChaveEsperadas": ["on the one hand", "on balance"], "respostaModelo": "I'd like to discuss what success truly means. On the one hand, many equate it with wealth and status. On the other, some define it through personal fulfilment. On balance, I believe success is deeply personal and cannot be measured by a single standard." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, I'd argue that progress is only meaningful when guided by clear values.", "respostaEsperada": ["On balance, I'd argue that progress is only meaningful when guided by clear values."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2speaking-longturnavancado111", "tipo": "exame", "pergunta": "Que tipo de temas é importante praticar ativamente para o C2 Speaking, além dos concretos?", "resposta": "temas abstratos (progresso, sucesso, justiça), frequentes no nível C2" }],
+    "gamificacao": { "pontosBase": 14, "badge": null }
+  },
+  {
+    "id": "especialista-112",
+    "nivel": "especialista",
+    "titulo": "Revisão em Espiral: Vocabulário Temático Combinado",
+    "objetivos": ["Rever de forma integrada vocabulário de tecnologia, ambiente, cultura e saúde mental"],
+    "duracaoEstimadaMin": 11,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos rever, combinados, os quatro grandes campos de vocabulário temático já praticados: tecnologia (leverage, scalable), ambiente (carbon footprint, mitigate), cultura (heritage, diversity), e saúde mental (burnout, well-being).",
+        "exemplos": ["Companies should leverage technology to reduce their carbon footprint.", "Preserving cultural heritage matters, but so does preventing burnout among those who protect it.", "Well-being and sustainability are increasingly seen as interconnected goals."],
+        "erroComum": { "errado": "Tratar estes campos de vocabulário como completamente independentes uns dos outros.", "correto": "Na vida real, estes temas frequentemente cruzam-se (ex.: tecnologia + ambiente, cultura + bem-estar) — vale a pena praticar essa combinação.", "descricaoPT": "Textos reais avançados frequentemente combinam vários temas na mesma frase ou parágrafo — esta é uma prática final antes da graduação." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Companies should ___ technology to reduce their carbon footprint. (tirar partido de)", "opcoes": ["leverage", "waste", "ignore"], "correta": 0, "explicacao": "'Leverage' = tirar partido estratégico de algo." },
+      { "tipo": "escolha_multipla", "pergunta": "'Burnout' is most closely related to which theme?", "opcoes": ["environment", "mental health/well-being", "technology"], "correta": 1, "explicacao": "'Burnout' pertence ao campo de saúde mental/bem-estar." },
+      { "tipo": "preenchimento_espaco", "frase": "Preserving cultural ___ matters just as much as preventing burnout. (património)", "resposta": "heritage", "explicacao": "'Heritage' = património cultural." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O bem-estar e a sustentabilidade são cada vez mais vistos como objetivos interligados.", "destino": "Well-being and sustainability are increasingly seen as interconnected goals." },
+      { "tipo": "ditado", "textoParaOuvir": "Companies should leverage technology to reduce their carbon footprint.", "respostaEsperada": ["Companies should leverage technology to reduce their carbon footprint."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-revisaovocabtematico112", "tipo": "gramatica", "pergunta": "Quais são os quatro grandes campos de vocabulário temático revistos nesta sessão?", "resposta": "tecnologia, ambiente, cultura, saúde mental" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-113",
+    "nivel": "especialista",
+    "titulo": "Simulado Final: Mini-Exame Combinado",
+    "objetivos": ["Realizar um simulado final combinando as 4 partes do exame C2 Proficiency"],
+    "duracaoEstimadaMin": 15,
+    "temaIntegrador": "simuladofinalexame",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Último simulado antes da graduação: uma amostra mais completa das 4 partes do C2 Proficiency, reunindo as estruturas e o vocabulário mais distintivos praticados ao longo de todo o nível.",
+        "exemplos": ["Reading: colocações, inversão, subjuntivo.", "Writing: síntese crítica com hedging e conectores avançados.", "Listening/Speaking: compreensão e produção com registo formal consistente."],
+        "erroComum": { "errado": "Encarar este simulado como só mais um exercício, sem lhe dar a atenção de um exame real.", "correto": "Tratar este simulado com a mesma seriedade de um exame real — é a melhor preparação disponível nesta app.", "descricaoPT": "Esta é a última oportunidade de simulado completo antes da graduação — vale a pena fazê-lo com atenção total." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Reading: 'Never ___ such dedication.' (inversão)", "opcoes": ["I have seen", "have I seen", "I saw"], "correta": 1, "explicacao": "Inversão: 'Never have I seen'." },
+      { "tipo": "preenchimento_espaco", "frase": "Writing: It ___ be argued that this approach has clear merits. (poder-se-ia)", "resposta": "could", "explicacao": "'It could be argued' = hedging académico." },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Speaking: What's your view on lifelong learning?", "opcoes": [
+            { "texto": "On balance, I believe it is essential that we all continue learning throughout our lives.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "É essencial que continuemos a aprender ao longo da vida.", "destino": "It is essential that we continue learning throughout our lives." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, I believe it is essential that we all continue learning throughout our lives.", "respostaEsperada": ["On balance, I believe it is essential that we all continue learning throughout our lives."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-simuladofinalexame113", "tipo": "exame", "pergunta": "Como se deve encarar o último simulado antes da graduação?", "resposta": "com a mesma seriedade de um exame real, como a melhor preparação final disponível" }],
+    "gamificacao": { "pontosBase": 16, "badge": null }
+  },
+  {
+    "id": "especialista-114",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Preparação Final para o Exame Real",
+    "objetivos": ["Refletir sobre estratégias práticas para o dia do exame real"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "preparacaofinalexame",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Antes de um exame real como o C2 Proficiency, vale a pena rever estratégias práticas: gerir o tempo por parte, rever a checklist de erros comuns já identificados nas sessões anteriores, e manter a calma perante perguntas difíceis.",
+        "exemplos": ["Allocate your time proportionally — don't spend too long on any single question.", "If you don't know an answer, make an educated guess rather than leaving it blank.", "Remember: fluency matters more than perfection — don't let one mistake derail your confidence."],
+        "erroComum": { "errado": "Deixar respostas em branco por medo de errar.", "correto": "Fazer sempre uma tentativa fundamentada — não há penalização por tentar no C2 Proficiency.", "descricaoPT": "Este é um lembrete estratégico importante, não linguístico — vale a pena revê-lo mesmo depois de tanto conteúdo gramatical praticado." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If unsure of an answer in the exam, you should:", "opcoes": ["leave it blank", "make an educated guess", "skip the whole section"], "correta": 1, "explicacao": "Tentar sempre é melhor do que deixar em branco." },
+      { "tipo": "escolha_multipla", "pergunta": "What matters more in the Speaking test: fluency or perfection?", "opcoes": ["perfection", "fluency and communication", "neither matters"], "correta": 1, "explicacao": "Fluência e comunicação eficaz importam mais do que a perfeição absoluta." },
+      { "tipo": "preenchimento_espaco", "frase": "Allocate your time ___ across all parts of the exam. (proporcionalmente)", "resposta": "proportionally", "explicacao": "Gerir o tempo de forma proporcional é essencial." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não deixes uma pergunta em branco por medo de errar.", "destino": "Don't leave a question blank out of fear of making a mistake." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases com conselhos que darias a ti próprio/a antes do exame real, usando pelo menos uma estrutura avançada praticada ao longo do nível.", "palavrasChaveEsperadas": ["never", "on balance", "essential"], "respostaModelo": "It is essential that I stay calm, even when a question feels difficult. Never have I prepared this thoroughly for anything. On balance, I trust the work I've put in." }
+    ],
+    "srsItens": [{ "id": "sit-especialista-preparacaofinalexame114", "tipo": "situacao", "pergunta": "O que deves fazer se não souberes uma resposta no exame C2 Proficiency?", "resposta": "fazer uma tentativa fundamentada, nunca deixar em branco" }],
+    "gamificacao": { "pontosBase": 14, "badge": null }
+  },
+  {
+    "id": "especialista-115",
+    "nivel": "especialista",
+    "titulo": "Graduação: Revisão Final do Nível Especialista",
+    "objetivos": ["Celebrar e sintetizar todo o percurso do Nível Especialista, revendo as estruturas mais distintivas"],
+    "duracaoEstimadaMin": 15,
+    "temaIntegrador": "graduacaoespecialista",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Parabéns por chegares até aqui! Esta é a última sessão da app — 365 sessões no total. Vamos rever, uma última vez, as estruturas mais distintivas do Nível Especialista: inversão, subjuntivo, condicionais formais, hedging académico, e registo formal consistente.",
+        "exemplos": ["Never have I been prouder of a learning journey. (inversão)", "It is essential that this achievement be celebrated. (subjuntivo formal)", "Had it not been for consistent daily practice, this would not have been possible. (condicional formal)", "On balance, this journey — from A1 to C2 — has been transformative. (hedging + conclusão)"],
+        "erroComum": { "errado": "Parar de praticar inglês assim que a app termina.", "correto": "Continuar a expor-te à língua (livros, séries, conversas reais) para manter e aprofundar o nível C2 alcançado.", "descricaoPT": "Chegar ao C2 é uma grande conquista, mas manter o nível exige prática contínua — a app foi o início estruturado, não o fim da aprendizagem." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which sentence uses formal inversion correctly?", "opcoes": ["Never I have been prouder.", "Never have I been prouder.", "I never have been prouder."], "correta": 1, "explicacao": "Inversão correta: 'Never have I been...'" },
+      { "tipo": "escolha_multipla", "pergunta": "'It is essential that this achievement be celebrated' uses:", "opcoes": ["the indicative", "the formal subjunctive", "the past continuous"], "correta": 1, "explicacao": "Subjuntivo formal: 'be celebrated', forma base." },
+      { "tipo": "preenchimento_espaco", "frase": "___ it not been for consistent daily practice, this would not have been possible.", "resposta": "Had", "explicacao": "Condicional formal invertido: 'Had it not been for'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ponderando tudo, esta jornada — de A1 a C2 — foi transformadora.", "destino": "On balance, this journey — from A1 to C2 — has been transformative." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 3-4 frases refletindo sobre todo o teu percurso de aprendizagem nesta app, do Nível Básico ao Especialista, usando pelo menos duas estruturas avançadas diferentes (inversão, subjuntivo, condicional formal, ou hedging).", "palavrasChaveEsperadas": ["never", "on balance", "essential", "had it not been"], "respostaModelo": "Never have I been prouder of a learning journey. It is essential that I acknowledge how far I've come, from basic greetings to nuanced academic writing. Had it not been for consistent daily practice, this would not have been possible. On balance, this has been one of the most rewarding challenges I've undertaken." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, this journey has been transformative. Congratulations on completing all 365 sessions!", "respostaEsperada": ["On balance, this journey has been transformative. Congratulations on completing all 365 sessions!"] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-graduacaofinal115", "tipo": "situacao", "pergunta": "O que se recomenda depois de terminar as 365 sessões da app?", "resposta": "continuar a expor-se à língua ativamente (livros, séries, conversas reais) para manter e aprofundar o nível C2" }],
+    "gamificacao": { "pontosBase": 30, "badge": "nivel-especialista-completo" }
+  }
+]
