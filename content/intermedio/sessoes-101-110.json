@@ -1,0 +1,251 @@
+[
+  {
+    "id": "intermedio-101",
+    "nivel": "intermedio",
+    "titulo": "Neither...Nor / Either...Or",
+    "objetivos": ["Usar corretamente either...or e neither...nor"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Either...or' apresenta duas opções positivas (uma ou outra); 'neither...nor' nega ambas as opções.",
+        "exemplos": ["You can have either tea or coffee.", "I like neither tea nor coffee.", "Either you apologise, or I'm leaving."],
+        "erroComum": { "errado": "I don't like neither tea nor coffee.", "correto": "I like neither tea nor coffee.", "descricaoPT": "'Neither...nor' já é negativo por si só — não se junta 'don't', senão cria uma dupla negação incorreta." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "You can have ___ tea or coffee.", "opcoes": ["neither", "either", "both"], "correta": 1, "explicacao": "Opções positivas: either...or." },
+      { "tipo": "escolha_multipla", "pergunta": "Which is correct?", "opcoes": ["I don't like neither tea nor coffee.", "I like neither tea nor coffee.", "I doesn't like neither."], "correta": 1, "explicacao": "'Neither...nor' sem 'don't'." },
+      { "tipo": "preenchimento_espaco", "frase": "___ you apologise, or I'm leaving.", "resposta": "Either", "explicacao": "'Either...or' = ou...ou." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não gosto nem de chá nem de café.", "destino": "I like neither tea nor coffee." },
+      { "tipo": "ditado", "textoParaOuvir": "I like neither tea nor coffee.", "respostaEsperada": ["I like neither tea nor coffee."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-neither-nor-either-or", "tipo": "gramatica", "pergunta": "Porque não se pode dizer 'I don't like neither tea nor coffee'?", "resposta": "'neither...nor' já é negativo, juntar 'don't' cria dupla negação incorreta" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-102",
+    "nivel": "intermedio",
+    "titulo": "Not Only... But Also",
+    "objetivos": ["Usar 'not only... but also' com a inversão correta"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'Not only... but also' enfatiza dois pontos. Quando 'not only' começa a frase, há inversão do sujeito e verbo.",
+        "exemplos": ["She is not only smart but also kind.", "Not only did he arrive late, but he also forgot the documents.", "Not only is she talented, but she's also hardworking."],
+        "erroComum": { "errado": "Not only he arrived late...", "correto": "Not only did he arrive late...", "descricaoPT": "Quando 'not only' inicia a frase, precisa de inversão (auxiliar antes do sujeito)." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She is not only smart ___ also kind.", "opcoes": ["but", "and", "so"], "correta": 0, "explicacao": "'Not only... but also'." },
+      { "tipo": "escolha_multipla", "pergunta": "___ did he arrive late, but he also forgot the documents.", "opcoes": ["Not only", "He not only", "Only not"], "correta": 0, "explicacao": "'Not only' no início, com inversão." },
+      { "tipo": "preenchimento_espaco", "frase": "Not only ___ she talented, but she's also hardworking.", "resposta": "is", "explicacao": "Inversão: is + sujeito." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela não só é inteligente como também é simpática.", "destino": "She is not only smart but also kind." },
+      { "tipo": "ditado", "textoParaOuvir": "Not only did he arrive late, but he also forgot the documents.", "respostaEsperada": ["Not only did he arrive late, but he also forgot the documents."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-notonly-butalso", "tipo": "gramatica", "pergunta": "O que acontece quando 'not only' inicia a frase?", "resposta": "há inversão do sujeito e do auxiliar/verbo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-103",
+    "nivel": "intermedio",
+    "titulo": "As If / As Though",
+    "objetivos": ["Usar 'as if/as though' para comparações hipotéticas"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "'As if' e 'as though' introduzem comparações hipotéticas, muitas vezes com Past Simple para exprimir algo irreal no presente.",
+        "exemplos": ["He talks as if he knew everything.", "She looked as though she had seen a ghost.", "It sounds as if it's going to rain."],
+        "erroComum": { "errado": "He talks as if he knows everything (mas não sabe).", "correto": "He talks as if he knew everything.", "descricaoPT": "Para exprimir uma comparação irreal/hipotética no presente, usa-se o Past Simple depois de 'as if/as though', semelhante ao Second Conditional." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "He talks as if he ___ everything (mas não sabe).", "opcoes": ["knows", "knew", "will know"], "correta": 1, "explicacao": "Comparação irreal → Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "She looked as though she ___ a ghost.", "opcoes": ["saw", "had seen", "sees"], "correta": 1, "explicacao": "Past Perfect para anterioridade hipotética." },
+      { "tipo": "preenchimento_espaco", "frase": "It sounds as if it ___ rain.", "resposta": "is going to", "explicacao": "Previsão real: is going to." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ele fala como se soubesse tudo.", "destino": "He talks as if he knew everything." },
+      { "tipo": "ditado", "textoParaOuvir": "She looked as though she had seen a ghost.", "respostaEsperada": ["She looked as though she had seen a ghost."] }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-asif-asthough", "tipo": "gramatica", "pergunta": "Que tempo verbal segue 'as if' para uma comparação irreal no presente?", "resposta": "Past Simple" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-104",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Emoções Avançadas",
+    "objetivos": ["Usar vocabulário nuançado de emoções"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário de emoções mais nuançado: overwhelmed (sobrecarregado/oprimido), relieved (aliviado), frustrated (frustrado).",
+        "exemplos": ["I feel overwhelmed with all this work.", "I was so relieved when I heard the news.", "She was frustrated with the delay."],
+        "erroComum": { "errado": "I am very stressed for the work.", "correto": "I feel overwhelmed with all this work.", "descricaoPT": "'Overwhelmed' é mais específico e natural para descrever sentir-se sobrecarregado com muitas tarefas." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes feeling extremely relieved after worry?", "opcoes": ["Overwhelmed", "Relieved", "Frustrated"], "correta": 1, "explicacao": "'Relieved' = aliviado." },
+      { "tipo": "escolha_multipla", "pergunta": "Which describes having too much to handle?", "opcoes": ["Relieved", "Overwhelmed", "Excited"], "correta": 1, "explicacao": "'Overwhelmed' = sobrecarregado." },
+      { "tipo": "preenchimento_espaco", "frase": "She was ___ with the delay.", "resposta": "frustrated", "explicacao": "'Frustrated' = frustrada." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Senti-me tão aliviado quando ouvi a notícia.", "destino": "I felt so relieved when I heard the news." },
+      { "tipo": "ditado", "textoParaOuvir": "I feel overwhelmed with all this work.", "respostaEsperada": ["I feel overwhelmed with all this work."] }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-emocoes-avancadas", "tipo": "vocabulario", "pergunta": "O que significa 'overwhelmed'?", "resposta": "sobrecarregado/oprimido (com demasiadas coisas para lidar)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-105",
+    "nivel": "intermedio",
+    "titulo": "Phrasal Verbs: Hold On, Break Down, Catch Up",
+    "objetivos": ["Usar phrasal verbs com múltiplos significados consoante o contexto"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Phrasal verbs: hold on (esperar/aguentar), break down (avariar-se OU desmoronar-se emocionalmente), catch up (atualizar-se/recuperar atraso).",
+        "exemplos": ["Hold on a second, please.", "She broke down in tears.", "Let's catch up soon, it's been a while!"],
+        "erroComum": { "errado": "Assumir que 'break down' só se refere a máquinas.", "correto": "'Break down' também significa desmoronar-se emocionalmente (chorar descontroladamente).", "descricaoPT": "Muitos phrasal verbs têm mais do que um sentido — o contexto determina qual se aplica." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Hold on' means...", "opcoes": ["To wait", "To hold hands", "To let go"], "correta": 0, "explicacao": "'Hold on' = esperar." },
+      { "tipo": "escolha_multipla", "pergunta": "'She broke down in tears' means...", "opcoes": ["Her car stopped working", "She started crying uncontrollably", "She fixed something"], "correta": 1, "explicacao": "Sentido emocional de 'break down'." },
+      { "tipo": "preenchimento_espaco", "frase": "Let's ___ soon, it's been a while!", "resposta": "catch up", "explicacao": "'Catch up' = colocarmo-nos a par." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Espera um segundo, por favor.", "destino": "Hold on a second, please." },
+      { "tipo": "ditado", "textoParaOuvir": "Let's catch up soon, it's been a while!", "respostaEsperada": ["Let's catch up soon, it's been a while!"] }
+    ],
+    "srsItens": [{ "id": "pv-intermedio-holdon-breakdown-catchup", "tipo": "vocabulario", "pergunta": "Que dois sentidos pode ter 'break down'?", "resposta": "avariar-se (máquina) ou desmoronar-se emocionalmente" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-106",
+    "nivel": "intermedio",
+    "titulo": "Mais Idiomas: Trabalho (III)",
+    "objetivos": ["Reconhecer mais idiomas de contexto profissional"],
+    "duracaoEstimadaMin": 7,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Mais idiomas de trabalho: climb the corporate ladder (subir na carreira), learn the ropes (aprender o básico de uma função nova).",
+        "exemplos": ["She's determined to climb the corporate ladder.", "It took me a while to learn the ropes at my new job.", "He's still learning the ropes."],
+        "erroComum": { "errado": "Traduzir 'learn the ropes' literalmente como aprender cordas.", "correto": "'Learn the ropes' significa aprender as bases/rotinas de um trabalho novo.", "descricaoPT": "Expressão idiomática de origem náutica, muito comum no contexto profissional." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Climb the corporate ladder' means...", "opcoes": ["To literally climb stairs", "To advance in one's career", "To clean an office"], "correta": 1, "explicacao": "Avançar na carreira." },
+      { "tipo": "escolha_multipla", "pergunta": "'Learn the ropes' means...", "opcoes": ["To learn sailing", "To learn the basics of a new job", "To tie knots"], "correta": 1, "explicacao": "Aprender as bases de um trabalho." },
+      { "tipo": "preenchimento_espaco", "frase": "It took me a while to learn the ___ at my new job.", "resposta": "ropes", "explicacao": "'Learn the ropes.'" },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela está determinada a subir na carreira.", "destino": "She's determined to climb the corporate ladder." },
+      { "tipo": "ditado", "textoParaOuvir": "He's still learning the ropes.", "respostaEsperada": ["He's still learning the ropes."] }
+    ],
+    "srsItens": [{ "id": "idi-intermedio-trabalho-3", "tipo": "vocabulario", "pergunta": "O que significa 'learn the ropes'?", "resposta": "aprender as bases/rotinas de um trabalho novo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-107",
+    "nivel": "intermedio",
+    "titulo": "Situação: No Hospital (Emergência)",
+    "objetivos": ["Comunicar numa situação de emergência médica mais séria"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "hospitalemergencia",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Frases-chave para uma situação de emergência médica mais séria no hospital.",
+        "exemplos": ["I think it might be broken.", "The pain has been getting worse.", "How long will I need to stay?"],
+        "erroComum": { "errado": "My arm is broken maybe.", "correto": "I think it might be broken.", "descricaoPT": "Usa 'I think it might be...' para expressar incerteza de forma natural, em vez de colocar 'maybe' no fim da frase." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "What happened?", "opcoes": [
+            { "texto": "I fell and I think my arm might be broken.", "proximoNo": "dor" }
+          ]},
+          { "id": "dor", "interlocutorFala": "I see. Has the pain been getting worse?", "opcoes": [
+            { "texto": "Yes, it has been getting worse since this morning.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is a natural way to express uncertainty about an injury?", "opcoes": ["My arm is broken maybe.", "I think it might be broken.", "Broken arm maybe is."], "correta": 1, "explicacao": "'I think it might be...' é natural." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Quanto tempo vou precisar de ficar?", "destino": "How long will I need to stay?" },
+      { "tipo": "ditado", "textoParaOuvir": "The pain has been getting worse since this morning.", "respostaEsperada": ["The pain has been getting worse since this morning."] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-hospitalemergencia-integradora", "tipo": "situacao", "pergunta": "Como expressar incerteza sobre um ferimento educadamente?", "resposta": "I think it might be broken." }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-108",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Carta Informal a um Amigo",
+    "objetivos": ["Escrever uma carta informal mantendo o registo casual consistente"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma carta informal a um amigo usa linguagem casual, contrações, e um tom pessoal e caloroso.",
+        "exemplos": ["Hey! How's it going?", "I've got so much to tell you!", "Write back soon! / Can't wait to hear from you!"],
+        "erroComum": { "errado": "Dear Sir, I am writing to inform you...", "correto": "Hey! I've got so much to tell you!", "descricaoPT": "Mantém o registo consistentemente informal — misturar registos soa estranho e artificial." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which opening suits an informal letter to a friend?", "opcoes": ["Dear Sir/Madam,", "Hey! How's it going?", "To Whom It May Concern,"], "correta": 1, "explicacao": "Registo informal e caloroso." },
+      { "tipo": "escolha_multipla", "pergunta": "Which closing suits an informal letter?", "opcoes": ["Yours faithfully,", "Write back soon!", "Yours sincerely,"], "correta": 1, "explicacao": "Despedida informal e calorosa." },
+      { "tipo": "preenchimento_espaco", "frase": "I've ___ so much to tell you!", "resposta": "got", "explicacao": "'I've got' = tenho." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura de uma carta informal a um amigo, a contares uma novidade.", "palavrasChaveEsperadas": ["hey", "i've got", "tell you"], "respostaModelo": "Hey! I've got so much to tell you about my trip!" },
+      { "tipo": "ditado", "textoParaOuvir": "Can't wait to hear from you!", "respostaEsperada": ["Can't wait to hear from you!"] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-cartainformal-amigo", "tipo": "situacao", "pergunta": "Que registo deve manter-se numa carta informal a um amigo?", "resposta": "informal e caloroso do início ao fim" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-109",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Estruturas de Registo Avançado",
+    "objetivos": ["Rever neither/nor, not only/but also, e as if/as though"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada: neither/nor, not only/but also, as if/as though — estruturas mais avançadas e formais.",
+        "exemplos": ["I like neither coffee nor tea.", "Not only is she smart, but also kind.", "He acts as if he owned the place."],
+        "erroComum": { "errado": "Misturar as estruturas sem rever cada uma isoladamente.", "correto": "Revê cada estrutura com calma antes de as combinares.", "descricaoPT": "Estas são estruturas de registo mais avançado — é normal precisares de mais prática." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I like ___ coffee nor tea.", "opcoes": ["either", "neither", "both"], "correta": 1, "explicacao": "'Neither...nor'." },
+      { "tipo": "escolha_multipla", "pergunta": "___ is she smart, but also kind.", "opcoes": ["Not only", "She not only", "Only she"], "correta": 0, "explicacao": "'Not only' no início com inversão." },
+      { "tipo": "escolha_multipla", "pergunta": "He acts as if he ___ the place (mas não é dono).", "opcoes": ["owns", "owned", "will own"], "correta": 1, "explicacao": "'As if' + Past Simple." },
+      { "tipo": "preenchimento_espaco", "frase": "Either you come with us, ___ you stay here.", "resposta": "or", "explicacao": "'Either...or'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ela não só trabalha muito, como também é muito criativa.", "destino": "She not only works hard, but she's also very creative." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-registoavancado", "tipo": "gramatica", "pergunta": "Que 3 estruturas foram revistas nesta sessão?", "resposta": "neither/nor, not only/but also, as if/as though" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-110",
+    "nivel": "intermedio",
+    "titulo": "Marco: Evento Social Formal (Casamento)",
+    "objetivos": ["Combinar registo formal e vocabulário social num evento como um casamento"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "eventosocialformal",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Chegaste à sessão 110 do Intermédio! Vamos combinar registo formal e vocabulário social numa situação de evento formal, como um casamento.",
+        "exemplos": ["Congratulations on your special day!", "You look absolutely lovely.", "Thank you so much for the invitation."],
+        "erroComum": { "errado": "Usar linguagem demasiado casual num evento formal.", "correto": "Mantém um registo cuidado e caloroso, adequado à ocasião.", "descricaoPT": "Eventos sociais formais pedem um equilíbrio entre calor humano e um registo cuidado." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Thank you so much for coming to our wedding!", "opcoes": [
+            { "texto": "Congratulations on your special day! You look absolutely lovely.", "proximoNo": "brinde" }
+          ]},
+          { "id": "brinde", "interlocutorFala": "Thank you! Would you like to say a few words later?", "opcoes": [
+            { "texto": "I'd be honoured to.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which is an appropriate compliment at a formal event?", "opcoes": ["You look absolutely lovely.", "You look okay I guess.", "Nice clothes."], "correta": 0, "explicacao": "Elogio adequado ao registo formal." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Muito obrigado pelo convite.", "destino": "Thank you so much for the invitation." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases de felicitações para um casamento.", "palavrasChaveEsperadas": ["congratulations", "wish you", "special day"], "respostaModelo": "Congratulations on your special day! I wish you both a lifetime of happiness together." },
+      { "tipo": "ditado", "textoParaOuvir": "Congratulations on your special day!", "respostaEsperada": ["Congratulations on your special day!"] }
+    ],
+    "srsItens": [{ "id": "sit-intermedio-eventosocialformal-marco110", "tipo": "situacao", "pergunta": "Como felicitar alguém num casamento de forma calorosa mas cuidada?", "resposta": "Congratulations on your special day! I wish you both..." }],
+    "gamificacao": { "pontosBase": 20, "badge": null }
+  }
+]
