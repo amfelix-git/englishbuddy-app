@@ -1,0 +1,249 @@
+[
+  {
+    "id": "especialista-81",
+    "nivel": "especialista",
+    "titulo": "Verbos de Registo Muito Formal",
+    "objetivos": ["Usar verbos formais de origem latina (account for, comply with, adhere to)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Verbos de origem latina soam mais formais do que os seus equivalentes de origem germânica/phrasal: 'account for' (explicar), 'comply with' (cumprir), 'adhere to' (aderir a/seguir rigorosamente).",
+        "exemplos": ["This factor accounts for the increase in costs.", "All staff must comply with the new regulations.", "The team adhered strictly to the schedule."],
+        "erroComum": { "errado": "Usar 'explain' e 'follow' em todos os contextos, mesmo nos mais formais.", "correto": "Em registo muito formal, 'account for' e 'adhere to' soam mais apropriados do que os equivalentes mais simples.", "descricaoPT": "Não é que 'explain' ou 'follow' estejam errados — mas nos registos mais formais, o vocabulário latino é frequentemente preferido." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'This factor accounts for the increase.' means the factor:", "opcoes": ["caused/explains the increase", "prevented the increase", "measured the increase"], "correta": 0, "explicacao": "'Account for' = explicar/ser a causa de." },
+      { "tipo": "escolha_multipla", "pergunta": "'Comply with the regulations' means:", "opcoes": ["ignore the regulations", "follow/obey the regulations", "create new regulations"], "correta": 1, "explicacao": "'Comply with' = cumprir/obedecer." },
+      { "tipo": "preenchimento_espaco", "frase": "The team ___ strictly to the schedule. (aderiu)", "resposta": "adhered", "explicacao": "'Adhere to' = aderir a/seguir rigorosamente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Todos os funcionários devem cumprir os novos regulamentos.", "destino": "All staff must comply with the new regulations." },
+      { "tipo": "ditado", "textoParaOuvir": "This factor accounts for the increase in costs.", "respostaEsperada": ["This factor accounts for the increase in costs."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-verbosregistomuitoformal", "tipo": "gramatica", "pergunta": "O que significa 'adhere to' num contexto formal?", "resposta": "aderir a, seguir rigorosamente" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-82",
+    "nivel": "especialista",
+    "titulo": "Advérbios de Grau e Intensidade Avançados",
+    "objetivos": ["Usar advérbios de intensidade precisos (utterly, profoundly, markedly)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Advérbios de intensidade avançados dão precisão e força a adjetivos: 'utterly' (completamente, com adjetivos extremos), 'profoundly' (profundamente), 'markedly' (visivelmente/notavelmente).",
+        "exemplos": ["The results were utterly disappointing.", "This experience has profoundly changed my perspective.", "Sales improved markedly after the campaign."],
+        "erroComum": { "errado": "Usar 'very' repetidamente para todos os graus de intensidade.", "correto": "Variar com 'utterly', 'profoundly', 'markedly' consoante a nuance pretendida.", "descricaoPT": "'Very' não está errado, mas usá-lo sempre soa repetitivo e menos sofisticado em escrita/fala avançada." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which adverb pairs naturally with extreme adjectives like 'disappointing' or 'ridiculous'?", "opcoes": ["utterly", "slightly", "fairly"], "correta": 0, "explicacao": "'Utterly' combina com adjetivos extremos." },
+      { "tipo": "escolha_multipla", "pergunta": "'Sales improved markedly' means they improved:", "opcoes": ["slightly, barely noticeable", "very noticeably", "not at all"], "correta": 1, "explicacao": "'Markedly' = de forma visível/notável." },
+      { "tipo": "preenchimento_espaco", "frase": "This experience has ___ changed my perspective. (profundamente)", "resposta": "profoundly", "explicacao": "'Profoundly' = profundamente." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Os resultados foram completamente dececionantes.", "destino": "The results were utterly disappointing." },
+      { "tipo": "ditado", "textoParaOuvir": "Sales improved markedly after the campaign.", "respostaEsperada": ["Sales improved markedly after the campaign."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-adverbiosintensidade", "tipo": "gramatica", "pergunta": "Que advérbio combina naturalmente com adjetivos extremos como 'disappointing'?", "resposta": "utterly" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-83",
+    "nivel": "especialista",
+    "titulo": "Estruturas de Comparação e Contraste em Ensaios",
+    "objetivos": ["Usar in contrast to, unlike, similarly, by the same token para comparar ideias"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Estruturas de comparação/contraste avançadas incluem 'in contrast to'/'unlike' (contraste), 'similarly'/'likewise' (semelhança), e 'by the same token' (pela mesma lógica).",
+        "exemplos": ["In contrast to Text A, Text B focuses on economic factors.", "Unlike traditional methods, this approach is data-driven.", "Similarly, other studies have reached the same conclusion.", "By the same token, we should also consider the risks."],
+        "erroComum": { "errado": "Usar sempre 'but' para qualquer tipo de contraste ou comparação.", "correto": "Variar com 'in contrast to', 'unlike', 'similarly' consoante o tipo exato de relação entre as ideias.", "descricaoPT": "Estas estruturas tornam a comparação mais precisa e são muito valorizadas em ensaios de síntese como os do C2 Proficiency." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'In contrast to Text A, Text B focuses on...' signals:", "opcoes": ["similarity", "contrast", "cause and effect"], "correta": 1, "explicacao": "'In contrast to' sinaliza contraste." },
+      { "tipo": "escolha_multipla", "pergunta": "'By the same token' means:", "opcoes": ["for a completely different reason", "following the same logic/reasoning", "as an exception to the rule"], "correta": 1, "explicacao": "'By the same token' = pela mesma lógica." },
+      { "tipo": "preenchimento_espaco", "frase": "___ traditional methods, this approach is data-driven. (ao contrário de)", "resposta": "Unlike", "explicacao": "'Unlike' = ao contrário de." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Da mesma forma, outros estudos chegaram à mesma conclusão.", "destino": "Similarly, other studies have reached the same conclusion." },
+      { "tipo": "ditado", "textoParaOuvir": "In contrast to Text A, Text B focuses on economic factors.", "respostaEsperada": ["In contrast to Text A, Text B focuses on economic factors."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-comparacaocontrasteensaios", "tipo": "gramatica", "pergunta": "O que significa 'by the same token' num ensaio?", "resposta": "seguindo a mesma lógica/raciocínio" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-84",
+    "nivel": "especialista",
+    "titulo": "Vocabulário sobre Sustentabilidade e Ambiente",
+    "objetivos": ["Usar vocabulário avançado sobre sustentabilidade e ambiente"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário ambiental avançado inclui: 'carbon footprint' (pegada de carbono), 'renewable energy' (energia renovável), 'unsustainable practices' (práticas insustentáveis), 'to mitigate' (mitigar/atenuar).",
+        "exemplos": ["Reducing our carbon footprint is now a business priority.", "The shift to renewable energy is accelerating.", "These measures aim to mitigate the effects of climate change."],
+        "erroComum": { "errado": "Traduzir 'carbon footprint' literalmente ou usar termos vagos como 'pollution' para tudo.", "correto": "Usar o termo técnico correto: 'carbon footprint', 'greenhouse gas emissions', que são específicos e reconhecidos internacionalmente.", "descricaoPT": "Este vocabulário técnico é cada vez mais comum em contextos profissionais e é frequentemente testado em exames C2, dado o tema atual." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Carbon footprint' refers to:", "opcoes": ["the shape of a footprint", "the amount of carbon emissions caused by a person/activity", "a type of renewable energy"], "correta": 1, "explicacao": "'Carbon footprint' = pegada de carbono, emissões causadas." },
+      { "tipo": "escolha_multipla", "pergunta": "'To mitigate' the effects of climate change means to:", "opcoes": ["ignore them", "reduce/lessen their severity", "cause them"], "correta": 1, "explicacao": "'Mitigate' = reduzir/atenuar a gravidade." },
+      { "tipo": "preenchimento_espaco", "frase": "The shift to ___ energy is accelerating. (renovável)", "resposta": "renewable", "explicacao": "'Renewable energy' = energia renovável." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Reduzir a nossa pegada de carbono é agora uma prioridade empresarial.", "destino": "Reducing our carbon footprint is now a business priority." },
+      { "tipo": "ditado", "textoParaOuvir": "These measures aim to mitigate the effects of climate change.", "respostaEsperada": ["These measures aim to mitigate the effects of climate change."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-vocabsustentabilidade", "tipo": "gramatica", "pergunta": "O que significa 'to mitigate' em contexto ambiental?", "resposta": "reduzir/atenuar a gravidade de algo" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-85",
+    "nivel": "especialista",
+    "titulo": "Situação: Debate sobre Sustentabilidade Ambiental",
+    "objetivos": ["Debater um tema ambiental combinando vocabulário técnico e argumentação"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": "debatesustentabilidade",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Debates sobre sustentabilidade combinam vocabulário técnico (carbon footprint, renewable energy) com as estruturas de debate já praticadas (contraste, hedging, conclusão ponderada).",
+        "exemplos": ["It could be argued that individual action alone won't mitigate climate change.", "Unlike previous decades, renewable energy is now cost-competitive.", "On balance, systemic change combined with individual responsibility seems most effective."],
+        "erroComum": { "errado": "Apresentar apenas opiniões vagas sem vocabulário técnico específico.", "correto": "Combinar vocabulário técnico preciso com estruturas de argumentação já praticadas.", "descricaoPT": "Este tipo de debate é uma síntese natural de várias sessões anteriores — vocabulário temático + estruturas argumentativas gerais." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "Do you think individuals can really make a difference on climate change?", "opcoes": [
+            { "texto": "It could be argued that individual action alone won't mitigate climate change, but it still matters.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "So what's the most effective approach, in your view?", "opcoes": [
+            { "texto": "On balance, systemic change combined with individual responsibility seems most effective.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A strong argument in this debate combines:", "opcoes": ["vague opinions only", "technical vocabulary with argumentative structures", "personal anecdotes only"], "correta": 1, "explicacao": "A combinação de vocabulário técnico e argumentação é mais forte." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Ao contrário das décadas anteriores, a energia renovável é agora competitiva em termos de custo.", "destino": "Unlike previous decades, renewable energy is now cost-competitive." },
+      { "tipo": "ditado", "textoParaOuvir": "On balance, systemic change combined with individual responsibility seems most effective.", "respostaEsperada": ["On balance, systemic change combined with individual responsibility seems most effective."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-debatesustentabilidade", "tipo": "situacao", "pergunta": "O que torna um argumento sobre sustentabilidade mais forte num debate?", "resposta": "combinar vocabulário técnico preciso com estruturas argumentativas gerais" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-86",
+    "nivel": "especialista",
+    "titulo": "Vocabulário sobre Cultura e Sociedade",
+    "objetivos": ["Usar vocabulário avançado sobre multiculturalismo e diversidade"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vocabulário sobre cultura e sociedade inclui: 'diversity' (diversidade), 'heritage' (património/herança cultural), 'to assimilate' (assimilar-se), 'cultural identity' (identidade cultural).",
+        "exemplos": ["The city is known for its cultural diversity.", "Preserving our heritage is important for future generations.", "Many immigrants strive to assimilate while retaining their cultural identity."],
+        "erroComum": { "errado": "Usar 'race' de forma imprecisa quando 'ethnicity' ou 'culture' seriam mais apropriados no contexto.", "correto": "Escolher o termo mais preciso e atual consoante o contexto — 'ethnicity', 'cultural background', 'heritage'.", "descricaoPT": "A precisão e sensibilidade neste vocabulário são particularmente valorizadas em contextos académicos e profissionais internacionais." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Heritage' refers to:", "opcoes": ["a type of food", "cultural traditions and history passed down", "a legal document"], "correta": 1, "explicacao": "'Heritage' = património/herança cultural." },
+      { "tipo": "escolha_multipla", "pergunta": "'To assimilate' means to:", "opcoes": ["reject a new culture completely", "gradually adopt the customs of a new culture", "travel to a new country"], "correta": 1, "explicacao": "'Assimilate' = adotar gradualmente os costumes de uma nova cultura." },
+      { "tipo": "preenchimento_espaco", "frase": "The city is known for its cultural ___. (diversidade)", "resposta": "diversity", "explicacao": "'Cultural diversity' = diversidade cultural." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Preservar o nosso património é importante para as gerações futuras.", "destino": "Preserving our heritage is important for future generations." },
+      { "tipo": "ditado", "textoParaOuvir": "The city is known for its cultural diversity.", "respostaEsperada": ["The city is known for its cultural diversity."] }
+    ],
+    "srsItens": [{ "id": "gra-especialista-vocabculturasociedade", "tipo": "gramatica", "pergunta": "O que significa 'heritage'?", "resposta": "património/herança cultural" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "especialista-87",
+    "nivel": "especialista",
+    "titulo": "Situação: Conversa sobre Diferenças Culturais",
+    "objetivos": ["Conversar sobre diferenças culturais com sensibilidade e curiosidade genuína"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": "diferencasculturais",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Conversas sobre cultura pedem curiosidade genuína e linguagem que evita generalizações: 'In my experience...', 'I've noticed that..., though I'm sure it varies', 'That's fascinating — how does that work in practice?'",
+        "exemplos": ["In my experience, meal times tend to be later in Portugal than in the UK.", "I've noticed that, though I'm sure it varies from family to family.", "That's fascinating — how does that tradition work in practice?"],
+        "erroComum": { "errado": "Fazer generalizações absolutas sobre uma cultura inteira ('All people from X always do Y').", "correto": "Suavizar observações culturais com 'in my experience', 'tend to', 'I'm sure it varies' — reconhece a diversidade dentro de cada cultura.", "descricaoPT": "Isto combina o hedging académico já praticado com sensibilidade cultural — generalizações absolutas soam menos informadas e podem ofender." }
+      },
+      {
+        "tipo": "dialogo",
+        "nos": [
+          { "id": "inicio", "interlocutorFala": "What's something that surprised you about a different culture?", "opcoes": [
+            { "texto": "In my experience, meal times tend to be much later here, though I'm sure it varies.", "proximoNo": "seguimento" }
+          ]},
+          { "id": "seguimento", "interlocutorFala": "That's true! What else have you noticed?", "opcoes": [
+            { "texto": "That's fascinating — I'd love to know how that tradition works in practice.", "proximoNo": null }
+          ]}
+        ]
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrase avoids an absolute generalisation about a culture?", "opcoes": ["All people from there always do this.", "In my experience, this tends to happen, though it varies.", "Everyone there thinks the same way."], "correta": 1, "explicacao": "Suaviza com 'in my experience' e 'tends to'." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Isso é fascinante — adoraria saber como essa tradição funciona na prática.", "destino": "That's fascinating — I'd love to know how that tradition works in practice." },
+      { "tipo": "ditado", "textoParaOuvir": "In my experience, meal times tend to be later here.", "respostaEsperada": ["In my experience, meal times tend to be later here."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-diferencasculturais", "tipo": "situacao", "pergunta": "Como se evita soar generalizador ao falar de diferenças culturais?", "resposta": "usar linguagem de hedging: 'in my experience', 'tend to', 'I'm sure it varies'" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-88",
+    "nivel": "especialista",
+    "titulo": "C2 Writing Simulado: Review",
+    "objetivos": ["Escrever uma review (crítica) combinando opinião pessoal e avaliação"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Uma review (crítica) combina descrição, opinião pessoal e avaliação, com um tom mais pessoal do que um relatório — típica da Parte 2 da Writing como uma das opções de formato.",
+        "exemplos": ["The restaurant offers a genuinely memorable dining experience.", "What stood out most was the attention to detail in every dish.", "I would wholeheartedly recommend it to anyone looking for something special."],
+        "erroComum": { "errado": "Escrever uma review apenas descritiva, sem opinião pessoal clara.", "correto": "Incluir opinião pessoal explícita ('what stood out', 'I would recommend') além da descrição.", "descricaoPT": "Uma review sem opinião pessoal clara não cumpre o objetivo do género — o avaliador espera uma voz pessoal genuína." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A good review should include:", "opcoes": ["only objective facts", "personal opinion combined with description", "no personal voice at all"], "correta": 1, "explicacao": "Opinião pessoal é essencial numa review." },
+      { "tipo": "preenchimento_espaco", "frase": "I would ___ recommend it to anyone looking for something special. (com todo o coração)", "resposta": "wholeheartedly", "explicacao": "'Wholeheartedly' = com todo o coração/sem reservas." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O que mais se destacou foi a atenção ao detalhe em cada prato.", "destino": "What stood out most was the attention to detail in every dish." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 3-4 frases de uma review sobre um livro, filme ou restaurante à tua escolha, incluindo opinião pessoal clara e uma recomendação.", "palavrasChaveEsperadas": ["recommend", "stood out"], "respostaModelo": "This book offers a genuinely gripping story from start to finish. What stood out most was the depth of the characters. I would wholeheartedly recommend it to anyone who enjoys thoughtful fiction." },
+      { "tipo": "ditado", "textoParaOuvir": "I would wholeheartedly recommend it to anyone looking for something special.", "respostaEsperada": ["I would wholeheartedly recommend it to anyone looking for something special."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2writing-review", "tipo": "exame", "pergunta": "Que elemento não pode faltar numa review para o C2 Proficiency?", "resposta": "opinião pessoal clara, além da descrição" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-89",
+    "nivel": "especialista",
+    "titulo": "C2 Speaking Simulado: Comparação de Imagens",
+    "objetivos": ["Comparar duas imagens e especular sobre elas na Parte 2 do Speaking"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Na Parte 2 do Speaking, muitas vezes comparas duas imagens e especulas sobre elas: 'Both pictures show..., but whereas the first shows X, the second shows Y. The people might be feeling...'",
+        "exemplos": ["Both pictures show people working, but whereas the first shows a busy office, the second shows someone working from home.", "The person in the first picture might be feeling stressed, given the crowded environment.", "I imagine the second scenario offers more flexibility, though possibly less social interaction."],
+        "erroComum": { "errado": "Descrever apenas o que se vê literalmente, sem especular sobre sentimentos ou implicações.", "correto": "Ir além da descrição literal — especular sobre sentimentos, contexto e implicações usando 'might', 'could', 'I imagine'.", "descricaoPT": "A especulação (não só a descrição) é o que distingue uma resposta C2 forte de uma resposta apenas descritiva." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "A strong Part 2 answer should go beyond description by:", "opcoes": ["only listing what is visible", "speculating about feelings and implications", "asking the examiner questions"], "correta": 1, "explicacao": "Especular sobre sentimentos/implicações é essencial." },
+      { "tipo": "preenchimento_espaco", "frase": "The person in the first picture ___ be feeling stressed. (poderá, especulação)", "resposta": "might", "explicacao": "'Might' introduz especulação." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Imagino que o segundo cenário ofereça mais flexibilidade.", "destino": "I imagine the second scenario offers more flexibility." },
+      { "tipo": "ditado", "textoParaOuvir": "Both pictures show people working, but the contexts are quite different.", "respostaEsperada": ["Both pictures show people working, but the contexts are quite different."] }
+    ],
+    "srsItens": [{ "id": "exa-especialista-c2speaking-comparacaoimagens", "tipo": "exame", "pergunta": "O que distingue uma resposta forte de comparação de imagens de uma resposta apenas descritiva?", "resposta": "especular sobre sentimentos e implicações, não só descrever o que se vê" }],
+    "gamificacao": { "pontosBase": 12, "badge": null }
+  },
+  {
+    "id": "especialista-90",
+    "nivel": "especialista",
+    "titulo": "Situação Integradora: Marco 90/115",
+    "objetivos": ["Rever vocabulário temático (ambiente, cultura) e estruturas de comparação"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": "revisaomarco90",
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Marco dos 90/115 — quase lá! Vamos rever vocabulário temático (sustentabilidade, cultura) combinado com estruturas de comparação e contraste das últimas sessões.",
+        "exemplos": ["Unlike previous generations, today's consumers are more environmentally conscious.", "In contrast to individual action, systemic change addresses the root causes.", "By the same token, cultural diversity should be seen as an asset, not an obstacle."],
+        "erroComum": { "errado": "Tratar vocabulário temático e estruturas gramaticais como blocos separados na prática.", "correto": "Combinar ativamente vocabulário temático com estruturas de comparação — é assim que se usa a língua na realidade.", "descricaoPT": "Estamos a 25 sessões da graduação final — esta é uma boa altura para consolidar a combinação natural entre vocabulário e gramática." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Unlike previous generations, today's consumers are more environmentally conscious.' combines:", "opcoes": ["only environmental vocabulary", "environmental vocabulary with a contrast structure", "only a contrast structure, no theme"], "correta": 1, "explicacao": "Combina vocabulário ambiental com 'unlike' (contraste)." },
+      { "tipo": "preenchimento_espaco", "frase": "___ individual action, systemic change addresses the root causes. (em contraste com)", "resposta": "In contrast to", "explicacao": "'In contrast to' marca contraste." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Pela mesma lógica, a diversidade cultural deve ser vista como um ativo, não um obstáculo.", "destino": "By the same token, cultural diversity should be seen as an asset, not an obstacle." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve 2-3 frases sobre sustentabilidade ou diversidade cultural, combinando vocabulário temático com uma estrutura de comparação/contraste ('unlike', 'in contrast to', 'by the same token').", "palavrasChaveEsperadas": ["unlike", "in contrast to", "by the same token"], "respostaModelo": "Unlike previous generations, today's consumers actively seek sustainable products. In contrast to individual action alone, systemic change tends to have a greater impact." },
+      { "tipo": "ditado", "textoParaOuvir": "By the same token, cultural diversity should be seen as an asset, not an obstacle.", "respostaEsperada": ["By the same token, cultural diversity should be seen as an asset, not an obstacle."] }
+    ],
+    "srsItens": [{ "id": "sit-especialista-revisaomarco90-integradora", "tipo": "situacao", "pergunta": "Que tipo de combinação é essencial praticar nesta fase avançada do percurso?", "resposta": "combinar ativamente vocabulário temático com estruturas gramaticais de comparação/contraste" }],
+    "gamificacao": { "pontosBase": 18, "badge": null }
+  }
+]
