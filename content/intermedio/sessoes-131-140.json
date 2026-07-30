@@ -1,0 +1,234 @@
+[
+  {
+    "id": "intermedio-131",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Verbos Modais",
+    "objetivos": ["Rever todos os modais praticados (capacidade, obrigação, conselho, dedução)"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão de todos os modais praticados: can/could (capacidade), must/have to (obrigação), should (conselho), might/could/can't (dedução).",
+        "exemplos": ["She can speak three languages.", "You must submit this by Friday.", "You should see a doctor.", "That might be true."],
+        "erroComum": { "errado": "Misturar must com should sem distinguir obrigação de conselho.", "correto": "must/have to = obrigação; should = conselho (mais fraco).", "descricaoPT": "Esta distinção continua a ser um dos erros mais comuns mesmo em níveis avançados." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "You ___ wear a seatbelt (lei).", "opcoes": ["should", "have to", "might"], "correta": 1, "explicacao": "Obrigação legal → have to." },
+      { "tipo": "escolha_multipla", "pergunta": "You ___ try that new restaurant (conselho).", "opcoes": ["have to", "should", "must"], "correta": 1, "explicacao": "Conselho → should." },
+      { "tipo": "escolha_multipla", "pergunta": "That ___ be true, I'm not sure (possibilidade).", "opcoes": ["must", "might", "can't"], "correta": 1, "explicacao": "Possibilidade → might." },
+      { "tipo": "preenchimento_espaco", "frase": "She ___ speak three languages.", "resposta": "can", "explicacao": "Capacidade → can." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Isso não pode ser verdade!", "destino": "That can't be true!" }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-modais-todos", "tipo": "gramatica", "pergunta": "Qual a diferença entre must/have to e should?", "resposta": "must/have to = obrigação; should = conselho mais fraco" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-132",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Todos os Tempos Verbais",
+    "objetivos": ["Rever presente, passado, perfect e futuro combinados"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão de todos os tempos verbais: Present Simple/Continuous, Past Simple/Continuous/Perfect, Present Perfect (Simple/Continuous), Future (going to/will).",
+        "exemplos": ["I work here. (rotina)", "I am working now. (agora)", "I worked yesterday. (passado)", "I have worked here for 5 years. (experiência contínua)", "I had worked there before I moved. (anterioridade)"],
+        "erroComum": { "errado": "Escolher o tempo verbal sem atender ao marcador temporal.", "correto": "Identifica sempre a pista de contexto antes de escolheres o tempo verbal.", "descricaoPT": "Esta é a competência mais transversal de todo o nível Intermédio." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ here for five years (situação que continua).", "opcoes": ["work", "have worked", "worked"], "correta": 1, "explicacao": "Present Perfect: experiência contínua." },
+      { "tipo": "escolha_multipla", "pergunta": "When I arrived, she ___ already left.", "opcoes": ["has", "had", "was"], "correta": 1, "explicacao": "Past Perfect: anterioridade." },
+      { "tipo": "escolha_multipla", "pergunta": "Look! It ___ (a acontecer agora).", "opcoes": ["rains", "is raining", "rained"], "correta": 1, "explicacao": "Present Continuous: agora." },
+      { "tipo": "preenchimento_espaco", "frase": "I ___ to visit my parents next week.", "resposta": "am going", "explicacao": "'Going to' para plano já decidido." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu tinha terminado o trabalho antes de ela chegar.", "destino": "I had finished the work before she arrived." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-temposverbais-todos", "tipo": "gramatica", "pergunta": "Qual é a competência mais importante para escolher o tempo verbal certo?", "resposta": "identificar a pista de contexto/marcador temporal" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-133",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Voz Passiva e Discurso Relatado",
+    "objetivos": ["Rever voz passiva e discurso relatado combinados"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão de voz passiva (todos os tempos praticados) e discurso relatado (afirmações, perguntas, ordens).",
+        "exemplos": ["The bridge was built in 1990.", "The report has been finished.", "She said she was tired.", "He asked where I lived.", "She told me to wait."],
+        "erroComum": { "errado": "Esquecer o backshift no discurso relatado.", "correto": "Revê sempre: presente→passado, will→would, can→could.", "descricaoPT": "O backshift continua a ser o ponto mais difícil do discurso relatado." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "The bridge ___ in 1990.", "opcoes": ["built", "was built", "builds"], "correta": 1, "explicacao": "Voz passiva no passado." },
+      { "tipo": "escolha_multipla", "pergunta": "\"I am tired,\" she said. → She said she ___ tired.", "opcoes": ["is", "was", "has been"], "correta": 1, "explicacao": "Backshift: is → was." },
+      { "tipo": "escolha_multipla", "pergunta": "\"Where do you live?\" he asked. → He asked where ___.", "opcoes": ["I lived", "did I live", "I live"], "correta": 0, "explicacao": "Ordem afirmativa, sem auxiliar." },
+      { "tipo": "preenchimento_espaco", "frase": "\"Wait here,\" she said. → She told me ___ wait here.", "resposta": "to", "explicacao": "Ordens relatadas: to + infinitivo." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "O relatório já foi enviado.", "destino": "The report has already been sent." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-passiva-relatado", "tipo": "gramatica", "pergunta": "O que é o 'backshift' no discurso relatado?", "resposta": "o recuo de um passo dos tempos verbais (present→past, will→would, etc.)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-134",
+    "nivel": "intermedio",
+    "titulo": "Revisão em Espiral: Condicionais e Estruturas Hipotéticas",
+    "objetivos": ["Rever todas as condicionais e estruturas hipotéticas relacionadas"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão de todas as condicionais (Zero, First, Second, Third) e estruturas hipotéticas relacionadas (wish, as if, would rather).",
+        "exemplos": ["If you heat ice, it melts. (Zero)", "If it rains, I'll stay home. (First)", "If I had more time, I would travel. (Second)", "If I had known, I would have called. (Third)", "I wish I had more time."],
+        "erroComum": { "errado": "Misturar os tempos verbais das diferentes condicionais.", "correto": "Cada condicional tem uma combinação fixa de tempos verbais — não se pode misturar.", "descricaoPT": "Esta é provavelmente a área gramatical mais complexa do nível Intermédio." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ the lottery, I would travel (hipotético presente).", "opcoes": ["win", "won", "had won"], "correta": 1, "explicacao": "Second Conditional: if + Past Simple." },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ known, I would have called (hipotético passado).", "opcoes": ["have", "had", "has"], "correta": 1, "explicacao": "Third Conditional: if + Past Perfect." },
+      { "tipo": "escolha_multipla", "pergunta": "I wish I ___ more free time.", "opcoes": ["have", "had", "will have"], "correta": 1, "explicacao": "Wish + Past Simple." },
+      { "tipo": "preenchimento_espaco", "frase": "If you heat ice, it ___.", "resposta": "melts", "explicacao": "Zero Conditional: Present Simple." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Se eu tivesse sabido, teria ajudado.", "destino": "If I had known, I would have helped." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-revisao-condicionais-todas", "tipo": "gramatica", "pergunta": "Quais são as 4 condicionais praticadas neste nível?", "resposta": "Zero, First, Second, Third" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-135",
+    "nivel": "intermedio",
+    "titulo": "Vocabulário: Revisão de Idiomas e Phrasal Verbs",
+    "objetivos": ["Rever idiomas e phrasal verbs de várias sessões do Intermédio"],
+    "duracaoEstimadaMin": 8,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Revisão combinada de idiomas e phrasal verbs de várias sessões do Intermédio.",
+        "exemplos": ["Let's get the ball rolling.", "I need to figure this out.", "That won't break the bank.", "Don't give up on your dreams."],
+        "erroComum": { "errado": "Confundir idiomas parecidos entre si.", "correto": "Revê o contexto de cada um — a repetição espaçada vai ajudar a fixá-los.", "descricaoPT": "É normal confundir idiomas parecidos ao início — a prática regular resolve isso." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "'Get the ball rolling' means...", "opcoes": ["To start something", "To stop", "To play sports"], "correta": 0, "explicacao": "Começar algo." },
+      { "tipo": "escolha_multipla", "pergunta": "'Break the bank' means...", "opcoes": ["To be cheap", "To cost a fortune", "To rob a bank"], "correta": 1, "explicacao": "Custar uma fortuna." },
+      { "tipo": "escolha_multipla", "pergunta": "Which phrasal verb means 'to tolerate'?", "opcoes": ["Put up with", "Put on", "Put off"], "correta": 0, "explicacao": "'Put up with' = tolerar." },
+      { "tipo": "preenchimento_espaco", "frase": "I can't ___ how this works.", "resposta": "figure out", "explicacao": "'Figure out' = perceber." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Não desistas dos teus sonhos.", "destino": "Don't give up on your dreams." }
+    ],
+    "srsItens": [{ "id": "voc-intermedio-revisao-idiomas-phrasalverbs-mix", "tipo": "vocabulario", "pergunta": "Nomeia 3 idiomas ou phrasal verbs que aprendeste neste nível.", "resposta": "ex.: get the ball rolling, break the bank, figure out" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-136",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Simulado Final (Reading + Writing)",
+    "objetivos": ["Combinar as estratégias de Reading & Use of English e Writing"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Simulado final combinando Reading & Use of English e Writing, juntando tudo o que praticaste sobre o exame B2 First.",
+        "exemplos": ["Practise all parts of Reading & Use of English, then write a short piece."],
+        "erroComum": { "errado": "Ter pressa e não rever cada resposta.", "correto": "Confirma sempre cada resposta com calma, como no exame real.", "descricaoPT": "O hábito de revisão vale tanto como o conhecimento da língua." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "She has a real ___ for painting.", "opcoes": ["skill", "talent", "gift"], "correta": 2, "explicacao": "'A gift for' é a collocation idiomática." },
+      { "tipo": "preenchimento_espaco", "frase": "I've been working here ___ 2018.", "resposta": "since", "explicacao": "Open Cloze: since + ano." },
+      { "tipo": "preenchimento_espaco", "frase": "Her behaviour was completely ___ (de ACCEPT).", "resposta": "unacceptable", "explicacao": "Word Formation: unacceptable." },
+      { "tipo": "preenchimento_espaco", "frase": "I haven't seen a funnier film. (FUNNIEST) → This is the ___ film I've seen.", "resposta": "funniest", "explicacao": "Key Word Transformation: superlativo." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a abertura de uma review sobre um restaurante que visitaste.", "palavrasChaveEsperadas": ["i visited", "i really enjoyed", "recommend"], "respostaModelo": "I recently visited a lovely little restaurant and I really enjoyed the food." }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-simuladofinal-readingwriting", "tipo": "situacao", "pergunta": "Que 4 partes do Reading & Use of English já praticaste?", "resposta": "multiple choice cloze, open cloze, word formation, key word transformation" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-137",
+    "nivel": "intermedio",
+    "titulo": "Exame First: Simulado Final (Listening + Speaking)",
+    "objetivos": ["Combinar as estratégias de Listening e Speaking"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Simulado final combinando estratégias de Listening e Speaking praticadas.",
+        "exemplos": ["Remember: use the second listening to confirm, not to hear new information.", "In Speaking, always develop your answers and interact with your partner."],
+        "erroComum": { "errado": "Dar respostas curtas de uma palavra no Speaking.", "correto": "Desenvolve sempre um pouco as respostas e interage com o teu par.", "descricaoPT": "Interação e desenvolvimento das respostas são critérios avaliados explicitamente." }
+      },
+      { "tipo": "ditado", "textoParaOuvir": "The conference will take place on the fifteenth of March.", "respostaEsperada": ["The conference will take place on the fifteenth of March."] },
+      { "tipo": "escolha_multipla", "pergunta": "According to the recording, when is the conference?", "opcoes": ["The fifth of March", "The fifteenth of March", "The fiftieth of March"], "correta": 1, "explicacao": "Confirmado pelo ditado anterior." },
+      { "tipo": "escolha_multipla", "pergunta": "In the Speaking test, what's important when discussing with your partner?", "opcoes": ["Talking over them", "Interacting and reacting to their ideas", "Staying silent"], "correta": 1, "explicacao": "Interação avaliada explicitamente." },
+      { "tipo": "oral", "promptTTS": "Repeat after me: I completely agree with what you said.", "respostaEsperada": ["I completely agree with what you said", "I completely agree with what you said."] },
+      { "tipo": "ditado", "textoParaOuvir": "I completely agree with what you said.", "respostaEsperada": ["I completely agree with what you said."] }
+    ],
+    "srsItens": [{ "id": "exm-intermedio-first-simuladofinal-listeningspeaking", "tipo": "situacao", "pergunta": "Qual a estratégia-chave para a segunda audição do Listening?", "resposta": "usar para confirmar respostas, não para ouvir informação nova" }],
+    "gamificacao": { "pontosBase": 15, "badge": null }
+  },
+  {
+    "id": "intermedio-138",
+    "nivel": "intermedio",
+    "titulo": "Leitura: Texto Final de Consolidação",
+    "objetivos": ["Ler um texto sobre estratégias de aprendizagem de línguas"],
+    "duracaoEstimadaMin": 9,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Lê o texto final com atenção antes de responderes.\n\n\"Learning a new language as an adult is challenging, but far from impossible. Research shows that consistency matters more than intensity — studying for ten minutes every day is often more effective than three hours once a week. Additionally, using the language in real conversations, even imperfectly, accelerates progress significantly. The key is simple: practise regularly, don't fear mistakes, and enjoy the process.\"",
+        "exemplos": ["consistency = consistência", "accelerates = acelera", "the key is = a chave é"],
+        "erroComum": { "errado": "Ignorar a mensagem principal do texto.", "correto": "Este texto resume exatamente a filosofia desta app — sessões curtas e regulares.", "descricaoPT": "Boa oportunidade para refletires sobre o teu próprio percurso de aprendizagem até aqui." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "According to the text, what matters more than intensity?", "opcoes": ["Consistency", "Money", "Talent"], "correta": 0, "explicacao": "O texto diz 'consistency matters more'." },
+      { "tipo": "escolha_multipla", "pergunta": "What accelerates progress, according to the text?", "opcoes": ["Avoiding conversations", "Using the language in real conversations", "Only studying grammar"], "correta": 1, "explicacao": "O texto diz 'using the language in real conversations'." },
+      { "tipo": "escolha_multipla", "pergunta": "What is 'the key', according to the text?", "opcoes": ["Never making mistakes", "Practising regularly and not fearing mistakes", "Studying three hours a week"], "correta": 1, "explicacao": "O texto diz 'practise regularly, don't fear mistakes'." },
+      { "tipo": "preenchimento_espaco", "frase": "Studying for ten minutes every day is often more ___ than three hours once a week.", "resposta": "effective", "explicacao": "'Effective' = eficaz." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve uma frase sobre a tua própria experiência a aprender inglês nesta app.", "palavrasChaveEsperadas": ["i have learned", "i practise", "every day"], "respostaModelo": "I have learned a lot by practising a little every day with this app." }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-leitura-final-consolidacao", "tipo": "situacao", "pergunta": "Segundo o texto, o que importa mais do que a intensidade do estudo?", "resposta": "a consistência (praticar regularmente, mesmo que pouco)" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-139",
+    "nivel": "intermedio",
+    "titulo": "Escrita: Ensaio Final de Consolidação",
+    "objetivos": ["Escrever um ensaio completo combinando introdução, argumentos e conclusão"],
+    "duracaoEstimadaMin": 10,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Vamos escrever um ensaio final, combinando tudo o que praticaste: introdução, argumentos com conectores, e conclusão.",
+        "exemplos": ["Nowadays, many people believe technology has changed education for the better.", "On one hand,... On the other hand,...", "In conclusion, I believe..."],
+        "erroComum": { "errado": "Escrever sem estrutura clara em parágrafos.", "correto": "Organiza sempre: introdução, desenvolvimento com conectores, conclusão.", "descricaoPT": "A estrutura clara continua a ser tão importante como a gramática correta." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "Which structure is expected in an argumentative essay?", "opcoes": ["Random thoughts", "Introduction, arguments, conclusion", "Just a conclusion"], "correta": 1, "explicacao": "Estrutura clássica do ensaio." },
+      { "tipo": "preenchimento_espaco", "frase": "___, it saves time.", "resposta": "Moreover", "explicacao": "'Moreover' = além disso." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a introdução de um ensaio sobre 'Is technology making us less social?'.", "palavrasChaveEsperadas": ["nowadays", "many people", "whether"], "respostaModelo": "Nowadays, many people discuss whether technology is making us less social." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve a conclusão desse mesmo ensaio.", "palavrasChaveEsperadas": ["in conclusion", "i believe"], "respostaModelo": "In conclusion, I believe technology can both connect and isolate us, depending on how we use it." },
+      { "tipo": "ditado", "textoParaOuvir": "In conclusion, I believe technology has both advantages and disadvantages.", "respostaEsperada": ["In conclusion, I believe technology has both advantages and disadvantages."] }
+    ],
+    "srsItens": [{ "id": "rw-intermedio-ensaio-final-consolidacao", "tipo": "situacao", "pergunta": "Quais são as 3 partes essenciais de um ensaio argumentativo?", "resposta": "introdução, desenvolvimento (argumentos), conclusão" }],
+    "gamificacao": { "pontosBase": 10, "badge": null }
+  },
+  {
+    "id": "intermedio-140",
+    "nivel": "intermedio",
+    "titulo": "Graduação: Revisão Final do Nível Intermédio",
+    "objetivos": ["Consolidar, numa única sessão, os pontos essenciais de todo o Nível Intermédio"],
+    "duracaoEstimadaMin": 12,
+    "temaIntegrador": null,
+    "exercicios": [
+      {
+        "tipo": "explicacao",
+        "regra": "Parabéns por chegares à última sessão do Nível Intermédio! Esta é uma revisão final ampla de tudo o que aprendeste: Present Perfect, condicionais, voz passiva, discurso relatado, orações relativas, comparativos, e o formato do exame Cambridge B2 First.",
+        "exemplos": ["I have lived here for ten years. (Present Perfect)", "If I had more time, I would travel more. (Second Conditional)", "The email was sent yesterday. (voz passiva)"],
+        "erroComum": { "errado": "Pensar que já dominas tudo perfeitamente.", "correto": "Continua a rever — o Nível Especialista vai aprofundar ainda mais estas estruturas com nuances subtis.", "descricaoPT": "Parabéns — atingiste um nível sólido B1-B2. O Especialista (C1-C2) vai trazer inversão, subjuntivo, nominalização, e preparação para o exame C2 Proficiency." }
+      },
+      { "tipo": "escolha_multipla", "pergunta": "I ___ here for ten years.", "opcoes": ["live", "have lived", "lived"], "correta": 1, "explicacao": "Present Perfect: experiência contínua." },
+      { "tipo": "escolha_multipla", "pergunta": "If I ___ more time, I would travel more.", "opcoes": ["have", "had", "will have"], "correta": 1, "explicacao": "Second Conditional." },
+      { "tipo": "escolha_multipla", "pergunta": "The email ___ yesterday.", "opcoes": ["sent", "was sent", "is sent"], "correta": 1, "explicacao": "Voz passiva no passado." },
+      { "tipo": "escolha_multipla", "pergunta": "\"I am tired,\" she said. → She said she ___ tired.", "opcoes": ["is", "was", "has been"], "correta": 1, "explicacao": "Discurso relatado: backshift." },
+      { "tipo": "preenchimento_espaco", "frase": "This is the book ___ I told you about.", "resposta": "which", "explicacao": "Oração relativa: which." },
+      { "tipo": "traducao", "direcao": "pt-en", "origem": "Eu trabalho aqui desde 2015 e já viajei para muitos países.", "destino": "I have worked here since 2015 and I have travelled to many countries." },
+      { "tipo": "escrita_livre", "instrucao": "Escreve um parágrafo final (4-6 frases) sobre ti: a tua experiência, uma situação hipotética, e um plano futuro.", "palavrasChaveEsperadas": ["i have", "if i", "i am going to"], "respostaModelo": "I have lived in Porto for five years. If I had more free time, I would travel more. Next year, I am going to visit Japan." }
+    ],
+    "srsItens": [{ "id": "gra-intermedio-graduacao-revisao-final", "tipo": "gramatica", "pergunta": "Que estruturas principais vais encontrar no Nível Especialista?", "resposta": "inversão e ênfase, subjuntivo, nominalização, condicionais mistos, preparação para o exame C2 Proficiency" }],
+    "gamificacao": { "pontosBase": 30, "badge": null }
+  }
+]
